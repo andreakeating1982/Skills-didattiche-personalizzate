@@ -1,0 +1,8 @@
+[
+ {"original_name":"guide-pdf-blog","new_skill":"didattica-documenti-accessibili","guide":"SKILL.md","aliases":["guida BES","quaderno accessibile","appendice pdf","metodologie"],"status":"Standard aggiornato 1 novembre 2026","missing_original_resources":[]},
+ {"original_name":"quaderno-mappe-lingue","new_skill":"didattica-documenti-accessibili","guide":"references/quaderni-lingue.md","aliases":["quaderno lingue","grammatica"],"status":"Profilo; risorse storiche parziali","missing_original_resources":["Set storico 84 icone e generatore originali"]},
+ {"original_name":"latino-facile-quaderno","new_skill":"didattica-documenti-accessibili","guide":"references/quaderno-latino.md","aliases":["quaderno latino"],"status":"Profilo e script di rilascio conservati","missing_original_resources":[]},
+ {"original_name":"mappe-concettuali-matematica","new_skill":"didattica-documenti-accessibili","guide":"references/mappe-esercizi.md","aliases":["mappe concettuali matematica","mappe senza soluzioni"],"status":"Formato conservato; generatore storico non incluso","missing_original_resources":["Generatore originale"]},
+ {"original_name":"mappe-fisica-matematica","new_skill":"didattica-documenti-accessibili","guide":"references/mappe-fisica-matematica.md","aliases":["mappa fisica","problema risolto","raccoglitori"],"status":"Profilo; risorse storiche parziali","missing_original_resources":["Raccoglitori e set icone originali"]}
+]
+

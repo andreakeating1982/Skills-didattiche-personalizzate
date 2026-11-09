@@ -1,0 +1,18 @@
+{
+  "document_title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+  "current_editorial_edition": "v8 BASE CORRETTA",
+  "current_pdf_name": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_v8_BASE_CORRETTA.pdf",
+  "current_pdf_sha256": "9ba82ceae0ce84656943356c70c6be9c740d0e39b7fb55615d660a420268a906",
+  "current_pdf_pages": 35,
+  "body_baseline_name": "LE_10_METODOLOGIE_DIDATTICHE_INCLUSIVE_BOX_RIVISTI_v5.pdf",
+  "body_baseline_pdf_sha256": "77362d00369f1b89a9e9258ec0a4b41a55e6bc3788575c3a14e7add3244b94ba",
+  "body_baseline_html_sha256": "a9a38e5c26c5e9f987c742a54b6e71de01b0249309c3755515f921db980c1241",
+  "body_baseline_pages": 32,
+  "unchanged_pages_in_current_edition": "2-32",
+  "modified_existing_page": "1: solo titolo richiesto e nuova voce appendice, conservando le voci originali",
+  "appendix_pages": "33-35",
+  "previous_audio_compatible": "Audio integrale v7 a due voci e 1.12x: contenuti letti invariati rispetto al PDF v8",
+  "avoid_as_editorial_baseline": "metodologie_appendice v4-v7, derivate dalla rimpaginazione v2",
+  "limits": "Impronte degli artefatti verificati il 1 novembre 2026, non di ogni rigenerazione equivalente. Una rigenerazione PDF può cambiare hash per metadati/compressione: verificare provenienza e invarianti, non dichiararla identica per il solo nome. Nessuna certificazione del merito giuridico."
+}
+

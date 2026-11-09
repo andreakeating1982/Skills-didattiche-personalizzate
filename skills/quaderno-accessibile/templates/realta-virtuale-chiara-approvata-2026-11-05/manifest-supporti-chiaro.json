@@ -1,0 +1,146 @@
+{
+  "unit_ids": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4",
+    "sec5"
+  ],
+  "final_map_ids": [
+    "mappa"
+  ],
+  "body_font_size_px": 17.333333333333332,
+  "body_line_height": 1.85,
+  "summaries": [
+    {
+      "id": "sec1",
+      "color": "#b23c47",
+      "rows": [
+        [
+          "AMBIENTE",
+          "La VR mostra un luogo creato dal computer."
+        ],
+        [
+          "VISORE",
+          "L’immagine cambia quando muoviamo la testa."
+        ],
+        [
+          "COMANDI",
+          "Controller o mani permettono di agire nella scena."
+        ],
+        [
+          "IMMERSIONE",
+          "Dipende da come la tecnologia ci circonda."
+        ],
+        [
+          "PRESENZA",
+          "È la sensazione di essere nel luogo virtuale."
+        ]
+      ]
+    },
+    {
+      "id": "sec2",
+      "color": "#1a5fb4",
+      "rows": [
+        [
+          "AMBIENTE",
+          "Il mondo reale rimane visibile."
+        ],
+        [
+          "CONTENUTI",
+          "Al mondo reale si aggiungono oggetti digitali."
+        ],
+        [
+          "ALLINEAMENTO",
+          "Il modello resta legato allo spazio reale."
+        ],
+        [
+          "DISPOSITIVI",
+          "Si possono usare tablet, telefoni o visori."
+        ],
+        [
+          "UTILITÀ",
+          "Il contenuto deve aiutare la lezione."
+        ]
+      ]
+    },
+    {
+      "id": "sec3",
+      "color": "#257041",
+      "rows": [
+        [
+          "REALTÀ MISTA",
+          "Combina l’ambiente reale e oggetti digitali."
+        ],
+        [
+          "ANCORAGGIO",
+          "Un oggetto digitale resta in un punto dello spazio."
+        ],
+        [
+          "OCCLUSIONE",
+          "Un oggetto reale può nascondere una parte digitale."
+        ],
+        [
+          "CONTATTO",
+          "Un’immagine da sola non dà peso o resistenza."
+        ],
+        [
+          "SCELTA",
+          "La MR non è sempre la soluzione migliore."
+        ]
+      ]
+    },
+    {
+      "id": "sec4",
+      "color": "#9b4f12",
+      "rows": [
+        [
+          "XR",
+          "È il nome generale delle tecnologie di realtà estesa."
+        ],
+        [
+          "COMPRENDE",
+          "VR, AR e MR sono forme di realtà estesa."
+        ],
+        [
+          "DIFFERENZE",
+          "Cambiano ambiente visibile e modi di agire."
+        ],
+        [
+          "SCELTA",
+          "Lo strumento dipende dall’obiettivo della lezione."
+        ]
+      ]
+    },
+    {
+      "id": "sec5",
+      "color": "#744394",
+      "rows": [
+        [
+          "POSSIBILITÀ",
+          "Le XR aiutano a esplorare e simulare."
+        ],
+        [
+          "OBIETTIVO",
+          "L’attività serve a imparare qualcosa di preciso."
+        ],
+        [
+          "TRE MOMENTI",
+          "Si prepara, si esplora e poi si riflette."
+        ],
+        [
+          "ACCESSIBILITÀ",
+          "Si offrono modi diversi per partecipare."
+        ],
+        [
+          "SICUREZZA",
+          "Si fanno pause e ci si ferma se si sta male."
+        ],
+        [
+          "VERIFICA",
+          "Si controlla che cosa è stato imparato."
+        ]
+      ]
+    }
+  ]
+}

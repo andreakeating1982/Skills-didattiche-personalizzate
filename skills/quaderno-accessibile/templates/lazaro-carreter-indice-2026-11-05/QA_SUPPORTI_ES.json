@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "pages": 32,
+  "units_checked": 14,
+  "summary_rows": 36,
+  "maps_checked": 1,
+  "map_boxes": 7,
+  "map_images": 7,
+  "summaries": [
+    {
+      "id": "es1",
+      "rows": 3
+    },
+    {
+      "id": "es2",
+      "rows": 3
+    },
+    {
+      "id": "es3",
+      "rows": 2
+    },
+    {
+      "id": "es4",
+      "rows": 3
+    },
+    {
+      "id": "es5",
+      "rows": 3
+    },
+    {
+      "id": "es6",
+      "rows": 2
+    },
+    {
+      "id": "es7",
+      "rows": 2
+    },
+    {
+      "id": "it1",
+      "rows": 3
+    },
+    {
+      "id": "it2",
+      "rows": 3
+    },
+    {
+      "id": "it3",
+      "rows": 2
+    },
+    {
+      "id": "it4",
+      "rows": 3
+    },
+    {
+      "id": "it5",
+      "rows": 3
+    },
+    {
+      "id": "it6",
+      "rows": 2
+    },
+    {
+      "id": "it7",
+      "rows": 2
+    }
+  ],
+  "maps": [
+    {
+      "id": "mappa-es",
+      "boxes": 7
+    }
+  ],
+  "measured_typography": [
+    [
+      18.66667,
+      1.85
+    ]
+  ],
+  "summary_font_weights": [
+    400
+  ],
+  "map_geometry": {
+    "mappa-es-box-1": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 30
+    },
+    "mappa-es-box-2": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 30
+    },
+    "mappa-es-box-3": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 30
+    },
+    "mappa-es-box-4": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 30
+    },
+    "mappa-es-box-5": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 31
+    },
+    "mappa-es-box-6": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 31
+    },
+    "mappa-es-box-7": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 31
+    }
+  },
+  "map_image_geometry": {
+    "mappa-es-box-1": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-es-box-2": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-es-box-3": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-es-box-4": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-es-box-5": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-es-box-6": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-es-box-7": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    }
+  },
+  "support_pages": {
+    "es1-sintesi": [
+      3
+    ],
+    "es2-sintesi": [
+      5
+    ],
+    "es3-sintesi": [
+      6
+    ],
+    "es4-sintesi": [
+      8
+    ],
+    "es5-sintesi": [
+      10
+    ],
+    "es6-sintesi": [
+      11
+    ],
+    "es7-sintesi": [
+      12
+    ],
+    "it1-sintesi": [
+      14
+    ],
+    "it2-sintesi": [
+      17
+    ],
+    "it3-sintesi": [
+      19
+    ],
+    "it4-sintesi": [
+      21
+    ],
+    "it5-sintesi": [
+      23
+    ],
+    "it6-sintesi": [
+      24
+    ],
+    "it7-sintesi": [
+      26
+    ],
+    "mappa-es": [
+      30,
+      31
+    ]
+  },
+  "errors": [],
+  "limits": "Sintesi: tutte le righe necessarie, mai grassetto (anche titoli/celle). Mappe: 78x78mm e immagini52mm; numero di box/pagine libero, solo parole chiave. Non esiste un numero massimo fisso di parole chiave: verificare spazi e leggibilità. Il controllo strutturale non è una prova semantica: leggere ogni nodo per escludere frasi o contenuti estranei. Interlinea/dimensione confrontate col corpo; niente cinque righe ai supporti. Nessuna certificazione PDF/UA indipendente."
+}

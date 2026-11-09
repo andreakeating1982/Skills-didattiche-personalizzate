@@ -1,0 +1,223 @@
+{
+  "passed": true,
+  "errors": [],
+  "original_sha256": "13de20e7fb47de98afb5e67b0d25b1d252222431e24a6b4ccc61a75bdeeb8aba",
+  "output_sha256": "8c15697a1dca573b580f6de00d6cadb910ea68410d415be8b193a98cdaec54ec",
+  "pages": 21,
+  "content_and_emphasis": [
+    {
+      "section": 1,
+      "characters": 642,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 2,
+      "characters": 710,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 3,
+      "characters": 712,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 4,
+      "characters": 516,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 5,
+      "characters": 1156,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 6,
+      "characters": 2725,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 7,
+      "characters": 916,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 8,
+      "characters": 2182,
+      "text_order_identical": true,
+      "bold_identical": true
+    },
+    {
+      "section": 9,
+      "characters": 204,
+      "text_order_identical": true,
+      "bold_identical": true
+    }
+  ],
+  "original_assets": [
+    {
+      "source_page": 1,
+      "source_block": 1,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 2,
+      "source_block": 1,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 3,
+      "source_block": 1,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 4,
+      "source_block": 9,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 5,
+      "source_block": 12,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 6,
+      "source_block": 8,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 8,
+      "source_block": 2,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 8,
+      "source_block": 6,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 9,
+      "source_block": 9,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 9,
+      "source_block": 24,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 12,
+      "source_block": 1,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 12,
+      "source_block": 3,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 13,
+      "source_block": 1,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 13,
+      "source_block": 12,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 15,
+      "source_block": 6,
+      "exact_source_bytes": true
+    },
+    {
+      "source_page": 12,
+      "source_block": 1,
+      "matching_pdf_image_digest": true
+    },
+    {
+      "source_page": 12,
+      "source_block": 3,
+      "matching_pdf_image_digest": true
+    },
+    {
+      "source_page": 13,
+      "source_block": 12,
+      "matching_pdf_image_digest": true
+    }
+  ],
+  "index": [
+    {
+      "section": 1,
+      "page": 2,
+      "printed_page": 2,
+      "clickable": true
+    },
+    {
+      "section": 2,
+      "page": 4,
+      "printed_page": 4,
+      "clickable": true
+    },
+    {
+      "section": 3,
+      "page": 6,
+      "printed_page": 6,
+      "clickable": true
+    },
+    {
+      "section": 4,
+      "page": 8,
+      "printed_page": 8,
+      "clickable": true
+    },
+    {
+      "section": 5,
+      "page": 9,
+      "printed_page": 9,
+      "clickable": true
+    },
+    {
+      "section": 6,
+      "page": 11,
+      "printed_page": 11,
+      "clickable": true
+    },
+    {
+      "section": 7,
+      "page": 15,
+      "printed_page": 15,
+      "clickable": true
+    },
+    {
+      "section": 8,
+      "page": 18,
+      "printed_page": 18,
+      "clickable": true
+    },
+    {
+      "section": 9,
+      "page": 21,
+      "printed_page": 21,
+      "clickable": true
+    }
+  ],
+  "poem_lines_preserved": true,
+  "checklist_items": 5,
+  "max_box_lines": 5,
+  "box_count": 66,
+  "word_multiset_no_omissions": true,
+  "table_cells_regular": true,
+  "bounds_issues": [],
+  "limitations": [
+    "Mappe originali mantenute come immagini, senza OCR riscritto.",
+    "Non è stata eseguita una certificazione indipendente PDF/UA.",
+    "Il contenuto letterario e le informazioni dell’allegato sono stati preservati, non verificati né corretti."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "approved_on": "2026-11-02",
+  "approved_pdf_name": "REALTA_VIRTUALE_A_SCUOLA_MAPPA_BOX_STANDARD_v6.pdf",
+  "approved_pdf_sha256": "1e00b75b9ec7b55c143d5f1d7e7ef95001f2cd26127e855bc50e72dd03a51aaf",
+  "map_box_mm": [
+    78,
+    78
+  ],
+  "map_columns": 2,
+  "map_gap_mm": 6,
+  "map_odd_last_node": "centered; same78x78mm; never full-width",
+  "map_image_mm": [
+    52,
+    29.373
+  ],
+  "map_content": "few uppercase keywords only; no full sentences",
+  "map_title": "MAPPA CONCETTUALE FINALE",
+  "map_group_headings": "unboxed",
+  "summary_font_weight": 400,
+  "summary_bold_forbidden_including": [
+    "IN SINTESI/IN SHORT",
+    "headers",
+    "keys",
+    "descriptions",
+    "notes"
+  ],
+  "body_bold": "preserved",
+  "body_and_support_line_height": 1.85,
+  "body_font_size": "preserve source; example13pt; methodologies14pt",
+  "scope": "skill update only; no change to delivered PDFs or existing ZIPs",
+  "test_suite": "tests/test_integrazioni.py;20tests"
+}

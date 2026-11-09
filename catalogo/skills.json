@@ -1,0 +1,863 @@
+[
+  {
+    "name": "audio-generation",
+    "description": "Make speech, music, sound effects and any other audio. Use for voice-overs and narration, dialogue and character voices, podcasts or audiobook samples, songs with lyrics, background music and jingles, sound effects, ambience and soundscapes, sound for a picture or a video, and for mixing voice, music and effects.",
+    "category": "Generali",
+    "entrypoint": "skills/audio-generation/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "automation-and-scheduling",
+    "description": "MUST read before requests involving automations, scheduled or recurring work, background tasks, monitoring, \"when X happens, do Y\" rules, webhooks, new emails, feeds, calendars, files or app events, or ANY system that syncs data or calls external APIs on its own — even if the main ask is a website, web app or bot. Use it to choose the right setup before building.",
+    "category": "Generali",
+    "entrypoint": "skills/automation-and-scheduling/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "becquer-quiz",
+    "description": "Manutenzione completa e personalizzazione dell'app QUIZ INTERATTIVO CON AUDIO SORGENTE (nome storico: Bécquer Quiz, in /home/user/becquer-quiz; Vite + React + TypeScript + Tailwind + tRPC + Drizzle + SQLite). Usare per: modificare UI studente/docente, correggere logica di sessione, deploy preview/produzione, personalizzare report PDF, modificare contatore studenti, gestire re-entry studenti, ZIP e checkpoint. NON usare per clonare l'app in una nuova con domande diverse — usare la skill quiz-interattivo-con-audio-sorgente.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/becquer-quiz/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/becquer-quiz"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "circolari-audio",
+    "description": "Trasforma circolari scolastiche (PDF allegati dall'utente) in letture ad alta voce audio in italiano, con formato FISSO scelto dall'utente: senza intestazione (parte dall'Oggetto), si interrompe dopo il nome del Dirigente Scolastico (esclusa la nota «Firma autografa omessa...»), voce TTS italiana, un file MP3 per circolare consegnato come allegato. Usare per: leggere a voce una circolare, produrre l'audio di più circolari, aggiornare il formato della lettura. NON usare per documenti che non siano circolari o comunicazioni scolastiche, né per letture di altro tipo di PDF.\n",
+    "category": "Audio video e 3D didattici",
+    "entrypoint": "skills/circolari-audio/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/lettura_circolare_",
+      "/home/user/skills/circolari-audio/scripts/normalizza_audio.sh"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "codici-embed-cornici",
+    "description": "Manutenzione del documento CODICI-EMBED-CORNICI (DOCX «Cornici dinamiche v4»: 16 codici embed dedicati per Blogger + indice «Post del blog → Codici da usare»; esiste anche la versione suddivisa in 3 parti per materia con numerazione per file). Usare per: aggiungere una NUOVA cornice in uno slot libero (es. Codice 14), sostituire un codice con un'altra app, aggiornare titoli e indici, estrarre e trasformare l'HTML di un codice (APP_URL, font OpenDyslexic auto-ospitati, titolo testata) con verifiche assert, ricostruire la cella mantenendo Consolas 7pt, suddividere in parti per materia, rinumerare le cornici da 1 in ogni file, testare nel browser (attenzione al falso negativo COEP del dev server). Script pronti: estrai_codice.py, sostituisci_codice.py, suddividi_in_parti.py, rinumera_parti.py. NON per l'app cornice-universale né per le cornici incluse nel codice delle singole app.",
+    "category": "Pubblicazione cornici ed export",
+    "entrypoint": "skills/codici-embed-cornici/SKILL.md",
+    "scripts": [
+      "scripts/estrai_codice.py",
+      "scripts/rinumera_parti.py",
+      "scripts/sostituisci_codice.py",
+      "scripts/suddividi_in_parti.py"
+    ],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "cornice-universale",
+    "description": "Manutenzione completa dell'app Cornice Universale (Vite + React + TS + Tailwind + server Express) che embedda un PDF Google Drive in una cornice protetta da password con stato nascosto/visibile sincronizzato su TUTTI i dispositivi via /api/state, testo ad alta voce (TTS) e ricerca parole. Usare per: modificare UI (password, Nascondi/Mostra, viste Documento/Lettura testo, Cerca, pannello Accessibilità 6 gruppi su 2 colonne centrate, screen reader/ARIA: aria-label/aria-pressed/aria-expanded/aria-controls/role=group/role=status/regione aria-live, focus gestito), cambiare password (in DUE file: Home.tsx e server/index.ts), colori/font (OpenDyslexic ovunque, auto-ospitato in client/public/fonts), messaggio nascosto (MAIUSCOLO esatto, no sottotesto), sincronizzazione (POLL_INTERVAL), TTS e ricerca, deploy preview/produzione, esportare ZIP ricostruibile per GitHub/Render con README.md + ACCESSIBILITA.md. NIENTE cornice dinamica (postMessage labvisivo:height/embed.html): rimossa su richiesta, embed iframe fisso.",
+    "category": "Pubblicazione cornici ed export",
+    "entrypoint": "skills/cornice-universale/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/cornice-universale",
+      "/home/user/cornice-universale.zip",
+      "/home/user/package-export"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "data-analysis",
+    "description": "Analyze data and make charts. Use when the user shares a CSV, Excel, JSON or database export, asks for statistics, trends, comparisons, forecasts, dashboards or charts, or needs numbers found, cleaned, combined or summarized from data files.",
+    "category": "Generali",
+    "entrypoint": "skills/data-analysis/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/analysis/",
+      "/home/user/analysis/revenue_by_month.png",
+      "/home/user/uploads/"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "deploy-app-produzione",
+    "description": "Guida al deploy in produzione delle app web Easy-Peasy (scaffold web-db-user e web-static, incluse le app didattiche). Regola fondamentale: il deploy va eseguito NELLA chat della singola app, perché webdev_deploy è legato al progetto corrente di quella chat; le repo GitHub esportate servono per Render, non per Cloud Run. Include la checklist di coerenza UI cross-app. Usare per: deploy preview/produzione, capire perché un deploy punta all'app sbagliata, pubblicare su Cloud Run (*.easy-peasy.site) o Render, armonizzare lo stile tra più app.",
+    "category": "Pubblicazione cornici ed export",
+    "entrypoint": "skills/deploy-app-produzione/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "didattica-app-classe",
+    "description": "Creare, mantenere e clonare le app didattiche con classe/docente: Shakespeare/Parole Chiave, Bécquer/Quiz con audio, Immagine Interattiva/Romanticismo, Laboratorio Aumentato/3D, Mappe 3 e 6 passi e ascolto-abbinamento Espana XIX. Usare per dashboard, codici classe, sessioni, re-entry, contatori, report PDF, contenuti e cloni. Selezionare manutenzione o nuova app prima di intervenire. Non usare per app di calcolo/lingue né per creare PDF di mappe da esercizi: usare le rispettive skill didattica-app-matematica, didattica-app-lingue e didattica-documenti-accessibili.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/didattica-app-classe/SKILL.md",
+    "scripts": [
+      "scripts/trova_profilo.py"
+    ],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "didattica-app-lingue",
+    "description": "Mantenere Latino Facile, Lingue Facili (inglese/francese/spagnolo, solo-riordino), la precedente Francese Facile e Mappe Concettuali di Lingue Straniere. Usare per UI studente, testo/foto/OCR, cropper mobile clonabile, accessibilità, TTS, esercizi, colorazione grammaticale, traduzione e PDF. Latino pubblicato 8754: avverbi blu, preposizioni grigio chiaro, congiunzioni grigio scuro; crop baseline 8731 invariato. Non usare per quaderni/mappe PDF richiesti in chat (didattica-documenti-accessibili), né per quiz con dashboard docente (didattica-app-classe).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/didattica-app-lingue/SKILL.md",
+    "scripts": [
+      "scripts/trova_profilo.py"
+    ],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "didattica-app-matematica",
+    "description": "Mantenere e clonare le app matematiche accessibili: Equazioni Biquadratiche, Equazioni di Secondo Grado, Operazioni con le Frazioni/math-input-panel, Espressioni Monomi e Polinomi/Widget Metacognitivo e Widget Matematico Sorgente. Usare per passi guidati, scrittura ONNX/ink-on, riconoscimento, motore esatto, decimali italiani, foto, NotebookGuide, PDF e varianti di grado/disequazioni. Non usare per PDF di mappe richiesti in chat: usare didattica-documenti-accessibili; per deploy e ZIP usare didattica-pubblicazione-blog.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/didattica-app-matematica/SKILL.md",
+    "scripts": [
+      "scripts/trova_profilo.py",
+      "scripts/widget-matematico-sorgente/clone_app.py"
+    ],
+    "template_files": 1,
+    "external_paths": [],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "didattica-documenti-accessibili",
+    "description": "Creare e aggiornare articoli scientifici, PDF BES/DSA, mappe e quaderni linguistici. Ogni nuovo PDF didattico rimpaginato richiede 10 domande e bibliografia finale salvo diversa richiesta esplicita. Titoli maiuscoli centrati, OpenDyslexic, box crema max 5 righe, sintesi senza grassetto a due colonne nelle unità teoriche, indice cliccabile. Mappe finali con box 78×78mm, immagini clay adulte 52mm e parole chiave; fonti verificate in box crema. Una immagine clay dopo ogni banner, nessuna nelle fonti. Usare per frazioni, palette, privacy e QA; distinguere mappe senza soluzioni e problemi risolti. Audio tramite didattica-media-audio-3d. Non per app web, presentazioni blog brevi o circolari.",
+    "category": "Documenti accessibili",
+    "entrypoint": "skills/didattica-documenti-accessibili/SKILL.md",
+    "scripts": [
+      "scripts/latino-facile-quaderno/rilascio_quaderno.py",
+      "scripts/trova_profilo.py"
+    ],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "didattica-media-audio-3d",
+    "description": "Produrre media didattici personalizzati: podcast MP4 senza musica con copertina fissa e audio integrale di PDF e quaderni a due voci italiane alternate, velocità approvata 1,12×, fonte esatta e testo/indice temporale; lettura italiana di circolari scolastiche in MP3, documentari claymation con narrazione/montaggio e diorami 3D GLB per Figmin XR/Sketchfab/blog. Usare per sostituire letture approvate senza rigenerarle, escludere le fonti solo su richiesta, formato fisso delle circolari, normalizzazione volume, piano scene, continuità visiva, QA e geometria/validazione GLB. Non usare per manutenzione delle app web. Per i motori di generazione leggere anche le skill generali audio-generation, video-generation o image-generation pertinenti; questo pacchetto conserva le regole didattiche personali.",
+    "category": "Audio video e 3D didattici",
+    "entrypoint": "skills/didattica-media-audio-3d/SKILL.md",
+    "scripts": [
+      "scripts/assembla_audio_pdf.py",
+      "scripts/estrai_pdf_audio.py",
+      "scripts/modello-3d-didattico/costruisci_modello.py",
+      "scripts/modello-3d-didattico/ritaglia_figure.py",
+      "scripts/trova_profilo.py",
+      "scripts/video-claymation-didattico/assemble_claymation.py",
+      "scripts/video-claymation-didattico/plan_scene.py",
+      "scripts/video-claymation-didattico/qa_frames.py",
+      "tests/test_podcast_vr_approvato.py"
+    ],
+    "template_files": 22,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "didattica-pubblicazione-blog",
+    "description": "Pubblicare le app didattiche e preparare ZIP GitHub/Render con guide IA, cornici Blogger, documento CODICI-EMBED-CORNICI, app Cornice Universale e presentazioni DOCX brevi per il blog. Usare per preview/produzione, checkpoint, verifica URL del progetto corretto, REBUILD/ADATTARE/RENDER/ACCESSIBILITA/AGENTS, esportazione pulita, postMessage e cornici numerate. Non usare come sostituto delle skill di manutenzione funzionale delle app. La pubblicazione richiede preview condivisa e consenso esplicito successivo; la richiesta di uno ZIP o skill non autorizza deploy.",
+    "category": "Pubblicazione cornici ed export",
+    "entrypoint": "skills/didattica-pubblicazione-blog/SKILL.md",
+    "scripts": [
+      "scripts/espressioni-8744/scripts/export-verified.py",
+      "scripts/espressioni-8744/scripts/verify-package.py",
+      "scripts/espressioni-8744/tests/test_export_tools.py",
+      "scripts/espressioni-8756/scripts/export-verified.py",
+      "scripts/espressioni-8756/scripts/verify-package.py",
+      "scripts/espressioni-8756/tests/test_export_tools.py",
+      "scripts/trova_profilo.py",
+      "scripts/zip-esportabile-guide-ia/export_verified.py"
+    ],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "documents",
+    "description": "Create, edit and convert Word (.docx), Excel (.xlsx, .csv) and PDF files: reports, letters, contracts, CVs, invoices, budgets, trackers, printable handouts. Use whenever the user wants a document file. Presentations use the slides tools.",
+    "category": "Generali",
+    "entrypoint": "skills/documents/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "equazioni-biquadratiche",
+    "description": "Manutenzione completa e personalizzazione dell'app WIDGET MATEMATICO SORGENTE (già Equazioni Biquadratiche, in /home/user/equazioni-biquadratiche; Vite + React + TypeScript + Tailwind, scaffold web-static). Usare per: modificare UI studente, personalizzare i passi guidati, deploy preview/produzione, correggere riconoscimento scrittura (ONNX/ink-on), personalizzare il NotebookGuide (RICOPIA SUL QUADERNO), modificare generazione PDF, aggiornare l'embed HTML per Blogger. L'app guida lo studente passo-passo nella risoluzione di equazioni biquadratiche con input tramite scrittura a mano e PDF scaricabile. NON usare per clonare l'app con un grado diverso o per le disequazioni — usare la skill widget-matematico-sorgente.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/equazioni-biquadratiche/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/equazioni-biquadratiche"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "equazioni-secondo-grado",
+    "description": "Manutenzione dell'app EQUAZIONI DI SECONDO GRADO (/home/user/equazioni-secondo-grado, Vite + React 19 + TS + Tailwind 4 + shadcn/ui + KaTeX + ONNX/ink-on, web-static con mini server Express). Variante grado 2 (k=1) del Widget Matematico: a·x²+b·x+c=0 in 5 passi con scrittura manuale e PDF. Usare per: prima pagina (WelcomePage, lf-welcome-top/lf-embedded, heightSync), barra accessibilità, cornice dinamica Blogger (anti-loop), verifica embed (COEP: solo same-origin), PDF, trascrizione soluzioni (incomplete SENZA zeri visibili, semplificazione massima radici esatte), patch ink-on numThreads=1 (blocco caricamento modello AI), deploy con verifica URL (lezione 403/404), doc bundle. NON per clonare in altro grado (widget-matematico-sorgente) né per la sorgente biquadratica (equazioni-biquadratiche).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/equazioni-secondo-grado/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/equazioni-biquadratiche",
+      "/home/user/equazioni-secondo-grado",
+      "/home/user/test-semplifica.mjs"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "espana-xix-match",
+    "description": "Manutenzione completa e personalizzazione dell'app «Marco histórico del Romanticismo en España» (espana-xix-match, Vite + React + TS + Tailwind, web-static): ascolto-abbinamento audio → puntino sulla linea del tempo. Usare per: generare una NUOVA app simile (linea del tempo o audio-mappa); modificare eventi/anni/audio/posizioni puntini, titolo, testi, colori, font, immagine; gestire l'accessibilità (barra italiana, OpenDyslexic UI/immagine/PDF, TTS auto-lingua per elementi con pause e ordinali spagnoli, contrasto, righello, maiuscole via CSS); modificare il PDF (icone sopra l'asse, margini ~3 cm, senza istruzioni); modificare la schermata finale «Actividad completada» (overlay sopra la barra, senza pulsante PDF, titolo responsive); embed Blogger (cornice v3 in cornice-dinamica/, token + ping, WOFF2 -v2, CORS /fonts); deploy preview/produzione. NON usare per app schema/quiz con dashboard docente (schema-quiz-builder) né per la Mappa Concettuale Interattiva (romanticismo-interattivo).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/espana-xix-match/SKILL.md",
+    "scripts": [
+      "scripts/adatta_app.py",
+      "scripts/gen_woff2_cornice.py",
+      "scripts/riscrivi_testi_immagine_opendyslexic.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/embed-blogger-romanticismo.html",
+      "/home/user/espana-xix-match",
+      "/home/user/espana-xix-match/",
+      "/home/user/skills/espana-xix-match/scripts/adatta_app.py"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "espressioni-monomi-polinomi",
+    "description": "Manutenzione del WIDGET METACOGNITIVO PER IL CALCOLO DI ESPRESSIONI (progetto /home/user/espressioni-monomi-polinomi; storico Espressioni Monomi e Polinomi). Usare per input ONNX/audio/tastiera/foto, cropper8731, auditConti e verify-steps, sessioni sid, PDF dinamico e decimali con virgola. Produzione8756: pagina2 a640px, pagina3 adattiva fino a640px, toolbar esterna e scroll interno stile Latino; embed heightSync unico, ZIP ricostruibile e guide IA. Preservare filosofia DSA: non dire mai la soluzione. Non usare per clonare app di equazioni o creare mappe PDF in chat.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/espressioni-monomi-polinomi/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/collaudo",
+      "/home/user/espressione-frazioni-potenze",
+      "/home/user/espressioni-monomi-polinomi",
+      "/home/user/espressioni-widget-matematico"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "financial-analysis",
+    "description": "Analyze stocks, ETFs, crypto, currencies, commodities and the economy with live market data. Use for stock research and comparisons, earnings, valuation, portfolio or watchlist reviews, market recaps and macro questions.",
+    "category": "Generali",
+    "entrypoint": "skills/financial-analysis/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "francese-facile",
+    "description": "Manutenzione completa dell'app FRANCESE FACILE (/home/user/francese-facile, Vite+React+TS+Tailwind+tRPC+Drizzle, web-db-user; produzione https://francese-facile.easy-peasy.site). Variante francese di «Inglese Facile», clonata dalla repo GitHub andreakeating1982/INGLESE-FACILE: trasforma testi francesi (incollati o da foto OCR) in 5 esercizi interattivi (scelta multipla, VRAI/FAUX, riordino, abbinamento parola/immagine, abbinamento francese-italiano) con copia verbatim, PDF e OpenDyslexic. Usare per: modificare UI/testi/colori/esercizi/PDF; gestire il TITOLO (FRANCESE FACILE, spelling italiano — decisione fissa, MAI «FRANÇAIS FACILE»; colonne esercizio FRANÇAIS/ITALIANO restano in francese); cornice dinamica Blogger e Codice 14 del DOCX CODICI-EMBED-CORNICI; immagine diorama con controllo ortografico; deploy; varianti in altre lingue (ADATTARE.md). NON per: presentazione blog (presentazione-app-docx), codici embed DOCX generici (codici-embed-cornici), altre app didattiche.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/francese-facile/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/CODICI-EMBED-CORNICI-v4-aggiornato.docx",
+      "/home/user/francese-facile",
+      "/home/user/francese-facile-diorama.png"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "image-generation",
+    "description": "Make and edit images: posters, social graphics, thumbnails, product shots, logos, icons, illustrations, characters, UI mockups, infographics, photo edits and restyles. Also decides between an AI image, a chart, a diagram and a rendered layout.",
+    "category": "Generali",
+    "entrypoint": "skills/image-generation/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/out/chart.png",
+      "/home/user/uploads/photo.jpg"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "immagine-interattivo",
+    "description": "Manutenzione completa e personalizzazione dell'app IMMAGINE INTERATTIVA SORGENTE (in /home/user/romanticismo-interattivo, Vite + React + TypeScript + Tailwind + tRPC + Drizzle). Usare per: modificare UI studente/docente, deploy preview/produzione, hotspot, segmenti audio, PDF report, stili. Esplorazione interattiva con hotspot e audio. NON usare per clonare l'app in una nuova con contenuto diverso (usare la skill immagine-interattivo-sorgente).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/immagine-interattivo/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/romanticismo-interattivo",
+      "/home/user/skills/immagine-interattivo-sorgente",
+      "/home/user/uploads/Spagnolo_-_Letteratura_-_Romanticismo_-_Spiegazione_dell_immagine.docx"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "immagine-interattivo-sorgente",
+    "description": "Clona l'app IMMAGINE INTERATTIVA SORGENTE (in /home/user/romanticismo-interattivo) in una NUOVA app identica cambiando SOLO il set di domande (immagine di sfondo, audio, hotspot, segmenti audio, testo esplicativo). Usare quando l'utente chiede una nuova app simile/uguale alla sorgente con un contenuto diverso (nuovo argomento/tema), lasciando invariati: dashboard docente, codici classe a 4 cifre, sessioni, contatore studenti attivi, report PDF (una pagina per studente + griglia PUNTEGGIO), palette plum/gold e embed iframe. Copre: costruzione del JSON contenuto (anche da testo libero), clonazione da cartella locale o repo GitHub (flag --source di clone_app.py), verifica automatica, deploy preview/produzione, export ZIP per GitHub/Render. NON usare per modificare o mantenere l'app sorgente (usare immagine-interattivo).",
+    "category": "Clonazione app",
+    "entrypoint": "skills/immagine-interattivo-sorgente/SKILL.md",
+    "scripts": [
+      "scripts/clone_app.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/romanticismo-interattivo",
+      "/home/user/skills/immagine-interattivo-sorgente/scripts/clone_app.py",
+      "/home/user/skills/immagine-interattivo-sorgente/templates/contenuto-esempio.json"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "laboratorio-aumentato",
+    "description": "Manutenzione e personalizzazione dell'app Laboratorio Aumentato (Vite + React + TypeScript + Tailwind + tRPC + Drizzle + SQLite). Usare per: modificare UI studente/docente, allineare stili a Shakespeare Quiz, deploy preview/produzione, personalizzare report PDF, rinominare l'app. L'app condivide la codebase scaffold con Shakespeare Quiz ma ha UI e palette colori distinte (plum, gold, success).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/laboratorio-aumentato/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/laboratorio-visivo"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "laboratorio-aumentato-3d",
+    "description": "Manutenzione, personalizzazione e clonazione dell'app LABORATORIO AUMENTATO 3D SORGENTE (Vite + React + TypeScript + Tailwind + tRPC + Drizzle + PostgreSQL, scaffold web-db-user). Usare per MANUTENZIONE: modificare UI studente/docente, allineare stili a Shakespeare Quiz, deploy preview/produzione, personalizzare report PDF (una pagina per gruppo, foto non ritagliate), rinominare l'app, modificare testi/consegna, gestire stato classe (chiudi/riavvia/elimina), eliminare gruppi (trash bin nelle card + endpoint submissions.delete), cornice dinamica (embed Blogger), margini della prima pagina (WelcomePage), footer. Usare per CLONAZIONE: creare una NUOVA app identica con contenuto diverso (contenuto dell'attività: tema, istruzioni dei 6 passi studente, criteri della rubrica) tramite scripts/clone_app.py (anche da repository GitHub con --source), lasciando invariati struttura a 6 passi, dashboard docente (crea/riapri/chiudi/elimina classe), codici a 4 cifre, contatore, report PDF, palette plum/gold ed embed iframe.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/laboratorio-aumentato-3d/SKILL.md",
+    "scripts": [
+      "scripts/clone_app.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/laboratorio-visivo",
+      "/home/user/skills/laboratorio-aumentato-3d/scripts/clone_app.py",
+      "/home/user/skills/laboratorio-aumentato-3d/templates/config_esempio.json"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "laboratorio-aumentato-3d-sorgente",
+    "description": "Clona l'app LABORATORIO AUMENTATO 3D SORGENTE in una NUOVA app identica cambiando SOLO il contenuto dell'attività (il 'set di domande': tema, istruzioni dei 6 passi studente, criteri della rubrica). Usare quando l'utente chiede una nuova app simile/uguale all'app sorgente lasciando invariati: struttura a 6 passi, dashboard docente (crea/riapri/chiudi/elimina classe), codici classe a 4 cifre, contatore, report PDF, palette plum/gold e embed iframe. Copre: clonazione da cartella locale O da repository GitHub (flag --source dello script clone_app.py), personalizzazione dei contenuti via JSON, verifica automatica, deploy preview/produzione, export ZIP per GitHub. NON usare per modificare o mantenere l'app sorgente stessa (usare la skill laboratorio-aumentato-3d).",
+    "category": "Clonazione app",
+    "entrypoint": "skills/laboratorio-aumentato-3d-sorgente/SKILL.md",
+    "scripts": [
+      "scripts/clone_app.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/laboratorio-visivo",
+      "/home/user/skills/laboratorio-aumentato-3d-sorgente/scripts/clone_app.py",
+      "/home/user/skills/laboratorio-aumentato-3d-sorgente/templates/config_esempio.json"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "latino-facile",
+    "description": "Manutenzione di Latino Facile (/home/user/latino-facile-app; Vite/React/TS/Tailwind/tRPC/Drizzle, web-db-user): analisi latina colorata, foto/OCR, traduzione e PDF OpenDyslexic. Usare per UI, font/colori/legenda, accessibilità DSA/BES, WelcomePage, embed Blogger/heightSync, CropDialog free-box e problemi mobile (pagina dietro ferma, scroll interno, viewport iframe), deploy preview/produzione e ZIP per GitHub/Render con guide IA. Per clonare SOLO il photo cropper in un'altra app leggere references/photo-crop-clonabile.md (18 sorgenti incorporati, versione pubblicata 8731). Per ritaglio mobile leggere references/ritaglio-mobile.md: copiare anche hook viewport, CSS e guardia heightSync, non toccare confirm() né cropBox.ts. Per quaderno didattico PDF usare latino-facile-quaderno. Per una nuova lingua usare ADATTARE.md; non per quiz con dashboard docente.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/latino-facile/SKILL.md",
+    "scripts": [
+      "scripts/qa/analyze.py",
+      "scripts/qa/corpus.py",
+      "scripts/qa/encl.py",
+      "scripts/qa/fp2.py",
+      "scripts/qa/one2.py",
+      "scripts/qa/run.py",
+      "scripts/verify_export.py"
+    ],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/latino-facile-app",
+      "/home/user/latino-facile-app-export-aggiornato-",
+      "/home/user/qa",
+      "/home/user/qa/",
+      "/home/user/quaderno-unico",
+      "/home/user/skills/latino-facile/scripts/export_zip.sh"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "lingue-facili",
+    "description": "Manutenzione completa dell'app LINGUE FACILI (/home/user/lingue-facili, Vite+React+TS+Tailwind+tRPC+Drizzle, web-db-user; produzione https://lingue-facili.easy-peasy.site). App UNIFICATA multi-lingua (inglese, francese, spagnolo) con flusso SOLO-RIORDINO: incolla o fotografa l'esercizio → correzione automatica → esercizio di riordino delle parole (niente scelta tipologia né istruzioni manuali). Barra accessibilità a 5 moduli con ASCOLTO (TTS auto-lingua), drag-and-drop multi-rigo, PDF OpenDyslexic. Usare per: modificare UI/testi/colori/esercizi/PDF, cambiare i testi di una lingua (SOLO shared/languages.ts), gestire ASCOLTO o drag-and-drop, cornice Blogger (Codice 3), deploy preview/produzione. NON usare per: la vecchia Francese Facile (skill francese-facile, app superseded), il DOCX dei codici embed (skill codici-embed-cornici), altre app didattiche.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/lingue-facili/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/lingue-facili"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "mappa-3passi",
+    "description": "Manutenzione completa e personalizzazione dell'app Mappa Concettuale 3 Passi (Vite + React + TypeScript + Tailwind + tRPC + Drizzle + SQLite). Usare per: modificare UI studente/docente, deploy preview/produzione, personalizzare colori titolo/rami/foglie, correggere drag & drop, modificare il layout dei contenitori, gestire i pulsanti di download (PDF e PNG), pareggiare i margini della prima pagina WelcomePage (regole lf-welcome-top/lf-embedded, heightSync, come in Latino Facile), creare embed Blogger, esportare ZIP per GitHub. L'app guida lo studente nella costruzione di una mappa concettuale in 3 passi (tronco, rami, foglie/immagini). Rispetto alla versione a 6 passi (skill mappa-concettuale), questa versione salta i passi 1-3 (leggi e ripeti, prendi appunti, crea hashtag).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/mappa-3passi/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/mappa-3passi-preview",
+      "/home/user/mappa-3passi.zip"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "mappa-concettuale",
+    "description": "Manutenzione completa e personalizzazione dell'app Mappa Concettuale (Vite + React + TypeScript + Tailwind + tRPC + Drizzle + SQLite). Usare per: modificare UI studente, deploy preview/produzione, personalizzare footer/header/colori, gestire i 6 passi della mappa, modificare testi e placeholder, creare embed Blogger, esportare ZIP per GitHub. L'app permette di costruire una mappa concettuale in 6 passi (leggi e ripeti, prendi appunti, crea hashtag, tronco, rami, immagini).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/mappa-concettuale/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/mappa-concettuale"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "mappe-concettuali-lingue",
+    "description": "Manutenzione completa e personalizzazione dell'app MAPPE CONCETTUALI DI LINGUE STRANIERE (in /home/user/mappe-concettuali-lingue, Vite + React + TypeScript + Tailwind + tRPC + Drizzle, scaffold web-db-user; produzione https://mappe-concettuali-lingue.easy-peasy.site). Trasforma foto o testo di esercizi di inglese/francese/spagnolo in mappe concettuali PDF. Usare per: modificare la UI studente, le regole del PDF (titolo MAPPA/MAPPE, footer, frecce centrate, STRUMENTO fino a 1600 caratteri, passi 0-3 anche assenti), il pulsante di download, l'anteprima PDF su mobile (scheda APRI IL PDF al posto dell'iframe), la cornice dinamica per Blogger (protocollo labvisivo:height), la sincronizzazione altezza anti-tremolio (heightSync), l'accessibilità embed (lf-embedded), il collaudo nel browser e il deploy preview/produzione. NON usare per: produrre mappe da foto incollate in chat (usare mappe-concettuali-matematica), manutenere l'app matematica sorgente, modificare il DOCX dei codici embed (usare codici-embed-cornici).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/mappe-concettuali-lingue/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/mappe-concettuali-lingue",
+      "/home/user/mappe-matematica-repo"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "mappe-concettuali-matematica",
+    "description": "Produzione di PDF «Mappe concettuali» per esercizi di matematica partendo da foto o testo (qualsiasi anno scolastico). Usare SEMPRE quando l'utente carica una foto (o incolla testo) di esercizi di matematica e vuole le mappe concettuali, o chiede «le stesse mappe». Layout FISSO richiesto dall'utente — solo titolo «Mappe concettuali»; per ogni esercizio una card con COSA CHIEDE e STRUMENTO affiancati e ESATTAMENTE 3 passi numerati; NIENTE box giallo «Occhio a», NIENTE nota finale, NIENTE soluzioni. Font OpenDyslexic auto-ospitato, generazione WeasyPrint.",
+    "category": "Documenti accessibili",
+    "entrypoint": "skills/mappe-concettuali-matematica/SKILL.md",
+    "scripts": [],
+    "template_files": 3,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "mappe-fisica-matematica",
+    "description": "Creare mappe concettuali PDF di FISICA e MATEMATICA accessibili per uno studente con disabilita' intellettiva grave, nello stile «v8» consolidato (OpenDyslexic, box colorati con icone e pallini numerati, titolo nel nodo centrale, 2 cm di margini, frazioni SEMPRE impilate). Usare quando l'utente chiede una mappa concettuale di matematica o fisica, un problema risolto passo passo, l'inserimento di una mappa nei raccoglitori (PRIMO/TERZO superiore/FISICA) o nella RACCOLTA COMPLETA, o la conversione di frazioni in linea in frazioni impilate. NON usare per quaderni PDF, presentazioni o app web.",
+    "category": "Documenti accessibili",
+    "entrypoint": "skills/mappe-fisica-matematica/SKILL.md",
+    "scripts": [
+      "scripts/verifica_frazioni.py"
+    ],
+    "template_files": 3,
+    "external_paths": [
+      "/home/user/mappe-N-Z/"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "math-input-panel",
+    "description": "Manutenzione e personalizzazione dell'app Operazioni con le Frazioni (Vite + React + TypeScript + Tailwind, scaffold web-static). Usare per: modificare la UI, personalizzare i passi guidati, modificare la generazione PDF, gestire/aggiornare la cornice dinamica per Blogger (protocollo labvisivo:height, token v3, anti-loop), modificare i margini e il layout della prima pagina (WelcomePage, classi lf-welcome-top/lf-embedded, heightSync.ts), deploy preview/produzione, modificare stili e font, arrotondamento decimali, aggiornare la documentazione (ACCESSIBILITA.md, DEPLOY-RENDER.md, GUIDA-IA.md, render.yaml, README.md) e rigenerare il pacchetto ZIP esportabile per ricostruzione via GitHub/Render. L'app guida lo studente passo-passo in addizione/sottrazione e moltiplicazione/divisione tra frazioni con input a scrittura a mano (ONNX) e quaderno PDF scaricabile.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/math-input-panel/SKILL.md",
+    "scripts": [],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/app-math-input-panel.zip",
+      "/home/user/math-input-panel",
+      "/home/user/ref-biquadratiche",
+      "/home/user/ref-latino-facile"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "modello-3d-didattico",
+    "description": "Creazione e manutenzione di diorami 3D didattici (file GLB/glTF 2.0) a partire da immagini 2D, per la realtà virtuale e il web: linee del tempo, cartelloni e mappe trasformate in scene 3D espositive per Figmin XR (visori Meta Quest), Sketchfab e blog. Usare per: creare un nuovo modello 3D simile al diorama «Marco histórico del Romanticismo en España», ritagliare figure da un'immagine 2D (rimozione sfondo, bordi puliti, texture con alfa), costruire geometria con estrusione (basamento, freccia del tempo, sfere, targhette inclinate), esportare GLB con trimesh, validare con il validatore Khronos, generare anteprime di render con three.js, caricare su Sketchfab e allestire l'attività in Figmin XR. NON usare per modificare le app web didattiche (usare le relative skill).",
+    "category": "Audio video e 3D didattici",
+    "entrypoint": "skills/modello-3d-didattico/SKILL.md",
+    "scripts": [
+      "scripts/costruisci_modello.py",
+      "scripts/ritaglia_figure.py"
+    ],
+    "template_files": 2,
+    "external_paths": [
+      "/home/user/.",
+      "/home/user/modello3d/",
+      "/home/user/skills/modello-3d-didattico/scripts/valida_glb.js"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "parole-chiave-sorgente",
+    "description": "Clona l'app PAROLE CHIAVE SORGENTE (in /home/user/shakespeare-quiz) in una NUOVA app identica con un set di domande diverso. Usare quando l'utente chiede una nuova app simile/uguale alla sorgente cambiando solo le domande (stesso aspetto, MAPA 1/2, codici classe, sessioni, contatore studenti, report PDF con box PUNTEGGIO su 10 e ACCESSIBILITÀ completa: font OpenDyslexic, barra accessibilità 5 moduli, TTS, alto contrasto, righello). Supporta la clonazione da repository GitHub con --source.",
+    "category": "Clonazione app",
+    "entrypoint": "skills/parole-chiave-sorgente/SKILL.md",
+    "scripts": [
+      "scripts/rebuild_app.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/PAROLE-CHIAVE-SORGENTE.zip",
+      "/home/user/build_zip.py",
+      "/home/user/shakespeare-quiz",
+      "/home/user/skills/parole-chiave-sorgente/scripts/rebuild_app.py",
+      "/home/user/skills/parole-chiave-sorgente/templates/questions_example.json"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "podcast-didattici",
+    "description": "Creare e aggiornare podcast didattici in MP4 con copertina fissa, due voci italiane a 1,12× e SENZA MUSICA. Usare per lettura integrale di PDF, documenti aggiornati, correzioni audio, fedeltà alla fonte, parti aggiunte per errore, indice parlato/temporale, pronuncia X/XR e 3D, conversioni MP3→MP4 e recupero montaggi. Il PDF corrente è l'unica fonte: eliminare contenuti delle vecchie edizioni, verificare tutte le pagine e l'intero AAC finale, riutilizzare solo letture identiche. Comprende sintesi, tutte le domande/opzioni, mappe e riferimenti, senza spiegazioni o soluzioni aggiunte. Verifica femminile e bibliografia maschile salvo diversa istruzione. X: ics; XR: ics erre; 3D: tre dì con pausa dopo la D completa. MP3 solo su richiesta esplicita. Non per circolari (circolari-audio), documentari o GLB; non sovrascrivere skill personali più ampie non disponibili.",
+    "category": "Audio video e 3D didattici",
+    "entrypoint": "skills/podcast-didattici/SKILL.md",
+    "scripts": [
+      "scripts/normalizza_narrazione.py",
+      "scripts/test_verifica_fedelta.py",
+      "scripts/verifica_fedelta.py",
+      "scripts/video_statico.py",
+      "tests/test_podcast_vr_chiaro_approvato.py"
+    ],
+    "template_files": 23,
+    "external_paths": [],
+    "reuse_note": "La skill originale è inclusa con i riferimenti, i validatori e il modello VR approvato; per nuovi podcast servono il PDF corrente e i servizi autorizzati."
+  },
+  {
+    "name": "presentazione-app-docx",
+    "description": "Creare la presentazione DOCX scaricabile di un'app didattica per il blog dell'utente, nel suo stile personale (riferimento: il post dell'app di latino). REGOLA FISSA dell'utente — versione BREVE di massimo 15 righe in tutto, cioè titolo + UN paragrafo (~150 parole), niente immagini, box o sottosezioni a meno che richieste esplicitamente (la prima versione lunga con screenshot è stata rifiutata come «troppo lunga»). Usare per: presentare una nuova app, rifare o accorciare una presentazione, generare il DOCX con hyperlink cliccabile all'app. Include script python pronto (genera_presentazione.py). NON usare per i quaderni PDF didattici (skill quaderno-accessibile) né per i codici embed delle cornici (skill codici-embed-cornici).",
+    "category": "Documenti accessibili",
+    "entrypoint": "skills/presentazione-app-docx/SKILL.md",
+    "scripts": [
+      "scripts/genera_presentazione.py"
+    ],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "quaderno-accessibile",
+    "description": "Creare e rimpaginare quaderni inclusivi e PDF lunghi del blog: ogni nuovo PDF didattico rimpaginato richiede 10 domande e bibliografia finale salvo diversa richiesta esplicita. Guide BES/DSA e collane FACILE/Rosalía/Shakespeare. Titoli maiuscoli centrati, OpenDyslexic, neretti neri, box crema max 5 righe. Sintesi senza grassetto a due colonne nelle unità teoriche; mappa finale con box 78×78mm, parole chiave e immagini clay adulte 52mm. Fonti verificate in box crema; indice cliccabile coordinato; un'immagine clay dopo ogni banner, nessuna nelle fonti. Verificare testo, enfasi, link e impaginazione. Audio tramite didattica-media-audio-3d. Non per app web.",
+    "category": "Documenti accessibili",
+    "entrypoint": "skills/quaderno-accessibile/SKILL.md",
+    "scripts": [
+      "scripts/confronta_baseline_pdf.py",
+      "scripts/confronta_stile_pdf.py",
+      "scripts/integra_sintesi_mappe.py",
+      "scripts/render_quaderno.py",
+      "scripts/render_sfondo_uniforme.py",
+      "scripts/rimuovi_marcatori_decorativi.py",
+      "scripts/specchietti_box.py",
+      "scripts/titoli_maiuscoli.py",
+      "scripts/verifica_aperture_unita.py",
+      "scripts/verifica_articolo_scientifico.py",
+      "scripts/verifica_blocchi_blog.py",
+      "scripts/verifica_box_fonti.py",
+      "scripts/verifica_box_semantici.py",
+      "scripts/verifica_copertura_immagini_unita.py",
+      "scripts/verifica_flusso_fonti_blog.py",
+      "scripts/verifica_fonti_bibliografia.py",
+      "scripts/verifica_immagini_indice.py",
+      "scripts/verifica_immagini_mappa.py",
+      "scripts/verifica_inizi_pagina.py",
+      "scripts/verifica_quiz_fonti_obbligatori.py",
+      "scripts/verifica_sintesi_mappa.py",
+      "scripts/verifica_specchietti_box.py",
+      "scripts/verifica_titoli_centrati.py",
+      "scripts/verify_quaderno.py",
+      "templates/metodologie-v11/render_pdf.py",
+      "templates/metodologie-v12/render_pdf.py",
+      "templates/metodologie-v13/render_pdf.py",
+      "templates/metodologie-v14/render_pdf.py",
+      "templates/romanticismo-letteratura-semplificata-2026-11-06/impagina.py",
+      "templates/romanticismo-letteratura-semplificata-2026-11-06/stili_base.py",
+      "templates/romanticismo-marco-completo-2026-11-06/sorgenti/impagina.py",
+      "templates/romanticismo-marco-completo-2026-11-06/sorgenti/verifica_completo.py",
+      "templates/romanticismo-marco-completo-2026-11-06/sorgenti/verifica_destinazioni.py",
+      "templates/romanticismo-marco-mappa-senza-attivita-2026-11-06/sorgenti/impagina.py",
+      "templates/romanticismo-marco-mappa-senza-attivita-2026-11-06/sorgenti/verifica_completo.py",
+      "templates/romanticismo-marco-schemi-nelle-unita-2026-11-06/sorgenti/impagina.py",
+      "templates/romanticismo-marco-schemi-nelle-unita-2026-11-06/sorgenti/verifica_revisione.py",
+      "tests/test_articoli_scientifici.py",
+      "tests/test_becquer_completo_approvato.py",
+      "tests/test_becquer_mappa_illustrata_approvata.py",
+      "tests/test_box_fonti.py",
+      "tests/test_flusso_prima_pagina.py",
+      "tests/test_fonti_bibliografia.py",
+      "tests/test_immagini_mappa.py",
+      "tests/test_integrazioni.py",
+      "tests/test_realtavirtuale_chiara_approvata.py",
+      "tests/test_ritiro_documento.py",
+      "tests/test_rosalia_completa_approvata.py",
+      "tests/test_rosalia_restyling_approvato.py",
+      "tests/test_ultime_revisioni_lazaro_becquer.py",
+      "tests/test_verifica_quiz_fonti_obbligatori.py"
+    ],
+    "template_files": 351,
+    "external_paths": [
+      "/home/user/lazaro_v2_build/build_lazaro_v4.py",
+      "/home/user/mappa_build/",
+      "/home/user/metodologie_box_rivisti_v5/LE_10_METODOLOGIE_DIDATTICHE_INCLUSIVE_BOX_RIVISTI_v5.html",
+      "/home/user/pdf_box_semantici_2026_10_31/",
+      "/home/user/rosalia_v2_build/build_rosalia_v5.py",
+      "/home/user/rosalia_v2_build/build_v3.py",
+      "/home/user/shake_v2_build/",
+      "/home/user/shake_v2_build/build_shake_v4.py",
+      "/home/user/uploads/"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "quaderno-mappe-lingue",
+    "description": "Creare e aggiornare quaderni inclusivi di grammatica per lingue straniere, anche il quaderno inglese esistente. Standard attuale: collana INGLESE FACILE, FRANCESE FACILE e SPAGNOLO FACILE sul modello di LATINO FACILE (copertine terracotta con clay adulto, guide iniziali, percorso quinquennale adattabile, indice cliccabile). Usare per: rigenerare i tre quaderni, aggiungere mappe, conservare tutte le mappe senza modificarle, nuove lingue e copertine coordinate. Include script di costruzione e confronto byte/testo/pixel con gli originali. Sorgenti: /home/user/inglese_build, /home/user/mappe-fr, /home/user/mappe-es; edizione attuale in /home/user/facile_edizione. NON per app web, presentazioni blog o quaderni narrativi (quaderno-accessibile).",
+    "category": "Documenti accessibili",
+    "entrypoint": "skills/quaderno-mappe-lingue/SKILL.md",
+    "scripts": [
+      "scripts/build_collana_facile.py",
+      "scripts/nuovo_quaderno.py",
+      "scripts/prepara_collana_facile.py",
+      "scripts/render_quaderno.py",
+      "scripts/verifica_collana_facile.py",
+      "scripts/verify_quaderno.py",
+      "templates/build_template.py"
+    ],
+    "template_files": 93,
+    "external_paths": [
+      "/home/user/facile_edizione.",
+      "/home/user/facile_edizione/",
+      "/home/user/inglese_build",
+      "/home/user/mappe-es",
+      "/home/user/mappe-fr",
+      "/home/user/skills/quaderno-mappe-lingue/scripts/nuovo_quaderno.py",
+      "/home/user/uploads/Latino_Facile_colori_app.pdf"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "quiz-adapter",
+    "description": "SUPERSEDED — usa invece la skill `parole-chiave-sorgente`. Adattava l'app Shakespeare Quiz a nuovi set di domande modificando i file in-place. Ora la ricostruzione di un'app identica con domande diverse si fa con scripts/rebuild_app.py della skill parole-chiave-sorgente (clona l'app sorgente e cambia solo le domande).",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/quiz-adapter/SKILL.md",
+    "scripts": [
+      "scripts/change_quiz_theme.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/skills/parole-chiave-sorgente/scripts/rebuild_app.py"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "quiz-interattivo-con-audio-sorgente",
+    "description": "Clona istantaneamente l'app QUIZ INTERATTIVO CON AUDIO SORGENTE (in /home/user/becquer-quiz) in una NUOVA app identica con un set di domande diverso. Usare quando l'utente chiede una nuova app simile/uguale al quiz sorgente con audio (stesse pause di lettura, stessi segmenti audio, stesso aspetto, codici classe, sessioni, contatore studenti, report PDF, voto su 10) cambiando SOLO le domande. Copre: costruzione del JSON domande (anche da testo libero dell'utente), clonazione da cartella locale o repo GitHub (--source), verifica automatica, deploy preview/produzione, export ZIP per GitHub. NON usare per modificare le domande dell'app sorgente né per manutenerla (usare la skill becquer-quiz).",
+    "category": "Clonazione app",
+    "entrypoint": "skills/quiz-interattivo-con-audio-sorgente/SKILL.md",
+    "scripts": [
+      "scripts/change_quiz_theme.py",
+      "scripts/clone_audio_quiz_app.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/_repo_",
+      "/home/user/becquer-quiz",
+      "/home/user/becquer-quiz/skills/quiz-interattivo-con-audio-sorgente/",
+      "/home/user/quiz-marquez",
+      "/home/user/quiz-marquez-questions.json",
+      "/home/user/skills/quiz-interattivo-con-audio-sorgente/",
+      "/home/user/skills/quiz-interattivo-con-audio-sorgente/scripts/change_quiz_theme.py",
+      "/home/user/skills/quiz-interattivo-con-audio-sorgente/scripts/clone_audio_quiz_app.py",
+      "/home/user/skills/quiz-interattivo-con-audio-sorgente/templates/questions_example.json"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "quiz-interattivo-sorgente",
+    "description": "Clona l'app QUIZ INTERATTIVO SORGENTE (l'app Shakespeare Quiz in /home/user/shakespeare-quiz) in una NUOVA app identica con un set di domande diverso. Usare quando l'utente chiede una nuova app simile/uguale al quiz sorgente cambiando solo le domande (stesso aspetto, codici classe, sessioni, contatore studenti, report PDF, voto su 10). NON usare per modificare le domande dell'app sorgente stessa (usare quiz-adapter) né per manutenere l'app sorgente (usare shakespeare-quiz).",
+    "category": "Clonazione app",
+    "entrypoint": "skills/quiz-interattivo-sorgente/SKILL.md",
+    "scripts": [
+      "scripts/change_quiz_theme.py",
+      "scripts/clone_quiz_app.py"
+    ],
+    "template_files": 1,
+    "external_paths": [
+      "/home/user/_repo_",
+      "/home/user/quiz-roma-antica",
+      "/home/user/quiz-roma-antica/StudentQuiz.tsx",
+      "/home/user/quiz-roma-antica/TeacherPage.tsx",
+      "/home/user/quiz-roma-antica/client/src/lib/reportPdf.ts",
+      "/home/user/quiz-roma-antica/client/src/pages/StudentQuiz.tsx",
+      "/home/user/quiz-roma-antica/client/src/pages/TeacherPage.tsx",
+      "/home/user/quiz-roma-antica/questions.ts",
+      "/home/user/quiz-roma-antica/reportPdf.ts",
+      "/home/user/quiz-roma-antica/server/questions.ts",
+      "/home/user/shakespeare-quiz",
+      "/home/user/shakespeare-quiz/skills/",
+      "/home/user/skills/",
+      "/home/user/skills/quiz-interattivo-sorgente/scripts/clone_quiz_app.py",
+      "/home/user/skills/quiz-interattivo-sorgente/templates/questions_example.json"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "research-report",
+    "description": "Research a topic across many sources and write a cited long-form document: report, article, white paper, literature review, market or competitor overview, guide. Not needed for a quick answer one or two searches settle.",
+    "category": "Generali",
+    "entrypoint": "skills/research-report/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/research/notes.md",
+      "/home/user/research/report/01-....md"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "romanticismo-interattivo",
+    "description": "Manutenzione completa dell'app Romanticismo Interattivo (Vite + React + TypeScript + Tailwind + tRPC + Drizzle). Usare per modificare UI, deploy, hotspot, PDF report, stili. Esplorazione interattiva del Romanticismo spagnolo con hotspot e audio.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/romanticismo-interattivo/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/romanticismo-interattivo",
+      "/home/user/uploads/Spagnolo_-_Letteratura_-_Romanticismo_-_Spiegazione_dell_immagine.docx"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "schema-quiz-builder",
+    "description": "Build, adapt, and maintain interactive schema/quiz classroom apps (Vite + React + TypeScript + Tailwind + tRPC + Drizzle). Use when: building a NEW interactive classroom app, adapting an existing app to a NEW question set/topic, debugging the teacher dashboard or student flow, modifying session management, room codes, PDF generation, or iframe embedding. Use for ANY request about the app structure regardless of whether the user mentions 'schema app'. MUST read before making any changes to the app.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/schema-quiz-builder/SKILL.md",
+    "scripts": [
+      "scripts/adapt_questions.py"
+    ],
+    "template_files": 1,
+    "external_paths": [],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "shakespeare-quiz",
+    "description": "Manutenzione completa e personalizzazione dell'app Shakespeare Quiz (Vite + React + TypeScript + Tailwind + tRPC + Drizzle + SQLite). Usare per: modificare UI studente/docente, correggere logica di sessione, deploy preview/produzione, personalizzare report PDF, modificare il contatore studenti attivi, gestire ZIP e checkpoint. NON usare per cambiare le domande del quiz — usare quiz-adapter.",
+    "category": "App didattiche e manutenzione",
+    "entrypoint": "skills/shakespeare-quiz/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/shakespeare-quiz"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "skill-creator",
+    "description": "Guide for creating or updating skills that extend Marky via specialized knowledge, workflows, or tool integrations. For any modification or improvement request, MUST first read this skill and follow its update workflow instead of editing files directly.",
+    "category": "Generali",
+    "entrypoint": "skills/skill-creator/SKILL.md",
+    "scripts": [
+      "scripts/init_skill.py",
+      "scripts/quick_validate.py"
+    ],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/skills/",
+      "/home/user/skills/my-video-style",
+      "/home/user/skills/skill-creator/references/output-patterns.md",
+      "/home/user/skills/skill-creator/references/progressive-disclosure-patterns.md",
+      "/home/user/skills/skill-creator/references/workflows.md",
+      "/home/user/skills/skill-creator/scripts/init_skill.py",
+      "/home/user/skills/skill-creator/scripts/quick_validate.py",
+      "/home/user/skills/video-generation"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "video-claymation-didattico",
+    "description": "Creazione e manutenzione di video documentari didattici in stile claymation (stop-motion in plastilina) generati con l'IA: documentari storici/letterari/scientifici per la scuola, con narrazione audio e montaggio ffmpeg. Usare per: creare un nuovo video didattico simile al documentario «Marco histórico del Romanticismo en España», pianificare scene da una narrazione, generare clip video AI coerenti (prompt a 3 strati + immagini di riferimento), assemblare con ffmpeg (trim/stretch, concat, fades), controllo qualità (QA) e correzione dei testi generati dall'IA. NON usare per modificare le app web didattiche (usare le relative skill).",
+    "category": "Audio video e 3D didattici",
+    "entrypoint": "skills/video-claymation-didattico/SKILL.md",
+    "scripts": [
+      "scripts/assemble_claymation.py",
+      "scripts/plan_scene.py",
+      "scripts/qa_frames.py"
+    ],
+    "template_files": 3,
+    "external_paths": [
+      "/home/user/claymation-espana-xix/"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "video-generation",
+    "description": "Plan and produce videos. Use for any request to generate, animate or edit video, including ads and promos, motion graphics, logo and text animation, social clips, music videos, character stories, and trimming, joining, subtitling or reformatting existing footage.",
+    "category": "Generali",
+    "entrypoint": "skills/video-generation/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "web-design",
+    "description": "How websites, landing pages and web app screens should look: a direction drawn from the subject, palette and type tokens, layout, images, copy, and a screenshot check at desktop and phone widths before delivery. Read before designing, building or restyling any page.",
+    "category": "Generali",
+    "entrypoint": "skills/web-design/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/site-check",
+      "/home/user/skills/web-design/scripts/check_site.mjs"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "wide-research",
+    "description": "MUST read before researching, enriching or comparing many similar items (10+ companies, people, products, websites or papers that each need their own lookup; 5+ when the user asks for thorough coverage). Fans out sub-agents with parallel_map.",
+    "category": "Generali",
+    "entrypoint": "skills/wide-research/SKILL.md",
+    "scripts": [],
+    "template_files": 0,
+    "external_paths": [],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  },
+  {
+    "name": "widget-matematico-sorgente",
+    "description": "Clona l'app WIDGET MATEMATICO SORGENTE (in /home/user/equazioni-biquadratiche, Vite + React + TypeScript + Tailwind, scaffold web-static) in una NUOVA app identica cambiando SOLO il grado dell'equazione (grado 2, 4, 6, 8... tramite sostituzione t=x^k). Usare quando l'utente chiede una nuova app simile/uguale alla sorgente con un grado diverso, oppure un'app sulle disequazioni. Supporta la clonazione da cartella locale O da repository GitHub (flag --source dello script clone_app.py). Copre: mappa del grado nel codice, workflow di clonazione, adattamento a disequazioni (studio del segno), deploy preview/produzione, export ZIP. NON usare per modificare o mantenere l'app sorgente stessa — usare la skill equazioni-biquadratiche.",
+    "category": "Clonazione app",
+    "entrypoint": "skills/widget-matematico-sorgente/SKILL.md",
+    "scripts": [
+      "scripts/clone_app.py"
+    ],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/equazioni-biquadratiche",
+      "/home/user/skills/widget-matematico-sorgente/scripts/clone_app.py"
+    ],
+    "reuse_note": "Per clonare o ricostruire una app servono anche il repository sorgente e la configurazione locale. Questa è la skill, non la app."
+  },
+  {
+    "name": "zip-esportabile-guide-ia",
+    "description": "Pattern riutilizzabile per creare o aggiornare il PACCHETTO ZIP ESPORTABILE di app generate su Easy-Peasy AI (scaffold web-db-user o web-static), pronto per agenti IA e/o GitHub. Requisiti: (1) l'IA deve poter RICOSTRUIRE l'app identica dal repository GitHub (REBUILD.md) e creare VARIANTI (ADATTARE.md): grado equazione diverso, disequazioni di qualunque grado, equazioni/disequazioni fratte, altra lingua straniera (inglese/spagnolo/francese), o nuovo set di domande (contenuto, numero e tipologia: VERO/FALSO, risposta multipla 3-4 opzioni, risposta breve); (2) trasferire l'app da Easy-Peasy AI a Render via GitHub (RENDER.md); (3) sezione ACCESSIBILITA' ben segnalata (ACCESSIBILITA.md) con misure riusabili (font OpenDyslexic ecc.) su altre app simili. Includere anche AGENTS.md. NON usare per modificare il codice di una singola app: usare la skill di manutenzione specifica di quell'app.",
+    "category": "Pubblicazione cornici ed export",
+    "entrypoint": "skills/zip-esportabile-guide-ia/SKILL.md",
+    "scripts": [
+      "scripts/export_verified.py"
+    ],
+    "template_files": 0,
+    "external_paths": [
+      "/home/user/cornice-universale",
+      "/home/user/recon-",
+      "/home/user/skills/zip-esportabile-guide-ia/scripts/export_verified.py"
+    ],
+    "reuse_note": "Usare risorse incluse; fornire input, fonti ed eventuali strumenti/dipendenze richiesti. Non eseguire servizi a pagamento durante i test offline."
+  }
+]

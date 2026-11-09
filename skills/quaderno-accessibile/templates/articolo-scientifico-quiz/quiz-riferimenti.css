@@ -1,0 +1,21 @@
+
+body{hyphens:none}
+.cover-subtitle{color:#243c5a;font-size:12.5pt;line-height:1.65;text-align:center;margin:3mm 0 4mm;font-weight:700}
+#indice .ind-label a{font-weight:700}
+.blk{padding:6.5px 14px;margin:9px 0}
+.blk a.cite{color:#243c5a;text-decoration:none;font-weight:400;white-space:nowrap}
+.quiz-card{break-inside:avoid;page-break-inside:avoid;background:#fffaf0;border:1pt solid #d6c5a3;border-radius:3mm;padding:3mm 4mm;margin:0 0 4mm}
+.quiz-question{margin:0 0 2mm;font-weight:400;color:#111}
+.quiz-question strong{color:#243c5a}
+.quiz-options{table-layout:fixed;width:100%;border-collapse:collapse;border:0;background:transparent;margin:0;font-size:13pt;line-height:1.85}
+.quiz-options td{width:50%;padding:1mm 1.5mm;border:0;vertical-align:top;text-align:left;font-weight:400}
+.quiz-options .option-letter{color:#243c5a;font-weight:700;display:inline-block;width:6mm}
+.quiz-instructions{background:#fffaf0;border:1pt solid #d6c5a3;border-radius:3mm;padding:3mm 4mm;margin:0 0 4mm;break-inside:avoid;break-after:avoid;font-size:13pt;line-height:1.85}
+#verifica .unit-banner{background:#14696e!important}
+#bibliografia{break-before:page!important;page-break-before:always!important;break-inside:auto!important}
+#bibliografia h2{background:#243c5a!important}
+.ref-entry{break-inside:avoid;page-break-inside:avoid;border:1pt solid #e6d5ae;border-radius:3mm;background:#fffaf0;padding:3mm 4mm;margin:0 0 4mm;font-size:12pt;line-height:1.85}
+.ref-entry p{margin:0;text-align:left}.ref-entry p+p{margin-top:1mm}
+.ref-entry a{color:#174f8b;text-decoration:underline;overflow-wrap:anywhere}
+.ref-note{font-size:11.5pt;line-height:1.85;color:#222}
+.article-signature{font-size:13pt;line-height:1.85;text-align:left;margin:5mm 0 0;break-inside:avoid}

@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "modifica_html_solo_interruzione_prima_della_mappa": true,
+    "pagine_28": true,
+    "indice_html_identico": true,
+    "fonti_identiche": true,
+    "quiz_10_domande_identico": true,
+    "mappa_finale_identica": true,
+    "entrambe_mappe_pagina_20": true,
+    "mappa_1_identica": true,
+    "mappa_1_dimensioni_originali": true,
+    "mappa_1_dimensioni_mm": [
+      174.0,
+      97.12
+    ],
+    "mappa_1_pagina_20_bbox": [
+      51.02,
+      89.72,
+      544.25,
+      365.01
+    ],
+    "mappa_2_identica": true,
+    "mappa_2_dimensioni_originali": true,
+    "mappa_2_dimensioni_mm": [
+      174.0,
+      59.05
+    ],
+    "mappa_2_pagina_20_bbox": [
+      51.02,
+      409.37,
+      544.25,
+      576.76
+    ],
+    "mappe_in_ordine_e_non_sovrapposte": true,
+    "titoli_completi_in_ordine": true,
+    "pagine_fuori_19_20_con_differenze_visive": [],
+    "altre_26_pagine_visivamente_identiche": true,
+    "testo_font_neretti_pag_19_20_invariati": true,
+    "link_interni_ed_esterni_invariati": true,
+    "collegamenti_fonti_con_area_positiva": true,
+    "dieci_domande": true,
+    "indice_ha_12_voci_collegate_corrette": true,
+    "sha256_baseline": "0a342bac0f72f474ad1859e2ea22006d7d39e70c1eba4cbd8541b728e1ea6993",
+    "sha256_risultato": "bb6ae1cd2fcd9c786f60a25ebccb7c1402681f2b7c997f0aae3ac0dfad1781ff"
+  },
+  "limiti": "Confronto pixel a 72 dpi e controlli strutturali; non è una certificazione PDF/UA né una nuova verifica delle fonti."
+}

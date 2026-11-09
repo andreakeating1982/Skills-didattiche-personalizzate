@@ -1,0 +1,192 @@
+{
+  "title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+  "date": "2026-11-01",
+  "pdf": {
+    "local_path": "/home/user/metodologie_unita_pagina_nuova_v12/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_UNITA_PAGINA_NUOVA_v12.pdf",
+    "sha256": "f36e9ff5b183e7bc71c2fc7e3870b6d11fc104d424af1ad501654c40e9d39a49",
+    "pages": 29,
+    "included_in_skill": false
+  },
+  "portable_sources": {
+    "directory": "templates/metodologie-v12",
+    "html": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_UNITA_PAGINA_NUOVA_v12.html",
+    "render": "render_pdf.py",
+    "expectations": "aspettative-titoli.json",
+    "page_start_manifest": "aspettative-inizi-pagina.json",
+    "files": [
+      {
+        "file": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_UNITA_PAGINA_NUOVA_v12.html",
+        "sha256": "ff9b1d52aeef2163f43e0e1a28902003a2c53f4dd5b45e5debf4d3fc4cd3e470",
+        "bytes": 52976
+      },
+      {
+        "file": "stile.css",
+        "sha256": "8246e7e79cb513fa6e4d8370716422f139a025c004649fd963287b11a0e2f021",
+        "bytes": 6578
+      },
+      {
+        "file": "render_pdf.py",
+        "sha256": "3ae302006ffa781f78f5ba372fa56d89748ae963f2d1b5ec9122bbf8c49bde55",
+        "bytes": 240
+      },
+      {
+        "file": "aspettative-titoli.json",
+        "sha256": "64dd8de629e7c441fbe92881001b21a73d438bcea362248388f44fff26e1b7f2",
+        "bytes": 22084
+      },
+      {
+        "file": "aspettative-inizi-pagina.json",
+        "sha256": "2b0cbfe3a45f359fd9c0118aaa35292d0afca51089d3950a89cc726bdb0a12d1",
+        "bytes": 291
+      },
+      {
+        "file": "fonts/OpenDyslexic-Bold.otf",
+        "sha256": "8cd3dc316f3567a28c732f71629cb40ab58b6c7351560960bf4af1ffa8450185",
+        "bytes": 48832
+      },
+      {
+        "file": "fonts/OpenDyslexic-Regular.otf",
+        "sha256": "c6f7095c9cf98480a8c84de8518109ec857e5e72f763cba53792fc083c30c764",
+        "bytes": 49652
+      },
+      {
+        "file": "media/immagine_01_137.jpeg",
+        "sha256": "08d771d3e0748c0522995140f7b14a37fbfd3fc87874cfbfdeedb4114d8582ea",
+        "bytes": 245991
+      },
+      {
+        "file": "media/immagine_02_138.jpeg",
+        "sha256": "3a2b836c9125e4297d7e7d117f673b2cb7e8687fa82857c8648fa49aac3024ac",
+        "bytes": 253716
+      },
+      {
+        "file": "media/immagine_08_144.jpeg",
+        "sha256": "95d4f2b786a0bdcb01a2dde37a866af869f5c04bcf8008fde29f1e710eff6786",
+        "bytes": 303282
+      },
+      {
+        "file": "media/immagine_12_148.jpeg",
+        "sha256": "24b17e3a02ca3e3d7d2fc6d7a3e910ff0353cab0acfc5dd688caca725c1aefdc",
+        "bytes": 285082
+      },
+      {
+        "file": "media/immagine_14_150.jpeg",
+        "sha256": "d1e88a7157a0becf6ad3d6f292b40e1e5a940ca4e97596702058e68b1168a051",
+        "bytes": 205667
+      },
+      {
+        "file": "media/immagine_20_156.jpeg",
+        "sha256": "08f71110ce750855c0bda73f427edb0c9e0d6449287d912548a20780f4a7ded3",
+        "bytes": 268659
+      }
+    ],
+    "binary_pdf_hash_not_guaranteed_after_render": true
+  },
+  "history": [
+    {
+      "version": "v8 BASE CORRETTA",
+      "sha256": "9ba82ceae0ce84656943356c70c6be9c740d0e39b7fb55615d660a420268a906",
+      "pages": 35,
+      "images": 21,
+      "role": "Radice corretta dal corpo v5, non ultima edizione grafica."
+    },
+    {
+      "version": "v10 RIMPAGINATO",
+      "sha256": "27aa33e71c31db82fa8248ffc2e005f322a8514ce641ce902e9f25555c6fc167",
+      "pages": 23,
+      "images": 6,
+      "role": "Meno immagini e vuoti, etichette FONTI rimosse dalle citazioni, bibliografia preservata."
+    },
+    {
+      "version": "v11 TITOLI CENTRATI",
+      "sha256": "f01a64f3767f275c15c7b217f6ef018804095b2a5f45a7ba513a21db46aea441",
+      "pages": 23,
+      "images": 6,
+      "role": "Titoli/colori preservati nella v12, ma paginazione rifiutata dall’utente: flusso continuo fra unità non consentito."
+    },
+    {
+      "version": "v12 UNITÀ PAGINA NUOVA",
+      "sha256": "f36e9ff5b183e7bc71c2fc7e3870b6d11fc104d424af1ad501654c40e9d39a49",
+      "pages": 29,
+      "images": 6,
+      "role": "Corregge la v11 rifiutata per gli inizi pagina.13sezioni principali sempre su nuova pagina; HTML identico alla v11, solo CSS dei confini modificato."
+    }
+  ],
+  "invariants": {
+    "content_and_emphasis_preserved": true,
+    "headings_centered": true,
+    "white_heading_on_banners_preserved": true,
+    "body_black_left_aligned": true,
+    "index_entries_preserved": true,
+    "images_on_selected_units": [
+      1,
+      4,
+      6,
+      7,
+      10
+    ],
+    "cover_image_present": true,
+    "bibliography_preserved": true,
+    "repeated_source_labels_removed": true,
+    "semantic_box_max_lines": 5,
+    "no_pdfua_validation_claim": true,
+    "each_unit_and_final_section_starts_new_page": true,
+    "required_new_page_sections": [
+      "sec1",
+      "sec2",
+      "sec3",
+      "sec4",
+      "sec5",
+      "sec6",
+      "sec7",
+      "sec8",
+      "sec9",
+      "sec10",
+      "mappa",
+      "fonti",
+      "appendice"
+    ],
+    "compaction_scope": "Only within the same section. Never merge section boundaries to fill blank space.",
+    "previous_page_count_23_is_not_a_target": true
+  },
+  "current_audio": {
+    "version": "v9 senza fonti, Peer tutoring approvato",
+    "local_path": "/home/user/metodologie_audio_senza_fonti_v9/consegna/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_AUDIO_PEER_TUTORING_CORRETTO_SENZA_FONTI_v9.mp3",
+    "sha256": "1cf8b49e96177c5d8089ec8f515f7bfc1780171ae416d2115cb0d0680948ece8",
+    "duration_seconds": 1230.106122,
+    "duration": "20:30",
+    "included_in_skill": false,
+    "compatible_with_current_pdf": "Sì: testo e ordine invariati, escluse le fonti su richiesta; nuove interruzioni di pagina non cambiano la registrazione."
+  },
+  "post_image": {
+    "file": "templates/post-blog/metodologie-inclusive.png",
+    "sha256": "0a415885acf8497c6fd85a27476be22a881ee8f9f520046e0e5aa1176cfd34ce",
+    "separate_from_pdf_cover": true
+  },
+  "section_start_pages": {
+    "sec1": 2,
+    "sec2": 4,
+    "sec3": 6,
+    "sec4": 8,
+    "sec5": 10,
+    "sec6": 12,
+    "sec7": 14,
+    "sec8": 16,
+    "sec9": 18,
+    "sec10": 20,
+    "mappa": 22,
+    "fonti": 24,
+    "appendice": 27
+  },
+  "checks": {
+    "titles": 111,
+    "title_lines": 127,
+    "max_box_lines": 5,
+    "required_new_page_sections": 13,
+    "index_printed_pages_and_links_verified": true,
+    "visual_review_complete": true
+  },
+  "historical_version": "v12 UNITÀ PAGINA NUOVA",
+  "status": "SUPERATA: inizi pagina corretti, ma immagini solo in cinque unità e dopo il testo. Usare v13 con UNA immagine subito dopo OGNI banner.",
+  "superseded_by_registry": "baseline-metodologie-v13.json"
+}

@@ -1,0 +1,171 @@
+{
+  "original_pages": 37,
+  "new_pages": 37,
+  "moved_earlier": [
+    {
+      "id": "es4--3",
+      "tipo": "testo",
+      "pagina_prima": 8,
+      "pagina_dopo": 7,
+      "testo": "Los apartados contienen modulaciones distintas del tema que hemos determinado en la fase anterior. Hay te"
+    },
+    {
+      "id": "it2--10",
+      "tipo": "testo",
+      "pagina_prima": 17,
+      "pagina_dopo": 16,
+      "testo": "In questo capitolo analizzeremo il frammento dell'opera che ci è stato assegnato."
+    },
+    {
+      "id": "it2--11",
+      "tipo": "testo",
+      "pagina_prima": 17,
+      "pagina_dopo": 16,
+      "testo": "Il testo appartiene a un'opera di cui non conosciamo nulla. Ricercheremo nel manuale alcuni dati riguarda"
+    },
+    {
+      "id": "it3--3",
+      "tipo": "testo",
+      "pagina_prima": 19,
+      "pagina_dopo": 18,
+      "testo": "Ad esempio, un tema del Lazarillo de Tormes potrebbe essere il seguente:"
+    },
+    {
+      "id": "it3--4",
+      "tipo": "testo",
+      "pagina_prima": 19,
+      "pagina_dopo": 18,
+      "testo": "Il tema del frammento è semplice: il picaro ci racconta le astuzie che usa per raggirare l'avarizia del c"
+    },
+    {
+      "id": "it4--4",
+      "tipo": "testo",
+      "pagina_prima": 21,
+      "pagina_dopo": 20,
+      "testo": "Ogni suddivisione conterrà modulazioni distinte del tema principale individuato nella fase precedente. Po"
+    },
+    {
+      "id": "it4--5",
+      "tipo": "testo",
+      "pagina_prima": 21,
+      "pagina_dopo": 20,
+      "testo": "Le sezioni, dunque, non saranno parti estranee al testo."
+    },
+    {
+      "id": "it7--4",
+      "tipo": "testo",
+      "pagina_prima": 26,
+      "pagina_dopo": 25,
+      "testo": "Impressione personale. La nostra impressione personale dovrà essere sincera, modesta e ferma. Eviteremo, "
+    },
+    {
+      "id": "it7--5",
+      "tipo": "testo",
+      "pagina_prima": 26,
+      "pagina_dopo": 25,
+      "testo": "Tale impressione sarà relativa solo al frammento analizzato e non verrà influenzata dalle altrui impressi"
+    }
+  ],
+  "new_transition_checks": [
+    {
+      "sezione": "es2",
+      "pagina": 4,
+      "ultimo": "es2--7",
+      "successivo": "es2--8",
+      "tipo_successivo": "testo",
+      "residuo_mm": 14.44,
+      "altezza_successivo_mm": 44.02,
+      "successivo_in_pagina": 5,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "es4",
+      "pagina": 7,
+      "ultimo": "es4--3",
+      "successivo": "es4--4",
+      "tipo_successivo": "sintesi",
+      "residuo_mm": 70.76,
+      "altezza_successivo_mm": 81.46,
+      "successivo_in_pagina": 8,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "es5",
+      "pagina": 9,
+      "ultimo": "es5--6",
+      "successivo": "es5--7",
+      "tipo_successivo": "testo",
+      "residuo_mm": 3.64,
+      "altezza_successivo_mm": 25.75,
+      "successivo_in_pagina": 10,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "it2",
+      "pagina": 15,
+      "ultimo": "it2--6",
+      "successivo": "it2--7",
+      "tipo_successivo": "testo",
+      "residuo_mm": 3.64,
+      "altezza_successivo_mm": 25.75,
+      "successivo_in_pagina": 16,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "it2",
+      "pagina": 16,
+      "ultimo": "it2--11",
+      "successivo": "it2--12",
+      "tipo_successivo": "sintesi",
+      "residuo_mm": 77.43,
+      "altezza_successivo_mm": 83.93,
+      "successivo_in_pagina": 17,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "it3",
+      "pagina": 18,
+      "ultimo": "it3--4",
+      "successivo": "it3--5",
+      "tipo_successivo": "sintesi",
+      "residuo_mm": 46.01,
+      "altezza_successivo_mm": 61.39,
+      "successivo_in_pagina": 19,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "it4",
+      "pagina": 20,
+      "ultimo": "it4--5",
+      "successivo": "it4--6",
+      "tipo_successivo": "sintesi",
+      "residuo_mm": 20.26,
+      "altezza_successivo_mm": 72.32,
+      "successivo_in_pagina": 21,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "it5",
+      "pagina": 22,
+      "ultimo": "it5--5",
+      "successivo": "it5--6",
+      "tipo_successivo": "testo",
+      "residuo_mm": 11.12,
+      "altezza_successivo_mm": 25.75,
+      "successivo_in_pagina": 23,
+      "entrerebbe": false
+    },
+    {
+      "sezione": "it7",
+      "pagina": 25,
+      "ultimo": "it7--5",
+      "successivo": "it7--6",
+      "tipo_successivo": "sintesi",
+      "residuo_mm": 38.53,
+      "altezza_successivo_mm": 58.92,
+      "successivo_in_pagina": 26,
+      "entrerebbe": false
+    }
+  ],
+  "transitions_to_review": []
+}

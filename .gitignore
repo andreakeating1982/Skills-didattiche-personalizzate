@@ -1,0 +1,19 @@
+# Dati e ambienti locali
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+.DS_Store
+workspace/
+skills-runtime/
+progetti.locali.json
+*.db
+*.sqlite*

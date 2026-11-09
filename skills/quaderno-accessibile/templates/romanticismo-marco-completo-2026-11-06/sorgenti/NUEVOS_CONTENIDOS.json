@@ -1,0 +1,37 @@
+{
+  "notes": {
+    "sec1-p02": [1], "sec1-p03": [1],
+    "sec2-p01": [1], "sec2-p02": [1], "sec2-p03": [1],
+    "sec3-p01": [2], "sec3-p02": [2],
+    "sec4-p01": [3], "sec4-p03": [3], "sec4-p05": [3],
+    "sec5-p01": [4], "sec5-p03": [4], "sec5-p04": [5]
+  },
+  "references": [
+    {"id":1,"author":"Congreso de los Diputados","title":"Constitución de 1812","url":"https://www.congreso.es/es/cem/const1812"},
+    {"id":2,"author":"Congreso de los Diputados","title":"Las Regencias y el Reinado de Isabel II, 1833–1868","url":"https://www.congreso.es/es/cem/regen"},
+    {"id":3,"author":"Congreso de los Diputados","title":"Sexenio Revolucionario, 1868–1874","url":"https://www.congreso.es/es/cem/sexrevol"},
+    {"id":4,"author":"Congreso de los Diputados","title":"La Restauración, 1874–1923","url":"https://www.congreso.es/es/cem/restaur"},
+    {"id":5,"author":"Office of the Historian, U.S. Department of State","title":"The Spanish-American War, 1898","url":"https://history.state.gov/milestones/1866-1898/spanish-american-war"}
+  ],
+  "quiz": [
+    {"q":"¿A quién colocó Napoleón en el trono español en 1808?","options":["A. A su hermano José I.","B. A Isabel II.","C. A Alfonso XII.","D. A Amadeo I."],"answer":"A","evidence":"sec1-p02"},
+    {"q":"¿Qué ocurrió el 2 de mayo de 1808 en Madrid?","options":["A. Se proclamó la República.","B. La población se sublevó.","C. Se aprobó la Constitución.","D. Regresó Alfonso XII."],"answer":"B","evidence":"sec1-p03"},
+    {"q":"Según la Constitución de Cádiz, ¿a quién pertenecía la soberanía?","options":["A. Solo al rey.","B. A Napoleón.","C. A la nación.","D. A Carlos María Isidro."],"answer":"C","evidence":"sec2-p02"},
+    {"q":"¿Qué hizo Fernando VII al regresar a España en 1814?","options":["A. Proclamó la República.","B. Cedió el trono a Isabel II.","C. Ratificó la Constitución.","D. Restauró el absolutismo."],"answer":"D","evidence":"sec2-p03"},
+    {"q":"¿Qué conflicto originó la Primera Guerra Carlista?","options":["A. La disputa por el trono.","B. La elección de Amadeo I.","C. La invasión de 1808.","D. La guerra contra EE. UU."],"answer":"A","evidence":"sec3-p01–p02"},
+    {"q":"¿Qué ideas se enfrentaron en esa guerra?","options":["A. República y Restauración.","B. Tradición y liberalismo.","C. Francia y Estados Unidos.","D. Colonias y metrópoli."],"answer":"B","evidence":"sec3-p03"},
+    {"q":"¿Qué sucedió durante la Gloriosa de 1868?","options":["A. Isabel II llegó al trono.","B. Volvió Fernando VII.","C. Isabel II fue derrocada.","D. Se aprobó la Pepa."],"answer":"C","evidence":"sec4-p01"},
+    {"q":"¿Qué se proclamó después de la abdicación de Amadeo I?","options":["A. La Constitución de Cádiz.","B. La guerra de Independencia.","C. La regencia de 1833.","D. La Primera República."],"answer":"D","evidence":"sec4-p04–p05"},
+    {"q":"¿Qué significó la Restauración de 1875?","options":["A. El regreso de los Borbones.","B. La llegada de José I.","C. El inicio de la República.","D. El exilio de Fernando VII."],"answer":"A","evidence":"sec5-p01"},
+    {"q":"¿Qué pasó en el Desastre de 1898?","options":["A. España ganó a Francia.","B. España perdió Cuba.","C. Isabel II recuperó el trono.","D. Se aprobó la Pepa."],"answer":"B","evidence":"sec5-p04–p05"}
+  ],
+  "chapter_maps": [
+    {"chapter":"sec1","title":"1808 · GUERRA","words":["NAPOLEÓN · JOSÉ I","LEVANTAMIENTO","RESISTENCIA"],"image":"originale_p02_xref80.png","alt":"Una escena de resistencia evoca la invasión de 1808.","color":"#b23c47"},
+    {"chapter":"sec2","title":"1812 · CÁDIZ","words":["LAS CORTES","SOBERANÍA NACIONAL","CONSTITUCIÓN"],"image":"originale_p03_xref83.png","alt":"Una asamblea reunida en torno a la Constitución de Cádiz.","color":"#1a5fb4"},
+    {"chapter":"sec3","title":"1833 · ISABEL II","words":["SUCESIÓN","REGENCIA","GUERRA CARLISTA"],"image":"originale_p04_xref86.png","alt":"Una joven reina y dos bandos evocan la guerra carlista.","color":"#257041"},
+    {"chapter":"sec4","title":"1868 · LA GLORIOSA","words":["ISABEL II · EXILIO","AMADEO I","REPÚBLICA · 1873"],"image":"originale_p05_xref89.png","alt":"Una barricada evoca la Gloriosa y los cambios políticos.","color":"#9b4f12"},
+    {"chapter":"sec5","title":"1875 · 1898","words":["RESTAURACIÓN","REGENCIA · 1898","DESASTRE DEL 98"],"image":"originale_p06_xref92.png","alt":"Un monarca y un paisaje marítimo evocan la Restauración y 1898.","color":"#744394"},
+    {"chapter":"sec6","title":"ACTIVIDAD 3D","words":["LÍNEA DEL TIEMPO","AUDIO","FECHAS Y HECHOS"],"image":"actividad_vr_aprobada.png","alt":"Una persona con un visor explora una línea del tiempo virtual.","color":"#14696e"}
+  ]
+}
+

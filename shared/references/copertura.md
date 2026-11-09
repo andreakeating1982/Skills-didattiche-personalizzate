@@ -1,0 +1,24 @@
+# Alias, disponibilità e precedenza
+
+Caricare la scheda corrente, non tutti gli originali. Fonte completa significa
+cartella della skill disponibile, NON app ricostruita o ricollaudata.
+
+| Nome storico | Scheda corrente | Disponibilità | Sostituzione originale |
+|---|---|---|---|
+| circolari-audio | [circolari](circolari.md) | Parziale, ricostruita | Conservare fino al recupero risorse |
+| video-claymation-didattico | [video-clay](video-clay.md) | Completa | Dopo installazione nuova skill |
+| modello-3d-didattico | [modelli-3d](modelli-3d.md) | Completa | Dopo installazione nuova skill |
+
+## Fonti parziali e dati non verificati
+
+- **circolari-audio**: Descrizione corrente + estratti chat10/10 sul formato e loudness. Mancano: scripts/normalizza_audio.sh originale.
+
+## Precedenza
+
+Richiesta attuale e codice verificato → scheda canonica → riferimenti tecnici
+pertinenti → storico originale. Non ripristinare regole superate né usare
+le vecchie istruzioni di deploy senza preview/consenso.
+
+Nessuna vecchia skill è stata disattivata dall’account durante questo lavoro.
+Le skill generali di sistema non sono sostituite o modificate.
+

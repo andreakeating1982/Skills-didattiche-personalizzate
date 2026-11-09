@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "approved_original_pdf_sha256": "e45d9dd11d07247c8ba7325dd8d70c039ab37ebf275b371aa39f06e4e03bd57d",
+  "revised_pdf_sha256": "4ec51501219766e65de933886fd9b786c14c1190f95a872d3999e4d67cfe6b0e",
+  "pages": 16,
+  "body_blocks": 32,
+  "en_resumen": 5,
+  "all_body_and_summaries_identical_in_html": true,
+  "moved_tables_unchanged": true,
+  "order": {
+    "sec3": {
+      "ordine": [
+        "ultimo testo",
+        "schema delle idee",
+        "EN RESUMEN"
+      ],
+      "passed": true
+    },
+    "sec5": {
+      "ordine": [
+        "ultimo testo",
+        "linea del tempo",
+        "schema dei protagonisti",
+        "EN RESUMEN"
+      ],
+      "passed": true
+    }
+  },
+  "table_geometry": {
+    "DOS IDEAS DE ESPAÑA EN LUCHA": [
+      {
+        "page": 7,
+        "rect": [
+          51.0236220472441,
+          75.54291338582678,
+          544.2519685039371,
+          293.85866141732276
+        ]
+      }
+    ],
+    "LOS PROTAGONISTAS DEL SIGLO": [
+      {
+        "page": 11,
+        "rect": [
+          51.0236220472441,
+          521.5157480314962,
+          544.2519685039371,
+          713.931496062992
+        ]
+      }
+    ]
+  },
+  "timeline_geometry": [
+    {
+      "page": 11,
+      "rect": [
+        51.0236220472441,
+        204.58700787401577,
+        544.2519685039372,
+        479.9885826771654
+      ]
+    }
+  ],
+  "six_map_cards": {
+    "map-node-1": {
+      "page": 15,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "overflow": 0
+    },
+    "map-node-2": {
+      "page": 15,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "overflow": 0
+    },
+    "map-node-3": {
+      "page": 15,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "overflow": 0
+    },
+    "map-node-4": {
+      "page": 16,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "overflow": 0
+    },
+    "map-node-5": {
+      "page": 16,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "overflow": 0
+    },
+    "map-node-6": {
+      "page": 16,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "overflow": 0
+    }
+  },
+  "index": [
+    {
+      "id": "sec1",
+      "printed": "2",
+      "target": 2,
+      "passed": true
+    },
+    {
+      "id": "sec2",
+      "printed": "4",
+      "target": 4,
+      "passed": true
+    },
+    {
+      "id": "sec3",
+      "printed": "6",
+      "target": 6,
+      "passed": true
+    },
+    {
+      "id": "sec4",
+      "printed": "8",
+      "target": 8,
+      "passed": true
+    },
+    {
+      "id": "sec5",
+      "printed": "10",
+      "target": 10,
+      "passed": true
+    },
+    {
+      "id": "sec6",
+      "printed": "13",
+      "target": 13,
+      "passed": true
+    },
+    {
+      "id": "mapa",
+      "printed": "15",
+      "target": 15,
+      "passed": true
+    }
+  ],
+  "summary_weight": [
+    "400"
+  ],
+  "active_index_links": 21,
+  "errors": [],
+  "limits": "Il confronto di regressione copre le strutture HTML, geometria, indice, numeri e pesi effettivi; non sostituisce il controllo visivo o la validazione indipendente PDF/UA."
+}

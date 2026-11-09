@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "units": 5,
+  "questions": 10,
+  "references": 4,
+  "quiz_coverage": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4",
+    "sec5"
+  ],
+  "errors": [],
+  "limits": "Controllo strutturale offline, non certifica livello di difficoltà, correttezza scientifica, veridicità bibliografica né PDF/UA. Integrare QA tipografico/visivo e revisione umana."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "TITOLO DEL PDF",
+  "slug": "TITOLO_DEL_PDF",
+  "source_pdf": "input.pdf",
+  "source_sha256": "SOSTITUIRE_CON_SHA256_DEL_PDF_EFFETTIVO",
+  "pages": 3,
+  "speed": 1.12,
+  "exclusions": [
+    {"page": 1, "reason": "Localizzatori di pagina e badge grafici dell’indice, verificati visivamente"}
+  ],
+  "parts": [
+    {
+      "name": "01_copertina",
+      "chapter": 0,
+      "title": "Titolo e indice",
+      "pages": [1, 1],
+      "gender": "female",
+      "speed": 1.12,
+      "text": "Sostituire con il testo definitivo integrale del titolo e dell’indice, senza localizzatori di pagina.",
+      "clip_path": "clip/01_copertina.mp3"
+    },
+    {
+      "name": "02_cap01",
+      "chapter": 1,
+      "title": "1. Titolo del primo capitolo",
+      "pages": [2, 3],
+      "gender": "male",
+      "speed": 1.12,
+      "text": "Sostituire con il testo definitivo integrale del capitolo. Suddividere fra paragrafi se necessario, mantenendo il genere maschile nelle altre parti dello stesso capitolo.",
+      "clip_path": "clip/02_cap01.mp3"
+    }
+  ]
+}
+

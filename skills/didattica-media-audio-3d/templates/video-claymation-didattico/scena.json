@@ -1,0 +1,10 @@
+{
+  "id": "clip01",
+  "caption": "Didascalia schermo (opzionale; non usata nel montaggio finale senza testi)",
+  "text": "Frase narrata nella scena, in lingua originale.",
+  "dur": 10.091,
+  "visual": "Descrizione scena + movimento camera + suffisso di stile CLAY",
+  "refs": [
+    "https://media.easy-peasy.ai/.../immagine-riferimento.png"
+  ]
+}

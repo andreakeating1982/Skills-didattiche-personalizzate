@@ -1,0 +1,1036 @@
+{
+  "choice": {
+    "row_min_mm": 10.2,
+    "pages": 32,
+    "num_rows_first_page": 13,
+    "index_geometry": {
+      "border_bottom_mm": 266.35,
+      "border_top_mm": 128.98
+    },
+    "content_bottom_mm": 278.0,
+    "remaining_mm": 11.65,
+    "anchors": {
+      "overview": 2,
+      "it1": 14,
+      "quiz-es": 27,
+      "mappa-es": 30,
+      "bibliografia": 32
+    },
+    "rows": [
+      {
+        "target": "#overview",
+        "top_mm": 131.36,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#es1",
+        "top_mm": 141.56,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#es2",
+        "top_mm": 151.76,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#es3",
+        "top_mm": 161.96,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#es4",
+        "top_mm": 172.16,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#es5",
+        "top_mm": 182.36,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#es6",
+        "top_mm": 192.56,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#es7",
+        "top_mm": 202.76,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#mapa",
+        "top_mm": 212.96,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#it1",
+        "top_mm": 223.16,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#quiz-es",
+        "top_mm": 233.36,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#mappa-es",
+        "top_mm": 243.56,
+        "height_mm": 10.2
+      },
+      {
+        "target": "#bibliografia",
+        "top_mm": 253.76,
+        "height_mm": 10.2
+      }
+    ],
+    "correct": true
+  },
+  "candidates": [
+    {
+      "row_min_mm": 9.5,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 257.25,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 20.75,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#es1",
+          "top_mm": 140.86,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#es2",
+          "top_mm": 150.36,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#es3",
+          "top_mm": 159.86,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#es4",
+          "top_mm": 169.36,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#es5",
+          "top_mm": 178.86,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#es6",
+          "top_mm": 188.36,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#es7",
+          "top_mm": 197.86,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 207.36,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#it1",
+          "top_mm": 216.86,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 226.36,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 235.86,
+          "height_mm": 9.5
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 245.36,
+          "height_mm": 9.5
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 9.6,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 258.55,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 19.45,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#es1",
+          "top_mm": 140.96,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#es2",
+          "top_mm": 150.56,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#es3",
+          "top_mm": 160.16,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#es4",
+          "top_mm": 169.76,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#es5",
+          "top_mm": 179.36,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#es6",
+          "top_mm": 188.96,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#es7",
+          "top_mm": 198.56,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 208.16,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#it1",
+          "top_mm": 217.76,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 227.36,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 236.96,
+          "height_mm": 9.6
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 246.56,
+          "height_mm": 9.6
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 9.7,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 259.85,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 18.15,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.06,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#es2",
+          "top_mm": 150.76,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#es3",
+          "top_mm": 160.46,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#es4",
+          "top_mm": 170.16,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#es5",
+          "top_mm": 179.86,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#es6",
+          "top_mm": 189.56,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#es7",
+          "top_mm": 199.26,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 208.96,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#it1",
+          "top_mm": 218.66,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 228.36,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 238.06,
+          "height_mm": 9.7
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 247.76,
+          "height_mm": 9.7
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 9.8,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 261.15,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 16.85,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.16,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#es2",
+          "top_mm": 150.96,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#es3",
+          "top_mm": 160.76,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#es4",
+          "top_mm": 170.56,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#es5",
+          "top_mm": 180.36,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#es6",
+          "top_mm": 190.16,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#es7",
+          "top_mm": 199.96,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 209.76,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#it1",
+          "top_mm": 219.56,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 229.36,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 239.16,
+          "height_mm": 9.8
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 248.96,
+          "height_mm": 9.8
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 9.9,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 262.45,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 15.55,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.26,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#es2",
+          "top_mm": 151.16,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#es3",
+          "top_mm": 161.06,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#es4",
+          "top_mm": 170.96,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#es5",
+          "top_mm": 180.86,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#es6",
+          "top_mm": 190.76,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#es7",
+          "top_mm": 200.66,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 210.56,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#it1",
+          "top_mm": 220.46,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 230.36,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 240.26,
+          "height_mm": 9.9
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 250.16,
+          "height_mm": 9.9
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 10.0,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 263.75,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 14.25,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#es2",
+          "top_mm": 151.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#es3",
+          "top_mm": 161.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#es4",
+          "top_mm": 171.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#es5",
+          "top_mm": 181.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#es6",
+          "top_mm": 191.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#es7",
+          "top_mm": 201.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 211.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#it1",
+          "top_mm": 221.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 231.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 241.36,
+          "height_mm": 10.0
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 251.36,
+          "height_mm": 10.0
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 10.1,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 265.05,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 12.95,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.46,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#es2",
+          "top_mm": 151.56,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#es3",
+          "top_mm": 161.66,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#es4",
+          "top_mm": 171.76,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#es5",
+          "top_mm": 181.86,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#es6",
+          "top_mm": 191.96,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#es7",
+          "top_mm": 202.06,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 212.16,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#it1",
+          "top_mm": 222.26,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 232.36,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 242.46,
+          "height_mm": 10.1
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 252.56,
+          "height_mm": 10.1
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 10.2,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 266.35,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 11.65,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.56,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#es2",
+          "top_mm": 151.76,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#es3",
+          "top_mm": 161.96,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#es4",
+          "top_mm": 172.16,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#es5",
+          "top_mm": 182.36,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#es6",
+          "top_mm": 192.56,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#es7",
+          "top_mm": 202.76,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 212.96,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#it1",
+          "top_mm": 223.16,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 233.36,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 243.56,
+          "height_mm": 10.2
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 253.76,
+          "height_mm": 10.2
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 10.3,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 267.65,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 10.35,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.66,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#es2",
+          "top_mm": 151.96,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#es3",
+          "top_mm": 162.26,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#es4",
+          "top_mm": 172.56,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#es5",
+          "top_mm": 182.86,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#es6",
+          "top_mm": 193.16,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#es7",
+          "top_mm": 203.46,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 213.76,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#it1",
+          "top_mm": 224.06,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 234.36,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 244.66,
+          "height_mm": 10.3
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 254.96,
+          "height_mm": 10.3
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 10.4,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 268.95,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 9.05,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.76,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#es2",
+          "top_mm": 152.16,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#es3",
+          "top_mm": 162.56,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#es4",
+          "top_mm": 172.96,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#es5",
+          "top_mm": 183.36,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#es6",
+          "top_mm": 193.76,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#es7",
+          "top_mm": 204.16,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 214.56,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#it1",
+          "top_mm": 224.96,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 235.36,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 245.76,
+          "height_mm": 10.4
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 256.16,
+          "height_mm": 10.4
+        }
+      ],
+      "correct": true
+    },
+    {
+      "row_min_mm": 10.5,
+      "pages": 32,
+      "num_rows_first_page": 13,
+      "index_geometry": {
+        "border_bottom_mm": 270.25,
+        "border_top_mm": 128.98
+      },
+      "content_bottom_mm": 278.0,
+      "remaining_mm": 7.75,
+      "anchors": {
+        "overview": 2,
+        "it1": 14,
+        "quiz-es": 27,
+        "mappa-es": 30,
+        "bibliografia": 32
+      },
+      "rows": [
+        {
+          "target": "#overview",
+          "top_mm": 131.36,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#es1",
+          "top_mm": 141.86,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#es2",
+          "top_mm": 152.36,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#es3",
+          "top_mm": 162.86,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#es4",
+          "top_mm": 173.36,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#es5",
+          "top_mm": 183.86,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#es6",
+          "top_mm": 194.36,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#es7",
+          "top_mm": 204.86,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#mapa",
+          "top_mm": 215.36,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#it1",
+          "top_mm": 225.86,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#quiz-es",
+          "top_mm": 236.36,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#mappa-es",
+          "top_mm": 246.86,
+          "height_mm": 10.5
+        },
+        {
+          "target": "#bibliografia",
+          "top_mm": 257.36,
+          "height_mm": 10.5
+        }
+      ],
+      "correct": true
+    }
+  ]
+}

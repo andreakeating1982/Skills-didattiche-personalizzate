@@ -1,0 +1,1149 @@
+{
+  "note": "Percorsi storici censiti nei testi; possono indicare input, output o esempi, NON tutti dipendenze obbligatorie. La loro esistenza nel vecchio ambiente non li include nel presente archivio.",
+  "paths": [
+    {
+      "path": "/home/user/",
+      "referenced_by": [
+        "audio-generation/references/audio.md",
+        "didattica-media-audio-3d/references/originali/modello-3d-didattico.md",
+        "modello-3d-didattico/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/${BASE",
+      "referenced_by": [
+        "didattica-pubblicazione-blog/scripts/zip-esportabile-guide-ia/export_zip.sh"
+      ]
+    },
+    {
+      "path": "/home/user/CODICI-EMBED-CORNICI-v4-aggiornato-espressioni-monomi-polinomi.docx",
+      "referenced_by": [
+        "codici-embed-cornici/scripts/rinumera_parti.py",
+        "codici-embed-cornici/scripts/suddividi_in_parti.py"
+      ]
+    },
+    {
+      "path": "/home/user/CODICI-EMBED-CORNICI-v4-aggiornato.docx",
+      "referenced_by": [
+        "francese-facile/SKILL.md",
+        "francese-facile/references/workflows.md"
+      ]
+    },
+    {
+      "path": "/home/user/ESPRESSIONI-MONOMI-POLINOMI-AGGIORNATO.zip",
+      "referenced_by": [
+        "didattica-pubblicazione-blog/references/originali/zip-esportabile-guide-ia-export-sicuro-cropper.md",
+        "zip-esportabile-guide-ia/references/export-sicuro-cropper.md"
+      ]
+    },
+    {
+      "path": "/home/user/PAROLE-CHIAVE-SORGENTE.zip",
+      "referenced_by": [
+        "parole-chiave-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/Presentazione",
+      "referenced_by": [
+        "francese-facile/references/workflows.md"
+      ]
+    },
+    {
+      "path": "/home/user/_repo_",
+      "referenced_by": [
+        "quiz-interattivo-con-audio-sorgente/SKILL.md",
+        "quiz-interattivo-con-audio-sorgente/scripts/clone_audio_quiz_app.py",
+        "quiz-interattivo-sorgente/SKILL.md",
+        "quiz-interattivo-sorgente/scripts/clone_quiz_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/_repo_{name",
+      "referenced_by": [
+        "quiz-interattivo-con-audio-sorgente/scripts/clone_audio_quiz_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/analysis/",
+      "referenced_by": [
+        "data-analysis/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/analysis/chart.png",
+      "referenced_by": [
+        "documents/references/docx.md"
+      ]
+    },
+    {
+      "path": "/home/user/analysis/revenue_by_channel.png",
+      "referenced_by": [
+        "data-analysis/references/charts.md"
+      ]
+    },
+    {
+      "path": "/home/user/analysis/revenue_by_month.png",
+      "referenced_by": [
+        "data-analysis/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/analysis/users.html",
+      "referenced_by": [
+        "data-analysis/references/charts.md"
+      ]
+    },
+    {
+      "path": "/home/user/app-math-input-panel.zip",
+      "referenced_by": [
+        "math-input-panel/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/audio",
+      "referenced_by": [
+        "audio-generation/references/audio.md",
+        "audio-generation/references/speech.md"
+      ]
+    },
+    {
+      "path": "/home/user/audio/voice-ref.mp3",
+      "referenced_by": [
+        "audio-generation/references/audio.md"
+      ]
+    },
+    {
+      "path": "/home/user/becquer-quiz",
+      "referenced_by": [
+        "becquer-quiz/SKILL.md",
+        "quiz-interattivo-con-audio-sorgente/SKILL.md",
+        "quiz-interattivo-con-audio-sorgente/scripts/change_quiz_theme.py",
+        "quiz-interattivo-con-audio-sorgente/scripts/clone_audio_quiz_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/becquer-quiz/skills/quiz-interattivo-con-audio-sorgente/",
+      "referenced_by": [
+        "quiz-interattivo-con-audio-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/build_zip.py",
+      "referenced_by": [
+        "parole-chiave-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/classe_serena_audio_112",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/audio-pdf-due-voci.md"
+      ]
+    },
+    {
+      "path": "/home/user/classe_serena_build/Una_classe_serena_clay_adulto_indice_colorato_v2.html",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/claymation-espana-xix/",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/originali/video-claymation-didattico.md",
+        "didattica-media-audio-3d/references/video-claymation-didattico/workflow-report.md",
+        "video-claymation-didattico/SKILL.md",
+        "video-claymation-didattico/references/workflow-report.md"
+      ]
+    },
+    {
+      "path": "/home/user/collaudo",
+      "referenced_by": [
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-SKILL.md",
+        "espressioni-monomi-polinomi/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/come_studiare_build/aggiorna_indice_arioso_v4.py",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/come_studiare_build/revisione_v4_indice_arioso/Come_Studiare_Meglio_indice_arioso_v4.html",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/cornice-universale",
+      "referenced_by": [
+        "cornice-universale/SKILL.md",
+        "didattica-pubblicazione-blog/references/cornice-universale.md",
+        "didattica-pubblicazione-blog/references/originali/cornice-universale.md",
+        "didattica-pubblicazione-blog/references/originali/zip-esportabile-guide-ia-SKILL.md",
+        "zip-esportabile-guide-ia/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/cornice-universale.zip",
+      "referenced_by": [
+        "cornice-universale/SKILL.md",
+        "didattica-pubblicazione-blog/references/originali/cornice-universale.md"
+      ]
+    },
+    {
+      "path": "/home/user/docs/",
+      "referenced_by": [
+        "documents/references/pdf.md"
+      ]
+    },
+    {
+      "path": "/home/user/docs/budget.xlsx",
+      "referenced_by": [
+        "documents/references/xlsx.md"
+      ]
+    },
+    {
+      "path": "/home/user/docs/check",
+      "referenced_by": [
+        "documents/references/pdf.md"
+      ]
+    },
+    {
+      "path": "/home/user/docs/invoice.pdf",
+      "referenced_by": [
+        "documents/references/pdf.md"
+      ]
+    },
+    {
+      "path": "/home/user/docs/operations-review.docx",
+      "referenced_by": [
+        "documents/references/docx.md"
+      ]
+    },
+    {
+      "path": "/home/user/docs/report.xlsx",
+      "referenced_by": [
+        "documents/references/xlsx.md"
+      ]
+    },
+    {
+      "path": "/home/user/due_guide_audio_112",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/audio-pdf-due-voci.md"
+      ]
+    },
+    {
+      "path": "/home/user/embed-blogger-romanticismo.html",
+      "referenced_by": [
+        "espana-xix-match/SKILL.md",
+        "espana-xix-match/references/architettura.md"
+      ]
+    },
+    {
+      "path": "/home/user/equazioni-biquadratiche",
+      "referenced_by": [
+        "didattica-app-matematica/references/equazioni.md",
+        "didattica-app-matematica/references/originali/equazioni-biquadratiche.md",
+        "didattica-app-matematica/references/originali/widget-matematico-sorgente.md",
+        "didattica-app-matematica/scripts/widget-matematico-sorgente/clone_app.py",
+        "equazioni-biquadratiche/SKILL.md",
+        "equazioni-secondo-grado/SKILL.md",
+        "widget-matematico-sorgente/SKILL.md",
+        "widget-matematico-sorgente/scripts/clone_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/equazioni-secondo-grado",
+      "referenced_by": [
+        "didattica-app-matematica/references/equazioni.md",
+        "equazioni-secondo-grado/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/espana-xix-match",
+      "referenced_by": [
+        "espana-xix-match/SKILL.md",
+        "espana-xix-match/references/architettura.md",
+        "espana-xix-match/scripts/gen_woff2_cornice.py",
+        "espana-xix-match/scripts/qa_pdf_layout.mjs",
+        "espana-xix-match/scripts/riscrivi_testi_immagine_opendyslexic.py"
+      ]
+    },
+    {
+      "path": "/home/user/espana-xix-match/",
+      "referenced_by": [
+        "espana-xix-match/SKILL.md",
+        "espana-xix-match/references/architettura.md"
+      ]
+    },
+    {
+      "path": "/home/user/espressione-frazioni-potenze",
+      "referenced_by": [
+        "didattica-app-matematica/references/espressioni-8756.md",
+        "didattica-app-matematica/references/espressioni.md",
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-SKILL.md",
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-photo-crop-8736.md",
+        "espressioni-monomi-polinomi/SKILL.md",
+        "espressioni-monomi-polinomi/references/layout-compatto-8756.md",
+        "espressioni-monomi-polinomi/references/photo-crop-8736.md"
+      ]
+    },
+    {
+      "path": "/home/user/espressioni-monomi-polinomi",
+      "referenced_by": [
+        "didattica-app-matematica/references/espressioni-8756.md",
+        "didattica-app-matematica/references/espressioni.md",
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-SKILL.md",
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-photo-crop-8736.md",
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-seconda-pagina-8737.md",
+        "didattica-pubblicazione-blog/references/espressioni-8756.md",
+        "didattica-pubblicazione-blog/references/originali/zip-esportabile-guide-ia-export-sicuro-cropper.md",
+        "espressioni-monomi-polinomi/SKILL.md",
+        "espressioni-monomi-polinomi/references/layout-compatto-8756.md",
+        "espressioni-monomi-polinomi/references/photo-crop-8736.md",
+        "espressioni-monomi-polinomi/references/seconda-pagina-8737.md",
+        "zip-esportabile-guide-ia/references/export-sicuro-cropper.md"
+      ]
+    },
+    {
+      "path": "/home/user/espressioni-widget-matematico",
+      "referenced_by": [
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-SKILL.md",
+        "didattica-app-matematica/references/originali/espressioni-monomi-polinomi-photo-crop-8736.md",
+        "espressioni-monomi-polinomi/SKILL.md",
+        "espressioni-monomi-polinomi/references/photo-crop-8736.md"
+      ]
+    },
+    {
+      "path": "/home/user/facile_edizione",
+      "referenced_by": [
+        "quaderno-mappe-lingue/SKILL.md",
+        "quaderno-mappe-lingue/references/collana-facile.md",
+        "quaderno-mappe-lingue/scripts/build_collana_facile.py",
+        "quaderno-mappe-lingue/scripts/prepara_collana_facile.py",
+        "quaderno-mappe-lingue/scripts/verifica_collana_facile.py"
+      ]
+    },
+    {
+      "path": "/home/user/facile_edizione/",
+      "referenced_by": [
+        "quaderno-accessibile/references/collana-facile.md",
+        "quaderno-mappe-lingue/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/facile_edizione/latino_cover_asset_0.png",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md"
+      ]
+    },
+    {
+      "path": "/home/user/facile_edizione/{Inglese_Facile",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md"
+      ]
+    },
+    {
+      "path": "/home/user/fonts",
+      "referenced_by": [
+        "video-generation/references/code-rendering.md",
+        "video-generation/references/ffmpeg.md"
+      ]
+    },
+    {
+      "path": "/home/user/fonts/Inter.ttf",
+      "referenced_by": [
+        "video-generation/references/code-rendering.md"
+      ]
+    },
+    {
+      "path": "/home/user/fonts/Inter.ttf:text=",
+      "referenced_by": [
+        "video-generation/references/ffmpeg.md"
+      ]
+    },
+    {
+      "path": "/home/user/fonts:force_style=",
+      "referenced_by": [
+        "video-generation/references/ffmpeg.md"
+      ]
+    },
+    {
+      "path": "/home/user/francese-facile",
+      "referenced_by": [
+        "francese-facile/SKILL.md",
+        "francese-facile/references/workflows.md"
+      ]
+    },
+    {
+      "path": "/home/user/francese-facile-diorama.png",
+      "referenced_by": [
+        "francese-facile/SKILL.md",
+        "francese-facile/references/workflows.md"
+      ]
+    },
+    {
+      "path": "/home/user/guida_bes_senza_sezione8_v20/ADATTARE_GLI_ESERCIZI_v20.pdf",
+      "referenced_by": [
+        "quaderno-accessibile/references/versioni-appendici-2026-11.md"
+      ]
+    },
+    {
+      "path": "/home/user/inglese_build",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/quaderni-lingue.md",
+        "quaderno-mappe-lingue/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/inglese_build/Mappe_concettuali_grammatica_inglese_inclusivo_v3.pdf",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md",
+        "quaderno-mappe-lingue/scripts/prepara_collana_facile.py"
+      ]
+    },
+    {
+      "path": "/home/user/inglese_build/build_v3.py",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md"
+      ]
+    },
+    {
+      "path": "/home/user/inglese_build/inglese_accessibile_v3.html",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md",
+        "quaderno-mappe-lingue/scripts/prepara_collana_facile.py"
+      ]
+    },
+    {
+      "path": "/home/user/laboratorio-visivo",
+      "referenced_by": [
+        "laboratorio-aumentato-3d-sorgente/SKILL.md",
+        "laboratorio-aumentato-3d-sorgente/scripts/clone_app.py",
+        "laboratorio-aumentato-3d/SKILL.md",
+        "laboratorio-aumentato-3d/scripts/clone_app.py",
+        "laboratorio-aumentato/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/latino-facile-app",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md",
+        "latino-facile/SKILL.md",
+        "latino-facile/references/architettura.md",
+        "latino-facile/scripts/export_zip.sh"
+      ]
+    },
+    {
+      "path": "/home/user/latino-facile-app-export-aggiornato-",
+      "referenced_by": [
+        "latino-facile/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/latino-facile-app-export-aggiornato-$(date",
+      "referenced_by": [
+        "latino-facile/scripts/export_zip.sh"
+      ]
+    },
+    {
+      "path": "/home/user/latino-facile-app-export-aggiornato-v",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md"
+      ]
+    },
+    {
+      "path": "/home/user/latino-facile-app/",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md"
+      ]
+    },
+    {
+      "path": "/home/user/lazaro_v2_build/build_lazaro_v4.py",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/restyling_compatto.md"
+      ]
+    },
+    {
+      "path": "/home/user/lettura_circolare_",
+      "referenced_by": [
+        "circolari-audio/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/lingue-facili",
+      "referenced_by": [
+        "lingue-facili/SKILL.md",
+        "lingue-facili/references/riferimenti.md"
+      ]
+    },
+    {
+      "path": "/home/user/lingue-facili/client/src/hooks/useReadAloud.ts",
+      "referenced_by": [
+        "lingue-facili/references/riferimenti.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa-3passi-preview",
+      "referenced_by": [
+        "mappa-3passi/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa-3passi.zip",
+      "referenced_by": [
+        "mappa-3passi/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa-concettuale",
+      "referenced_by": [
+        "mappa-concettuale/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa_build",
+      "referenced_by": [
+        "quaderno-accessibile/references/quaderno_6passi.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa_build/",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/quaderno_6passi.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa_build/Mappa_Concettuale_6_passi_quaderno_accessibile.pdf",
+      "referenced_by": [
+        "quaderno-accessibile/references/quaderno_6passi.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa_build/mappa_accessibile.html",
+      "referenced_by": [
+        "quaderno-accessibile/references/quaderno_6passi.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappa_build/media/",
+      "referenced_by": [
+        "quaderno-accessibile/references/quaderno_6passi.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-",
+      "referenced_by": [
+        "quaderno-mappe-lingue/scripts/nuovo_quaderno.py"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-N-Z/",
+      "referenced_by": [
+        "mappe-fisica-matematica/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-concettuali-lingue",
+      "referenced_by": [
+        "mappe-concettuali-lingue/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-es",
+      "referenced_by": [
+        "quaderno-mappe-lingue/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-es/Quaderno_es.pdf",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md",
+        "quaderno-mappe-lingue/scripts/prepara_collana_facile.py"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-es/build_es.py",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-es/mappe_es.html",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md",
+        "quaderno-mappe-lingue/scripts/prepara_collana_facile.py"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-fr",
+      "referenced_by": [
+        "quaderno-mappe-lingue/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-fr/Quaderno_fr.pdf",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md",
+        "quaderno-mappe-lingue/scripts/prepara_collana_facile.py"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-fr/build_fr.py",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-fr/mappe_fr.html",
+      "referenced_by": [
+        "quaderno-mappe-lingue/references/collana-facile.md",
+        "quaderno-mappe-lingue/scripts/prepara_collana_facile.py"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-matematica-repo",
+      "referenced_by": [
+        "mappe-concettuali-lingue/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/mappe-{cod",
+      "referenced_by": [
+        "quaderno-mappe-lingue/scripts/nuovo_quaderno.py"
+      ]
+    },
+    {
+      "path": "/home/user/materie_build/Guida_BES_senza_titoli_sotto_immagini_v8.html",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/materie_build/correggi_flusso_bes_v12.py",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/materie_build/rebuild_blog.py",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/materie_build/revisione_v12_flusso/Guida_BES_flusso_corretto_con_fonti_v12.html",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/math-input-panel",
+      "referenced_by": [
+        "didattica-app-matematica/references/frazioni.md",
+        "didattica-app-matematica/references/originali/math-input-panel.md",
+        "math-input-panel/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_audio_senza_fonti_v9/consegna/10_METODOLOGIE_AUDIO_SENZA_FONTI_TESTO_E_INDICE_TEMPORALE_v9.md",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/montaggio-approvato-senza-fonti.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_audio_senza_fonti_v9/consegna/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_AUDIO_PEER_TUTORING_CORRETTO_SENZA_FONTI_v9.mp3",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/baseline-audio-metodologie-v9.json",
+        "didattica-media-audio-3d/references/montaggio-approvato-senza-fonti.md",
+        "quaderno-accessibile/references/baseline-metodologie-v11.json",
+        "quaderno-accessibile/references/baseline-metodologie-v12.json",
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_box_rivisti_v5/",
+      "referenced_by": [
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_box_rivisti_v5/LE_10_METODOLOGIE_DIDATTICHE_INCLUSIVE_BOX_RIVISTI_v5.html",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/box-per-nuclei-di-significato.md",
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_immagine_ogni_unita_v13/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_IMMAGINE_OGNI_UNITA_v13.pdf",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/baseline-audio-metodologie-v9.json",
+        "quaderno-accessibile/references/baseline-metodologie-v13.json",
+        "quaderno-accessibile/references/titoli-centrati-reflow-metodologie-v11.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_shake_build/metodologie_alta.html",
+      "referenced_by": [
+        "quaderno-accessibile/references/guida_layout.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_titoli_centrati_v11/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_TITOLI_CENTRATI_v11.pdf",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v11.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_unita_pagina_nuova_v12/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_UNITA_PAGINA_NUOVA_v12.pdf",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v12.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v7_audio",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/audio-pdf-due-voci.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_v8_BASE_CORRETTA.html",
+      "referenced_by": [
+        "quaderno-accessibile/references/versioni-appendici-2026-11.md"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_02_138.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_04_140.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_06_142.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_08_144.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_10_146.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_12_148.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_14_150.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_16_152.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_18_154.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_20_156.jpeg",
+      "referenced_by": [
+        "quaderno-accessibile/references/baseline-metodologie-v13.json"
+      ]
+    },
+    {
+      "path": "/home/user/mg",
+      "referenced_by": [
+        "video-generation/references/code-rendering.md"
+      ]
+    },
+    {
+      "path": "/home/user/mia-app",
+      "referenced_by": [
+        "didattica-pubblicazione-blog/scripts/zip-esportabile-guide-ia/export_zip.sh",
+        "espana-xix-match/scripts/riscrivi_testi_immagine_opendyslexic.py"
+      ]
+    },
+    {
+      "path": "/home/user/modello3d/",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/modello-3d-didattico/report-3d.md",
+        "didattica-media-audio-3d/references/originali/modello-3d-didattico.md",
+        "didattica-media-audio-3d/scripts/modello-3d-didattico/ritaglia_figure.py",
+        "modello-3d-didattico/SKILL.md",
+        "modello-3d-didattico/references/report-3d.md",
+        "modello-3d-didattico/scripts/ritaglia_figure.py"
+      ]
+    },
+    {
+      "path": "/home/user/nuova-app",
+      "referenced_by": [
+        "laboratorio-aumentato-3d-sorgente/scripts/clone_app.py",
+        "laboratorio-aumentato-3d/scripts/clone_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/out/chart.png",
+      "referenced_by": [
+        "image-generation/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/package-export",
+      "referenced_by": [
+        "cornice-universale/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/pdf_box_semantici_2026_10_31/",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/box-per-nuclei-di-significato.md",
+        "quaderno-accessibile/references/documenti-lunghi-blog.md"
+      ]
+    },
+    {
+      "path": "/home/user/peer_tutoring_rifatto_v2/consegna/10_METODOLOGIE_METODOLOGIA_7_PEER_TUTORING_NUOVA_LETTURA_v2.mp3",
+      "referenced_by": [
+        "didattica-media-audio-3d/references/baseline-audio-metodologie-v9.json",
+        "didattica-media-audio-3d/references/montaggio-approvato-senza-fonti.md"
+      ]
+    },
+    {
+      "path": "/home/user/qa",
+      "referenced_by": [
+        "latino-facile/SKILL.md",
+        "latino-facile/scripts/qa/analyze.py",
+        "latino-facile/scripts/qa/run.py"
+      ]
+    },
+    {
+      "path": "/home/user/qa/",
+      "referenced_by": [
+        "latino-facile/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/qa/results.json",
+      "referenced_by": [
+        "latino-facile/scripts/qa/analyze.py",
+        "latino-facile/scripts/qa/run.py"
+      ]
+    },
+    {
+      "path": "/home/user/quaderno-unico",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md",
+        "didattica-documenti-accessibili/references/quaderno-latino.md",
+        "didattica-documenti-accessibili/scripts/latino-facile-quaderno/rilascio_quaderno.py",
+        "latino-facile/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quaderno-unico/",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md"
+      ]
+    },
+    {
+      "path": "/home/user/quaderno-unico/quaderno-unico-v",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md"
+      ]
+    },
+    {
+      "path": "/home/user/quaderno2/sezioni",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md",
+        "didattica-documenti-accessibili/references/quaderno-latino.md"
+      ]
+    },
+    {
+      "path": "/home/user/quaderno2/sezioni/",
+      "referenced_by": [
+        "didattica-documenti-accessibili/references/originali/latino-facile-quaderno.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-lorca",
+      "referenced_by": [
+        "quiz-interattivo-con-audio-sorgente/scripts/clone_audio_quiz_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-marquez",
+      "referenced_by": [
+        "quiz-interattivo-con-audio-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-marquez-questions.json",
+      "referenced_by": [
+        "quiz-interattivo-con-audio-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md",
+        "quiz-interattivo-sorgente/scripts/clone_quiz_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/StudentQuiz.tsx",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/TeacherPage.tsx",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/client/src/lib/reportPdf.ts",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/client/src/pages/StudentQuiz.tsx",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/client/src/pages/TeacherPage.tsx",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/questions.ts",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/reportPdf.ts",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/quiz-roma-antica/server/questions.ts",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/recon-",
+      "referenced_by": [
+        "didattica-pubblicazione-blog/references/originali/zip-esportabile-guide-ia-SKILL.md",
+        "zip-esportabile-guide-ia/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/ref-biquadratiche",
+      "referenced_by": [
+        "math-input-panel/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/ref-latino-facile",
+      "referenced_by": [
+        "math-input-panel/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/research/notes.md",
+      "referenced_by": [
+        "research-report/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/research/report/01-....md",
+      "referenced_by": [
+        "research-report/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/romanticismo-interattivo",
+      "referenced_by": [
+        "immagine-interattivo-sorgente/SKILL.md",
+        "immagine-interattivo-sorgente/scripts/clone_app.py",
+        "immagine-interattivo/SKILL.md",
+        "romanticismo-interattivo/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/rosalia_v2_build/build_rosalia_v5.py",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/restyling_compatto.md"
+      ]
+    },
+    {
+      "path": "/home/user/rosalia_v2_build/build_v3.py",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/restyling_compatto.md"
+      ]
+    },
+    {
+      "path": "/home/user/rosalia_v2_build/rosalia_v5.html",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/restyling_compatto.md"
+      ]
+    },
+    {
+      "path": "/home/user/shake_v2_build/",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md",
+        "quaderno-accessibile/references/restyling_compatto.md"
+      ]
+    },
+    {
+      "path": "/home/user/shake_v2_build/build_shake_v4.py",
+      "referenced_by": [
+        "quaderno-accessibile/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/shakespeare-quiz",
+      "referenced_by": [
+        "parole-chiave-sorgente/SKILL.md",
+        "parole-chiave-sorgente/scripts/rebuild_app.py",
+        "quiz-adapter/scripts/change_quiz_theme.py",
+        "quiz-interattivo-sorgente/SKILL.md",
+        "quiz-interattivo-sorgente/scripts/change_quiz_theme.py",
+        "quiz-interattivo-sorgente/scripts/clone_quiz_app.py",
+        "shakespeare-quiz/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/shakespeare-quiz/skills/",
+      "referenced_by": [
+        "quiz-interattivo-sorgente/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/site-check",
+      "referenced_by": [
+        "web-design/SKILL.md",
+        "web-design/scripts/check_site.mjs"
+      ]
+    },
+    {
+      "path": "/home/user/skills",
+      "referenced_by": [
+        "skill-creator/scripts/init_skill.py",
+        "skill-creator/scripts/quick_validate.py"
+      ]
+    },
+    {
+      "path": "/home/user/test-semplifica.mjs",
+      "referenced_by": [
+        "equazioni-secondo-grado/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/timeline_v11_serif_backup.png",
+      "referenced_by": [
+        "espana-xix-match/references/architettura.md"
+      ]
+    },
+    {
+      "path": "/home/user/uploads/",
+      "referenced_by": [
+        "data-analysis/SKILL.md",
+        "quaderno-accessibile/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/uploads/Latino_Facile_colori_app.pdf",
+      "referenced_by": [
+        "quaderno-accessibile/references/collana-facile.md",
+        "quaderno-mappe-lingue/SKILL.md",
+        "quaderno-mappe-lingue/references/collana-facile.md"
+      ]
+    },
+    {
+      "path": "/home/user/uploads/Spagnolo_-_Letteratura_-_Romanticismo_-_Spiegazione_dell_immagine.docx",
+      "referenced_by": [
+        "immagine-interattivo/SKILL.md",
+        "romanticismo-interattivo/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/uploads/photo.jpg",
+      "referenced_by": [
+        "image-generation/SKILL.md"
+      ]
+    },
+    {
+      "path": "/home/user/video",
+      "referenced_by": [
+        "video-generation/references/ffmpeg.md"
+      ]
+    },
+    {
+      "path": "/home/user/video/",
+      "referenced_by": [
+        "video-generation/references/ffmpeg.md"
+      ]
+    },
+    {
+      "path": "/home/user/visuals",
+      "referenced_by": [
+        "image-generation/references/static-layouts.md"
+      ]
+    },
+    {
+      "path": "/home/user/visuals/schedule.png",
+      "referenced_by": [
+        "image-generation/references/static-layouts.md"
+      ]
+    },
+    {
+      "path": "/home/user/{args.name",
+      "referenced_by": [
+        "didattica-app-matematica/scripts/widget-matematico-sorgente/clone_app.py",
+        "parole-chiave-sorgente/scripts/rebuild_app.py",
+        "widget-matematico-sorgente/scripts/clone_app.py"
+      ]
+    },
+    {
+      "path": "/home/user/{name",
+      "referenced_by": [
+        "quiz-interattivo-con-audio-sorgente/scripts/clone_audio_quiz_app.py"
+      ]
+    }
+  ]
+}

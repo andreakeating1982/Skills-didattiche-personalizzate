@@ -1,0 +1,6 @@
+from pathlib import Path
+import sys,json
+PROFILI={'schema-quiz-builder': '../../schema-quiz-builder/SKILL.md', 'shakespeare-quiz': '../../shakespeare-quiz/SKILL.md', 'quiz-adapter': '../../quiz-adapter/SKILL.md', 'quiz-interattivo-sorgente': '../../quiz-interattivo-sorgente/SKILL.md', 'parole-chiave-sorgente': '../../parole-chiave-sorgente/SKILL.md', 'becquer-quiz': '../../becquer-quiz/SKILL.md', 'quiz-interattivo-con-audio-sorgente': '../../quiz-interattivo-con-audio-sorgente/SKILL.md', 'immagine-interattivo': '../../immagine-interattivo/SKILL.md', 'romanticismo-interattivo': '../../romanticismo-interattivo/SKILL.md', 'immagine-interattivo-sorgente': '../../immagine-interattivo-sorgente/SKILL.md', 'laboratorio-aumentato': '../../laboratorio-aumentato/SKILL.md', 'laboratorio-aumentato-3d': '../../laboratorio-aumentato-3d/SKILL.md', 'laboratorio-aumentato-3d-sorgente': '../../laboratorio-aumentato-3d-sorgente/SKILL.md', 'mappa-3passi': '../../mappa-3passi/SKILL.md', 'mappa-concettuale': '../../mappa-concettuale/SKILL.md', 'espana-xix-match': '../../espana-xix-match/SKILL.md'}
+q=" ".join(sys.argv[1:]).casefold().split()
+rows=[{"skill":n,"file":str((Path(__file__).resolve().parent/p).resolve())} for n,p in PROFILI.items() if not q or any(x in n for x in q)]
+print(json.dumps(rows,ensure_ascii=False,indent=2))

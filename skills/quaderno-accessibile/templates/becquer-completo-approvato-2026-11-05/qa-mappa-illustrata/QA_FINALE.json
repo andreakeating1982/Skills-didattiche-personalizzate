@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "solo_immagini_e_alt_della_mappa_modificati": {
+      "pass": true
+    },
+    "31_pagine_conservate": {
+      "pass": true
+    },
+    "testo_integrale_identico_pagina_per_pagina": {
+      "pass": true,
+      "details": []
+    },
+    "pagine_non_mappa_invariate_al_pixel": {
+      "pass": true,
+      "details": []
+    },
+    "dodici_immagini_diverse_e_alt": {
+      "pass": true,
+      "details": [
+        {
+          "src": "media/mapa-rimas.png",
+          "alt": "Libro de poesía con pluma y una golondrina junto a la ventana.",
+          "sha256": "a3f52eec7e32a0aca5b71defd7441fe8ae7df0a5a467d3b9cc81adff2d81dfaa"
+        },
+        {
+          "src": "media/mapa-cuatro-bloques.png",
+          "alt": "Cuatro libros con una pluma, un corazón, un corazón roto y una flor marchita.",
+          "sha256": "5094c22cef4ca58434cc1703ae945d8fde1adc74f7d005e1df24c21e7b7cf6b4"
+        },
+        {
+          "src": "media/immagine-003.png",
+          "alt": "Castillo medieval y una aparición luminosa en un paisaje nocturno.",
+          "sha256": "29673b4ca5fcc9f867fd4c5b692b13e3a5936032d5b250594c360575df284466"
+        },
+        {
+          "src": "media/mapa-temas-leyendas.png",
+          "alt": "Mujer adulta ante una aparición luminosa en un claustro medieval.",
+          "sha256": "b3316e5f10363c0dc995119c7e245f5b9a270440f1d795272ba8b06852965276"
+        },
+        {
+          "src": "media/mapa-cartas-literarias.png",
+          "alt": "Un escritor ante una carta sellada y la silueta de una mujer en la puerta.",
+          "sha256": "b6483ec4b7dd9d3909736f7b76a8d2d5bb83b3d2a3fcdb03753de174148f43ad"
+        },
+        {
+          "src": "media/immagine-002.png",
+          "alt": "Un escritor ante una mesa de trabajo, con papeles y libros en una redacción antigua.",
+          "sha256": "11f709158a9e04c67a4242c17de597bcfb41ed78e064dc3902458982934e9f94"
+        },
+        {
+          "src": "media/mapa-metrica.png",
+          "alt": "Dos libros de poesía, una pluma, cuentas y una pequeña guitarra.",
+          "sha256": "01d9bbdc2a7253220e4e4c4fc3cb721bdbcdc74e091674fe2d21e33584327ba6"
+        },
+        {
+          "src": "media/mapa-verso-quebrado.png",
+          "alt": "Un libro abierto con dos barras horizontales de longitudes diferentes.",
+          "sha256": "34e7a86036e889249a7080bbd554c2e7337057d2b5b29ba2b73fb760eb333576"
+        },
+        {
+          "src": "media/mapa-figuras-retoricas.png",
+          "alt": "Un libro con plumas y flores repetidas, ante símbolos del sol y de la luna.",
+          "sha256": "67cbe3f58ac8021d722dbc910b3c722ca73606d12c15d147475d363ca5d4766f"
+        },
+        {
+          "src": "media/mapa-otros-recursos.png",
+          "alt": "Tiras de papel sobre un libro iluminado y un signo de exclamación.",
+          "sha256": "1892ded7571569a5b6ee26852684147702e3d540b5288f4c82c4da8097193d1e"
+        },
+        {
+          "src": "media/mapa-lenguaje.png",
+          "alt": "Una persona adulta lee a otra en una habitación con guitarras.",
+          "sha256": "931d287886e754864a534a317877728ca1d293e39189c3e2eda10543c23ba545"
+        },
+        {
+          "src": "media/mapa-influencia.png",
+          "alt": "Un libro central enlazado por luz con dos mesas de escritura.",
+          "sha256": "7fed361328f729a6200398cf306abdd22420694119cee1c5870754dd2478f625"
+        }
+      ]
+    },
+    "bibliografia_originale_invariata": {
+      "pass": true
+    },
+    "citazione_della_foto_presente_una_sola_volta": {
+      "pass": true,
+      "details": "[2] Cadelli, E. – Salvaggio, M. – Bruni, P. – Caballero Sánchez, P. – Vargas Vergara, M. Horizontes. Paisajes literarios y raíces culturales del mundo hispano , Milano: Europass, p. 222-223."
+    },
+    "undici_voci_indice_cliccabili": {
+      "pass": true,
+      "details": []
+    },
+    "quattro_richiami_bibliografici_cliccabili": {
+      "pass": true
+    },
+    "link_esterno_cervantes_presente": {
+      "pass": true
+    },
+    "mappe_78x78_quattro_per_pagina": {
+      "pass": true,
+      "details": [
+        {
+          "page": 28,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 28,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 28,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 28,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 29,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 29,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 29,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 29,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 30,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 30,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 30,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        },
+        {
+          "page": 30,
+          "w_mm": 78.0,
+          "h_mm": 78.0
+        }
+      ]
+    }
+  },
+  "baseline_sha256": "2e2ee895bd94d261ed77a45e6c712f76ee6b8b17df216fa6cb77283f00b6e515",
+  "final_sha256": "f3fb8a98ba19fe42a5eecdb0d855aa0498be663c4c78fbdfe187afd298cdf651",
+  "limitations": "Le illustrazioni sono metafore esplicative, non documenti storici; l’analisi automatica non misura la pertinenza semantica né certifica PDF/UA."
+}

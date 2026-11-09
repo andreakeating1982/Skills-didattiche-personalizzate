@@ -1,0 +1,18 @@
+{
+  "pdf_sha256": "5dcc0e4b22acb02941ae3fae3a9cb6f7ad1e672fb829907a5c04d435e2720e76",
+  "video_sha256": "9287cc59bd0e6dab9bf49fcf627d2f1a1408ac7a6753ea61efcea4d7357ea5e7",
+  "duration_seconds": 1004.385,
+  "duration": "16:44",
+  "frame": "1280x720 statico dalla copertina del podcast del blog",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "video_bytes": 14041111,
+  "parts": 9,
+  "voce_italiana_alternata": true,
+  "speed": 1.12,
+  "music": false,
+  "decode_errors": false,
+  "chapter_count": 9,
+  "auditory_review": "Ascoltati campioni di inizio e fine delle nove clip e il montaggio di controllo; verificati anche il cambio femminile/maschile nel file MP4, l'ultima opzione del quiz e la conclusione dell'attribuzione. Nei campioni non risultano tagli evidenti. Pronuncia ics erre riscontrata nelle due voci sulle clip sorgenti. L'intero podcast non è stato ascoltato integralmente.",
+  "limits": "I controlli tecnici non dimostrano la perfezione della lettura."
+}

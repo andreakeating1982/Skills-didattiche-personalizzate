@@ -1,0 +1,68 @@
+[
+  {
+    "original_name": "circolari-audio",
+    "new_skill": "didattica-media-audio-3d",
+    "guide": "references/circolari.md",
+    "status": "reconstructed_partial",
+    "ready_to_replace_original_after_install": false,
+    "missing_original_resources": [
+      "scripts/normalizza_audio.sh originale"
+    ],
+    "source_note": "Descrizione corrente + estratti chat10/10 sul formato e loudness.",
+    "aliases": [
+      "circolare",
+      "lettura circolare",
+      "mp3 circolare"
+    ],
+    "resources": []
+  },
+  {
+    "original_name": "video-claymation-didattico",
+    "new_skill": "didattica-media-audio-3d",
+    "guide": "references/video-clay.md",
+    "status": "source_complete",
+    "ready_to_replace_original_after_install": true,
+    "missing_original_resources": [],
+    "source_note": "Cartella skill locale disponibile; non implica presenza del repository dell’app.",
+    "aliases": [
+      "video clay",
+      "documentario",
+      "claymation"
+    ],
+    "resources": [
+      "references/originali/video-claymation-didattico.md",
+      "references/video-claymation-didattico/workflow-report.md",
+      "scripts/video-claymation-didattico/assemble_claymation.py",
+      "scripts/video-claymation-didattico/plan_scene.py",
+      "scripts/video-claymation-didattico/qa_frames.py",
+      "templates/video-claymation-didattico/clay-style.txt",
+      "templates/video-claymation-didattico/prompt-scena.md",
+      "templates/video-claymation-didattico/scena.json"
+    ]
+  },
+  {
+    "original_name": "modello-3d-didattico",
+    "new_skill": "didattica-media-audio-3d",
+    "guide": "references/modelli-3d.md",
+    "status": "source_complete",
+    "ready_to_replace_original_after_install": true,
+    "missing_original_resources": [],
+    "source_note": "Cartella skill locale disponibile; non implica presenza del repository dell’app.",
+    "aliases": [
+      "glb",
+      "diorama",
+      "figmin",
+      "sketchfab",
+      "modello 3d"
+    ],
+    "resources": [
+      "references/originali/modello-3d-didattico.md",
+      "references/modello-3d-didattico/report-3d.md",
+      "scripts/modello-3d-didattico/costruisci_modello.py",
+      "scripts/modello-3d-didattico/ritaglia_figure.py",
+      "scripts/modello-3d-didattico/valida_glb.js",
+      "templates/modello-3d-didattico/meta.json",
+      "templates/modello-3d-didattico/palette.json"
+    ]
+  }
+]

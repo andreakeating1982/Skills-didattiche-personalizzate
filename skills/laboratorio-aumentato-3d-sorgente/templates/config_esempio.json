@@ -1,0 +1,28 @@
+{
+  "theme_words": {
+    "spagnolo": "lingua straniera"
+  },
+
+  "meta_description": "Nuovo Tema — raccolta di elaborati visivi e audio a gruppi: foto, lettura in lingua straniera, spiegazioni, con rubrica di valutazione.",
+
+  "steps": {
+    "step3_desc": "Caricate lo screenshot (o gli screenshot, fino a 3) del vostro lavoro posizionato nel luogo che avete scelto.",
+    "step4_desc": "Scrivete una breve spiegazione (3-5 frasi) in cui descrivete: <strong>1)</strong> perché avete scelto quel luogo, <strong>2)</strong> quale legame c'è con il significato del lavoro, <strong>3)</strong> che effetto volevate ottenere.",
+    "step5_heading": "Lettura in lingua straniera",
+    "step5_desc": "Registrate e caricate un file audio (MP3) con la lettura espressiva del testo in lingua straniera.",
+    "step5_label": "CARICA AUDIO LETTURA (MP3)",
+    "step5_subtext": "Lettura espressiva in lingua straniera (tutti i componenti)",
+    "step6_heading": "Spiegazione audio delle ragioni della foto",
+    "step6_desc": "Registrate e caricate un file audio (MP3) in cui spiegate a voce le ragioni della vostra scelta.",
+    "step6_label": "CARICA AUDIO SPIEGAZIONE (MP3)",
+    "step6_subtext": "Spiegazione orale: luogo e significato della scelta"
+  },
+
+  "rubric": [
+    { "key": "pertinenzaTema", "label": "1. Pertinenza al tema", "desc": "Il lavoro riflette adeguatamente il tema assegnato?" },
+    { "key": "originalita", "label": "2. Originalità e creatività", "desc": "Il lavoro è originale e creativo?" },
+    { "key": "qualitaTecnica", "label": "3. Qualità tecnica dell'elaborato audiovisivo", "desc": "Le immagini sono nitide e curate?" },
+    { "key": "qualitaLettura", "label": "4. Qualità della lettura in lingua straniera", "desc": "La pronuncia è corretta e l'intonazione espressiva?" },
+    { "key": "rispettoTempi", "label": "5. Rispetto dei tempi", "desc": "Il lavoro è stato consegnato entro il termine stabilito?" }
+  ]
+}

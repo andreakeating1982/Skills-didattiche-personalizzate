@@ -1,0 +1,318 @@
+{
+  "passed": true,
+  "pdf_sha256": "f2ff1e94f785e719648bd475bda7fe04ab93233cec291f849213aa6fa52e1ec4",
+  "pages": 20,
+  "sections_original_elements_preserved": true,
+  "quiz_questions": 10,
+  "options_per_question": 4,
+  "map_nodes": 11,
+  "chapter_nodes": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4",
+    "sec5"
+  ],
+  "map_geometry": {
+    "map-node-1": {
+      "page": 17,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-2": {
+      "page": 17,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-3": {
+      "page": 17,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-4": {
+      "page": 17,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-5": {
+      "page": 18,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-6": {
+      "page": 18,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-7": {
+      "page": 18,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-8": {
+      "page": 18,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-9": {
+      "page": 19,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-10": {
+      "page": 19,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    },
+    "map-node-11": {
+      "page": 19,
+      "box_mm": [
+        78.0,
+        78.0
+      ],
+      "images_mm": [
+        [
+          52.0,
+          29.373
+        ]
+      ],
+      "outside_lines": 0
+    }
+  },
+  "notes": [
+    {
+      "page": 2,
+      "label": "[1]",
+      "reference": "rif-1",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 2,
+      "label": "[1]",
+      "reference": "rif-1",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 4,
+      "label": "[1]",
+      "reference": "rif-1",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 4,
+      "label": "[1]",
+      "reference": "rif-1",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 4,
+      "label": "[1]",
+      "reference": "rif-1",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 6,
+      "label": "[2]",
+      "reference": "rif-2",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 6,
+      "label": "[2]",
+      "reference": "rif-2",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 8,
+      "label": "[3]",
+      "reference": "rif-3",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 8,
+      "label": "[3]",
+      "reference": "rif-3",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 8,
+      "label": "[3]",
+      "reference": "rif-3",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 10,
+      "label": "[4]",
+      "reference": "rif-4",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 10,
+      "label": "[4]",
+      "reference": "rif-4",
+      "destination_page": 20,
+      "passed": true
+    },
+    {
+      "page": 10,
+      "label": "[5]",
+      "reference": "rif-5",
+      "destination_page": 20,
+      "passed": true
+    }
+  ],
+  "reference_count": 5,
+  "index": [
+    {
+      "name": "sec1",
+      "target_page": 2,
+      "link_count": 3
+    },
+    {
+      "name": "sec2",
+      "target_page": 4,
+      "link_count": 3
+    },
+    {
+      "name": "sec3",
+      "target_page": 6,
+      "link_count": 3
+    },
+    {
+      "name": "sec4",
+      "target_page": 8,
+      "link_count": 3
+    },
+    {
+      "name": "sec5",
+      "target_page": 10,
+      "link_count": 3
+    },
+    {
+      "name": "sec6",
+      "target_page": 13,
+      "link_count": 3
+    },
+    {
+      "name": "verifica",
+      "target_page": 15,
+      "link_count": 3
+    },
+    {
+      "name": "mapa",
+      "target_page": 17,
+      "link_count": 3
+    },
+    {
+      "name": "referencias",
+      "target_page": 20,
+      "link_count": 3
+    }
+  ],
+  "summary_weights": [
+    "400"
+  ],
+  "errors": [],
+  "limits": "Controlli geometrici e di regressione, non sostituiscono revisione delle fonti, correttezza dei quesiti, visione PDF o validazione PDF/UA."
+}

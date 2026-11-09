@@ -1,0 +1,113 @@
+{
+  "title": "REALTÀ VIRTUALE A SCUOLA",
+  "subtitle": "PRINCIPI, EVIDENZE E USO DIDATTICO DI VR, AR, MR E XR",
+  "author": "ANDREA CENTINARO",
+  "sections": [
+    {
+      "id": "sec1", "number": 1, "title": "LA REALTÀ VIRTUALE (VR)", "color": "#b23c47", "image": "media/vr.png",
+      "blocks": [
+        "La <strong>realtà virtuale</strong> (VR) è un ambiente digitale interattivo che può rappresentare luoghi reali oppure immaginari. Nella VR immersiva, un visore sostituisce la vista dell’ambiente fisico con una scena generata dal computer. [2, 3]",
+        "Il sistema rileva i movimenti della testa e aggiorna la scena. Le immagini presentate ai due occhi possono creare una <strong>percezione stereoscopica della profondità</strong>. Controller, mani tracciate o altri comandi consentono di esplorare e manipolare oggetti digitali. [3]",
+        "L’<strong>hand tracking</strong> stima posizione e movimenti delle mani tramite sensori e software. Non richiede necessariamente guanti e non garantisce un ritorno tattile: vedere un oggetto afferrato non significa sentirne davvero il peso. [2]",
+        "L’<strong>immersione</strong> riguarda le caratteristiche tecniche del sistema; la <strong>presenza</strong> è la sensazione soggettiva di trovarsi nell’ambiente rappresentato. Un forte coinvolgimento può sostenere l’attività, ma non dimostra da solo che si sia imparato. [3]"
+      ],
+      "summary": [
+        ["AMBIENTE", "Uno spazio digitale esplorabile, realistico o immaginario."],
+        ["INTERAZIONE", "Movimenti e comandi modificano la scena e gli oggetti virtuali."],
+        ["IMMERSIONE", "Dipende dalle caratteristiche tecniche del sistema."],
+        ["PRESENZA", "È la sensazione di essere nell’ambiente virtuale; non prova l’apprendimento."]
+      ]
+    },
+    {
+      "id": "sec2", "number": 2, "title": "LA REALTÀ AUMENTATA (AR)", "color": "#1a5fb4", "image": "media/ar.png",
+      "blocks": [
+        "La <strong>realtà aumentata</strong> (AR) integra la percezione dell’ambiente reale con informazioni digitali. Nella definizione classica, combina reale e virtuale, permette interazioni in tempo reale e allinea gli elementi digitali allo spazio tridimensionale. [1]",
+        "L’ambiente fisico resta visibile, direttamente oppure attraverso la fotocamera. Smartphone, tablet e dispositivi indossabili possono mostrare modelli, etichette o indicazioni collegati a un oggetto reale. Non basta aggiungere una qualunque immagine allo schermo per ottenere un’integrazione spaziale. [1, 2]",
+        "Per mantenere l’allineamento, il sistema utilizza dati della fotocamera e di altri sensori. Alcune applicazioni impiegano tecniche di <strong>intelligenza artificiale</strong>, ma l’IA non è un requisito che definisce l’AR. Un modello didattico deve essere anche corretto, leggibile e pertinente. [1, 2]"
+      ],
+      "summary": [
+        ["AMBIENTE", "Il mondo reale resta visibile, con informazioni digitali aggiunte."],
+        ["ALLINEAMENTO", "Il contenuto digitale mantiene una relazione con lo spazio reale."],
+        ["DISPOSITIVI", "Si possono usare smartphone, tablet o dispositivi indossabili."],
+        ["CRITERIO", "Conta la pertinenza del contenuto, non la sola novità tecnologica."]
+      ]
+    },
+    {
+      "id": "sec3", "number": 3, "title": "LA REALTÀ MISTA (MR)", "color": "#257041", "image": "media/mr.png",
+      "blocks": [
+        "L’espressione <strong>realtà mista</strong> (MR) non ha un significato identico in tutti i contesti. Qui indica esperienze in cui contenuti digitali e ambiente fisico sono integrati attraverso il riconoscimento dello spazio e forme di interazione coerenti. [2]",
+        "Il dispositivo può ricostruire superfici e posizioni per mantenere un oggetto digitale <strong>ancorato</strong> a un tavolo. Può anche simulare l’<strong>occlusione</strong>: una parte dell’oggetto virtuale non viene mostrata quando dovrebbe trovarsi dietro un elemento reale. [2]",
+        "Questi comportamenti sono calcolati dal software. Un oggetto digitale non esercita da solo forze sull’ambiente: contatto, resistenza e peso richiedono eventuali dispositivi fisici di ritorno tattile. L’integrazione visiva non equivale quindi a una vera interazione meccanica.",
+        "La MR non è automaticamente superiore all’AR o alla VR. Le funzioni disponibili dipendono da sensori, software e attività; il nome commerciale di un visore non descrive, da solo, la qualità educativa dell’esperienza. [2, 3]"
+      ],
+      "summary": [
+        ["SIGNIFICATO", "La definizione varia: occorre chiarire quali funzioni si utilizzano."],
+        ["ANCORAGGIO", "Un oggetto digitale può mantenere una posizione nello spazio reale."],
+        ["OCCLUSIONE", "Il software può nascondere parti digitali dietro elementi reali."],
+        ["DISTINZIONE", "Una simulazione visiva non produce da sola contatto, peso o resistenza."]
+      ]
+    },
+    {
+      "id": "sec4", "number": 4, "title": "LA EXTENDED REALITY (XR)", "color": "#9b4f12", "image": "media/xr.png",
+      "blocks": [
+        "<strong>Extended reality</strong> (XR), o realtà estesa, è un termine ombrello che comprende VR, AR e MR. Non identifica una singola applicazione né un particolare dispositivo: raggruppa esperienze con differenti rapporti fra ambiente reale e contenuti digitali. [2]",
+        "Queste esperienze possono essere descritte lungo un <strong>continuum</strong>, ma non formano una scala automatica di qualità. Visibilità dell’ambiente, immersione e modalità di interazione sono caratteristiche distinte, da esaminare in rapporto al compito. [2, 3]",
+        "Per esempio, osservare un modello accanto a un oggetto reale può favorire il confronto; esplorare un ambiente ricostruito può richiedere la VR. La scelta didattica parte dall’<strong>obiettivo di apprendimento</strong>, non dall’idea che il sistema più immersivo sia sempre il migliore. [3]"
+      ],
+      "summary": [
+        ["TERMINE", "XR comprende esperienze di realtà virtuale, aumentata e mista."],
+        ["VARIABILI", "Visibilità del reale, immersione e interazione possono cambiare."],
+        ["SCELTA", "La tecnologia deve essere adeguata al compito e agli obiettivi."]
+      ]
+    },
+    {
+      "id": "sec5", "number": 5, "title": "LE XR A SCUOLA", "color": "#744394", "image": "media/copertina.png",
+      "blocks": [
+        "Le XR possono sostenere esplorazioni e simulazioni difficili da realizzare in aula. Un possibile uso è osservare relazioni spaziali in un modello tridimensionale; un altro è esercitarsi in una situazione ricostruita, con obiettivi e consegne espliciti. [3, 4]",
+        "La ricerca non autorizza a promettere un miglioramento automatico. Una revisione sull’<strong>istruzione superiore</strong> segnala limiti nella valutazione degli apprendimenti: usabilità e gradimento non sono prove sufficienti di efficacia. I risultati non si trasferiscono direttamente a ogni classe della scuola secondaria. [4]",
+        "Il modello teorico <strong>CAMIL</strong> collega presenza e possibilità di agire a processi come attenzione, motivazione e carico cognitivo. Stimoli o comandi non pertinenti possono impegnare risorse mentali senza aiutare a comprendere il contenuto. [3]",
+        "Una progettazione ragionevole prevede preparazione, esperienza guidata e rielaborazione. Prima si chiariscono compito e comandi; durante si osservano elementi pertinenti; dopo si spiegano i risultati e si applica ciò che si è compreso a un nuovo problema. [3]",
+        "L’<strong>accessibilità</strong> richiede alternative: comandi diversi, sottotitoli, regolazioni e modalità senza visore quando necessarie. L’hand tracking può essere utile, ma non è accessibile a tutti; non deve diventare l’unico modo di partecipare. [2]",
+        "Occorrono inoltre uno spazio sicuro, pause e una modalità immediata di uscita. Nausea, vertigini o affaticamento richiedono l’interruzione dell’esperienza. Durata e attività vanno adattate alla persona e alle indicazioni del dispositivo, senza imporre un tempo uguale per tutti. [2]",
+        "Per valutare l’apprendimento servono <strong>prove coerenti con gli obiettivi</strong>, non soltanto giudizi di gradimento. Domande di comprensione, spiegazioni e compiti di applicazione consentono di verificare che cosa lo studente sa usare anche al di fuori dell’esperienza immersiva. [3, 4]"
+      ],
+      "summary": [
+        ["POTENZIALITÀ", "Esplorazioni e simulazioni hanno valore se collegate a un obiettivo."],
+        ["PROGETTAZIONE", "Preparazione, guida e rielaborazione sostengono l’attività."],
+        ["ACCESSIBILITÀ", "Prevedere comandi e modalità alternative, anche senza visore."],
+        ["SICUREZZA", "Adattare l’esperienza e interromperla in caso di malessere."],
+        ["VALUTAZIONE", "Verificare comprensione e applicazione, non soltanto gradimento."]
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "verifica", "title": "VERIFICA DI COMPRENSIONE", "difficulty": "media",
+    "instructions": "Scegli una sola risposta per ogni domanda. Le domande riguardano l’intero articolo e richiedono di distinguere i concetti e applicarli a situazioni concrete.",
+    "questions": [
+      {"id":"q1","section_ids":["sec1"],"stem":"Uno studente si sente dentro l’ambiente virtuale. Questa sensazione dimostra soprattutto:","options":["la precisione dei sensori","l’apprendimento raggiunto","la presenza percepita","la correttezza del modello"],"correct":"C","rationale":"La presenza è un’esperienza soggettiva distinta dall’immersione tecnica e dall’apprendimento."},
+      {"id":"q2","section_ids":["sec2"],"stem":"Un tablet mostra un modello 3D allineato a un oggetto reale, che rimane visibile. Quale tecnologia descrive meglio l’esperienza?","options":["Realtà aumentata","Realtà virtuale immersiva","Sola riproduzione in 2D","Simulazione senza il reale"],"correct":"A","rationale":"La AR integra contenuti digitali all’ambiente reale visibile, con allineamento spaziale."},
+      {"id":"q3","section_ids":["sec3"],"stem":"Un cubo digitale sembra fermo su un tavolo e viene nascosto da un oggetto reale. Quale spiegazione è corretta?","options":["Una collisione meccanica","Un modello senza sensori","Una sostituzione del reale","Ancoraggio e occlusione"],"correct":"D","rationale":"Ancoraggio e occlusione sono rapporti calcolati, non forze meccaniche esercitate dall’oggetto digitale."},
+      {"id":"q4","section_ids":["sec4"],"stem":"Quale affermazione interpreta correttamente il termine XR?","options":["È un visore più avanzato","Comprende VR, AR e MR","Indica soltanto la MR","È sinonimo di immersione"],"correct":"B","rationale":"XR è un termine ombrello e non un dispositivo o una singola applicazione."},
+      {"id":"q5","section_ids":["sec2","sec4"],"stem":"La classe deve confrontare un oggetto reale con un modello digitale affiancato. Quale criterio guida la scelta della tecnologia?","options":["La coerenza con il compito","Il prezzo più elevato","L’immersione più intensa","La novità del dispositivo"],"correct":"A","rationale":"La scelta dipende dall’obiettivo e dal compito, non da una gerarchia automatica di immersione."},
+      {"id":"q6","section_ids":["sec1","sec5"],"stem":"Dopo una lezione immersiva gli studenti dichiarano di essersi divertiti. Per verificare l’apprendimento è più utile:","options":["misurare il gradimento","aumentare il tempo d’uso","proporre un nuovo compito","chiedere solo del comfort"],"correct":"C","rationale":"Un compito coerente con gli obiettivi verifica l’applicazione; il gradimento non basta."},
+      {"id":"q7","section_ids":["sec1","sec5"],"stem":"Un’attività utilizza il tracciamento delle mani. Per renderla più accessibile occorre:","options":["aumentare i gesti richiesti","offrire comandi alternativi","imporre gli stessi gesti","togliere tutte le regolazioni"],"correct":"B","rationale":"L’hand tracking non è universalmente accessibile: servono modalità alternative."},
+      {"id":"q8","section_ids":["sec5"],"stem":"Durante una simulazione uno studente avverte nausea. Qual è la scelta più appropriata?","options":["Ridurre solo la difficoltà","Proseguire da seduti","Rispettare il tempo previsto","Interrompere e rivalutare"],"correct":"D","rationale":"Il malessere richiede interruzione e adattamento, non tempi obbligatori uguali per tutti."}
+    ]
+  },
+  "references": [
+    {"number":1,"authors":"Azuma, R. T.","year":"1997","title":"A Survey of Augmented Reality","publication":"Presence: Teleoperators and Virtual Environments, 6(4), 355–385.","url":"https://doi.org/10.1162/pres.1997.6.4.355","note":""},
+    {"number":2,"authors":"W3C, Accessible Platform Architectures Working Group","year":"2021","title":"XR Accessibility User Requirements","publication":"Working Group Note, 25 agosto 2021.","url":"https://www.w3.org/TR/xaur/","note":"Nota del gruppo W3C: non è una norma di conformità."},
+    {"number":3,"authors":"Makransky, G.; Petersen, G. B.","year":"2021","title":"The Cognitive Affective Model of Immersive Learning (CAMIL): a Theoretical Research-Based Model of Learning in Immersive Virtual Reality","publication":"Educational Psychology Review, 33, 937–958.","url":"https://doi.org/10.1007/s10648-020-09586-2","note":""},
+    {"number":4,"authors":"Radianti, J.; Majchrzak, T. A.; Fromm, J.; Wohlgenannt, I.","year":"2020","title":"A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda","publication":"Computers & Education, 147, 103778.","url":"https://doi.org/10.1016/j.compedu.2019.103778","note":"Revisione riferita all’istruzione superiore."}
+  ],
+  "map_updates": {
+    "mappa-box-vr": {"keywords":["MONDO DIGITALE","PRESENZA"]},
+    "mappa-box-ar": {"keywords":["MONDO REALE","CONTENUTI DIGITALI"]},
+    "mappa-box-mr": {"keywords":["ANCORAGGIO","OCCLUSIONE"]},
+    "mappa-box-xr": {"keywords":["VR · AR · MR","TERMINE OMBRELLO"]},
+    "mappa-box-esperienza": {"keywords":["ESPLORAZIONE","SIMULAZIONE"]},
+    "mappa-box-apprendimento": {"keywords":["OBIETTIVI","VERIFICA"]},
+    "mappa-box-accessibilita": {"keywords":["ALTERNATIVE","PERSONALIZZAZIONE"]}
+  }
+}
+

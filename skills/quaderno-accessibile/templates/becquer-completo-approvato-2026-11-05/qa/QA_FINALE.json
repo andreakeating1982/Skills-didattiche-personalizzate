@@ -1,0 +1,229 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "sezione_1_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_2_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_3_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_4_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_5_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_6_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_7_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_8_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "sezione_9_contenuto_inalterato_salvo_modifiche": {
+      "pass": true
+    },
+    "mappa_invariata_salvo_eliminazioni_e_distribuzione": {
+      "pass": true
+    },
+    "intestazioni_specchietti": {
+      "pass": true
+    },
+    "originale_timeline_unita_1_conservata": {
+      "pass": true
+    },
+    "elementi_fotografie_eliminati": {
+      "pass": true
+    },
+    "qr_e_istruzioni_conservati": {
+      "pass": true
+    },
+    "riferimento_originale_esatto_spostato": {
+      "pass": true,
+      "details": [
+        "Cadelli, E. – Salvaggio, M. – Bruni, P. – Caballero Sánchez, P. – Vargas Vergara, M. Horizontes. Paisajes literarios y raíces culturales del mundo hispano, Milano: Europass, p. 222-223.",
+        "Cadelli, E. – Salvaggio, M. – Bruni, P. – Caballero Sánchez, P. – Vargas Vergara, M. Horizontes. Paisajes literarios y raíces culturales del mundo hispano, Milano: Europass, p. 222-223."
+      ]
+    },
+    "fonte_online_distinta": {
+      "pass": true
+    },
+    "indice_unica_pagina_11_voci_e_link": {
+      "pass": true,
+      "details": []
+    },
+    "indice_nuove_voci": {
+      "pass": true
+    },
+    "quattro_note_cliccabili_e_corrette": {
+      "pass": true,
+      "details": [
+        {
+          "page": 2,
+          "dest": "rif-1",
+          "target": 31,
+          "area": 195.67118681967258
+        },
+        {
+          "page": 2,
+          "dest": "rif-1",
+          "target": 31,
+          "area": 195.670827627182
+        },
+        {
+          "page": 11,
+          "dest": "rif-2",
+          "target": 31,
+          "area": 200.0907722711563
+        },
+        {
+          "page": 12,
+          "dest": "rif-2",
+          "target": 31,
+          "area": 200.0907722711563
+        }
+      ]
+    },
+    "link_esterno_biografia": {
+      "pass": true,
+      "details": [
+        "https://www.cervantesvirtual.com/portales/gustavo_adolfo_becquer/autor_biografia/",
+        "https://www.cervantesvirtual.com/portales/gustavo_adolfo_becquer/autor_biografia/"
+      ]
+    },
+    "qr_finale_identico_all_originale": {
+      "pass": true,
+      "details": {
+        "baseline": [
+          [
+            22,
+            "73546ee4b13f23a2279226b2ea8f17beeab87a4f0305769e92fa0dbae5a5f90f"
+          ]
+        ],
+        "finale": [
+          [
+            22,
+            "73546ee4b13f23a2279226b2ea8f17beeab87a4f0305769e92fa0dbae5a5f90f"
+          ]
+        ]
+      }
+    },
+    "pagine_non_interessate_identiche_al_pixel": {
+      "pass": true,
+      "details": {
+        "esaminate": [
+          5,
+          7,
+          9,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "differenti": []
+      }
+    },
+    "dodici_nodi_78x78": {
+      "pass": true,
+      "details": [
+        [
+          28,
+          78.0,
+          78.0
+        ],
+        [
+          28,
+          78.0,
+          78.0
+        ],
+        [
+          28,
+          78.0,
+          78.0
+        ],
+        [
+          28,
+          78.0,
+          78.0
+        ],
+        [
+          29,
+          78.0,
+          78.0
+        ],
+        [
+          29,
+          78.0,
+          78.0
+        ],
+        [
+          29,
+          78.0,
+          78.0
+        ],
+        [
+          29,
+          78.0,
+          78.0
+        ],
+        [
+          30,
+          78.0,
+          78.0
+        ],
+        [
+          30,
+          78.0,
+          78.0
+        ],
+        [
+          30,
+          78.0,
+          78.0
+        ],
+        [
+          30,
+          78.0,
+          78.0
+        ]
+      ]
+    },
+    "specchietti_tutti_regular": {
+      "pass": true,
+      "details": []
+    },
+    "indice_tutto_in_prima_pagina": {
+      "pass": true,
+      "details": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "baseline_sha256": "cc924e6708f55edb6c188c939a20842f6865d400fe9038a3a290311d97244e3d",
+  "finale_sha256": "2e2ee895bd94d261ed77a45e6c712f76ee6b8b17df216fa6cb77283f00b6e515",
+  "note": "I controlli non certificano PDF/UA, la disponibilità futura dei link o la consultazione diretta del volume cartaceo."
+}

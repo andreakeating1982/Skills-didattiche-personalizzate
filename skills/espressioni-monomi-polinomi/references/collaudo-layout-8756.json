@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "third_page_scenarios": 7,
+  "third_page_checks": 168,
+  "second_page_regression_scenarios": 7,
+  "second_page_regression_checks": 151,
+  "unit_tests_passed": 738,
+  "unit_tests_skipped": 28,
+  "typecheck": "passed",
+  "build": "passed",
+  "maximum_height_px": 640,
+  "height_behaviour": "content-driven, capped; intrinsic shrink/grow tested in an isolated DOM clone",
+  "exercise_math_session_and_pdf_source": "identical to c498c69 after removing only the outer markup wrapper",
+  "runtime_files_changed": [
+    "client/src/App.tsx",
+    "client/src/index.css",
+    "client/src/pages/EsercizioFrazioni.tsx"
+  ],
+  "third_page_test_sha256": "e96df131ddb1e82fed4b59d77c8f142dfa2dae6b816adb34b6e83e154ca9c239",
+  "production_deployment": false,
+  "database_writes": false,
+  "ai_used": "none; synthetic session fixtures",
+  "pdf_test": "real HTML generation captured by local window.open/document.write stub; no physical printer test",
+  "device_test": "Chromium emulated viewports/touch; not physical phones",
+  "scenario_names": [
+    "desktop",
+    "mobile-320",
+    "mobile-393",
+    "landscape",
+    "blog-mobile",
+    "blog-desktop",
+    "accessibilita-160"
+  ]
+}

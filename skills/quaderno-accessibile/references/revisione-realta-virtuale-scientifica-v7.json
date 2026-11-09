@@ -1,0 +1,55 @@
+{
+  "record_date": "2026-11-02",
+  "document": "08_Realta_virtuale",
+  "status": "riscrittura scientifica richiesta; non approvazione preventiva dell’utente",
+  "title": "REALTÀ VIRTUALE A SCUOLA",
+  "author": "ANDREA CENTINARO",
+  "current_pdf": "REALTA_VIRTUALE_A_SCUOLA_EDIZIONE_SCIENTIFICA_v7.pdf",
+  "current_pdf_local_path": "/home/user/realta_virtuale_scientifica_v7/REALTA_VIRTUALE_A_SCUOLA_EDIZIONE_SCIENTIFICA_v7.pdf",
+  "current_pdf_sha256": "e3ba69955ac3e745b92548aebc4fdd7f02d78fa839ef680faae15c4c6051ea67",
+  "source_html_local_path": "/home/user/realta_virtuale_scientifica_v7/sorgenti/REALTA_VIRTUALE_A_SCUOLA_EDIZIONE_SCIENTIFICA_v7.html",
+  "manifest_example": "../templates/articolo-scientifico-quiz/esempio-realta-virtuale.json",
+  "pages": 16,
+  "body_boxes": 21,
+  "summary_rows": 20,
+  "summary_font_weight": 400,
+  "line_height": 1.85,
+  "map_box_mm": [
+    78,
+    78
+  ],
+  "map_image_mm": [
+    52,
+    29.373
+  ],
+  "map_boxes": 7,
+  "quiz_questions": 8,
+  "options_per_question": 4,
+  "quiz_difficulty": "media",
+  "references": 4,
+  "section_starts": {
+    "sec1": 2,
+    "sec2": 4,
+    "sec3": 6,
+    "sec4": 8,
+    "sec5": 10,
+    "verifica": 12,
+    "mappa": 14,
+    "bibliografia": 16
+  },
+  "previous_pdf": "REALTA_VIRTUALE_A_SCUOLA_MAPPA_BOX_STANDARD_v6.pdf",
+  "previous_pdf_sha256": "1e00b75b9ec7b55c143d5f1d7e7ef95001f2cd26127e855bc50e72dd03a51aaf",
+  "previous_approved_geometry_preserved": true,
+  "changes_authorized": [
+    "riscrittura intero testo scientifico",
+    "rimozione rimandi video/blog",
+    "quiz prima mappa",
+    "bibliografia ampliata senza FONTE",
+    "firma finale e metadati autore"
+  ],
+  "skill_tests_passed": 34,
+  "other_pdfs_changed": false,
+  "old_zip_changed": false,
+  "delivery": "only PDF as requested",
+  "limits": "Difficoltà e contenuto revisionati editorialmente; nessuna validazione PDF/UA indipendente."
+}

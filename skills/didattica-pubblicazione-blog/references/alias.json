@@ -1,0 +1,98 @@
+[
+  {
+    "original_name": "deploy-app-produzione",
+    "new_skill": "didattica-pubblicazione-blog",
+    "guide": "references/deploy.md",
+    "status": "reconstructed_partial",
+    "ready_to_replace_original_after_install": false,
+    "missing_original_resources": [
+      "sorgente originale SKILL.md"
+    ],
+    "source_note": "Descrizione corrente + rilascio effettivamente eseguito in questa chat.",
+    "aliases": [
+      "deploy",
+      "pubblicazione",
+      "cloud run",
+      "render produzione"
+    ],
+    "resources": []
+  },
+  {
+    "original_name": "zip-esportabile-guide-ia",
+    "new_skill": "didattica-pubblicazione-blog",
+    "guide": "references/zip-guide.md",
+    "status": "source_complete",
+    "ready_to_replace_original_after_install": true,
+    "missing_original_resources": [],
+    "source_note": "Cartella skill locale disponibile; non implica presenza del repository dell’app.",
+    "aliases": [
+      "zip",
+      "github",
+      "rebuild",
+      "adattare",
+      "render",
+      "guide ia"
+    ],
+    "resources": [
+      "references/originali/zip-esportabile-guide-ia.md",
+      "references/zip-esportabile-guide-ia/modelli-guide.md",
+      "references/zip-esportabile-guide-ia/ritaglio-mobile-iframe.md",
+      "scripts/zip-esportabile-guide-ia/export_zip.sh"
+    ]
+  },
+  {
+    "original_name": "codici-embed-cornici",
+    "new_skill": "didattica-pubblicazione-blog",
+    "guide": "references/cornici.md",
+    "status": "reconstructed_partial",
+    "ready_to_replace_original_after_install": false,
+    "missing_original_resources": [
+      "scripts/estrai_codice.py",
+      "scripts/sostituisci_codice.py",
+      "scripts/suddividi_in_parti.py",
+      "scripts/rinumera_parti.py",
+      "DOCX corrente dell’utente (non una risorsa skill permanente)"
+    ],
+    "source_note": "Descrizione corrente + estratti chat03/10 e23/10; numerazione storica da verificare.",
+    "aliases": [
+      "codici embed",
+      "cornici docx",
+      "blogger"
+    ],
+    "resources": []
+  },
+  {
+    "original_name": "cornice-universale",
+    "new_skill": "didattica-pubblicazione-blog",
+    "guide": "references/cornice-universale.md",
+    "status": "source_complete",
+    "ready_to_replace_original_after_install": true,
+    "missing_original_resources": [],
+    "source_note": "Cartella skill locale disponibile; non implica presenza del repository dell’app.",
+    "aliases": [
+      "nascondi mostra",
+      "documento protetto",
+      "stato sincronizzato"
+    ],
+    "resources": [
+      "references/originali/cornice-universale.md"
+    ]
+  },
+  {
+    "original_name": "presentazione-app-docx",
+    "new_skill": "didattica-pubblicazione-blog",
+    "guide": "references/presentazioni-blog.md",
+    "status": "reconstructed_partial",
+    "ready_to_replace_original_after_install": false,
+    "missing_original_resources": [
+      "scripts/genera_presentazione.py originale"
+    ],
+    "source_note": "Solo descrizione corrente, allegati originali non presenti.",
+    "aliases": [
+      "presentazione app blog",
+      "15 righe",
+      "docx breve"
+    ],
+    "resources": []
+  }
+]

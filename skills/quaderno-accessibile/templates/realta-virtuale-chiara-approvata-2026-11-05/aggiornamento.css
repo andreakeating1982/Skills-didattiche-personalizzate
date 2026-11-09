@@ -1,0 +1,17 @@
+/* Impaginazione approvata 1novembre2026: unità autonome, banner→una figura→testo. */
+html,body{background:#fff!important}body{margin:0}
+.uniform-section {break-before:page!important;page-break-before:always!important;break-inside:auto!important;page-break-inside:auto!important;margin-top:0!important}
+.uniform-section > :first-child {margin-top:0!important}
+.unit-opening{break-inside:auto!important;page-break-inside:auto!important}
+.unit-banner {background:var(--section-color,#243c5a)!important;color:#fff!important;border-radius:10px;padding:8px!important;font-size:15pt!important;line-height:1.45!important;font-weight:700;break-after:avoid!important;page-break-after:avoid!important;margin:0 0 12px!important;text-align:center!important}
+img.uniform-illustration{display:block!important;width:112mm!important;height:63.25mm!important;max-width:100%!important;object-fit:contain!important;margin:10px auto 14px!important;break-inside:avoid!important;page-break-inside:avoid!important;break-after:avoid!important;page-break-after:avoid!important}
+.uniform-title {text-align:center!important;break-after:avoid}
+.uniform-title strong,.uniform-title b,.uniform-title span,.uniform-title em,.uniform-title a {color:inherit!important;text-align:inherit!important}
+strong.uniform-title,span.uniform-title{display:block!important}
+.uniform-title .m-num{color:#fff!important}
+@page:first{margin-top:18mm}
+.blk p,.text-chunk p{color:#161616;text-align:left}
+.blk strong,.text-chunk strong{color:#111}
+.blk,.text-chunk,[data-semantic-box]{break-inside:avoid!important;page-break-inside:avoid!important}
+/* Non reinserire simboli ornamentali eliminati; restano frecce funzionali e numeri reali. */
+.example-document{width:150mm!important;height:auto!important;max-height:231mm!important;object-fit:contain!important;display:block!important;margin:0 auto!important}

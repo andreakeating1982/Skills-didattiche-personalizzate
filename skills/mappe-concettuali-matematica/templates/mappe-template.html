@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Mappe concettuali</title>
+<style>
+  @font-face { font-family: 'OpenDyslexic'; src: url('fonts/OpenDyslexic-Regular.otf'); font-weight: normal; }
+  @font-face { font-family: 'OpenDyslexic'; src: url('fonts/OpenDyslexic-Bold.otf'); font-weight: bold; }
+
+  @page {
+    size: A4;
+    margin: 12mm 11mm 14mm 11mm;
+    @bottom-center {
+      content: "Mappe concettuali — pagina " counter(page) " di " counter(pages);
+      font-family: 'OpenDyslexic', 'DejaVu Sans', sans-serif;
+      font-size: 7.5pt; color: #6b7280;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'OpenDyslexic', 'DejaVu Sans', sans-serif;
+    font-size: 10pt; line-height: 1.5; color: #1c2333; margin: 0;
+  }
+
+  /* ---------- intestazione ---------- */
+  .testata { border: 1.4pt solid #14406b; border-radius: 12pt; padding: 10pt 12pt 9pt; background: #f5f8ff; }
+  .testata h1 { font-size: 15.5pt; margin: 0 0 2pt; color: #14406b; line-height: 1.3; }
+  .testata .sotto { font-size: 9pt; color: #3f4a5c; margin: 0 0 6pt; }
+  .niente-soluzioni { font-weight: bold; color: #9a3412; background: #fff1e6; border: 1pt solid #f0b07d; border-radius: 6pt; padding: 3pt 7pt; font-size: 9pt; display: inline-block; }
+
+  .istruzioni { display: flex; gap: 8pt; margin-top: 8pt; }
+  .come-usare { flex: 1.15; background: #ffffff; border: 1pt solid #c9d4e8; border-radius: 8pt; padding: 7pt 9pt; font-size: 8.6pt; }
+  .mappa-gen { flex: 1; background: #ffffff; border: 1pt solid #c9d4e8; border-radius: 8pt; padding: 7pt 9pt 5pt; font-size: 8.6pt; }
+  .tit-box { font-weight: bold; color: #14406b; font-size: 9.2pt; margin: 0 0 3pt; }
+  .come-usare p, .mappa-gen p { margin: 0 0 3pt; }
+  .mappa-gen ol { margin: 0; padding-left: 13pt; }
+  .mappa-gen li { margin-bottom: 1.5pt; }
+  .cb-pic { display: inline-block; width: 8pt; height: 8pt; border: 1.2pt solid #4b5563; border-radius: 2pt; margin-right: 3pt; vertical-align: -1pt; }
+
+  /* ---------- card esercizio ---------- */
+  .card { border: 1.2pt solid #d3d9e4; border-radius: 10pt; padding: 8pt 10pt 9pt; margin-top: 10pt; page-break-inside: avoid; background: #ffffff; }
+  .card.testa { margin-top: 12pt; }
+
+  .card-head { display: flex; align-items: center; gap: 8pt; margin-bottom: 6pt; }
+  .num { min-width: 21pt; height: 21pt; border-radius: 50%; color: #ffffff; font-weight: bold; font-size: 11.5pt; text-align: center; line-height: 21pt; }
+  .alg .num { background: #1d4ed8; } .geo .num { background: #0f766e; }
+  .card-head h2 { font-size: 12pt; margin: 0; line-height: 1.25; }
+  .alg h2 { color: #1e3a8a; } .geo h2 { color: #115e59; }
+  .badge { font-size: 7.4pt; font-weight: bold; padding: 2pt 6pt; border-radius: 8pt; margin-left: auto; white-space: nowrap; }
+  .b-alg { background: #e4ecff; color: #1e3a8a; } .b-geo { background: #d9f2ef; color: #115e59; }
+  .b-punti { background: #fef3c7; color: #92400e; border: 1pt solid #f0c34a; }
+  .b-aperta { background: #ede9fe; color: #5b21b6; border: 1pt solid #c4b5fd; }
+  .badges { margin-left: auto; display: flex; gap: 4pt; }
+  .badges .badge { margin-left: 0; }
+
+  .due { display: flex; gap: 8pt; margin-bottom: 6pt; }
+  .due > div { flex: 1; border-radius: 7pt; padding: 5pt 8pt; font-size: 9pt; }
+  .chiede { background: #f1f5ff; border: 1pt solid #b9c8f5; }
+  .strumenti { background: #f4f4fb; border: 1pt solid #c9c9ec; }
+  .etich { font-weight: bold; font-size: 8.4pt; letter-spacing: .4pt; }
+  .chiede .etich { color: #1e40af; } .strumenti .etich { color: #4338ca; }
+  .due p { margin: 0; }
+
+  /* passi */
+  .steps { margin: 0 0 6pt; }
+  .step { display: flex; align-items: flex-start; gap: 7pt; border: 1pt solid #dfe4ee; border-left: 3.5pt solid #94a3b8; border-radius: 6pt; padding: 4pt 7pt; background: #fafbfe; }
+  .alg .step { border-left-color: #3b82f6; background: #fafcff; }
+  .geo .step { border-left-color: #14b8a6; background: #fafdfc; }
+  .snum { min-width: 13pt; height: 13pt; border-radius: 50%; font-size: 8pt; font-weight: bold; text-align: center; line-height: 13pt; color: #ffffff; margin-top: 1.5pt; }
+  .alg .snum { background: #3b82f6; } .geo .snum { background: #14b8a6; }
+  .stext { flex: 1; padding-right: 12pt; position: relative; font-size: 9.4pt; }
+  .cb { position: absolute; right: 0; top: 1.5pt; width: 9.5pt; height: 9.5pt; border: 1.3pt solid #64748b; border-radius: 2.5pt; }
+  .arr { width: 0; height: 0; border-left: 4.5pt solid transparent; border-right: 4.5pt solid transparent; border-top: 5.5pt solid #a8b3c6; margin: 2.5pt auto; }
+
+  /* attenzione / verifica */
+  .av { display: flex; gap: 8pt; }
+  .av > div { flex: 1; border-radius: 7pt; padding: 5pt 8pt; font-size: 8.8pt; }
+  .occhio { background: #fff8ea; border: 1pt solid #f2ca6d; }
+  .verifica { background: #eefbf1; border: 1pt solid #8fd6a4; }
+  .occhio .etich { color: #92400e; } .verifica .etich { color: #166534; }
+  .av p { margin: 0; }
+
+  /* spazio di calcolo */
+  .calcolo { margin-top: 9pt; border: 1.2pt dashed #9aa8c0; border-radius: 8pt; height: 74mm; background: #fcfdff; position: relative; }
+  .calcolo span { position: absolute; top: 6pt; left: 9pt; font-size: 7.5pt; color: #7c8aa0; font-weight: bold; letter-spacing: .4pt; }
+
+  .fr { font-style: italic; }
+  .kw { font-weight: bold; color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- ================= TESTATA ================= -->
+<h1 style="font-size:16.5pt;color:#14406b;margin:0 0 9pt;text-align:center;">Mappe concettuali</h1>
+
+<!--
+  TEMPLATE "MAPPE CONCETTUALI" — formato definitivo richiesto dall'utente (NON deviare)
+  Regole FISSE di ogni card (copia un blocco <section> per ogni esercizio, in ordine):
+  1) <section class="card alg"> = argomenti algebrici/numerici (blu) · class="card geo" = geometria (verde)
+  2) card-head: numero cerchiato + titolo BREVE dell'esercizio + badge facoltativi:
+     b-alg/b-geo (materia), b-punti (es. "VALE 2 PUNTI" se il test lo indica), b-aperta ("RISPOSTA APERTA" se non ci sono opzioni A-D)
+  3) .due: due box affiancati → .chiede (COSA CHIEDE: riscrive l'esercizio con i dati completi)
+     e .strumenti (STRUMENTO: formule/regole GENERALI; mai risultati numerici)
+  4) .steps: ESATTAMENTE 3 passi (<div class="step">) separati da <div class="arr"></div>;
+     passi imperativi brevi che dicono COSA fare, MAI la soluzione né valori finali
+  5) VIETATO: box giallo "Occhio a", checkbox, nota finale/fonte a fondo documento,
+     intestazioni extra oltre al titolo, qualsiasi soluzione (anche parziale)
+  Titolo pagina: sempre "Mappe concettuali" (già nel template). Footer automatico con i numeri di pagina.
+  Generazione: copiare questo file e la cartella fonts/ nella cartella di lavoro, poi:
+  python3.11 -m weasyprint mappe.html output.pdf
+-->
+
+
+
+<!-- CARD ESEMPIO 1 — algebra (blu) -->
+<section class="card alg">
+  <div class="card-head">
+    <div class="num">1</div>
+    <h2>Scomposizione di un binomio: −x²+y²</h2>
+    <div class="badges"><span class="badge b-alg">Algebra</span></div>
+  </div>
+  <div class="due">
+    <div class="chiede"><p><span class="etich">COSA CHIEDE</span><br>Capire quale dei prodotti proposti ridà il binomio −x²+y².</p></div>
+    <div class="strumenti"><p><span class="etich">STRUMENTO</span><br>Differenza di quadrati: <b>a² − b² = (a + b)(a − b)</b></p></div>
+  </div>
+  <div class="steps">
+  <div class="step"><div class="snum">1</div><div class="stext">Riscrivi entrambi i termini come quadrati (attento al segno davanti a x²).</div></div>
+  <div class="arr"></div>
+  <div class="step"><div class="snum">2</div><div class="stext">Applica <b>a² − b² = (a + b)(a − b)</b>.</div></div>
+  <div class="arr"></div>
+  <div class="step"><div class="snum">3</div><div class="stext">Svolgi le opzioni e tieni quella che ridà il binomio di partenza.</div></div>
+</div>
+
+</section>
+
+<!-- CARD ESEMPIO 7 — geometria (verde) -->
+<section class="card geo">
+  <div class="card-head">
+    <div class="num">7</div>
+    <h2>Perimetro di un triangolo nel piano cartesiano</h2>
+    <div class="badges"><span class="badge b-geo">Geometria</span><span class="badge b-aperta">RISPOSTA APERTA</span></div>
+  </div>
+  <div class="due">
+    <div class="chiede"><p><span class="etich">COSA CHIEDE</span><br>Disegnare il triangolo di vertici A(−3; 1), B(0; 2), C(2; −4) e calcolarne il perimetro. <b>Unità di misura: 2 quadretti.</b></p></div>
+    <div class="strumenti"><p><span class="etich">STRUMENTI</span><br>Distanza tra due punti <b>d = √<span style="text-decoration:overline">(x₂ − x₁)² + (y₂ − y₁)²</span></b> · perimetro = somma dei tre lati.</p></div>
+  </div>
+  <div class="steps">
+  <div class="step"><div class="snum">1</div><div class="stext">Disegna il piano (2 quadretti = 1 unità) e riporta A, B, C.</div></div>
+  <div class="arr"></div>
+  <div class="step"><div class="snum">2</div><div class="stext">Calcola i tre lati con la <b>formula della distanza</b>.</div></div>
+  <div class="arr"></div>
+  <div class="step"><div class="snum">3</div><div class="stext">Somma i lati e scrivi il perimetro con l'unità di misura.</div></div>
+</div>
+
+</section>
+
+<!-- aggiungi qui le altre card, una per esercizio, in ordine -->
+
+</body>
+</html>

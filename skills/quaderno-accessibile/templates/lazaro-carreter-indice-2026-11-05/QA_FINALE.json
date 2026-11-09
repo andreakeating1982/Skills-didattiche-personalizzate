@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "voce_breve": {
+      "pass": true
+    },
+    "solo_voce_e_spaziatura_modificate": {
+      "pass": true
+    },
+    "32_pagine_invariate": {
+      "pass": true
+    },
+    "pagine_2_32_invariate_al_pixel": {
+      "pass": true,
+      "detail": []
+    },
+    "testo_pagine_2_32_invariato": {
+      "pass": true,
+      "detail": []
+    },
+    "destinazioni_e_quantita_dei_link_invariate": {
+      "pass": true,
+      "detail": {
+        "perse": "Counter()",
+        "nuove": "Counter()"
+      }
+    },
+    "indice_tutte_13_voci_cliccabili_con_numero_corretto": {
+      "pass": true,
+      "detail": []
+    },
+    "italiano_mappa_e_quiz_nelle_versioni_richieste": {
+      "pass": true
+    },
+    "spaziatura_aumentata_e_pagina_con_margine": {
+      "pass": true,
+      "detail": {
+        "prima_mm": 9.5,
+        "ora_mm": 10.2,
+        "margine_stampabile_restante_mm": 11.65
+      }
+    }
+  },
+  "sha256": "bc2e603157991cc978b86a28b60c4eaee8ffb1acce2d47b933e47b8416a776ec"
+}

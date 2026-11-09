@@ -1,0 +1,82 @@
+{
+  "style": "Clay adulto tridimensionale, materiali opachi e proporzioni mature, senza scritte",
+  "reference_frame_mm": [
+    112,
+    63.25
+  ],
+  "assets": [
+    {
+      "file": "classe_serena.png",
+      "subject": "Collaborazione tranquilla in aula, insegnante e studenti adolescenti.",
+      "style": "clay-adulto",
+      "pixels": [
+        1376,
+        768
+      ],
+      "sha256": "5141b0dfdabe5a3f61a6776aa5f03cd0a9f892d9f4ff242c5a4c6cabe3d2328c",
+      "provenance": "Scena già approvata nella serie Una classe serena",
+      "reuse": "Riusare per unità tematicamente pertinenti e unità corrispondenti in lingue diverse; alt descrittivi nella lingua dell’unità."
+    },
+    {
+      "file": "dialogo_assertivo.png",
+      "subject": "Dialogo rispettoso e ascolto fra docente e studentessa.",
+      "style": "clay-adulto",
+      "pixels": [
+        1376,
+        768
+      ],
+      "sha256": "573ba1422adc6c71f04c0f1d033a7cd63b521d131c0cb6ebbcc6845aa5986928",
+      "provenance": "Scena già approvata nella serie Una classe serena",
+      "reuse": "Riusare per unità tematicamente pertinenti e unità corrispondenti in lingue diverse; alt descrittivi nella lingua dell’unità."
+    },
+    {
+      "file": "pianificazione.png",
+      "subject": "Docente prepara la lezione con quaderno e cartoncini.",
+      "style": "clay-adulto",
+      "pixels": [
+        1376,
+        768
+      ],
+      "sha256": "981fc50eb92a3616a5a90f9ea8e2874d1ce4c178fe810223afdbdb9cec7fc3b2",
+      "provenance": "Nuova scena generata e verificata per gestione classe, 1novembre2026",
+      "reuse": "Riusare per unità tematicamente pertinenti e unità corrispondenti in lingue diverse; alt descrittivi nella lingua dell’unità."
+    },
+    {
+      "file": "relazione_umorismo.png",
+      "subject": "Docente conversa in un clima disteso con tre studenti adolescenti.",
+      "style": "clay-adulto",
+      "pixels": [
+        1376,
+        768
+      ],
+      "sha256": "1ef7bc8ca11012828a4e9af5c57a30cc8fadfa4703231308f54a21367ad13edf",
+      "provenance": "Nuova scena generata e verificata per gestione classe, 1novembre2026",
+      "reuse": "Riusare per unità tematicamente pertinenti e unità corrispondenti in lingue diverse; alt descrittivi nella lingua dell’unità."
+    },
+    {
+      "file": "collaborazione_dirigenza.png",
+      "subject": "Due educatori discutono insieme sul sostegno alla classe.",
+      "style": "clay-adulto",
+      "pixels": [
+        1376,
+        768
+      ],
+      "sha256": "bb63e5afeede0de0f4ae01a05accc1d657723b400c999a496b4a07b48fc7dd07",
+      "provenance": "Nuova scena generata e verificata per gestione classe, 1novembre2026",
+      "reuse": "Riusare per unità tematicamente pertinenti e unità corrispondenti in lingue diverse; alt descrittivi nella lingua dell’unità."
+    },
+    {
+      "file": "autoregolazione.png",
+      "subject": "Docente calmo si ferma accanto a uno studente che lavora.",
+      "style": "clay-adulto",
+      "pixels": [
+        1376,
+        768
+      ],
+      "sha256": "77307253bb8805cb88278db26de3cb1bf931caed7e8eda95263188e1845606a7",
+      "provenance": "Nuova scena generata e verificata per gestione classe, 1novembre2026",
+      "reuse": "Riusare per unità tematicamente pertinenti e unità corrispondenti in lingue diverse; alt descrittivi nella lingua dell’unità."
+    }
+  ],
+  "generation_note": "Due scene precedenti e quattro nuove, non una nuova generazione per ogni occorrenza. Correzioni solo dopo consenso."
+}

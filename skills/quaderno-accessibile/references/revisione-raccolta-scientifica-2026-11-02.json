@@ -1,0 +1,768 @@
+{
+  "revision": "2026-11-02_raccolta_scientifica_con_due_eccezioni",
+  "status": "delivered_collection_then_withdrawal_applied_2026-11-02",
+  "request": "Cinque riscritture scientifiche attive, due soli restyling e VR approvata. Codice05 ritirato dall’utente dopo la consegna: non recuperarlo.",
+  "scientific_rewrites": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "09"
+  ],
+  "layout_only": [
+    "06",
+    "07"
+  ],
+  "vr_approved_unchanged": "08",
+  "documents": [
+    {
+      "code": "01",
+      "passed": true,
+      "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/01_ADATTARE_GLI_ESERCIZI_EDIZIONE_SCIENTIFICA.pdf",
+      "html": "/home/user/articoli_scientifici_2026_11_02/lavorazione/01/sorgenti/articolo.html",
+      "pages": 30,
+      "mode": "scientific_rewrite",
+      "cover_pages": [
+        1
+      ],
+      "sections": {
+        "sec1": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "sec2": [
+          7,
+          8,
+          9
+        ],
+        "sec3": [
+          10,
+          11,
+          12
+        ],
+        "sec4": [
+          13,
+          14,
+          15
+        ],
+        "sec5": [
+          16,
+          17,
+          18
+        ],
+        "sec6": [
+          19,
+          20,
+          21
+        ],
+        "sec7": [
+          22,
+          23,
+          24
+        ]
+      },
+      "body_boxes": 80,
+      "max_body_lines": 5,
+      "summary_rows": 34,
+      "summary_pdf_regular_spans": 109,
+      "map_boxes": 6,
+      "map_geometry": {
+        "mappa-gruppo-1-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 27
+        },
+        "mappa-gruppo-1-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 27
+        },
+        "mappa-gruppo-1-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 27
+        },
+        "mappa-gruppo-1-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 27
+        },
+        "mappa-gruppo-2-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 28
+        },
+        "mappa-gruppo-2-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 28
+        }
+      },
+      "map_images": 6,
+      "quiz_questions": 9,
+      "quiz_option_line_counts": {
+        "1": 36
+      },
+      "author": "ANDREA CENTINARO",
+      "sha256": "263af6aa89430e8faa9ac88f7a6caa2803f97aba41edaf3def6d91e6e6169d8c",
+      "errors": [],
+      "limits": "Verifiche strutturali e tipografiche, non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+    },
+    {
+      "code": "02",
+      "passed": true,
+      "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/02_COME_STUDIARE_MEGLIO_EDIZIONE_SCIENTIFICA.pdf",
+      "html": "/home/user/articoli_scientifici_2026_11_02/lavorazione/02/sorgenti/articolo.html",
+      "pages": 31,
+      "mode": "scientific_rewrite",
+      "cover_pages": [
+        1,
+        2
+      ],
+      "sections": {
+        "introduzione": [
+          3,
+          4
+        ],
+        "sec1": [
+          5,
+          6
+        ],
+        "sec2": [
+          7,
+          8
+        ],
+        "sec3": [
+          9,
+          10,
+          11
+        ],
+        "sec4": [
+          12,
+          13,
+          14
+        ],
+        "sec5": [
+          15,
+          16
+        ],
+        "sec6": [
+          17,
+          18,
+          19
+        ],
+        "sec7": [
+          20,
+          21,
+          22
+        ],
+        "attivita": [
+          23,
+          24
+        ]
+      },
+      "body_boxes": 64,
+      "max_body_lines": 5,
+      "summary_rows": 38,
+      "summary_pdf_regular_spans": 115,
+      "map_boxes": 8,
+      "map_geometry": {
+        "mappa-gruppo-1-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 28
+        },
+        "mappa-gruppo-1-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 28
+        },
+        "mappa-gruppo-1-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 28
+        },
+        "mappa-gruppo-1-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 28
+        },
+        "mappa-gruppo-2-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        },
+        "mappa-gruppo-2-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        },
+        "mappa-gruppo-2-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        },
+        "mappa-gruppo-2-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        }
+      },
+      "map_images": 8,
+      "quiz_questions": 10,
+      "quiz_option_line_counts": {
+        "1": 40
+      },
+      "author": "ANDREA CENTINARO",
+      "sha256": "6166fa4680ddd9a50e508163b45711210b1bef2c74e4041a929e77430e7b0c21",
+      "errors": [],
+      "limits": "Verifiche strutturali e tipografiche, non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+    },
+    {
+      "code": "03",
+      "passed": true,
+      "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/03_10_METODOLOGIE_DIDATTICHE_INCLUSIVE_EDIZIONE_SCIENTIFICA.pdf",
+      "html": "/home/user/articoli_scientifici_2026_11_02/lavorazione/03/sorgenti/articolo.html",
+      "pages": 34,
+      "mode": "scientific_rewrite",
+      "cover_pages": [
+        1,
+        2
+      ],
+      "sections": {
+        "sec1": [
+          3,
+          4
+        ],
+        "sec2": [
+          5,
+          6
+        ],
+        "sec3": [
+          7,
+          8
+        ],
+        "sec4": [
+          9,
+          10
+        ],
+        "sec5": [
+          11,
+          12
+        ],
+        "sec6": [
+          13,
+          14
+        ],
+        "sec7": [
+          15,
+          16
+        ],
+        "sec8": [
+          17,
+          18
+        ],
+        "sec9": [
+          19,
+          20
+        ],
+        "sec10": [
+          21,
+          22
+        ],
+        "appendice": [
+          23,
+          24,
+          25
+        ]
+      },
+      "body_boxes": 59,
+      "max_body_lines": 5,
+      "summary_rows": 45,
+      "summary_pdf_regular_spans": 139,
+      "map_boxes": 10,
+      "map_geometry": {
+        "mappa-gruppo-1-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        },
+        "mappa-gruppo-1-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        },
+        "mappa-gruppo-1-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        },
+        "mappa-gruppo-1-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 29
+        },
+        "mappa-gruppo-2-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 30
+        },
+        "mappa-gruppo-2-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 30
+        },
+        "mappa-gruppo-2-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 30
+        },
+        "mappa-gruppo-2-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 30
+        },
+        "mappa-gruppo-3-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 31
+        },
+        "mappa-gruppo-3-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 31
+        }
+      },
+      "map_images": 10,
+      "quiz_questions": 10,
+      "quiz_option_line_counts": {
+        "1": 40
+      },
+      "author": "ANDREA CENTINARO",
+      "sha256": "cb21128baf2012ee9ed6a542d9f35ab5d989475863e766736a4f260f4c964dea",
+      "errors": [],
+      "limits": "Verifiche strutturali e tipografiche, non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+    },
+    {
+      "code": "04",
+      "passed": true,
+      "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/04_UNA_CLASSE_SERENA_EDIZIONE_SCIENTIFICA.pdf",
+      "html": "/home/user/articoli_scientifici_2026_11_02/lavorazione/04/sorgenti/articolo.html",
+      "pages": 23,
+      "mode": "scientific_rewrite",
+      "cover_pages": [
+        1
+      ],
+      "sections": {
+        "sec1": [
+          2,
+          3
+        ],
+        "sec2": [
+          4,
+          5,
+          6
+        ],
+        "sec3": [
+          7,
+          8,
+          9
+        ],
+        "sec4": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "sec5": [
+          14,
+          15
+        ],
+        "sec6": [
+          16,
+          17
+        ]
+      },
+      "body_boxes": 52,
+      "max_body_lines": 5,
+      "summary_rows": 29,
+      "summary_pdf_regular_spans": 90,
+      "map_boxes": 6,
+      "map_geometry": {
+        "mappa-gruppo-1-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-1-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-1-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-1-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-2-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 21
+        },
+        "mappa-gruppo-2-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 21
+        }
+      },
+      "map_images": 6,
+      "quiz_questions": 8,
+      "quiz_option_line_counts": {
+        "1": 32
+      },
+      "author": "ANDREA CENTINARO",
+      "sha256": "b75366a760c70ece7d64071042852b739fb395811fb34eb416293ea5100a36eb",
+      "errors": [],
+      "limits": "Verifiche strutturali e tipografiche, non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+    },
+    {
+      "code": "06",
+      "passed": true,
+      "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/06_REGOLE_DI_CLASSE_E_ASSERTIVITA_IMPAGINAZIONE_AGGIORNATA.pdf",
+      "html": "/home/user/articoli_scientifici_2026_11_02/lavorazione/06/sorgenti/articolo.html",
+      "pages": 9,
+      "mode": "layout_only",
+      "cover_pages": [
+        1
+      ],
+      "sections": {
+        "sec1": [
+          2,
+          3
+        ],
+        "sec2": [
+          4,
+          5,
+          6
+        ]
+      },
+      "body_boxes": 28,
+      "max_body_lines": 5,
+      "summary_rows": 10,
+      "summary_pdf_regular_spans": 38,
+      "map_boxes": 6,
+      "map_geometry": {
+        "mappa-gruppo-1-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 7
+        },
+        "mappa-gruppo-1-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 7
+        },
+        "mappa-gruppo-1-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 7
+        },
+        "mappa-gruppo-1-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 7
+        },
+        "mappa-gruppo-2-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 8
+        },
+        "mappa-gruppo-2-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 8
+        }
+      },
+      "map_images": 6,
+      "quiz_questions": 0,
+      "quiz_option_line_counts": {},
+      "author": "Valeria Razzini",
+      "sha256": "fe8a5401c4d2d7658e7269051c06839a30c95c1ce5ae4041b654954f368268f4",
+      "errors": [],
+      "limits": "Verifiche strutturali e tipografiche, non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+    },
+    {
+      "code": "07",
+      "passed": true,
+      "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/07_CLASSE_CHE_DISTURBA_ORIGINALE_INGLESE_IMPAGINAZIONE_AGGIORNATA.pdf",
+      "html": "/home/user/articoli_scientifici_2026_11_02/lavorazione/07/sorgenti/articolo.html",
+      "pages": 37,
+      "mode": "layout_only",
+      "cover_pages": [
+        1
+      ],
+      "sections": {
+        "originale": [
+          2
+        ],
+        "unita-en-h8": [
+          3
+        ],
+        "unita-en-h12": [
+          4
+        ],
+        "unita-en-h16": [
+          5,
+          6
+        ],
+        "unita-en-h24": [
+          7
+        ],
+        "unita-en-h28": [
+          8,
+          9
+        ],
+        "unita-en-h43": [
+          10,
+          11
+        ],
+        "unita-en-h48": [
+          12
+        ],
+        "unita-en-h51": [
+          13,
+          14
+        ],
+        "unita-en-h55": [
+          15,
+          16
+        ],
+        "unita-en-h59": [
+          17,
+          18
+        ],
+        "unita-en-h64": [
+          19
+        ],
+        "unita-en-h68": [
+          20,
+          21
+        ],
+        "unita-en-h71": [
+          22,
+          23
+        ],
+        "unita-en-h76": [
+          24,
+          25
+        ],
+        "unita-en-h81": [
+          26,
+          27
+        ],
+        "unita-en-h85": [
+          28
+        ],
+        "unita-en-h89": [
+          29
+        ],
+        "unita-en-h93": [
+          30
+        ],
+        "unita-en-h97": [
+          31
+        ],
+        "unita-en-h101": [
+          32
+        ],
+        "unita-en-h105": [
+          33
+        ],
+        "unita-en-h109": [
+          34
+        ]
+      },
+      "body_boxes": 83,
+      "max_body_lines": 5,
+      "summary_rows": 55,
+      "summary_pdf_regular_spans": 201,
+      "map_boxes": 6,
+      "map_geometry": {
+        "mappa-gruppo-1-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 35
+        },
+        "mappa-gruppo-1-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 35
+        },
+        "mappa-gruppo-1-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 35
+        },
+        "mappa-gruppo-1-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 35
+        },
+        "mappa-gruppo-2-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 36
+        },
+        "mappa-gruppo-2-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 36
+        }
+      },
+      "map_images": 6,
+      "quiz_questions": 0,
+      "quiz_option_line_counts": {},
+      "author": "Susan Holland",
+      "sha256": "398136da59af51ece58248e70b1f3e092842453838fd22f2fb5624b8bf0b8588",
+      "errors": [],
+      "limits": "Verifiche strutturali e tipografiche, non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+    },
+    {
+      "code": "09",
+      "passed": true,
+      "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/09_MAPPA_CONCETTUALE_IN_6_PASSI_EDIZIONE_SCIENTIFICA.pdf",
+      "html": "/home/user/articoli_scientifici_2026_11_02/lavorazione/09/sorgenti/articolo.html",
+      "pages": 22,
+      "mode": "scientific_rewrite",
+      "cover_pages": [
+        1
+      ],
+      "sections": {
+        "introduzione": [
+          2,
+          3
+        ],
+        "sec1": [
+          4,
+          5
+        ],
+        "sec2": [
+          6,
+          7
+        ],
+        "sec3": [
+          8,
+          9
+        ],
+        "sec4": [
+          10,
+          11
+        ],
+        "sec5": [
+          12,
+          13
+        ],
+        "sec6": [
+          14,
+          15
+        ],
+        "esempio": [
+          16,
+          17
+        ]
+      },
+      "body_boxes": 30,
+      "max_body_lines": 5,
+      "summary_rows": 27,
+      "summary_pdf_regular_spans": 79,
+      "map_boxes": 6,
+      "map_geometry": {
+        "mappa-gruppo-1-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-1-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-1-box-3": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-1-box-4": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 20
+        },
+        "mappa-gruppo-2-box-1": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 21
+        },
+        "mappa-gruppo-2-box-2": {
+          "width_mm": 77.99999999999999,
+          "height_mm": 77.99999999999999,
+          "page": 21
+        }
+      },
+      "map_images": 6,
+      "quiz_questions": 8,
+      "quiz_option_line_counts": {
+        "1": 32
+      },
+      "author": "ANDREA CENTINARO",
+      "sha256": "d48a162eca684826caa61f64ed1cfd642bad13aff57b291312e85ea539329ac1",
+      "errors": [],
+      "limits": "Verifiche strutturali e tipografiche, non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+    }
+  ],
+  "scope_reference": "raccolta-scientifica-2026-11-02.md",
+  "visual_review": {
+    "all_new_pages_reviewed": true,
+    "method": "Tavole di ogni pagina e campioni in alta risoluzione. Dubbi geometrici delle miniature risolti con misure vettoriali78mm e viste a piena scala; colori differenziati conformi alla palette approvata.",
+    "originals": "Corpi dei due originali confrontati integralmente ignorando solo spazi di impaginazione; nessuna parola modificata.",
+    "limits": "Non certificazione indipendente PDF/UA né validazione sperimentale del quiz."
+  },
+  "approved_vr": {
+    "code": "08",
+    "pdf": "/home/user/articoli_scientifici_2026_11_02/consegna/08_REALTA_VIRTUALE_A_SCUOLA_EDIZIONE_SCIENTIFICA_APPROVATA.pdf",
+    "sha256": "e3ba69955ac3e745b92548aebc4fdd7f02d78fa839ef680faae15c4c6051ea67",
+    "identical_to_approved": true,
+    "pages": 16,
+    "questions": 8,
+    "map_boxes": 7,
+    "summary_rows": 20
+  },
+  "totals": {
+    "pdfs": 8,
+    "pages": 202,
+    "scientific_rewrites": 5,
+    "layout_only": 2,
+    "approved_unchanged": 1,
+    "questions_new_rewrites": 45,
+    "map_boxes_all": 55,
+    "summary_rows_all": 258
+  },
+  "withdrawal_policy": "documento-ritirato-2026-11-02.md",
+  "active_article_codes": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "06",
+    "07",
+    "08",
+    "09"
+  ]
+}

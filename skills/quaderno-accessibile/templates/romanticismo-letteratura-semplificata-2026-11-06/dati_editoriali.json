@@ -1,0 +1,216 @@
+{
+  "title": "LA LITERATURA DEL ROMANTICISMO EN ESPAÑA",
+  "sections": [
+    {
+      "id": "sec1",
+      "title": "HUIDA HACIA LO IRRACIONAL",
+      "image": "original_p01_xref80.png",
+      "alt": "Escena nocturna romántica ante un castillo, con cementerio y una figura espectral.",
+      "summary": [
+        [
+          "Dos tendencias",
+          "la conservadora (recuperar los valores patrióticos y religiosos de la Edad Media) y la revolucionaria (romper con el orden establecido y las convenciones sociales)"
+        ],
+        [
+          "Exponentes",
+          "conservadora: Zorrilla y el Duque de Rivas · revolucionaria: Larra y Espronceda"
+        ],
+        [
+          "Rasgos comunes",
+          "interioridad, individualismo, pesimismo, obsesión por lo sobrenatural y la muerte, interés por la Edad Media"
+        ],
+        [
+          "Costumbrismo",
+          "retratos y descripciones de costumbres, tipos humanos y lenguaje local"
+        ]
+      ]
+    },
+    {
+      "id": "sec2",
+      "title": "POESÍA",
+      "image": "original_p01_xref83.png",
+      "alt": "Un escritor a la luz de una vela escribe poesía en un ambiente romántico.",
+      "summary": [
+        [
+          "Nace con",
+          "el Duque de Rivas: romances que dan vida a leyendas medievales (Romances históricos, 1841)"
+        ],
+        [
+          "Espronceda",
+          "romántico liberal, poeta bohemio, vida atribulada y muerte prematura"
+        ],
+        [
+          "Segunda mitad del siglo",
+          "Bécquer (Rimas, desde 1858) y Rosalía de Castro (En las orillas del Sar, 1884)"
+        ],
+        [
+          "Estilo",
+          "breve, fragmentario e intimista · lenguaje sencillo y emotivo · influencia en Machado y Juan Ramón Jiménez"
+        ]
+      ]
+    },
+    {
+      "id": "sec3",
+      "title": "PROSA",
+      "image": "original_p01_xref86.png",
+      "alt": "Un libro abierto muestra una escena legendaria y sobrenatural.",
+      "summary": [
+        [
+          "El género narrativo",
+          "vuelve a cultivarse y se difunde con éxito (industria editorial, entregas en periódicos, evasión de la realidad)"
+        ],
+        [
+          "Larra",
+          "El doncel de don Enrique el Doliente (1834) y artículos costumbristas irónicos bajo seudónimos"
+        ],
+        [
+          "Cumbre narrativa",
+          "las Leyendas (1858–1864) de Bécquer: sobrenatural, muerte, lenguaje sencillo y evocativo"
+        ]
+      ]
+    },
+    {
+      "id": "sec4",
+      "title": "TEATRO",
+      "image": "original_p01_xref89.png",
+      "alt": "Una escena teatral romántica con actores, luces y figuras espectrales.",
+      "summary": [
+        [
+          "Regla rota",
+          "rechazo de las tres unidades aristotélicas de la estética neoclásica"
+        ],
+        [
+          "Tema típico",
+          "amor imposible entre un joven complicado y una mujer inalcanzable → final trágico; protagonista con individualidad poderosa"
+        ],
+        [
+          "Escenarios",
+          "cementerios, ruinas, castillos, bosques, tabernas · efectos de música y luces"
+        ],
+        [
+          "Obras",
+          "Don Álvaro o la fuerza del sino (1835, Duque de Rivas) · Don Juan Tenorio (1844, Zorrilla)"
+        ]
+      ]
+    },
+    {
+      "id": "sec5",
+      "title": "ACTIVIDAD 1 · EXPLICACIÓN DE LA IMAGEN",
+      "image": "original_p01_xref92.png",
+      "alt": "Unas manos sostienen una tableta con círculos de colores sobre una imagen interactiva.",
+      "summary": []
+    },
+    {
+      "id": "sec6",
+      "title": "ACTIVIDAD 2 · MAPA CONCEPTUAL INTERACTIVO",
+      "image": "original_p01_xref95.png",
+      "alt": "Una tableta muestra una aplicación de mapa conceptual sobre el Romanticismo.",
+      "summary": []
+    }
+  ],
+  "source": "Cadelli, E. – Salvaggio, M. – Bruni, P. – Caballero Sánchez, P. – Vargas Vergara, M. Horizontes. Paisajes literarios y raíces culturales del mundo hispano, Milano: Europass, p. 210.",
+  "maps": [
+    {
+      "group": "HUIDA HACIA LO IRRACIONAL",
+      "color": "#b23c47",
+      "nodes": [
+        {
+          "title": "DOS TENDENCIAS",
+          "lines": [
+            "CONSERVADORA: TRADICIÓN",
+            "REVOLUCIONARIA: CAMBIO"
+          ],
+          "image": "storia_conservadora.png",
+          "alt": "Una corona y un palacio representan la tradición."
+        },
+        {
+          "title": "RASGOS Y COSTUMBRES",
+          "lines": [
+            "INDIVIDUALISMO",
+            "PESIMISMO · MUERTE",
+            "MISTERIO · COSTUMBRES"
+          ],
+          "image": "original_p01_xref80.png",
+          "alt": "Una escena nocturna evoca el misterio romántico."
+        }
+      ]
+    },
+    {
+      "group": "POESÍA",
+      "color": "#1a5fb4",
+      "nodes": [
+        {
+          "title": "POETAS ROMÁNTICOS",
+          "lines": [
+            "RIVAS · ROMANCES",
+            "ESPRONCEDA · LIBERAL"
+          ],
+          "image": "original_p01_xref83.png",
+          "alt": "Un poeta escribe junto a la luz de una vela."
+        },
+        {
+          "title": "POESÍA INTIMISTA",
+          "lines": [
+            "BÉCQUER · RIMAS",
+            "ROSALÍA · EN LAS ORILLAS",
+            "DEL SAR"
+          ],
+          "image": "rosalia_p03.jpeg",
+          "alt": "Libros de Rosalía de Castro junto a un río y unas colinas."
+        }
+      ]
+    },
+    {
+      "group": "PROSA",
+      "color": "#257041",
+      "nodes": [
+        {
+          "title": "LARRA",
+          "lines": [
+            "EL DONCEL DE DON",
+            "ENRIQUE EL DOLIENTE",
+            "ARTÍCULOS · IRONÍA"
+          ],
+          "image": "mapa-cartas-literarias.png",
+          "alt": "Una persona escribe junto a una carta."
+        },
+        {
+          "title": "BÉCQUER",
+          "lines": [
+            "LEYENDAS · 1858–1864",
+            "SOBRENATURAL",
+            "MUERTE"
+          ],
+          "image": "original_p01_xref86.png",
+          "alt": "Un libro abierto representa una leyenda fantástica."
+        }
+      ]
+    },
+    {
+      "group": "TEATRO",
+      "color": "#9b4f12",
+      "nodes": [
+        {
+          "title": "DRAMA ROMÁNTICO",
+          "lines": [
+            "AMOR IMPOSIBLE",
+            "FINAL TRÁGICO",
+            "RIVAS · ZORRILLA"
+          ],
+          "image": "original_p01_xref89.png",
+          "alt": "Una escena teatral nocturna evoca un drama romántico."
+        },
+        {
+          "title": "OBRAS TEATRALES",
+          "lines": [
+            "DON ÁLVARO O LA",
+            "FUERZA DEL SINO",
+            "DON JUAN TENORIO"
+          ],
+          "image": "mapa-cuatro-bloques.png",
+          "alt": "Libros y símbolos evocan obras dramáticas."
+        }
+      ]
+    }
+  ]
+}

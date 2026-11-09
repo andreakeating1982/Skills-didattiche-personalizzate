@@ -1,0 +1,198 @@
+{
+  "title": "REALTÀ VIRTUALE A SCUOLA",
+  "slug": "REALTA_VIRTUALE_A_SCUOLA",
+  "source_pdf": "REALTA_VIRTUALE_A_SCUOLA_ARTICOLO_CHIARO.pdf",
+  "source_sha256": "5dcc0e4b22acb02941ae3fae3a9cb6f7ad1e672fb829907a5c04d435e2720e76",
+  "pages": 17,
+  "pdf_sha256": "5dcc0e4b22acb02941ae3fae3a9cb6f7ad1e672fb829907a5c04d435e2720e76",
+  "speed": 1.12,
+  "parts": [
+    {
+      "name": "00_sommario",
+      "chapter": 0,
+      "title": "Titolo e sommario",
+      "pages": [
+        1,
+        1
+      ],
+      "gender": "female",
+      "speed": 1.12,
+      "text_fedele": "REALTÀ VIRTUALE A SCUOLA.\n\nPRINCIPI, EVIDENZE E USO DIDATTICO DI VR, AR, MR E XR.\n\nSOMMARIO.\n\n1. LA REALTÀ VIRTUALE (VR).\n\n2. LA REALTÀ AUMENTATA (AR).\n\n3. LA REALTÀ MISTA (MR).\n\n4. LA REALTÀ ESTESA (XR).\n\n5. LE XR A SCUOLA.\n\nVERIFICA DI COMPRENSIONE.\n\nMAPPA CONCETTUALE FINALE.\n\nRIFERIMENTI BIBLIOGRAFICI.",
+      "text": "REALTÀ VIRTUALE A SCUOLA.\n\nPRINCIPI, EVIDENZE E USO DIDATTICO DI vu erre, a erre, emme erre E ìks erre.\n\nSOMMARIO.\n\n1. LA REALTÀ VIRTUALE (vu erre).\n\n2. LA REALTÀ AUMENTATA (a erre).\n\n3. LA REALTÀ MISTA (emme erre).\n\n4. LA REALTÀ ESTESA (ìks erre).\n\n5. LE ìks erre A SCUOLA.\n\nVERIFICA DI COMPRENSIONE.\n\nMAPPA CONCETTUALE FINALE.\n\nRIFERIMENTI BIBLIOGRAFICI.",
+      "clip_path": "clip/00_sommario.mp3",
+      "voice_name": "Aida - Sultry, Deep and Silky",
+      "expected_clip_sha256": "bd0c56d919574421949d5dc9bf5502c675a5eef9136792b76a4dfb79b589f329",
+      "clip_sha256": "bd0c56d919574421949d5dc9bf5502c675a5eef9136792b76a4dfb79b589f329",
+      "raw_duration": 33.436735,
+      "seconds": 33.3902947845805,
+      "start_seconds": 0
+    },
+    {
+      "name": "01_sezione",
+      "chapter": 1,
+      "title": "LA REALTÀ VIRTUALE (VR)",
+      "pages": [
+        2,
+        3
+      ],
+      "gender": "male",
+      "speed": 1.12,
+      "text_fedele": "1. LA REALTÀ VIRTUALE (VR).\n\nLa realtà virtuale (VR) è un ambiente creato dal computer. Può riprodurre un luogo reale oppure immaginario, come un museo o una città del futuro. [2] [3].\n\nCon un visore vediamo l’ambiente digitale al posto della stanza. Se muoviamo la testa, il programma aggiorna l’immagine e ci mostra un’altra parte dell’ambiente. [3].\n\nIl visore può mostrare un’immagine leggermente diversa a ciascun occhio. In questo modo gli oggetti possono sembrare profondi e non piatti. [3].\n\nCon i controller, cioè i comandi tenuti in mano, possiamo esplorare un luogo o spostare oggetti virtuali. Alcuni sistemi riconoscono anche i movimenti delle mani senza guanti: è il tracciamento delle mani. [2].\n\nSe vediamo una mano virtuale afferrare un oggetto, non significa che ne sentiamo davvero il peso. Per avere una sensazione tattile servono dispositivi appositi.\n\nL’immersione riguarda quanto la tecnologia ci circonda con immagini e suoni. La presenza è invece la sensazione personale di trovarsi in quel luogo. [3].\n\nSentirsi presenti può rendere l’esperienza coinvolgente. Da sola, però, questa sensazione non dimostra che abbiamo imparato. [3].\n\nIN SINTESI.\n\nAMBIENTE. La VR mostra un luogo creato dal computer.\n\nVISORE. L’immagine cambia quando muoviamo la testa.\n\nCOMANDI. Controller o mani permettono di agire nella scena.\n\nIMMERSIONE. Dipende da come la tecnologia ci circonda.\n\nPRESENZA. È la sensazione di essere nel luogo virtuale.",
+      "text": "1. LA REALTÀ VIRTUALE (vu erre).\n\nLa realtà virtuale (vu erre) è un ambiente creato dal computer. Può riprodurre un luogo reale oppure immaginario, come un museo o una città del futuro. riferimento 2 riferimento 3.\n\nCon un visore vediamo l’ambiente digitale al posto della stanza. Se muoviamo la testa, il programma aggiorna l’immagine e ci mostra un’altra parte dell’ambiente. riferimento 3.\n\nIl visore può mostrare un’immagine leggermente diversa a ciascun occhio. In questo modo gli oggetti possono sembrare profondi e non piatti. riferimento 3.\n\nCon i controller, cioè i comandi tenuti in mano, possiamo esplorare un luogo o spostare oggetti virtuali. Alcuni sistemi riconoscono anche i movimenti delle mani senza guanti: è il tracciamento delle mani. riferimento 2.\n\nSe vediamo una mano virtuale afferrare un oggetto, non significa che ne sentiamo davvero il peso. Per avere una sensazione tattile servono dispositivi appositi.\n\nL’immersione riguarda quanto la tecnologia ci circonda con immagini e suoni. La presenza è invece la sensazione personale di trovarsi in quel luogo. riferimento 3.\n\nSentirsi presenti può rendere l’esperienza coinvolgente. Da sola, però, questa sensazione non dimostra che abbiamo imparato. riferimento 3.\n\nIN SINTESI.\n\nAMBIENTE. La vu erre mostra un luogo creato dal computer.\n\nVISORE. L’immagine cambia quando muoviamo la testa.\n\nCOMANDI. Controller o mani permettono di agire nella scena.\n\nIMMERSIONE. Dipende da come la tecnologia ci circonda.\n\nPRESENZA. È la sensazione di essere nel luogo virtuale.",
+      "clip_path": "clip/01_sezione.mp3",
+      "voice_name": "Lorenzo Prada - Refined Italian Accent",
+      "expected_clip_sha256": "fd16be34455d39fd8ce5ee63c8a5dedc42a52dd76b45433fc6b5f03a313834b6",
+      "clip_sha256": "fd16be34455d39fd8ce5ee63c8a5dedc42a52dd76b45433fc6b5f03a313834b6",
+      "raw_duration": 103.88898,
+      "seconds": 103.83963718820861,
+      "start_seconds": 33.690294784580495
+    },
+    {
+      "name": "02_sezione",
+      "chapter": 2,
+      "title": "LA REALTÀ AUMENTATA (AR)",
+      "pages": [
+        4,
+        5
+      ],
+      "gender": "female",
+      "speed": 1.12,
+      "text_fedele": "2. LA REALTÀ AUMENTATA (AR).\n\nLa realtà aumentata (AR) aggiunge contenuti digitali all’ambiente reale. Il mondo intorno a noi resta visibile, anche attraverso una fotocamera. [1] [2].\n\nPer esempio, possiamo inquadrare un tavolo con un tablet e vedere sullo schermo un modello digitale che sembra appoggiato sul tavolo.\n\nIl programma mantiene il modello nella posizione giusta rispetto al tavolo. Questo collegamento con lo spazio reale si chiama allineamento. Non basta mostrare un’immagine qualsiasi sullo schermo. [1].\n\nPer mantenere l’allineamento, il sistema usa la fotocamera e altri sensori. La realtà aumentata può funzionare su tablet, smartphone o dispositivi indossabili. [1] [2].\n\nAlcune applicazioni usano anche l’intelligenza artificiale, ma non è indispensabile per la realtà aumentata. Per una lezione conta che il contenuto sia corretto, chiaro e utile. [1] [2].\n\nIN SINTESI.\n\nAMBIENTE. Il mondo reale rimane visibile.\n\nCONTENUTI. Al mondo reale si aggiungono oggetti digitali.\n\nALLINEAMENTO. Il modello resta legato allo spazio reale.\n\nDISPOSITIVI. Si possono usare tablet, telefoni o visori.\n\nUTILITÀ. Il contenuto deve aiutare la lezione.",
+      "text": "2. LA REALTÀ AUMENTATA (a erre).\n\nLa realtà aumentata (a erre) aggiunge contenuti digitali all’ambiente reale. Il mondo intorno a noi resta visibile, anche attraverso una fotocamera. riferimento 1 riferimento 2.\n\nPer esempio, possiamo inquadrare un tavolo con un tablet e vedere sullo schermo un modello digitale che sembra appoggiato sul tavolo.\n\nIl programma mantiene il modello nella posizione giusta rispetto al tavolo. Questo collegamento con lo spazio reale si chiama allineamento. Non basta mostrare un’immagine qualsiasi sullo schermo. riferimento 1.\n\nPer mantenere l’allineamento, il sistema usa la fotocamera e altri sensori. La realtà aumentata può funzionare su tablet, smartphone o dispositivi indossabili. riferimento 1 riferimento 2.\n\nAlcune applicazioni usano anche l’intelligenza artificiale, ma non è indispensabile per la realtà aumentata. Per una lezione conta che il contenuto sia corretto, chiaro e utile. riferimento 1 riferimento 2.\n\nIN SINTESI.\n\nAMBIENTE. Il mondo reale rimane visibile.\n\nCONTENUTI. Al mondo reale si aggiungono oggetti digitali.\n\nALLINEAMENTO. Il modello resta legato allo spazio reale.\n\nDISPOSITIVI. Si possono usare tablet, telefoni o visori.\n\nUTILITÀ. Il contenuto deve aiutare la lezione.",
+      "clip_path": "clip/02_sezione.mp3",
+      "voice_name": "Aida - Sultry, Deep and Silky",
+      "expected_clip_sha256": "c876c93c3a72aa31a1d268d6b783d40b623fc3532035c890c228d61e72106cb5",
+      "clip_sha256": "c876c93c3a72aa31a1d268d6b783d40b623fc3532035c890c228d61e72106cb5",
+      "raw_duration": 87.536327,
+      "seconds": 87.49278911564626,
+      "start_seconds": 137.82993197278913
+    },
+    {
+      "name": "03_sezione",
+      "chapter": 3,
+      "title": "LA REALTÀ MISTA (MR)",
+      "pages": [
+        6,
+        7
+      ],
+      "gender": "male",
+      "speed": 1.12,
+      "text_fedele": "3. LA REALTÀ MISTA (MR).\n\nLa realtà mista (MR) unisce ambiente reale e contenuti digitali. Qui il termine indica esperienze che riconoscono lo spazio e permettono di agire con gli oggetti virtuali. [2].\n\nUn modello digitale può sembrare appoggiato a un tavolo e restare nello stesso punto anche quando ci spostiamo. Questa funzione si chiama ancoraggio. [2].\n\nSe un libro reale si trova davanti al modello, il programma può nasconderne la parte che dovrebbe stare dietro al libro. Questo effetto si chiama occlusione. [2].\n\nIl modello digitale, però, non pesa e non spinge davvero il libro. Per sentire contatto o resistenza servono dispositivi fisici appositi.\n\nIl significato di «realtà mista» può cambiare secondo il contesto. La MR non è automaticamente migliore della AR o della VR: conta l’attività che vogliamo svolgere. [2] [3].\n\nIN SINTESI.\n\nREALTÀ MISTA. Combina l’ambiente reale e oggetti digitali.\n\nANCORAGGIO. Un oggetto digitale resta in un punto dello spazio.\n\nOCCLUSIONE. Un oggetto reale può nascondere una parte digitale.\n\nCONTATTO. Un’immagine da sola non dà peso o resistenza.\n\nSCELTA. La MR non è sempre la soluzione migliore.",
+      "text": "3. LA REALTÀ MISTA (emme erre).\n\nLa realtà mista (emme erre) unisce ambiente reale e contenuti digitali. Qui il termine indica esperienze che riconoscono lo spazio e permettono di agire con gli oggetti virtuali. riferimento 2.\n\nUn modello digitale può sembrare appoggiato a un tavolo e restare nello stesso punto anche quando ci spostiamo. Questa funzione si chiama ancoraggio. riferimento 2.\n\nSe un libro reale si trova davanti al modello, il programma può nasconderne la parte che dovrebbe stare dietro al libro. Questo effetto si chiama occlusione. riferimento 2.\n\nIl modello digitale, però, non pesa e non spinge davvero il libro. Per sentire contatto o resistenza servono dispositivi fisici appositi.\n\nIl significato di «realtà mista» può cambiare secondo il contesto. La emme erre non è automaticamente migliore della a erre o della vu erre: conta l’attività che vogliamo svolgere. riferimento 2 riferimento 3.\n\nIN SINTESI.\n\nREALTÀ MISTA. Combina l’ambiente reale e oggetti digitali.\n\nANCORAGGIO. Un oggetto digitale resta in un punto dello spazio.\n\nOCCLUSIONE. Un oggetto reale può nascondere una parte digitale.\n\nCONTATTO. Un’immagine da sola non dà peso o resistenza.\n\nSCELTA. La emme erre non è sempre la soluzione migliore.",
+      "clip_path": "clip/03_sezione.mp3",
+      "voice_name": "Lorenzo Prada - Refined Italian Accent",
+      "expected_clip_sha256": "de954ac8ba3e0e64a21f9ba7c2587a3d9f2513ad6d4cd69a53c7c24cb9c55046",
+      "clip_sha256": "de954ac8ba3e0e64a21f9ba7c2587a3d9f2513ad6d4cd69a53c7c24cb9c55046",
+      "raw_duration": 88.737959,
+      "seconds": 88.70022675736962,
+      "start_seconds": 225.6227210884354
+    },
+    {
+      "name": "04_sezione",
+      "chapter": 4,
+      "title": "LA REALTÀ ESTESA (XR)",
+      "pages": [
+        8,
+        9
+      ],
+      "gender": "female",
+      "speed": 1.12,
+      "text_fedele": "4. LA REALTÀ ESTESA (XR).\n\nRealtà estesa, in inglese extended reality, si abbrevia con XR. È un nome generale che comprende realtà virtuale, aumentata e mista. [2].\n\nQueste esperienze sono diverse: può cambiare quanto vediamo del mondo reale e come possiamo agire. Non formano una classifica dal peggiore al migliore. [2] [3].\n\nPer confrontare un oggetto vero con un modello digitale può essere utile la realtà aumentata. Per esplorare un ambiente ricostruito può essere utile la realtà virtuale. [3].\n\nPrima scegliamo che cosa imparare, poi lo strumento adatto. Un’esperienza più immersiva non fa imparare di più in modo automatico. [3].\n\nIN SINTESI.\n\nXR. È il nome generale delle tecnologie di realtà estesa.\n\nCOMPRENDE. VR, AR e MR sono forme di realtà estesa.\n\nDIFFERENZE. Cambiano ambiente visibile e modi di agire.\n\nSCELTA. Lo strumento dipende dall’obiettivo della lezione.",
+      "text": "4. LA REALTÀ ESTESA (ìks erre).\n\nRealtà estesa, in inglese extended reality, si abbrevia con ìks erre. È un nome generale che comprende realtà virtuale, aumentata e mista. riferimento 2.\n\nQueste esperienze sono diverse: può cambiare quanto vediamo del mondo reale e come possiamo agire. Non formano una classifica dal peggiore al migliore. riferimento 2 riferimento 3.\n\nPer confrontare un oggetto vero con un modello digitale può essere utile la realtà aumentata. Per esplorare un ambiente ricostruito può essere utile la realtà virtuale. riferimento 3.\n\nPrima scegliamo che cosa imparare, poi lo strumento adatto. Un’esperienza più immersiva non fa imparare di più in modo automatico. riferimento 3.\n\nIN SINTESI.\n\nìks erre. È il nome generale delle tecnologie di realtà estesa.\n\nCOMPRENDE. vu erre, a erre e emme erre sono forme di realtà estesa.\n\nDIFFERENZE. Cambiano ambiente visibile e modi di agire.\n\nSCELTA. Lo strumento dipende dall’obiettivo della lezione.",
+      "clip_path": "clip/04_sezione.mp3",
+      "voice_name": "Aida - Sultry, Deep and Silky",
+      "expected_clip_sha256": "a7c13825c98f6b776485ac24ddbaf5889aacbf48a149106ae53c50abaeda7ffb",
+      "clip_sha256": "a7c13825c98f6b776485ac24ddbaf5889aacbf48a149106ae53c50abaeda7ffb",
+      "raw_duration": 71.418776,
+      "seconds": 71.37814058956916,
+      "start_seconds": 314.6229478458051
+    },
+    {
+      "name": "05_sezione",
+      "chapter": 5,
+      "title": "LE XR A SCUOLA",
+      "pages": [
+        10,
+        12
+      ],
+      "gender": "male",
+      "speed": 1.12,
+      "text_fedele": "5. LE XR A SCUOLA.\n\nA scuola le tecnologie XR possono aiutare a esplorare luoghi o simulare situazioni difficili da ricreare in aula. Per esempio, si può osservare un edificio antico ricostruito. [3] [4].\n\nLe XR, però, non fanno imparare automaticamente. Una revisione degli studi universitari ha rilevato che spesso si valutava la facilità d’uso più di ciò che gli studenti avevano imparato. [4].\n\nQuelle ricerche riguardavano l’università. I loro risultati non si possono trasferire automaticamente a ogni classe della scuola secondaria. [4].\n\nIl modello CAMIL aiuta a studiare l’apprendimento nella VR immersiva. Considera, tra le altre cose, la motivazione e la possibilità di agire nell’ambiente. [3].\n\nIl carico cognitivo è l’impegno mentale richiesto da un compito. Troppi dettagli o comandi possono distrarre e rendere più difficile concentrarsi. [3].\n\nUna lezione può seguire tre momenti. Prima si spiegano obiettivo e comandi; durante si esplora con una guida; dopo si discute e si usa ciò che si è imparato. [3].\n\nPer favorire l’accessibilità si preparano alternative: comandi diversi, sottotitoli e attività su schermo o materiali senza visore, quando necessari. [2].\n\nIl tracciamento delle mani può essere utile, ma non è adatto a tutte le persone. Non deve essere l’unico modo per partecipare. [2].\n\nLo spazio deve essere sicuro. Occorrono pause e la possibilità di fermarsi subito. Se una persona prova nausea, vertigini o affaticamento, l’attività si interrompe. [2].\n\nDurata e attività si adattano alla persona e alle indicazioni del dispositivo. Non c’è un tempo unico da imporre a tutti.\n\nPer capire se la classe ha imparato, non basta chiedere se l’esperienza è piaciuta. Si possono proporre domande, spiegazioni o un nuovo compito legato all’obiettivo. [3] [4].\n\nIN SINTESI.\n\nPOSSIBILITÀ. Le XR aiutano a esplorare e simulare.\n\nOBIETTIVO. L’attività serve a imparare qualcosa di preciso.\n\nTRE MOMENTI. Si prepara, si esplora e poi si riflette.\n\nACCESSIBILITÀ. Si offrono modi diversi per partecipare.\n\nSICUREZZA. Si fanno pause e ci si ferma se si sta male.\n\nVERIFICA. Si controlla che cosa è stato imparato.",
+      "text": "5. LE ìks erre A SCUOLA.\n\nA scuola le tecnologie ìks erre possono aiutare a esplorare luoghi o simulare situazioni difficili da ricreare in aula. Per esempio, si può osservare un edificio antico ricostruito. riferimento 3 riferimento 4.\n\nLe ìks erre, però, non fanno imparare automaticamente. Una revisione degli studi universitari ha rilevato che spesso si valutava la facilità d’uso più di ciò che gli studenti avevano imparato. riferimento 4.\n\nQuelle ricerche riguardavano l’università. I loro risultati non si possono trasferire automaticamente a ogni classe della scuola secondaria. riferimento 4.\n\nIl modello CAMIL aiuta a studiare l’apprendimento nella vu erre immersiva. Considera, tra le altre cose, la motivazione e la possibilità di agire nell’ambiente. riferimento 3.\n\nIl carico cognitivo è l’impegno mentale richiesto da un compito. Troppi dettagli o comandi possono distrarre e rendere più difficile concentrarsi. riferimento 3.\n\nUna lezione può seguire tre momenti. Prima si spiegano obiettivo e comandi; durante si esplora con una guida; dopo si discute e si usa ciò che si è imparato. riferimento 3.\n\nPer favorire l’accessibilità si preparano alternative: comandi diversi, sottotitoli e attività su schermo o materiali senza visore, quando necessari. riferimento 2.\n\nIl tracciamento delle mani può essere utile, ma non è adatto a tutte le persone. Non deve essere l’unico modo per partecipare. riferimento 2.\n\nLo spazio deve essere sicuro. Occorrono pause e la possibilità di fermarsi subito. Se una persona prova nausea, vertigini o affaticamento, l’attività si interrompe. riferimento 2.\n\nDurata e attività si adattano alla persona e alle indicazioni del dispositivo. Non c’è un tempo unico da imporre a tutti.\n\nPer capire se la classe ha imparato, non basta chiedere se l’esperienza è piaciuta. Si possono proporre domande, spiegazioni o un nuovo compito legato all’obiettivo. riferimento 3 riferimento 4.\n\nIN SINTESI.\n\nPOSSIBILITÀ. Le ìks erre aiutano a esplorare e simulare.\n\nOBIETTIVO. L’attività serve a imparare qualcosa di preciso.\n\nTRE MOMENTI. Si prepara, si esplora e poi si riflette.\n\nACCESSIBILITÀ. Si offrono modi diversi per partecipare.\n\nSICUREZZA. Si fanno pause e ci si ferma se si sta male.\n\nVERIFICA. Si controlla che cosa è stato imparato.",
+      "clip_path": "clip/05_sezione.mp3",
+      "voice_name": "Lorenzo Prada - Refined Italian Accent",
+      "expected_clip_sha256": "1c605fe68006a985352e9cf2370cf9ae1117a94ffacddf058202b02ebcfef5dd",
+      "clip_sha256": "1c605fe68006a985352e9cf2370cf9ae1117a94ffacddf058202b02ebcfef5dd",
+      "raw_duration": 153.0775,
+      "seconds": 153.07755102040815,
+      "start_seconds": 386.30108843537425
+    },
+    {
+      "name": "06_verifica",
+      "chapter": 6,
+      "title": "Verifica di comprensione",
+      "pages": [
+        13,
+        14
+      ],
+      "gender": "female",
+      "speed": 1.12,
+      "text_fedele": "VERIFICA DI COMPRENSIONE.\n\nLeggi ogni domanda e scegli una sola risposta.\n\nDomanda 1. Che cosa vede chi usa un visore per la realtà virtuale?\n\nOpzione A. Un ambiente digitale.\n\nOpzione B. Solo il tavolo reale.\n\nOpzione C. Un libro di carta.\n\nOpzione D. Solo la classe reale.\n\nDomanda 2. Che cosa significa sentirsi presenti in un ambiente virtuale?\n\nOpzione A. Aver imparato tutto.\n\nOpzione B. Sentirsi dentro quel luogo.\n\nOpzione C. Toccare oggetti reali.\n\nOpzione D. Indossare sempre guanti.\n\nDomanda 3. Che cosa fa la realtà aumentata?\n\nOpzione A. Spegne la fotocamera.\n\nOpzione B. Nasconde il mondo reale.\n\nOpzione C. Aggiunge oggetti digitali.\n\nOpzione D. Mostra solo un mondo virtuale.\n\nDomanda 4. Un modello resta nello stesso punto del tavolo. Come si chiama questa funzione?\n\nOpzione A. Sottotitolo.\n\nOpzione B. Valutazione.\n\nOpzione C. Immersione.\n\nOpzione D. Ancoraggio.\n\nDomanda 5. Che cosa comprende la realtà estesa, indicata con XR?\n\nOpzione A. VR, AR e MR.\n\nOpzione B. Solo la realtà virtuale.\n\nOpzione C. Solo il mondo reale.\n\nOpzione D. Solo i libri digitali.\n\nDomanda 6. Da che cosa conviene partire per scegliere la tecnologia per una lezione?\n\nOpzione A. Dal visore più costoso.\n\nOpzione B. Dall’obiettivo della lezione.\n\nOpzione C. Dalla moda del momento.\n\nOpzione D. Dalla scena più rumorosa.\n\nDomanda 7. Un’esperienza virtuale fa imparare sempre, da sola?\n\nOpzione A. Sì, se dura a lungo.\n\nOpzione B. Sì, con un visore nuovo.\n\nOpzione C. No, servono attività e guida.\n\nOpzione D. No, se mostra immagini.\n\nDomanda 8. Quale scelta aiuta più persone a partecipare?\n\nOpzione A. Usare un solo comando.\n\nOpzione B. Eliminare le pause.\n\nOpzione C. Usare solo il visore.\n\nOpzione D. Offrire modi diversi.\n\nDomanda 9. Se uno studente prova nausea, che cosa si fa?\n\nOpzione A. Si interrompe l’attività.\n\nOpzione B. Si continua fino alla fine.\n\nOpzione C. Si aumenta il volume.\n\nOpzione D. Si tolgono le pause.\n\nDomanda 10. Come si può verificare che cosa è stato imparato?\n\nOpzione A. Chiedendo solo se è piaciuto.\n\nOpzione B. Con un compito sul tema.\n\nOpzione C. Contando i visori.\n\nOpzione D. Allungando l’attività.",
+      "text": "VERIFICA DI COMPRENSIONE.\n\nLeggi ogni domanda e scegli una sola risposta.\n\nDomanda 1. Che cosa vede chi usa un visore per la realtà virtuale?\n\nOpzione A. Un ambiente digitale.\n\nOpzione B. Solo il tavolo reale.\n\nOpzione C. Un libro di carta.\n\nOpzione D. Solo la classe reale.\n\nDomanda 2. Che cosa significa sentirsi presenti in un ambiente virtuale?\n\nOpzione A. Aver imparato tutto.\n\nOpzione B. Sentirsi dentro quel luogo.\n\nOpzione C. Toccare oggetti reali.\n\nOpzione D. Indossare sempre guanti.\n\nDomanda 3. Che cosa fa la realtà aumentata?\n\nOpzione A. Spegne la fotocamera.\n\nOpzione B. Nasconde il mondo reale.\n\nOpzione C. Aggiunge oggetti digitali.\n\nOpzione D. Mostra solo un mondo virtuale.\n\nDomanda 4. Un modello resta nello stesso punto del tavolo. Come si chiama questa funzione?\n\nOpzione A. Sottotitolo.\n\nOpzione B. Valutazione.\n\nOpzione C. Immersione.\n\nOpzione D. Ancoraggio.\n\nDomanda 5. Che cosa comprende la realtà estesa, indicata con ìks erre?\n\nOpzione A. vu erre, a erre e emme erre.\n\nOpzione B. Solo la realtà virtuale.\n\nOpzione C. Solo il mondo reale.\n\nOpzione D. Solo i libri digitali.\n\nDomanda 6. Da che cosa conviene partire per scegliere la tecnologia per una lezione?\n\nOpzione A. Dal visore più costoso.\n\nOpzione B. Dall’obiettivo della lezione.\n\nOpzione C. Dalla moda del momento.\n\nOpzione D. Dalla scena più rumorosa.\n\nDomanda 7. Un’esperienza virtuale fa imparare sempre, da sola?\n\nOpzione A. Sì, se dura a lungo.\n\nOpzione B. Sì, con un visore nuovo.\n\nOpzione C. No, servono attività e guida.\n\nOpzione D. No, se mostra immagini.\n\nDomanda 8. Quale scelta aiuta più persone a partecipare?\n\nOpzione A. Usare un solo comando.\n\nOpzione B. Eliminare le pause.\n\nOpzione C. Usare solo il visore.\n\nOpzione D. Offrire modi diversi.\n\nDomanda 9. Se uno studente prova nausea, che cosa si fa?\n\nOpzione A. Si interrompe l’attività.\n\nOpzione B. Si continua fino alla fine.\n\nOpzione C. Si aumenta il volume.\n\nOpzione D. Si tolgono le pause.\n\nDomanda 10. Come si può verificare che cosa è stato imparato?\n\nOpzione A. Chiedendo solo se è piaciuto.\n\nOpzione B. Con un compito sul tema.\n\nOpzione C. Contando i visori.\n\nOpzione D. Allungando l’attività.",
+      "clip_path": "clip/06_verifica.mp3",
+      "voice_name": "Aida - Sultry, Deep and Silky",
+      "expected_clip_sha256": "bc3e52d4e78976924eb3d524484d14d6cae8538be68b1996f16caa7a6c3bbb4a",
+      "clip_sha256": "bc3e52d4e78976924eb3d524484d14d6cae8538be68b1996f16caa7a6c3bbb4a",
+      "raw_duration": 171.8595,
+      "seconds": 171.8595918367347,
+      "start_seconds": 539.6786394557823
+    },
+    {
+      "name": "07_mappa",
+      "chapter": 7,
+      "title": "Mappa concettuale finale",
+      "pages": [
+        15,
+        16
+      ],
+      "gender": "male",
+      "speed": 1.12,
+      "text_fedele": "MAPPA CONCETTUALE FINALE.\n\nVR · AR · MR · XR.\n\nTECNOLOGIE IMMERSIVE.\n\nVR.\n\nREALTÀ VIRTUALE.\n\nMONDO DIGITALE.\n\nVISORE · PRESENZA.\n\nAR.\n\nREALTÀ AUMENTATA.\n\nMONDO REALE.\n\nMODELLO · FOTOCAMERA.\n\nMR.\n\nREALTÀ MISTA.\n\nREALE E DIGITALE.\n\nANCORAGGIO · OCCLUSIONE.\n\nXR.\n\nEXTENDED REALITY.\n\nVR · AR · MR.\n\nREALTÀ ESTESA.\n\nXR A SCUOLA.\n\nESPERIENZA.\n\nESPLORAZIONE.\n\nSIMULAZIONE · GUIDA.\n\nAPPRENDIMENTO.\n\nOBIETTIVO · ATTENZIONE.\n\nVERIFICA.\n\nACCESSIBILITÀ.\n\nALTERNATIVE · PAUSE.\n\nCOMANDI DIVERSI.",
+      "text": "MAPPA CONCETTUALE FINALE.\n\nvu erre ,  a erre ,  emme erre ,  ìks erre.\n\nTECNOLOGIE IMMERSIVE.\n\nvu erre.\n\nREALTÀ VIRTUALE.\n\nMONDO DIGITALE.\n\nVISORE ,  PRESENZA.\n\na erre.\n\nREALTÀ AUMENTATA.\n\nMONDO REALE.\n\nMODELLO ,  FOTOCAMERA.\n\nemme erre.\n\nREALTÀ MISTA.\n\nREALE E DIGITALE.\n\nANCORAGGIO ,  OCCLUSIONE.\n\nìks erre.\n\nEXTENDED REALITY.\n\nvu erre ,  a erre ,  emme erre.\n\nREALTÀ ESTESA.\n\nìks erre A SCUOLA.\n\nESPERIENZA.\n\nESPLORAZIONE.\n\nSIMULAZIONE ,  GUIDA.\n\nAPPRENDIMENTO.\n\nOBIETTIVO ,  ATTENZIONE.\n\nVERIFICA.\n\nACCESSIBILITÀ.\n\nALTERNATIVE ,  PAUSE.\n\nCOMANDI DIVERSI.",
+      "clip_path": "clip/07_mappa.mp3",
+      "voice_name": "Lorenzo Prada - Refined Italian Accent",
+      "expected_clip_sha256": "829d746d8f620d897271444c1ffa6976ae053bf91abd343e6870f76f545e4426",
+      "clip_sha256": "829d746d8f620d897271444c1ffa6976ae053bf91abd343e6870f76f545e4426",
+      "raw_duration": 67.422041,
+      "seconds": 67.38430839002268,
+      "start_seconds": 711.838231292517
+    },
+    {
+      "name": "08_fonti",
+      "chapter": 8,
+      "title": "Riferimenti bibliografici e firma",
+      "pages": [
+        17,
+        17
+      ],
+      "gender": "female",
+      "speed": 1.12,
+      "text_fedele": "RIFERIMENTI BIBLIOGRAFICI.\n\n[1] Azuma, R. T. (1997). A Survey of Augmented Reality. Presence: Teleoperators and Virtual Environments, 6(4), 355–385.\n\nhttps://doi.org/10.1162/pres.1997.6.4.355.\n\n[2] W3C, Accessible Platform Architectures Working Group (2021). XR Accessibility User Requirements. Working Group Note, 25 agosto 2021.\n\nhttps://www.w3.org/TR/xaur/.\n\nNota del gruppo W3C: non è una norma di conformità.\n\n[3] Makransky, G.; Petersen, G. B. (2021). The Cognitive Affective Model of Immersive Learning (CAMIL): a Theoretical Research-Based Model of Learning in Immersive Virtual Reality. Educational Psychology Review, 33, 937–958.\n\nhttps://doi.org/10.1007/s10648-020-09586-2.\n\n[4] Radianti, J.; Majchrzak, T. A.; Fromm, J.; Wohlgenannt, I. (2020). A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda. Computers & Education, 147, 103778.\n\nhttps://doi.org/10.1016/j.compedu.2019.103778.\n\nArticolo scritto da ANDREA CENTINARO.",
+      "text": "RIFERIMENTI BIBLIOGRAFICI.\n\nriferimento 1 Azuma, R. T. (1997). A Survey of Augmented Reality. Presence: Teleoperators and Virtual Environments, 6(4), 355–385.\n\nIndirizzo: acca, ti, ti, pi, esse, due punti, barra, barra, di, o, i, punto, o, erre, gi, barra, uno, zero, punto, uno, uno, sei, due, barra, pi, erre, e, esse, punto, uno, nove, nove, sette, punto, sei, punto, quattro, punto, tre, cinque, cinque.\n\nriferimento 2 doppia vu tre ci, Accessible Platform Architectures Working Group (2021). ìks erre Accessibility User Requirements. Working Group Note, 25 agosto 2021.\n\nIndirizzo: acca, ti, ti, pi, esse, due punti, barra, barra, doppia vu, doppia vu, doppia vu, punto, doppia vu, tre, punto, o, erre, gi, barra, ti, erre, barra, ics, a, u, erre, barra.\n\nNota del gruppo doppia vu tre ci: non è una norma di conformità.\n\nriferimento 3 Makransky, G.; Petersen, G. B. (2021). The Cognitive Affective Model of Immersive Learning (CAMIL): a Theoretical Research-Based Model of Learning in Immersive Virtual Reality. Educational Psychology Review, 33, 937–958.\n\nIndirizzo: acca, ti, ti, pi, esse, due punti, barra, barra, di, o, i, punto, o, erre, gi, barra, uno, zero, punto, uno, zero, zero, sette, barra, esse, uno, zero, sei, quattro, otto, trattino, zero, due, zero, trattino, zero, nove, cinque, otto, sei, trattino, due.\n\nriferimento 4 Radianti, J.; Majchrzak, T. A.; Fromm, J.; Wohlgenannt, I. (2020). A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda. Computers & Education, 147, 103778.\n\nIndirizzo: acca, ti, ti, pi, esse, due punti, barra, barra, di, o, i, punto, o, erre, gi, barra, uno, zero, punto, uno, zero, uno, sei, barra, i lunga, punto, ci, o, emme, pi, e, di, u, punto, due, zero, uno, nove, punto, uno, zero, tre, sette, sette, otto.\n\nArticolo scritto da ANDREA CENTINARO.",
+      "clip_path": "clip/08_fonti.mp3",
+      "voice_name": "Aida - Sultry, Deep and Silky",
+      "expected_clip_sha256": "3bd2f9008c0b5b1c85e9508fa946aed778d8deea984ad93d6a65db0d4529940a",
+      "clip_sha256": "3bd2f9008c0b5b1c85e9508fa946aed778d8deea984ad93d6a65db0d4529940a",
+      "raw_duration": 224.888163,
+      "seconds": 224.86204081632653,
+      "start_seconds": 779.5225396825397
+    }
+  ],
+  "narration": "Integrale a due voci italiane alternate per sezione, senza musica. Letti anche riepiloghi, 10 domande con tutte le opzioni, mappa e riferimenti. Omissioni: soli numeri di pagina e distintivi decorativi.",
+  "pronuncia": "XR: ìks erre; 3D: tre dì, pausa successiva; sigle e URL scanditi senza alterare i dati.",
+  "approved": true,
+  "approved_date": "2026-11-05",
+  "approved_video": "PODCAST_REALTA_VIRTUALE_A_SCUOLA.mp4",
+  "approved_video_sha256": "9287cc59bd0e6dab9bf49fcf627d2f1a1408ac7a6753ea61efcea4d7357ea5e7",
+  "approved_duration_seconds": 1004.385
+}

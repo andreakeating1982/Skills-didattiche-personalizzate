@@ -1,0 +1,271 @@
+{
+  "snapshot": "2026-11-01_v3_specchietti-box-illustrati",
+  "historical_snapshot_not_current_for_all_documents": true,
+  "subsequent_vr_revision": "revisione-realta-virtuale-scientifica-v7.json",
+  "note_subsequent_revision": "Il 2 novembre solo il PDF realtà virtuale è stato riscritto scientificamente con quiz e firma. Non considerare il suo record v5 sotto come versione corrente; gli altri record e i totali restano quelli storici, non un nuovo collaudo della raccolta.",
+  "updated_pdfs": 8,
+  "unchanged_pdfs": 0,
+  "total_units": 91,
+  "summary_rows": 275,
+  "final_maps": 9,
+  "map_boxes": 61,
+  "map_images": 61,
+  "records": [
+    {
+      "name": "01_Guida_BES",
+      "title": "ADATTARE GLI ESERCIZI",
+      "pdf": "ADATTARE_GLI_ESERCIZI_BES_E_DSA_SPECCHIETTI_BOX_v23.pdf",
+      "sha256": "eb0c9abf58f2715b9381d0d9a4e5a38219a8c8944726c2b6ad2a96bf987d7e36",
+      "pages": 30,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6",
+        "sec7"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "summary_rows": 34,
+      "map_boxes": 6,
+      "map_images": 6,
+      "body_font_size_px": 17.333333333333332,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "5b41b798ab7817efcfff1cc67f9b2b5261265dbb641a9396cd21b2b9be902def"
+    },
+    {
+      "name": "02_Come_studiare_meglio",
+      "title": "COME STUDIARE MEGLIO",
+      "pdf": "COME_STUDIARE_MEGLIO_SPECCHIETTI_BOX_v9.pdf",
+      "sha256": "8f293ec45bf8101fd47033b94862d1bcaeb774e15eff7ce2831052d21359a07e",
+      "pages": 27,
+      "changed": true,
+      "unit_ids": [
+        "introduzione",
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6",
+        "sec7",
+        "attivita"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "summary_rows": 32,
+      "map_boxes": 8,
+      "map_images": 8,
+      "body_font_size_px": 17.333333333333332,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "205ccc1521df2cd8d00e1f385737cf1718f88fff5657cc95a7e580d3dc9abc09"
+    },
+    {
+      "name": "03_Metodologie",
+      "title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+      "pdf": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_SPECCHIETTI_BOX_v14.pdf",
+      "sha256": "80af7cb1356b981e7cc02594b55ce772966fa906fef458d466aae6740497afaa",
+      "pages": 30,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6",
+        "sec7",
+        "sec8",
+        "sec9",
+        "sec10"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "summary_rows": 30,
+      "map_boxes": 10,
+      "map_images": 10,
+      "body_font_size_px": 18.666666666666664,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "5454c1aa4f29a8d4bb8abd3a5e5d4b4364d39c866175ea290ce072db6a595f7c"
+    },
+    {
+      "name": "04_Una_classe_serena",
+      "title": "UNA CLASSE SERENA SI COSTRUISCE INSIEME",
+      "pdf": "UNA_CLASSE_SERENA_SPECCHIETTI_BOX_v8.pdf",
+      "sha256": "e76c6d6dd7022319c18ccb20bb4b060f4fab0c4af24b6a9bcdfd8acf25e7cc58",
+      "pages": 22,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "summary_rows": 31,
+      "map_boxes": 6,
+      "map_images": 6,
+      "body_font_size_px": 17.333333333333332,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "89b017dab34366b62a7fdbd84664b108b1d472d7c08d026f0578c8af66d045e1"
+    },
+    {
+      "name": "06_Regole_di_classe",
+      "title": "REGOLE DI CLASSE",
+      "pdf": "REGOLE_DI_CLASSE_SPECCHIETTI_BOX_v5.pdf",
+      "sha256": "92c767acdf9d1e119ced5ceb5ad8309e4f2b57a051a7bfab10810b60cfdd5cbc",
+      "pages": 9,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "summary_rows": 10,
+      "map_boxes": 6,
+      "map_images": 6,
+      "body_font_size_px": 17.333333333333332,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "9fac273f3a959c6b65c2645893a0a5bc349a5ff4819ef3c8fa48d5fc9bc101f5"
+    },
+    {
+      "name": "07_Gestione_classe_bilingue",
+      "title": "COME GESTIRE UNA CLASSE CHE DISTURBA",
+      "pdf": "COME_GESTIRE_UNA_CLASSE_CHE_DISTURBA_ORIGINALE_E_TRADUZIONE_SPECCHIETTI_BOX_v5.pdf",
+      "sha256": "2fee70e9170b4499cac1955074bb68e4dd716cd18cec454b79a3aaa6c21fc18b",
+      "pages": 73,
+      "changed": true,
+      "unit_ids": [
+        "originale",
+        "unita-en-h8",
+        "unita-en-h12",
+        "unita-en-h16",
+        "unita-en-h24",
+        "unita-en-h28",
+        "unita-en-h43",
+        "unita-en-h48",
+        "unita-en-h51",
+        "unita-en-h55",
+        "unita-en-h59",
+        "unita-en-h64",
+        "unita-en-h68",
+        "unita-en-h71",
+        "unita-en-h76",
+        "unita-en-h81",
+        "unita-en-h85",
+        "unita-en-h89",
+        "unita-en-h93",
+        "unita-en-h97",
+        "unita-en-h101",
+        "unita-en-h105",
+        "unita-en-h109",
+        "traduzione",
+        "unita-it-h4",
+        "unita-it-h6",
+        "unita-it-h8",
+        "unita-it-h13",
+        "unita-it-h15",
+        "unita-it-h27",
+        "unita-it-h30",
+        "unita-it-h32",
+        "unita-it-h36",
+        "unita-it-h39",
+        "unita-it-h43",
+        "unita-it-h46",
+        "unita-it-h49",
+        "unita-it-h53",
+        "unita-it-h59",
+        "unita-it-h63",
+        "unita-it-h65",
+        "unita-it-h67",
+        "unita-it-h69",
+        "unita-it-h71",
+        "unita-it-h73",
+        "unita-it-h76"
+      ],
+      "map_ids": [
+        "mappa-en",
+        "mappa-it"
+      ],
+      "summary_rows": 110,
+      "map_boxes": 12,
+      "map_images": 12,
+      "body_font_size_px": 17.333333333333332,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "37be49454d0974fea7b43ce14a07b2416e56837b0c6a07d66240705b4260770d"
+    },
+    {
+      "name": "08_Realta_virtuale",
+      "title": "REALTÀ VIRTUALE A SCUOLA: 10 APP IMMERSIVE PER IL VISORE META QUEST",
+      "pdf": "REALTA_VIRTUALE_A_SCUOLA_SPECCHIETTI_BOX_v5.pdf",
+      "sha256": "b46f6aafa074d7a8fa06fab52e0b9dd294736c102dd4a92937e3caab45c528d0",
+      "pages": 11,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "summary_rows": 15,
+      "map_boxes": 7,
+      "map_images": 7,
+      "body_font_size_px": 17.333333333333332,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "d4e15305407a4aab106d0db185c52f7008afb59d66bbcd12439fbe5bc047e666"
+    },
+    {
+      "name": "09_Mappa_in_6_passi",
+      "title": "COME COSTRUIRE UNA MAPPA CONCETTUALE IN 6 PASSI",
+      "pdf": "COME_COSTRUIRE_UNA_MAPPA_CONCETTUALE_IN_6_PASSI_SPECCHIETTI_BOX_v5.pdf",
+      "sha256": "6a3eda0aba63481491957c17e4e00afda18631579d5de3a83708b0230b2364d6",
+      "pages": 11,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "summary_rows": 13,
+      "map_boxes": 6,
+      "map_images": 6,
+      "body_font_size_px": 17.333333333333332,
+      "body_line_height": 1.85,
+      "text_preserved_outside_supports": true,
+      "source_previous_sha256": "81148a8fb174a81203f98ff25273c582d2bd0f39bd15a4c9682b5ce89b0b6eb4"
+    }
+  ],
+  "subsequent_full_collection_revision": "revisione-raccolta-scientifica-2026-11-02.json",
+  "note_current_collection": "Proiezione storica filtrata; registro corrente: revisione-raccolta-scientifica-2026-11-02.json. Otto articoli attivi, codice05 ritirato.",
+  "withdrawal_policy": "documento-ritirato-2026-11-02.md",
+  "historical_projection_filtered_after_withdrawal": true
+}

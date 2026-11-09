@@ -1,0 +1,33 @@
+{
+  "palette": {
+    "viola":    "#603090",
+    "viola_sc": "#46206c",
+    "oro":      "#c9a227",
+    "noce":     "#4a2f21",
+    "pergam":   "#efe3cd",
+    "gradino":  "#e1d0af",
+    "bordeaux": "#7a1f2b",
+    "crema":    "#f3e4cd"
+  },
+  "parametri_chiave": {
+    "px": 0.0199,
+    "fig_h": 3.50,
+    "fig_t": 0.42,
+    "ar_t": 0.62,
+    "label_w": 2.86,
+    "label_h": 1.43,
+    "label_tilt_deg": 52,
+    "sfera_r": 0.32,
+    "r_shaft": 0.4975,
+    "r_head": 0.995,
+    "z_base": 0.15,
+    "z_riser": -2.10,
+    "z_fig": -2.10,
+    "z_arrow": 1.00,
+    "z_label": 3.35,
+    "z_title": -4.10,
+    "alpha_cutoff": 0.4,
+    "ss": 4,
+    "up": 3
+  }
+}

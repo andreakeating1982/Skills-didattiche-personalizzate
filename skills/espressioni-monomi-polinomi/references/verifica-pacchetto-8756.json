@@ -1,0 +1,140 @@
+{
+  "archive_name": "ESPRESSIONI-MONOMI-POLINOMI-8756-GITHUB-RENDER-2026-10-29.zip",
+  "archive_sha256": "d7929f16d31537983d9431cfed5e55b6169986e240aa823668dc803a06544b75",
+  "archive_bytes": 48919795,
+  "source_commit": "52e4e8c69b168855b22d75e7212ff2d4d3d09d88",
+  "production_deployment": 8756,
+  "payload_files": 342,
+  "zip_file_entries_including_manifest": 343,
+  "crc": "passed",
+  "sha256_all_payloads": "passed",
+  "credential_signatures": "passed",
+  "paths_and_exclusions": "passed",
+  "checked_at_utc": "2026-10-29T14:02:49.338110+00:00",
+  "reconstruction": {
+    "steps": [
+      {
+        "step": "corepack",
+        "exit_code": 0,
+        "seconds": 0.13
+      },
+      {
+        "step": "install",
+        "exit_code": 0,
+        "seconds": 6.93
+      },
+      {
+        "step": "check",
+        "exit_code": 0,
+        "seconds": 11.93
+      },
+      {
+        "step": "unit",
+        "exit_code": 0,
+        "seconds": 19.75
+      },
+      {
+        "step": "packaging",
+        "exit_code": 0,
+        "seconds": 0.67
+      },
+      {
+        "step": "build",
+        "exit_code": 0,
+        "seconds": 8.81
+      }
+    ],
+    "node_env": "production",
+    "install_dev_dependencies": true,
+    "unit_tests": {
+      "passed": 738,
+      "skipped": 28
+    },
+    "approved_js_css_identical": true,
+    "client_files": 37,
+    "all_client_files_comparison": {
+      "files": 37,
+      "missing": [],
+      "extra": [],
+      "different": []
+    },
+    "generated_api_key_empty": true,
+    "live_ai_tested": false,
+    "production_database_used": false,
+    "smoke": {
+      "root_http": 200,
+      "coop": "same-origin",
+      "coep": "require-corp",
+      "ai_without_key": 503,
+      "asset_checks": [
+        {
+          "path": "fonts/OpenDyslexic-Regular.ttf",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "font/ttf"
+        },
+        {
+          "path": "fonts/OpenDyslexic-Regular-v2.woff2",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "font/woff2"
+        },
+        {
+          "path": "fonts/OpenDyslexic-Bold-v2.woff2",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "font/woff2"
+        },
+        {
+          "path": "models/comer/vocab.json",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/json; charset=UTF-8"
+        },
+        {
+          "path": "models/comer/encoder_int8.onnx",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/octet-stream"
+        },
+        {
+          "path": "wasm/ort-wasm-simd-threaded.jsep.wasm",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/wasm"
+        },
+        {
+          "path": "tess/worker.min.js",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/javascript; charset=UTF-8"
+        },
+        {
+          "path": "tessdata/eng.traineddata.gz",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/gzip"
+        },
+        {
+          "path": "quaderno-matematica-facile-v4.pdf",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/pdf"
+        },
+        {
+          "path": "assets/index-4q0PEhNN.js",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/javascript; charset=UTF-8"
+        },
+        {
+          "path": "assets/index-G2fFP9TG.css",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "text/css; charset=UTF-8"
+        }
+      ],
+      "database_read_or_write_endpoints_used": false
+    }
+  }
+}

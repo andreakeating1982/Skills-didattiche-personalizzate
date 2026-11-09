@@ -1,0 +1,6 @@
+-r requirements-documenti.txt
+numpy>=1.26,<3
+trimesh>=4,<5
+shapely>=2,<3
+requests>=2.31,<3
+# opencv-python è opzionale per script storici: non necessario alla validazione.

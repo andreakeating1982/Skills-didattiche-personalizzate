@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Come costruire una mappa concettuale in 6 passi · Quaderno ad alta leggibilità</title>
+<meta name="author" content="Laboratorio didattico inclusivo">
+<meta name="description" content="Quaderno ad alta leggibilità e accessibile (PDF/UA-1) che guida lo studente, passo dopo passo, a costruire una mappa concettuale con le parole chiave: leggere e ripetere, prendere appunti, creare gli hashtag, disegnare il tronco, aggiungere i rami, completare con le foglie. Font OpenDyslexic, indice colorato in prima pagina, titoli centrati, paragrafi giustificati, immagini con testo alternativo, segnalibri e mappa finale di sintesi.">
+<style>
+@page {
+  size: A4;
+  margin: 1.8cm 1.8cm 1.9cm 1.8cm;
+  @bottom-center {
+    content: counter(page);
+    font-family: 'OpenDyslexic', 'DejaVu Sans', 'Liberation Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #26211b;
+  }
+}
+@page :first {
+  margin: 1.2cm 1.8cm 1.7cm 1.8cm;
+  @bottom-center { content: none; }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'OpenDyslexic', 'DejaVu Sans', 'Liberation Sans', sans-serif;
+  font-size: 13pt;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+  color: #111111;
+  background: #ffffff;
+  margin: 0;
+  text-align: justify;
+}
+p { margin: 9px 0; orphans: 3; widows: 3; text-align: justify; }
+li { text-align: left; }
+td, th { text-align: left; }
+h1, h2, h3, h4 { margin: 0; page-break-after: avoid; text-align: center; }
+a { color: #1a5fb4; text-decoration: underline; }
+
+/* ---------- BANNER DI SEZIONE (titoli strutturati per gli screen reader) ---------- */
+.banner {
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 8px 0 16px;
+  text-align: center;
+  page-break-after: avoid;
+}
+.banner .num { opacity: .85; font-weight: 600; margin-right: 6px; }
+h1.banner { font-size: 15pt; }
+h2.banner { font-size: 13.5pt; }
+.red    { background: #b3261e; }
+.blue   { background: #1a5fb4; }
+.green  { background: #2e7d32; }
+.orange { background: #a35400; }
+.violet { background: #5e35b1; }
+.aqua   { background: #0e7c66; }
+.navy   { background: #1f3864; }
+
+h1.title-banner {
+  border-radius: 10px;
+  padding: 9px 14px;
+  color: #ffffff;
+  background: #5e35b1;
+  font-weight: 800;
+  font-size: 16.5pt;
+  line-height: 1.25;
+  text-align: center;
+  margin: 2px 0 10px;
+  page-break-after: avoid;
+}
+
+p.subtitle {
+  text-align: center;
+  font-size: 13pt;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 10px;
+}
+
+/* ---------- PAROLE CHIAVE (grassetto nero, come nel documento allegato) ---------- */
+.k, .m, .f, .o, .p { color: #111111; font-weight: 700; }
+
+/* ---------- TABELLE ---------- */
+table.tab { width: 100%; border-collapse: collapse; margin: 36px 0 32px; font-size: 11pt; line-height: 1.6; page-break-inside: avoid; }
+.tab th { padding: 8px 8px; text-align: center; font-weight: 700; color: #fff; }
+.tab td { border: 1px solid #d0d0d0; padding: 8px 10px; text-align: left; }
+.tab tr:nth-child(even) td { background: #f7f7f7; }
+.tab td:first-child { font-weight: 700; }
+
+/* ---------- IMMAGINI ---------- */
+img.ilust { width: 62%; display: block; margin: 26px auto 24px; border-radius: 10px; }
+.fig { page-break-inside: avoid; }
+
+/* ---------- BOX CREMA + ICONE ELENCHI (stile «Le 10 metodologie didattiche inclusive») ---------- */
+.indwrap { background: #fffaf0; border: 2px solid #e6d5ae; border-radius: 14px; padding: 5px 10px 8px; margin: 0 0 12px; page-break-inside: avoid; }
+.blk { background: #fffaf0; border: 1.5px solid #e6d5ae; border-radius: 14px; padding: 6px 14px 5px; margin: 4px 0 8px; page-break-inside: avoid; }
+.blk-head { page-break-inside: avoid; }
+.blk img.ilust { width: 56%; margin: 8px auto 6px; border: 3px solid #e9dcc0; border-radius: 12px; }
+ul.bx, ul.ax { list-style: none; margin: 0 0 2px; padding-left: 0; }
+ul.bx li, ul.ax li { margin: 4px 0; padding-left: 26px; text-indent: -26px; font-size: 14pt; line-height: 1.5; }
+ul.bx li::before { content: "\2714\00a0\00a0"; font-family: "DejaVu Sans", sans-serif; font-weight: 700; }
+ul.ax li::before { content: "\279C\00a0\00a0"; font-family: "DejaVu Sans", sans-serif; font-weight: 700; }
+#sec1 ul.bx li::before, #sec1 ul.ax li::before { color: #b3261e; }
+#sec2 ul.bx li::before, #sec2 ul.ax li::before { color: #1a5fb4; }
+#sec3 ul.bx li::before, #sec3 ul.ax li::before { color: #2e7d32; }
+#sec4 ul.bx li::before, #sec4 ul.ax li::before { color: #a35400; }
+#sec5 ul.bx li::before, #sec5 ul.ax li::before { color: #5e35b1; }
+#sec6 ul.bx li::before, #sec6 ul.ax li::before { color: #0e7c66; }
+/* card più compatte e immagine più piccola dove la pagina è quasi piena */
+#sec1 .blk img.ilust { width: 44%; }
+#sec2 .blk img.ilust { width: 50%; }
+
+/* ---------- ALTRI ELEMENTI ---------- */
+.nota { font-size: 10.5pt; color: #333333; margin: 14px 0 8px; border-left: 3px solid #8a8a8a; padding-left: 12px; text-align: justify; }
+.sec { margin-top: 24px; }
+.sec[id^="sec"] { page-break-before: always; }
+#sec1 { page-break-before: auto; }
+h3.hl-title { font-size: 13pt; font-weight: 800; margin: 24px 0 8px; color: #111111; text-align: center; }
+
+/* ---------- INDICE (PRIMA PAGINA) ---------- */
+#indice { page-break-after: auto; }
+img.ilust.cover { width: 92%; margin: 12px auto 10px; }
+/* intro in card crema senza immagine, come le card del documento allegato */
+.blk.intro-blk { page-break-before: always; margin: 0 0 10px; }
+.blk.intro-blk p.cover-intro { font-size: 12.5pt; line-height: 1.7; margin: 3px 0 2px; text-align: justify; page-break-inside: avoid; }
+/* Indice raffinato (come nel quaderno «10 metodologie»): niente intestazioni
+   di colonna, elenco arioso e rientro sospeso — le righe che vanno a capo si
+   allineano all'inizio del testo, MAI sotto il numero. offsetX = cerchio +
+   margine (27+10=37px); offsetY ≈ (cerchio − interlinea)/2 ≈ (27−19.6)/2 ≈ 3px. */
+.indice-banner { margin: 16px 0; }
+table.indice { width: 100%; border-collapse: collapse; page-break-inside: avoid; }
+.indice td { padding: 11px 12px; text-align: left; font-size: 13.5pt; vertical-align: middle; }
+.ind-num { display: block; float: left; width: 27px; height: 27px; border-radius: 50%; color: #ffffff; font-weight: 700; text-align: center; line-height: 27px; font-size: 13.5pt; margin: 0 10px 0 0; }
+.ind-title { display: block; margin: 3px 0 0 37px; font-size: 13.5pt; font-weight: 700; line-height: 1.45; color: #111111; text-decoration: none; }
+.ind-pag { text-align: right; width: 13%; white-space: nowrap; font-weight: 700; }
+.ind-pag a { text-decoration: none; color: #111111; }
+.ind-pag a::after { content: target-counter(attr(href), page); }
+.ind1  { background: #b3261e; }
+.ind2  { background: #1a5fb4; }
+.ind3  { background: #2e7d32; }
+.ind4  { background: #a35400; }
+.ind5  { background: #5e35b1; }
+.ind6  { background: #0e7c66; }
+.ind7  { background: #1f3864; font-size: 14pt; }
+
+/* ---------- SCHEMI RICAPITOLATIVI IN SINTESI (box crema, stile metodologie) ---------- */
+.sintesi { border: 2px solid #555555; border-radius: 14px; background: #fffaf0; margin: 14px 0 10px; page-break-inside: avoid; overflow: hidden; }
+.sintesi .s-head { color: #ffffff; font-weight: 700; font-size: 12.5pt; letter-spacing: .3px; text-align: center; padding: 5px 10px; }
+.sintesi table { width: 100%; border-collapse: collapse; font-size: 12pt; line-height: 1.5; }
+.sintesi td { padding: 6px 12px; vertical-align: top; border-top: 1px solid #eeddb6; text-align: left; }
+.sintesi tr:first-child td { border-top: none; }
+.sintesi td.lb { width: 24%; font-weight: 700; white-space: normal; }
+
+/* ---------- MAPPA DI SINTESI FINALE (box crema, stile metodologie) ---------- */
+#mappa { page-break-before: always; }
+.m-intro { text-align: center; font-size: 11.5pt; line-height: 1.5; margin: 4px 0 6px; }
+.map-root { background: #1f3864; color: #ffffff; text-align: center; font-weight: 700; font-size: 13.5pt; padding: 6px 12px; border-radius: 12px; line-height: 1.3; margin: 2px 0 8px; }
+.map-group { background: #fffaf0; border: 1.5px solid #e6d5ae; border-radius: 14px; padding: 4px 6px 6px; margin: 8px 0 4px; page-break-inside: avoid; }
+.map-ghead { color: #ffffff; font-weight: 700; text-align: center; padding: 4px 10px; border-radius: 8px; margin: 0 0 4px; font-size: 11pt; background: #37474a; letter-spacing: .3px; }
+.map-row { text-align: center; }
+.m-node { display: inline-block; vertical-align: top; text-align: left; border: 1px solid #e6d5ae; border-top: 5px solid #555555; border-radius: 10px; background: #fffdf5; padding: 3px 6px 5px; page-break-inside: avoid; }
+.m-node.w3 { width: 31.4%; }
+.m-num { display: inline-block; width: 22px; height: 22px; border-radius: 50%; color: #ffffff; font-weight: 700; font-size: 11pt; line-height: 22px; text-align: center; margin-right: 5px; }
+.m-node .t { font-weight: 700; font-size: 11pt; text-transform: uppercase; }
+.m-idea { font-size: 10.5pt; line-height: 1.35; color: #33302a; margin: 3px 0 0; text-align: left; }
+.map-legend { margin: 8px 0 0; font-size: 11pt; line-height: 1.5; text-align: center; color: #4a3a1c; }
+</style>
+</head>
+<body>
+
+<!-- ================= PRIMA PAGINA · COPERTINA + INDICE ================= -->
+<div class="sec" id="indice">
+  <h1 class="title-banner">COME COSTRUIRE UNA MAPPA CONCETTUALE IN 6 PASSI</h1>
+
+  <div class="fig">
+    <img class="ilust cover" src="media/orig-p1-0.png" alt="Un albero di plastilina: il tronco porta l'etichetta «idea centrale», i rami le «idee secondarie» e le foglie le «parole chiave». È la metafora della mappa concettuale, in stile claymation.">
+  </div>
+
+  <h2 class="banner navy indice-banner">INDICE</h2>
+
+  <div class="indwrap">
+  <table class="indice">
+    <!-- Nessuna riga di intestazione di colonna (didascalie rimosse come nel
+         quaderno «10 metodologie»): l'elenco è già chiaro con i cerchi e i
+         numeri di pagina allineati a destra. -->
+    <tr>
+      <td><span class="ind-num ind1">1</span><a class="ind-title" href="#sec1">Leggi e ripeti con la tua voce</a></td>
+      <td class="ind-pag"><a href="#sec1"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind2">2</span><a class="ind-title" href="#sec2">Rileggi e prendi appunti</a></td>
+      <td class="ind-pag"><a href="#sec2"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind3">3</span><a class="ind-title" href="#sec3">Crea gli hashtag</a></td>
+      <td class="ind-pag"><a href="#sec3"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind4">4</span><a class="ind-title" href="#sec4">Disegna il tronco</a></td>
+      <td class="ind-pag"><a href="#sec4"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind5">5</span><a class="ind-title" href="#sec5">Aggiungi i rami</a></td>
+      <td class="ind-pag"><a href="#sec5"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind6">6</span><a class="ind-title" href="#sec6">Completa con le foglie</a></td>
+      <td class="ind-pag"><a href="#sec6"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind7">★</span><a class="ind-title" href="#mappa">La mappa concettuale in sintesi</a></td>
+      <td class="ind-pag"><a href="#mappa"></a></td>
+    </tr>
+  </table>
+  </div>
+
+  <div class="blk intro-blk">
+    <p class="cover-intro">Vuoi studiare argomenti difficili ma non sai proprio come fare? Costruire <span class="k">mappe concettuali con parole chiave</span> ti potrà aiutare. La mappa concettuale è come un <span class="k">albero</span>: il <span class="k">tronco</span> è l'<span class="k">idea centrale</span>, i <span class="k">rami</span> sono le <span class="k">idee secondarie</span>, le <span class="k">foglie</span> sono le <span class="k">parole chiave</span>. Ecco come realizzare una mappa in modo semplice e veloce.</p>
+  </div>
+</div>
+
+<!-- ================= SEZIONE 1 · LEGGI E RIPETI ================= -->
+<div class="sec" id="sec1">
+  <h2 class="banner red"><span class="num">1</span> LEGGI E RIPETI CON LA TUA VOCE</h2>
+
+  <div class="blk">
+    <div class="blk-head">
+      <img class="ilust" src="media/p1.png" alt="Uno studente di plastilina chiude il libro appena letto e ripete ad alta voce una sola frase di riepilogo; sopra la sua testa una nuvola mostra le idee principali del testo.">
+    </div>
+    <ul class="bx">
+      <li>Leggi tutto il testo <span class="f">una volta, senza sottolineare</span>.</li>
+      <li>Quando arrivi alla fine, <span class="f">chiudi il libro</span>.</li>
+      <li><span class="f">Ripeti con la tua voce</span> di cosa parlava il testo, usando <span class="f">una frase sola</span>.</li>
+      <li>Per esempio: «<span class="o">Questo brano spiega perché le foglie sono di colore verde</span>».</li>
+      <li>Le parole che hai usato sono già le tue <span class="k">prime parole chiave</span>.</li>
+    </ul>
+  </div>
+
+  <div class="sintesi" style="border-color:#b3261e;">
+    <div class="s-head" style="background:#b3261e;">IN SINTESI · 1</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#b3261e;">Che cosa fai</td>
+        <td>Leggi tutto il testo una volta senza sottolineare, chiudi il libro e <span class="f">ripeti ad alta voce</span>, in una sola frase, di cosa parlava.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#b3261e;">Esempio</td>
+        <td>«Questo brano spiega perché le foglie sono di colore verde».</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#b3261e;">Risultato</td>
+        <td>Le parole della tua frase sono le tue <span class="k">prime parole chiave</span>.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= SEZIONE 2 · RILEGGI E PRENDI APPUNTI ================= -->
+<div class="sec" id="sec2">
+  <h2 class="banner blue"><span class="num">2</span> RILEGGI E PRENDI APPUNTI</h2>
+
+  <div class="blk">
+    <div class="blk-head">
+      <img class="ilust" src="media/p2.png" alt="Primo piano di un libro aperto su un banco: una mano di plastilina scrive a matita brevi appunti sul margine della pagina, accanto al testo stampato.">
+    </div>
+    <ul class="bx">
+      <li>Rileggi il testo <span class="f">una seconda volta</span>.</li>
+      <li>Fermati <span class="f">ogni due o tre frasi</span> e chiediti: «<span class="o">Perché l'autore ha scritto questa cosa?</span>».</li>
+      <li>Scrivi <span class="f">a lato della pagina</span> il concetto che hai capito, ovvero <span class="f">appunti brevi e con parole tue</span>.</li>
+    </ul>
+  </div>
+
+  <div class="sintesi" style="border-color:#1a5fb4;">
+    <div class="s-head" style="background:#1a5fb4;">IN SINTESI · 2</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#1a5fb4;">Che cosa fai</td>
+        <td>Rileggi il testo fermandoti ogni due o tre frasi e chiediti: «Perché l'autore ha scritto questa cosa?».</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#1a5fb4;">Risultato</td>
+        <td>Scrivi <span class="f">a lato della pagina</span> il concetto che hai capito: <span class="k">appunti brevi e con parole tue</span>.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= SEZIONE 3 · CREA GLI HASHTAG ================= -->
+<div class="sec" id="sec3">
+  <h2 class="banner green"><span class="num">3</span> CREA GLI HASHTAG</h2>
+
+  <div class="blk">
+    <div class="blk-head">
+      <img class="ilust" src="media/p3.png" alt="Un quaderno aperto su cui tre etichette di plastilina colorata riportano gli hashtag #fotosintesi, #piante e #luce, come parole chiave da ricordare.">
+    </div>
+    <ul class="bx">
+      <li>Riguarda gli appunti che hai scritto al lato della pagina e crea degli <span class="m">hashtag</span> per ogni idea importante.</li>
+      <li>Per esempio, se studi la fotosintesi, scrivi <span class="m">#fotosintesi</span>, <span class="m">#piante</span> e <span class="m">#luce</span>.</li>
+      <li>Quando hai finito, leggi <span class="f">solo gli hashtag</span>: se riesci a ricordare tutto il testo, hai trovato le <span class="k">parole chiave giuste</span>.</li>
+      <li>Se non ci riesci, torna al <a href="#sec2">passo 2</a> e riprova.</li>
+    </ul>
+  </div>
+
+  <div class="sintesi" style="border-color:#2e7d32;">
+    <div class="s-head" style="background:#2e7d32;">IN SINTESI · 3</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#2e7d32;">Che cosa fai</td>
+        <td>Trasforma ogni idea importante in un <span class="m">hashtag</span>: per esempio <span class="m">#fotosintesi</span>, <span class="m">#piante</span> e <span class="m">#luce</span>.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#2e7d32;">Come verificare</td>
+        <td>Leggi solo gli hashtag: se ricordi tutto il testo, hai trovato le parole chiave giuste; altrimenti torna al <a href="#sec2">passo 2</a> e riprova.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= SEZIONE 4 · DISEGNA IL TRONCO ================= -->
+<div class="sec" id="sec4">
+  <h2 class="banner orange"><span class="num">4</span> DISEGNA IL TRONCO</h2>
+
+  <div class="blk">
+    <div class="blk-head">
+      <img class="ilust" src="media/p4.png" alt="Un foglio bianco in orizzontale su una scrivania: una mano disegna un cerchio verde intorno alla scritta «IL TITOLO», il tronco della futura mappa.">
+    </div>
+    <ul class="bx">
+      <li>Prendi un <span class="f">foglio bianco</span> e mettilo <span class="f">in orizzontale</span>.</li>
+      <li>Cerca il <span class="f">titolo principale</span> della pagina che stai studiando.</li>
+      <li>Scrivilo <span class="f">al centro del foglio</span> e disegna un <span class="f">cerchio</span> intorno.</li>
+      <li>Questo è il <span class="k">tronco</span> della tua mappa.</li>
+    </ul>
+  </div>
+
+  <div class="sintesi" style="border-color:#a35400;">
+    <div class="s-head" style="background:#a35400;">IN SINTESI · 4</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#a35400;">Che cosa fai</td>
+        <td>Metti il foglio in orizzontale, scrivi il <span class="f">titolo principale</span> al centro e disegnagli un cerchio intorno.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#a35400;">Risultato</td>
+        <td>Hai creato il <span class="k">tronco</span> della tua mappa: l'idea centrale.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= SEZIONE 5 · AGGIUNGI I RAMI ================= -->
+<div class="sec" id="sec5">
+  <h2 class="banner violet"><span class="num">5</span> AGGIUNGI I RAMI</h2>
+
+  <div class="blk">
+    <div class="blk-head">
+      <img class="ilust" src="media/p5.png" alt="Una mappa concettuale in costruzione: al centro il cerchio con «IL TITOLO», collegato con le frecce a tre cerchi verdi che riportano i sottotitoli: i rami dell'albero.">
+    </div>
+    <ul class="bx">
+      <li>Ora cerca i <span class="f">sottotitoli</span> nel libro: sono quelle <span class="f">frasi in grassetto</span> che dividono il testo.</li>
+      <li>Scrivi ogni sottotitolo <span class="f">intorno al titolo centrale</span> e collegali con una <span class="f">freccia</span>.</li>
+      <li>Questi sono i <span class="k">rami</span> della tua mappa.</li>
+    </ul>
+  </div>
+
+  <div class="sintesi" style="border-color:#5e35b1;">
+    <div class="s-head" style="background:#5e35b1;">IN SINTESI · 5</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#5e35b1;">Che cosa fai</td>
+        <td>Cerca i <span class="f">sottotitoli</span> (le frasi in grassetto che dividono il testo) e scrivili intorno al titolo centrale.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#5e35b1;">Risultato</td>
+        <td>Collega ogni sottotitolo al centro con una <span class="f">freccia</span>: sono i <span class="k">rami</span> della tua mappa, le idee secondarie.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= SEZIONE 6 · COMPLETA CON LE FOGLIE ================= -->
+<div class="sec" id="sec6">
+  <h2 class="banner aqua"><span class="num">6</span> COMPLETA CON LE FOGLIE</h2>
+
+  <div class="blk">
+    <div class="blk-head">
+      <img class="ilust" src="media/p6.png" alt="Uno studente sorridente osserva la sua mappa concettuale completa e colorata: foglie con le parole chiave, rami, immagini e un codice QR per gli approfondimenti.">
+    </div>
+    <ul class="bx">
+      <li>Infine, prendi le <span class="f">parole chiave</span> che hai trovato prima e scrivile <span class="f">vicino al ramo giusto</span>.</li>
+      <li>Collegale con una <span class="f">freccia sottile</span>.</li>
+      <li>Per completare la mappa usa <span class="o">immagini e colori diversi</span>, perché sono di grande aiuto per la tua <span class="k">memoria</span>.</li>
+      <li>Oppure puoi inserire dei <span class="o">QR code</span> con delle pagine web per approfondimenti.</li>
+    </ul>
+  </div>
+
+  <div class="sintesi" style="border-color:#0e7c66;">
+    <div class="s-head" style="background:#0e7c66;">IN SINTESI · 6</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#0e7c66;">Che cosa fai</td>
+        <td>Scrivi ogni <span class="k">parola chiave</span> vicino al ramo giusto e collegala con una freccia sottile.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#0e7c66;">Per la memoria</td>
+        <td>Completa la mappa con <span class="o">immagini e colori diversi</span>; puoi aggiungere <span class="o">QR code</span> con pagine web per approfondire.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= MAPPA DI SINTESI FINALE ================= -->
+<div class="sec" id="mappa">
+  <h2 class="banner navy indice-banner">LA MAPPA IN SINTESI</h2>
+  <div class="map-root">COME COSTRUIRE UNA MAPPA CONCETTUALE · I 6 PASSI</div>
+
+  <div class="map-group">
+    <div class="map-ghead">PRIMA · LEGGERE E CAPIRE (PASSI 1–3)</div>
+    <div class="map-row">
+      <div class="m-node w3" style="border-top-color:#b3261e;">
+        <span class="m-num" style="background:#b3261e;">1</span><span class="t">Leggi e ripeti</span>
+        <p class="m-idea">Leggi senza sottolineare, chiudi il libro e ripeti a voce alta: trovi le tue prime parole chiave.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#1a5fb4;">
+        <span class="m-num" style="background:#1a5fb4;">2</span><span class="t">Prendi appunti</span>
+        <p class="m-idea">Rileggi, fermati ogni due o tre frasi e scrivi a lato appunti brevi con parole tue.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#2e7d32;">
+        <span class="m-num" style="background:#2e7d32;">3</span><span class="t">Crea gli hashtag</span>
+        <p class="m-idea">Una parola-chiave per ogni idea importante: leggendo solo gli hashtag verifichi di ricordare.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="map-group">
+    <div class="map-ghead">POI · COSTRUIRE LA MAPPA (PASSI 4–6)</div>
+    <div class="map-row">
+      <div class="m-node w3" style="border-top-color:#a35400;">
+        <span class="m-num" style="background:#a35400;">4</span><span class="t">Disegna il tronco</span>
+        <p class="m-idea">Foglio in orizzontale: il titolo principale al centro, dentro un cerchio.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#5e35b1;">
+        <span class="m-num" style="background:#5e35b1;">5</span><span class="t">Aggiungi i rami</span>
+        <p class="m-idea">I sottotitoli intorno al titolo centrale, collegati con le frecce.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#0e7c66;">
+        <span class="m-num" style="background:#0e7c66;">6</span><span class="t">Attacca le foglie</span>
+        <p class="m-idea">Le parole chiave vicino al ramo giusto, con immagini, colori e QR code.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

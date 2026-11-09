@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "version": "2026-10-29",
+  "skill": "didattica-app-matematica",
+  "profiles": 5,
+  "original_sources_complete": 3,
+  "reconstructed_partial": 2,
+  "rules": "No original deletion, no account changes, no production deployment",
+  "source_file_provenance": [
+    {
+      "source": "/home/user/skills/equazioni-biquadratiche/SKILL.md",
+      "source_sha256": "c3dfd6a535942830b0b0f82a419f454f0a1444f01191c929af6f8deef1c1104e",
+      "destination": "didattica-app-matematica/references/originali/equazioni-biquadratiche.md",
+      "destination_sha256": "d6f1e9ae5613009eb479145ccd5959f3ab2cdff0193c6c362bdea06ca1a1e30c",
+      "transformation": "frontmatter_removed_paths_relocated_history_scoped",
+      "bytes": 17749
+    },
+    {
+      "source": "/home/user/skills/math-input-panel/SKILL.md",
+      "source_sha256": "eafbf71b318bfae6f8e801311d0db050224521aa3356ca56b8ac38ac4ba066c8",
+      "destination": "didattica-app-matematica/references/originali/math-input-panel.md",
+      "destination_sha256": "d4fc70c1a20570a3412e9a4b556f8c62fe216099a94708e7729d0c6172b9ba91",
+      "transformation": "frontmatter_removed_paths_relocated_history_scoped",
+      "bytes": 12489
+    },
+    {
+      "source": "/home/user/skills/math-input-panel/templates/embed.html",
+      "source_sha256": "563e70a3333568ef75e9a613491167a5c48c8377136cef13348e6f1c4c3d2e7b",
+      "destination": "didattica-app-matematica/templates/math-input-panel/embed.html",
+      "destination_sha256": "563e70a3333568ef75e9a613491167a5c48c8377136cef13348e6f1c4c3d2e7b",
+      "transformation": "byte_identical",
+      "bytes": 1234
+    },
+    {
+      "source": "/home/user/skills/widget-matematico-sorgente/SKILL.md",
+      "source_sha256": "c75aaaf90bfdea9f65dbcc84de7440b9dfaf0becb363db4a767cea420d00d09b",
+      "destination": "didattica-app-matematica/references/originali/widget-matematico-sorgente.md",
+      "destination_sha256": "187f72c3f4091ba2d2f9cea0b1f836a7e2625c310b8734ffea31c94227690ea0",
+      "transformation": "frontmatter_removed_paths_relocated_history_scoped",
+      "bytes": 6091
+    },
+    {
+      "source": "/home/user/skills/widget-matematico-sorgente/references/disequazioni.md",
+      "source_sha256": "f786967af24d7023b3700f0d827f3580058f3439910fccb05d452bfb1ef15138",
+      "destination": "didattica-app-matematica/references/widget-matematico-sorgente/disequazioni.md",
+      "destination_sha256": "f786967af24d7023b3700f0d827f3580058f3439910fccb05d452bfb1ef15138",
+      "transformation": "byte_identical",
+      "bytes": 3990
+    },
+    {
+      "source": "/home/user/skills/widget-matematico-sorgente/references/grado.md",
+      "source_sha256": "1c7c57e6514164c2c23e4702c69fe8c805b69030ea062072e8a2532b2749abe9",
+      "destination": "didattica-app-matematica/references/widget-matematico-sorgente/grado.md",
+      "destination_sha256": "71fefab7da227640f2e0ac108a0039b15687319af43f20f6bc1853e1ae224886",
+      "transformation": "paths_relocated",
+      "bytes": 4873
+    },
+    {
+      "source": "/home/user/skills/widget-matematico-sorgente/scripts/clone_app.py",
+      "source_sha256": "5ed58709c3d8240a6c95d1a93eabcdfd2e11d7be85a24163f15781b3d4a3e8a2",
+      "destination": "didattica-app-matematica/scripts/widget-matematico-sorgente/clone_app.py",
+      "destination_sha256": "5ed58709c3d8240a6c95d1a93eabcdfd2e11d7be85a24163f15781b3d4a3e8a2",
+      "transformation": "byte_identical",
+      "bytes": 10728
+    }
+  ]
+}

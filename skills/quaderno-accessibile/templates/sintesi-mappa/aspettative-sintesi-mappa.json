@@ -1,0 +1,11 @@
+{
+  "unit_ids": [
+    "sec1",
+    "sec2"
+  ],
+  "final_map_ids": [
+    "mappa"
+  ],
+  "body_font_size_px": 17.333333333333332,
+  "body_line_height": 1.85
+}

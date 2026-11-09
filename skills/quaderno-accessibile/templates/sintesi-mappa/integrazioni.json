@@ -1,0 +1,103 @@
+{
+  "unit_ids": [
+    "sec1",
+    "sec2"
+  ],
+  "final_map_ids": [
+    "mappa"
+  ],
+  "body_font_size_px": 17.333333333333332,
+  "body_line_height": 1.85,
+  "summaries": [
+    {
+      "id": "sec1",
+      "color": "#b23c47",
+      "rows": [
+        [
+          "OBIETTIVO",
+          "Chiarisci che cosa devi capire prima di cominciare."
+        ],
+        [
+          "MATERIALI",
+          "Prepara soltanto ciò che serve per il lavoro."
+        ],
+        [
+          "PASSI",
+          "Dividi il lavoro in parti brevi e scegli da dove iniziare."
+        ]
+      ]
+    },
+    {
+      "id": "sec2",
+      "color": "#1a5fb4",
+      "rows": [
+        [
+          "RICORDARE",
+          "Prova a spiegare con parole tue senza leggere subito."
+        ],
+        [
+          "CONTROLLARE",
+          "Confronta ciò che hai ricordato con il testo."
+        ],
+        [
+          "RIPARTIRE",
+          "Torna al passaggio poco chiaro e chiedi aiuto."
+        ]
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "id": "mappa",
+      "root": "STUDIARE CON UN METODO",
+      "groups": [
+        {
+          "title": "PREPARARE",
+          "nodes": [
+            {
+              "title": ["OBIETTIVO", "MATERIALI"],
+              "keywords": ["ORGANIZZAZIONE", "NECESSARIO"]
+            },
+            {
+              "title": ["PRIMO PASSO"],
+              "keywords": ["PARTI BREVI", "PRIMA ATTIVITÀ"]
+            }
+          ],
+          "images": [
+            {
+              "src": "../clay-adulto/pianificazione.png",
+              "alt": "Insegnante adulta organizza appunti e materiali in una scena clay."
+            },
+            {
+              "src": "../clay-adulto/pianificazione.png",
+              "alt": "Insegnante adulta organizza appunti e materiali in una scena clay."
+            }
+          ]
+        },
+        {
+          "title": "CONTROLLARE E RIPARTIRE",
+          "nodes": [
+            {
+              "title": ["RICORDARE", "CONTROLLARE"],
+              "keywords": ["PAROLE PROPRIE", "VERIFICA"]
+            },
+            {
+              "title": ["CHIEDERE AIUTO"],
+              "keywords": ["DIFFICOLTÀ", "SOSTEGNO"]
+            }
+          ],
+          "images": [
+            {
+              "src": "../clay-adulto/autoregolazione.png",
+              "alt": "Una persona adulta riflette con calma sul proprio lavoro in una scena clay."
+            },
+            {
+              "src": "../clay-adulto/autoregolazione.png",
+              "alt": "Una persona adulta riflette con calma sul proprio lavoro in una scena clay."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

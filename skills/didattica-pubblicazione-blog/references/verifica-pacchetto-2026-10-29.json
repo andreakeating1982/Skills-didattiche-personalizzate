@@ -1,0 +1,128 @@
+{
+  "archive_name": "ESPRESSIONI-MONOMI-POLINOMI-8744-GITHUB-RENDER-2026-10-29.zip",
+  "archive_sha256": "db3518a5904e0d705acef16b8379bcd334b1dbfa696b5605fc6f1a20606e8ede",
+  "archive_bytes": 48888340,
+  "source_commit": "f5f3ace8f61d800c132c7cb3500aa8497ed9f419",
+  "production_deployment": 8744,
+  "payload_files": 333,
+  "zip_file_entries_including_manifest": 334,
+  "crc": "passed",
+  "sha256_all_payloads": "passed",
+  "credential_signatures": "passed",
+  "paths_and_exclusions": "passed",
+  "checked_at_utc": "2026-10-29T08:40:12.008799+00:00",
+  "reconstruction": {
+    "steps": [
+      {
+        "step": "corepack",
+        "exit_code": 0,
+        "seconds": 0.12
+      },
+      {
+        "step": "install",
+        "exit_code": 0,
+        "seconds": 6.89
+      },
+      {
+        "step": "check",
+        "exit_code": 0,
+        "seconds": 9.6
+      },
+      {
+        "step": "unit",
+        "exit_code": 0,
+        "seconds": 18.33
+      },
+      {
+        "step": "packaging",
+        "exit_code": 0,
+        "seconds": 0.47
+      },
+      {
+        "step": "build",
+        "exit_code": 0,
+        "seconds": 8.91
+      }
+    ],
+    "node_env": "production",
+    "install_dev_dependencies": true,
+    "unit_tests": {
+      "passed": 738,
+      "skipped": 28
+    },
+    "approved_js_css_identical": true,
+    "client_files": 37,
+    "all_client_files_comparison": {
+      "files": 37,
+      "missing": [],
+      "extra": [],
+      "different": []
+    },
+    "generated_api_key_empty": true,
+    "live_ai_tested": false,
+    "production_database_used": false,
+    "smoke": {
+      "root_http": 200,
+      "coop": "same-origin",
+      "coep": "require-corp",
+      "ai_without_key": 503,
+      "asset_checks": [
+        {
+          "path": "fonts/OpenDyslexic-Regular.ttf",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "font/ttf"
+        },
+        {
+          "path": "models/comer/vocab.json",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/json; charset=UTF-8"
+        },
+        {
+          "path": "models/comer/encoder_int8.onnx",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/octet-stream"
+        },
+        {
+          "path": "wasm/ort-wasm-simd-threaded.jsep.wasm",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/wasm"
+        },
+        {
+          "path": "tess/worker.min.js",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/javascript; charset=UTF-8"
+        },
+        {
+          "path": "tessdata/eng.traineddata.gz",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/gzip"
+        },
+        {
+          "path": "quaderno-matematica-facile-v4.pdf",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/pdf"
+        },
+        {
+          "path": "assets/index-BnuQEBUp.js",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "application/javascript; charset=UTF-8"
+        },
+        {
+          "path": "assets/index-D1FTbNg8.css",
+          "http": 200,
+          "content_sha256_matches_file": true,
+          "content_type": "text/css; charset=UTF-8"
+        }
+      ],
+      "database_read_or_write_endpoints_used": false
+    }
+  }
+}

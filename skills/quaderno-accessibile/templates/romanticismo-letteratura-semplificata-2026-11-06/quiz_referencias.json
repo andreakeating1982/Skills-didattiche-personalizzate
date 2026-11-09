@@ -1,0 +1,139 @@
+{
+  "quiz": [
+    {
+      "q": "¿Qué quería recuperar la tendencia conservadora?",
+      "options": [
+        "A. La ciencia moderna.",
+        "B. Los valores de la Edad Media.",
+        "C. Las leyes del futuro.",
+        "D. Los viajes espaciales."
+      ],
+      "correct": "B",
+      "evidence": "sec1: valores patrióticos y religiosos de la Edad Media"
+    },
+    {
+      "q": "¿Qué sentimiento aparece en el Romanticismo?",
+      "options": [
+        "A. Pesimismo.",
+        "B. Alegría constante.",
+        "C. Indiferencia.",
+        "D. Tranquilidad permanente."
+      ],
+      "correct": "A",
+      "evidence": "sec1: visión del mundo pesimista"
+    },
+    {
+      "q": "¿Qué describe el costumbrismo?",
+      "options": [
+        "A. Planetas lejanos.",
+        "B. Experimentos científicos.",
+        "C. Costumbres y personas.",
+        "D. Edificios modernos."
+      ],
+      "correct": "C",
+      "evidence": "sec1: costumbres y tipos humanos"
+    },
+    {
+      "q": "¿Quién escribió las Rimas?",
+      "options": [
+        "A. Mariano José de Larra.",
+        "B. José Zorrilla.",
+        "C. El Duque de Rivas.",
+        "D. Gustavo Adolfo Bécquer."
+      ],
+      "correct": "D",
+      "evidence": "sec2: Bécquer, Rimas"
+    },
+    {
+      "q": "¿Quién escribió En las orillas del Sar?",
+      "options": [
+        "A. Rosalía de Castro.",
+        "B. José de Espronceda.",
+        "C. José Zorrilla.",
+        "D. Mariano José de Larra."
+      ],
+      "correct": "A",
+      "evidence": "sec2: Rosalía de Castro, En las orillas del Sar"
+    },
+    {
+      "q": "¿Qué escribió Mariano José de Larra?",
+      "options": [
+        "A. Las Rimas.",
+        "B. Artículos costumbristas.",
+        "C. Don Juan Tenorio.",
+        "D. Las Leyendas de Bécquer."
+      ],
+      "correct": "B",
+      "evidence": "sec3: Larra, artículos costumbristas"
+    },
+    {
+      "q": "¿Quién escribió las Leyendas?",
+      "options": [
+        "A. Rosalía de Castro.",
+        "B. El Duque de Rivas.",
+        "C. Gustavo Adolfo Bécquer.",
+        "D. José Zorrilla."
+      ],
+      "correct": "C",
+      "evidence": "sec3: Leyendas de Bécquer"
+    },
+    {
+      "q": "¿Qué tema aparece en el teatro romántico?",
+      "options": [
+        "A. Un amor imposible.",
+        "B. Una receta de cocina.",
+        "C. Una clase de matemáticas.",
+        "D. Un partido de fútbol."
+      ],
+      "correct": "A",
+      "evidence": "sec4: amor imposible"
+    },
+    {
+      "q": "¿Quién escribió Don Juan Tenorio?",
+      "options": [
+        "A. Gustavo Adolfo Bécquer.",
+        "B. Rosalía de Castro.",
+        "C. Mariano José de Larra.",
+        "D. José Zorrilla."
+      ],
+      "correct": "D",
+      "evidence": "sec4: José Zorrilla, Don Juan Tenorio"
+    },
+    {
+      "q": "¿Quién escribió Don Álvaro o la fuerza del sino?",
+      "options": [
+        "A. Mariano José de Larra.",
+        "B. El Duque de Rivas.",
+        "C. Rosalía de Castro.",
+        "D. Gustavo Adolfo Bécquer."
+      ],
+      "correct": "B",
+      "evidence": "sec4: Duque de Rivas, Don Álvaro o la fuerza del sino"
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "text": "Cadelli, E. – Salvaggio, M. – Bruni, P. – Caballero Sánchez, P. – Vargas Vergara, M. Horizontes. Paisajes literarios y raíces culturales del mundo hispano, Milano: Europass, p. 210.",
+      "origin": "Referencia indicada en el documento original"
+    },
+    {
+      "id": 2,
+      "text": "Encyclopaedia Britannica. «Spanish (Castilian) Romantic literature».",
+      "url": "https://www.britannica.com/art/Romantic-literature/Spanish-Castilian-Romantic-literature",
+      "origin": "Consulta complementaria"
+    },
+    {
+      "id": 3,
+      "text": "García Jiménez, Antonio. «Bécquer y los cimientos de la Biblioteca Nacional». Biblioteca Nacional de España, 2020.",
+      "url": "https://www.bne.es/es/blog/blog-bne/becquer-y-los-cimientos-de-la-biblioteca-nacional",
+      "origin": "Consulta complementaria"
+    },
+    {
+      "id": 4,
+      "text": "Encyclopaedia Britannica. «Serafín Estébanez Calderón».",
+      "url": "https://www.britannica.com/biography/Serafin-Estebanez-Calderon",
+      "origin": "Consulta complementaria sobre costumbrismo"
+    }
+  ]
+}

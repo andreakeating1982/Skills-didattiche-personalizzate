@@ -1,0 +1,133 @@
+{
+  "title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+  "historical_version": "v11 TITOLI CENTRATI",
+  "status": "SUPERATA: paginazione rifiutata, unità accodate. Usare v12 UNITÀ PAGINA NUOVA.",
+  "superseded_by_registry": "baseline-metodologie-v12.json",
+  "date": "2026-11-01",
+  "pdf": {
+    "local_path": "/home/user/metodologie_titoli_centrati_v11/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_TITOLI_CENTRATI_v11.pdf",
+    "sha256": "f01a64f3767f275c15c7b217f6ef018804095b2a5f45a7ba513a21db46aea441",
+    "pages": 23,
+    "included_in_skill": false
+  },
+  "portable_sources": {
+    "directory": "templates/metodologie-v11",
+    "html": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_TITOLI_CENTRATI_v11.html",
+    "render": "render_pdf.py",
+    "expectations": "aspettative-titoli.json",
+    "files": [
+      {
+        "file": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_TITOLI_CENTRATI_v11.html",
+        "sha256": "ff9b1d52aeef2163f43e0e1a28902003a2c53f4dd5b45e5debf4d3fc4cd3e470",
+        "bytes": 52976
+      },
+      {
+        "file": "stile.css",
+        "sha256": "1c76a3208652ff301e8e800cafb9de4ed58552e3d0f9cfb4de938a425268f62e",
+        "bytes": 6455
+      },
+      {
+        "file": "render_pdf.py",
+        "sha256": "09568e0a6fb8c539e9ff5697a7f70e436410748aa7a44f2a12b618b2f4d4e2aa",
+        "bytes": 237
+      },
+      {
+        "file": "fonts/OpenDyslexic-Bold.otf",
+        "sha256": "8cd3dc316f3567a28c732f71629cb40ab58b6c7351560960bf4af1ffa8450185",
+        "bytes": 48832
+      },
+      {
+        "file": "fonts/OpenDyslexic-Regular.otf",
+        "sha256": "c6f7095c9cf98480a8c84de8518109ec857e5e72f763cba53792fc083c30c764",
+        "bytes": 49652
+      },
+      {
+        "file": "media/immagine_01_137.jpeg",
+        "sha256": "08d771d3e0748c0522995140f7b14a37fbfd3fc87874cfbfdeedb4114d8582ea",
+        "bytes": 245991
+      },
+      {
+        "file": "media/immagine_02_138.jpeg",
+        "sha256": "3a2b836c9125e4297d7e7d117f673b2cb7e8687fa82857c8648fa49aac3024ac",
+        "bytes": 253716
+      },
+      {
+        "file": "media/immagine_08_144.jpeg",
+        "sha256": "95d4f2b786a0bdcb01a2dde37a866af869f5c04bcf8008fde29f1e710eff6786",
+        "bytes": 303282
+      },
+      {
+        "file": "media/immagine_12_148.jpeg",
+        "sha256": "24b17e3a02ca3e3d7d2fc6d7a3e910ff0353cab0acfc5dd688caca725c1aefdc",
+        "bytes": 285082
+      },
+      {
+        "file": "media/immagine_14_150.jpeg",
+        "sha256": "d1e88a7157a0becf6ad3d6f292b40e1e5a940ca4e97596702058e68b1168a051",
+        "bytes": 205667
+      },
+      {
+        "file": "media/immagine_20_156.jpeg",
+        "sha256": "08f71110ce750855c0bda73f427edb0c9e0d6449287d912548a20780f4a7ded3",
+        "bytes": 268659
+      }
+    ],
+    "binary_pdf_hash_not_guaranteed_after_render": true
+  },
+  "history": [
+    {
+      "version": "v8 BASE CORRETTA",
+      "sha256": "9ba82ceae0ce84656943356c70c6be9c740d0e39b7fb55615d660a420268a906",
+      "pages": 35,
+      "images": 21,
+      "role": "Radice corretta dal corpo v5, non ultima edizione grafica."
+    },
+    {
+      "version": "v10 RIMPAGINATO",
+      "sha256": "27aa33e71c31db82fa8248ffc2e005f322a8514ce641ce902e9f25555c6fc167",
+      "pages": 23,
+      "images": 6,
+      "role": "Meno immagini e vuoti, etichette FONTI rimosse dalle citazioni, bibliografia preservata."
+    },
+    {
+      "version": "v11 TITOLI CENTRATI",
+      "sha256": "f01a64f3767f275c15c7b217f6ef018804095b2a5f45a7ba513a21db46aea441",
+      "pages": 23,
+      "images": 6,
+      "role": "111titoli/intestazioni centrati, palette dei banner."
+    }
+  ],
+  "invariants": {
+    "content_and_emphasis_preserved": true,
+    "headings_centered": true,
+    "white_heading_on_banners_preserved": true,
+    "body_black_left_aligned": true,
+    "index_entries_preserved": true,
+    "images_on_selected_units": [
+      1,
+      4,
+      6,
+      7,
+      10
+    ],
+    "cover_image_present": true,
+    "bibliography_preserved": true,
+    "repeated_source_labels_removed": true,
+    "semantic_box_max_lines": 5,
+    "no_pdfua_validation_claim": true
+  },
+  "current_audio": {
+    "version": "v9 senza fonti, Peer tutoring approvato",
+    "local_path": "/home/user/metodologie_audio_senza_fonti_v9/consegna/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_AUDIO_PEER_TUTORING_CORRETTO_SENZA_FONTI_v9.mp3",
+    "sha256": "1cf8b49e96177c5d8089ec8f515f7bfc1780171ae416d2115cb0d0680948ece8",
+    "duration_seconds": 1230.106122,
+    "duration": "20:30",
+    "included_in_skill": false,
+    "compatible_with_current_pdf": "Sì per le parti narrate; le esclusioni delle fonti sono esplicite."
+  },
+  "post_image": {
+    "file": "templates/post-blog/metodologie-inclusive.png",
+    "sha256": "0a415885acf8497c6fd85a27476be22a881ee8f9f520046e0e5aa1176cfd34ce",
+    "separate_from_pdf_cover": true
+  }
+}

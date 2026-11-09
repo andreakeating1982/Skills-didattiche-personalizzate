@@ -1,0 +1,396 @@
+{
+  "html": "/home/user/realta_virtuale_chiara_2026_11_05/sorgenti/REALTA_VIRTUALE_A_SCUOLA_ARTICOLO_CHIARO.html",
+  "pages": 17,
+  "cards": 32,
+  "structured_units": 0,
+  "max_lines": 4,
+  "units": [
+    {
+      "id": "sec1-testo-1",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "La realtà virtuale (VR) è un ambiente creato dal computer. Può riprodurre un luogo reale oppure immaginario, come un museo o una città del futuro. [2] [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec1-testo-2",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "Con un visore vediamo l’ambiente digitale al posto della stanza. Se muoviamo la testa, il programma aggiorna l’immagine e ci mostra un’altra parte dell’ambiente. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec1-testo-3",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "Il visore può mostrare un’immagine leggermente diversa a ciascun occhio. In questo modo gli oggetti possono sembrare profondi e non piatti. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec1-testo-4",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "Con i controller , cioè i comandi tenuti in mano, possiamo esplorare un luogo o spostare oggetti virtuali. Alcuni sistemi riconoscono anche i movimenti delle mani senza guanti: è il tracciamento delle mani . [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec1-testo-5",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "Se vediamo una mano virtuale afferrare un oggetto, non significa che ne sentiamo davvero il peso. Per avere una sensazione tattile servono dispositivi appositi.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec1-testo-6",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        3
+      ],
+      "paragraphs": 1,
+      "text": "L’ immersione riguarda quanto la tecnologia ci circonda con immagini e suoni. La presenza è invece la sensazione personale di trovarsi in quel luogo. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec1-testo-7",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        3
+      ],
+      "paragraphs": 1,
+      "text": "Sentirsi presenti può rendere l’esperienza coinvolgente. Da sola, però, questa sensazione non dimostra che abbiamo imparato. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec2-testo-1",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        4
+      ],
+      "paragraphs": 1,
+      "text": "La realtà aumentata (AR) aggiunge contenuti digitali all’ambiente reale. Il mondo intorno a noi resta visibile, anche attraverso una fotocamera. [1] [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec2-testo-2",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        4
+      ],
+      "paragraphs": 1,
+      "text": "Per esempio, possiamo inquadrare un tavolo con un tablet e vedere sullo schermo un modello digitale che sembra appoggiato sul tavolo.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec2-testo-3",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        4
+      ],
+      "paragraphs": 1,
+      "text": "Il programma mantiene il modello nella posizione giusta rispetto al tavolo. Questo collegamento con lo spazio reale si chiama allineamento . Non basta mostrare un’immagine qualsiasi sullo schermo. [1]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec2-testo-4",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        4
+      ],
+      "paragraphs": 1,
+      "text": "Per mantenere l’allineamento, il sistema usa la fotocamera e altri sensori. La realtà aumentata può funzionare su tablet, smartphone o dispositivi indossabili. [1] [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec2-testo-5",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        4
+      ],
+      "paragraphs": 1,
+      "text": "Alcune applicazioni usano anche l’ intelligenza artificiale , ma non è indispensabile per la realtà aumentata. Per una lezione conta che il contenuto sia corretto, chiaro e utile. [1] [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec3-testo-1",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        6
+      ],
+      "paragraphs": 1,
+      "text": "La realtà mista (MR) unisce ambiente reale e contenuti digitali. Qui il termine indica esperienze che riconoscono lo spazio e permettono di agire con gli oggetti virtuali. [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec3-testo-2",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        6
+      ],
+      "paragraphs": 1,
+      "text": "Un modello digitale può sembrare appoggiato a un tavolo e restare nello stesso punto anche quando ci spostiamo. Questa funzione si chiama ancoraggio . [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec3-testo-3",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        6
+      ],
+      "paragraphs": 1,
+      "text": "Se un libro reale si trova davanti al modello, il programma può nasconderne la parte che dovrebbe stare dietro al libro. Questo effetto si chiama occlusione . [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec3-testo-4",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        6
+      ],
+      "paragraphs": 1,
+      "text": "Il modello digitale, però, non pesa e non spinge davvero il libro. Per sentire contatto o resistenza servono dispositivi fisici appositi.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec3-testo-5",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        6
+      ],
+      "paragraphs": 1,
+      "text": "Il significato di «realtà mista» può cambiare secondo il contesto. La MR non è automaticamente migliore della AR o della VR: conta l’attività che vogliamo svolgere. [2] [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec4-testo-1",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        8
+      ],
+      "paragraphs": 1,
+      "text": "Realtà estesa , in inglese extended reality , si abbrevia con XR. È un nome generale che comprende realtà virtuale, aumentata e mista. [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec4-testo-2",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        8
+      ],
+      "paragraphs": 1,
+      "text": "Queste esperienze sono diverse: può cambiare quanto vediamo del mondo reale e come possiamo agire. Non formano una classifica dal peggiore al migliore. [2] [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec4-testo-3",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        8
+      ],
+      "paragraphs": 1,
+      "text": "Per confrontare un oggetto vero con un modello digitale può essere utile la realtà aumentata. Per esplorare un ambiente ricostruito può essere utile la realtà virtuale. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec4-testo-4",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        8
+      ],
+      "paragraphs": 1,
+      "text": "Prima scegliamo che cosa imparare , poi lo strumento adatto. Un’esperienza più immersiva non fa imparare di più in modo automatico. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-1",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        10
+      ],
+      "paragraphs": 1,
+      "text": "A scuola le tecnologie XR possono aiutare a esplorare luoghi o simulare situazioni difficili da ricreare in aula. Per esempio, si può osservare un edificio antico ricostruito. [3] [4]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-2",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        10
+      ],
+      "paragraphs": 1,
+      "text": "Le XR, però, non fanno imparare automaticamente. Una revisione degli studi universitari ha rilevato che spesso si valutava la facilità d’uso più di ciò che gli studenti avevano imparato. [4]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-3",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        10
+      ],
+      "paragraphs": 1,
+      "text": "Quelle ricerche riguardavano l’università. I loro risultati non si possono trasferire automaticamente a ogni classe della scuola secondaria. [4]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-4",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        10
+      ],
+      "paragraphs": 1,
+      "text": "Il modello CAMIL aiuta a studiare l’apprendimento nella VR immersiva. Considera, tra le altre cose, la motivazione e la possibilità di agire nell’ambiente. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-5",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        10
+      ],
+      "paragraphs": 1,
+      "text": "Il carico cognitivo è l’impegno mentale richiesto da un compito. Troppi dettagli o comandi possono distrarre e rendere più difficile concentrarsi. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-6",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Una lezione può seguire tre momenti. Prima si spiegano obiettivo e comandi; durante si esplora con una guida; dopo si discute e si usa ciò che si è imparato. [3]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-7",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Per favorire l’ accessibilità si preparano alternative: comandi diversi, sottotitoli e attività su schermo o materiali senza visore, quando necessari. [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-8",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Il tracciamento delle mani può essere utile, ma non è adatto a tutte le persone. Non deve essere l’unico modo per partecipare. [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-9",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Lo spazio deve essere sicuro. Occorrono pause e la possibilità di fermarsi subito. Se una persona prova nausea, vertigini o affaticamento, l’attività si interrompe. [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-10",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Durata e attività si adattano alla persona e alle indicazioni del dispositivo. Non c’è un tempo unico da imporre a tutti.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "sec5-testo-11",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Per capire se la classe ha imparato, non basta chiedere se l’esperienza è piaciuta. Si possono proporre domande, spiegazioni o un nuovo compito legato all’obiettivo. [3] [4]",
+      "editorial_reason": null,
+      "contains_image": false
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "limits": "Misura geometrica. La coerenza semantica e i confini richiedono lettura editoriale; il controllo non decide accorpamenti e non certifica PDF/UA."
+}

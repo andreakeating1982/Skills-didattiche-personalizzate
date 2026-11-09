@@ -1,0 +1,19 @@
+{
+  "band_h": 528,
+  "up": 3,
+  "figures": [
+    {
+      "file": "figura_0.png",
+      "w": 398,
+      "h": 528,
+      "top": 11,
+      "bottom": 505,
+      "center_pct": 11.45,
+      "area_pct": 39.1
+    }
+  ],
+  "events": [
+    ["1808", "Guerra de Independencia"],
+    ["1812", "Constitución de Cádiz"]
+  ]
+}

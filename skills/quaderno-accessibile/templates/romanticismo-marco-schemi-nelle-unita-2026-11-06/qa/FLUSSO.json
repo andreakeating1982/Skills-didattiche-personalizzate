@@ -1,0 +1,153 @@
+{
+  "html": "/home/user/romanticismo_schemi_nelle_unita_2026_11_06/MARCO_HISTORICO_ROMANTICISMO_SCHEMI_NELLE_UNITA.html",
+  "pdf": "/home/user/romanticismo_schemi_nelle_unita_2026_11_06/MARCO_HISTORICO_ROMANTICISMO_SCHEMI_NELLE_UNITA.pdf",
+  "pages": 16,
+  "pdf_pages": 16,
+  "units": [
+    {
+      "unit": "sec1",
+      "start_page": 2,
+      "boxes_by_page": {
+        "2": 4,
+        "3": 2
+      },
+      "transitions": [
+        {
+          "from_page": 2,
+          "to_page": 3,
+          "next_card": "sec1-p05",
+          "free_px": 51.47,
+          "required_px": 131.86,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 131.86,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec2",
+      "start_page": 4,
+      "boxes_by_page": {
+        "4": 4,
+        "5": 1
+      },
+      "transitions": [
+        {
+          "from_page": 4,
+          "to_page": 5,
+          "next_card": "sec2-resumen",
+          "free_px": 189.6,
+          "required_px": 466.13,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 466.13,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec3",
+      "start_page": 6,
+      "boxes_by_page": {
+        "6": 4,
+        "7": 2
+      },
+      "transitions": [
+        {
+          "from_page": 6,
+          "to_page": 7,
+          "next_card": "qa-flow-sec3-005",
+          "free_px": 86.0,
+          "required_px": 337.01,
+          "could_fit_before": false,
+          "kept_headings": [
+            "qa-keep-heading-006"
+          ],
+          "required_px_before_margin_restoration": 337.01,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec4",
+      "start_page": 8,
+      "boxes_by_page": {
+        "8": 5,
+        "9": 2
+      },
+      "transitions": [
+        {
+          "from_page": 8,
+          "to_page": 9,
+          "next_card": "sec4-p06",
+          "free_px": 23.22,
+          "required_px": 131.86,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 131.86,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec5",
+      "start_page": 10,
+      "boxes_by_page": {
+        "10": 5,
+        "11": 3,
+        "12": 1
+      },
+      "transitions": [
+        {
+          "from_page": 10,
+          "to_page": 11,
+          "next_card": "sec5-p06",
+          "free_px": 57.75,
+          "required_px": 166.39,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 166.39,
+          "restored_internal_margin_px": 0.0
+        },
+        {
+          "from_page": 11,
+          "to_page": 12,
+          "next_card": "sec5-resumen",
+          "free_px": 98.8,
+          "required_px": 475.58,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 475.58,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec6",
+      "start_page": 13,
+      "boxes_by_page": {
+        "13": 5,
+        "14": 2
+      },
+      "transitions": [
+        {
+          "from_page": 13,
+          "to_page": 14,
+          "next_card": "sec6-p06",
+          "free_px": 23.22,
+          "required_px": 166.39,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 166.39,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    }
+  ],
+  "sources": null,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "limits": "Controllo geometrico per blocchi normali nel flusso; non valida bibliografia, font, colori o accessibilita PDF/UA. Per float, griglie e regole keep complesse verificare il renderer. Con --pdf controlla numero pagine, non identita completa HTML/PDF."
+}

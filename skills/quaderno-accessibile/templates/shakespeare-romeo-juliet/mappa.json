@@ -1,0 +1,95 @@
+{
+  "lang": "en",
+  "groups": [
+    {
+      "title": "SHAKESPEARE · LIFE AND WORKS",
+      "color": "#b23c47",
+      "nodes": [
+        {
+          "title": "HIS LIFE",
+          "keywords": [
+            "STRATFORD · 1564",
+            "FAMILY · STUDIES"
+          ],
+          "image": {
+            "src": "media/vita_stratford.png",
+            "alt": "Clay miniature of a Tudor house in Stratford beside an open schoolbook and quill."
+          }
+        },
+        {
+          "title": [
+            "LONDON AND",
+            "THE THEATRE"
+          ],
+          "keywords": [
+            "THE GLOBE · 1599",
+            "ACTOR · PLAYWRIGHT"
+          ],
+          "image": {
+            "src": "media/teatro_globe.png",
+            "alt": "Clay miniature of an Elizabethan open-air theatre with a stage and wooden galleries."
+          }
+        },
+        {
+          "title": "HIS LEGACY",
+          "keywords": [
+            "37 PLAYS",
+            "WORDS · 1616"
+          ],
+          "image": {
+            "src": "media/originale-83.png",
+            "alt": "Clay depiction of Shakespeare writing, with a miniature Globe Theatre nearby."
+          }
+        }
+      ]
+    },
+    {
+      "title": "ROMEO AND JULIET · STORY",
+      "color": "#1a5fb4",
+      "nodes": [
+        {
+          "title": [
+            "VERONA",
+            "ENEMY FAMILIES"
+          ],
+          "keywords": [
+            "MONTAGUES",
+            "CAPULETS"
+          ],
+          "image": {
+            "src": "media/famiglie_verona.png",
+            "alt": "Two opposing family groups in a historic Verona street, represented in clay."
+          }
+        },
+        {
+          "title": [
+            "SECRET WEDDING",
+            "AND BANISHMENT"
+          ],
+          "keywords": [
+            "FRIAR LAWRENCE",
+            "MANTUA"
+          ],
+          "image": {
+            "src": "media/matrimonio_segreto.png",
+            "alt": "A friar with Romeo and Juliet during their secret wedding, represented in clay."
+          }
+        },
+        {
+          "title": [
+            "THE PLAN",
+            "THAT FAILS"
+          ],
+          "keywords": [
+            "POTION · POISON",
+            "DEATH · PEACE"
+          ],
+          "image": {
+            "src": "media/pozione_lettera_pace.png",
+            "alt": "A potion vial and an undelivered sealed letter, with reconciliation in the background, represented in clay."
+          }
+        }
+      ]
+    }
+  ]
+}

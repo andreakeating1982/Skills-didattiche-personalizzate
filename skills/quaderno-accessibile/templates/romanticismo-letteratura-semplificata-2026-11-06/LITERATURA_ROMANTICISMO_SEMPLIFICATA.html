@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"/>
+<meta name="author" content="Laboratorio didattico inclusivo"/>
+<meta name="description" content="Cuaderno de literatura española: la literatura del Romanticismo en España."/>
+<title>LA LITERATURA DEL ROMANTICISMO EN ESPAÑA</title><style>
+@font-face{font-family:OpenDyslexic;src:url(media/OpenDyslexic-Regular.otf);font-weight:400}
+@font-face{font-family:OpenDyslexic;src:url(media/OpenDyslexic-Bold.otf);font-weight:700}
+@page{size:A4;margin:17mm 18mm 19mm;@bottom-center{content:counter(page);font:700 11pt OpenDyslexic;color:#233348}}
+@page:first{@bottom-center{content:none}}
+*{box-sizing:border-box}
+body{font-family:OpenDyslexic,sans-serif;font-size:14pt;line-height:1.85;color:#151515;margin:0}
+h1,h2,h3{font-weight:700;line-height:1.45;text-align:center}
+h1{background:#243c5a;color:#fff;font-size:20pt;margin:0 0 3mm;padding:3mm;border-radius:3mm}
+h2{font-size:15pt} h3{font-size:13pt}
+p{margin:0}strong{font-weight:700;color:#101010}
+.cover{break-after:page;page-break-after:always}
+.cover-image,.illustration{width:112mm;height:63.25mm;object-fit:contain;display:block;margin:3mm auto 4mm;break-inside:avoid}
+.cover-image{margin:3mm auto 3mm}
+.index-heading{font-size:15pt;background:#243c5a;color:white;border-radius:3mm;padding:2mm 3mm;margin:2mm 0}
+.index-box{background:#fffaf0;border:1.1pt solid #e6d5ae;border-radius:3mm;padding:3mm 4mm;line-height:1.35}
+.index-table{width:100%;border-collapse:collapse;table-layout:fixed}
+.index-row td{height:12mm;vertical-align:middle;padding:1mm 0;font-size:12pt;font-weight:700;line-height:1.35}
+.index-icon{width:11mm}.index-label{padding-left:1mm!important}.index-pg{width:11mm;text-align:right}
+.index-label a{color:#111;text-decoration:none}.index-pg a{color:var(--color);text-decoration:none}
+.index-pg a::after{content:target-counter(attr(href),page)}
+.index-badge{display:block;background:var(--color);color:white;border-radius:50%;width:7.6mm;height:7.6mm;line-height:7.6mm;text-align:center;font-size:11pt}
+.section{break-before:page;page-break-before:always}
+.opening{break-inside:avoid;page-break-inside:avoid}
+.section h2{background:var(--color);color:white;margin:0 0 3mm;padding:2.5mm 4mm;border-radius:3mm;break-after:avoid}
+.subheading{color:var(--color);margin:5mm 0 3mm;break-after:avoid}
+.blk{background:#fffaf0;border:1.1pt solid #e6d5ae;border-radius:3mm;padding:2.1mm 3.7mm;margin:0 0 2.5mm;break-inside:avoid;page-break-inside:avoid}
+.summary{margin:5mm 0;break-inside:avoid;page-break-inside:avoid}
+.summary-title{font-size:14pt;line-height:1.85;text-align:center;background:var(--color);color:white;border-radius:2mm 2mm 0 0;padding:1.5mm;font-weight:400;break-after:avoid}
+.summary-table{width:100%;border-collapse:collapse;background:#fffaf0;font-size:14pt;line-height:1.85;font-weight:400;table-layout:fixed}
+.summary-table th,.summary-table td{font-family:OpenDyslexic,sans-serif;font-weight:400;text-align:left;vertical-align:top;border:1px solid #ddd0c0;padding:2mm 2.5mm;overflow-wrap:normal}
+.summary-table th{width:36%;color:var(--color)}
+.summary-table tr{break-inside:avoid;page-break-inside:avoid}
+.timeline{margin:3mm 0 5mm;padding:1mm 3mm 2mm 4mm;background:#fffaf0;border:1pt solid #e6d5ae;border-radius:3mm;break-inside:avoid;page-break-inside:avoid}
+.year{position:relative;display:flex;align-items:center;gap:4mm;padding:2mm 0;break-inside:avoid;line-height:1.55}
+.year:not(:last-child)::before{content:'';position:absolute;left:10.3mm;top:7mm;height:100%;width:1.2mm;background:var(--color)}
+.date-badge{position:relative;background:var(--color);color:white;border-radius:7mm;font-size:12pt;font-weight:700;line-height:1.5;padding:1.5mm 3mm;min-width:21mm;text-align:center}
+.event{flex:1;color:#161616}
+.map-section h2{background:none;color:#243c5a;text-align:center;padding:0;margin:0 0 4mm;font-size:16pt;break-after:avoid}
+.map-main-subtitle{color:#243c5a;margin:0 0 3mm;break-after:avoid}
+.map-group-title{color:#243c5a;margin:4mm 0 3mm;text-align:center;break-after:avoid}
+.map-details{width:100%;border-collapse:collapse;table-layout:fixed;background:#fffaf0;line-height:1.85;margin:0 0 5mm}
+.map-details th,.map-details td{border:1px solid #ddd0c0;padding:2mm 2.5mm;text-align:left;vertical-align:top;font:400 14pt/1.85 OpenDyslexic,sans-serif}
+.map-details th{width:36%;color:#243c5a}.map-details tr{break-inside:avoid;page-break-inside:avoid}
+.map-row{display:flex;justify-content:center;gap:6mm;margin:0 0 6mm;break-inside:avoid;page-break-inside:avoid}
+.map-node{width:78mm;height:78mm;flex:none;border:1pt solid var(--node-color);border-radius:3mm;background:#fffaf0;text-align:center;overflow:visible;padding:3mm 3mm 2mm;break-inside:avoid;line-height:1.85}
+.map-node img{width:52mm;height:29.373mm;object-fit:contain;display:block;margin:0 auto 1mm}
+.node-title{font-weight:700;color:var(--node-color);font-size:14pt;line-height:1.85}
+.node-word{font-weight:400;color:#171717;font-size:14pt;line-height:1.85}
+sup.note-ref{font-size:10pt;line-height:normal;vertical-align:super;margin-left:.7mm;white-space:nowrap}
+sup.note-ref a{color:#174f8c;text-decoration:underline}
+.quiz-section,.refs-section{--color:#243c5a}
+.quiz-intro{margin:2mm 0 4mm}
+.quiz-card{background:#fffaf0;border:1.1pt solid #e6d5ae;border-radius:3mm;padding:3mm 4mm;margin:0 0 3mm;break-inside:avoid;page-break-inside:avoid;line-height:1.55}
+.quiz-question{font-weight:700;color:#182e48;margin:0 0 1mm}
+.quiz-options{width:100%;border-collapse:collapse;table-layout:fixed}
+.quiz-options td{width:50%;padding:1mm 2mm 1mm 0;vertical-align:top;line-height:1.5;overflow-wrap:normal}
+.map-group-page{break-before:page;page-break-before:always}
+.map-node .node-title,.map-node .node-word{overflow-wrap:normal}
+.ref-entry{margin:0 0 3mm;break-inside:avoid;page-break-inside:avoid}
+.ref-entry a{color:#174f8c;text-decoration:underline}
+.ref-entry p{overflow-wrap:anywhere}
+.c1{--color:#b23c47}.c2{--color:#1a5fb4}.c3{--color:#257041}.c4{--color:#9b4f12}.c5{--color:#744394}.c6{--color:#14696e}.cm{--color:#243c5a}
+
+.ref-inline{margin-top:4mm;font-size:14pt}
+.source-label{font-weight:700}
+.summary-table th{text-transform:uppercase}
+.map-group-page{break-before:page;page-break-before:always}
+.map-group-title{font-size:14pt;line-height:1.45}
+.map-node{padding:2mm 3mm 1mm}
+.map-node img{margin:0 auto 1mm}
+.map-node .node-title,.map-node .node-word{font-size:14pt;line-height:1.85}
+</style></head><body>
+<section class="cover" id="indice"><h1>LA LITERATURA DEL ROMANTICISMO EN ESPAÑA</h1>
+<img class="cover-image" src="media/original_p01_xref77.png" alt="Un diorama reúne escenas y autores del Romanticismo español."/>
+<h2 class="index-heading">ÍNDICE</h2><nav class="index-box" aria-label="Índice del cuaderno"><table class="index-table" role="presentation"><tbody>
+<tr class="index-row c1"><td class="index-icon"><span class="index-badge">1</span></td><td class="index-label"><a href="#sec1">HUIDA HACIA LO IRRACIONAL</a></td><td class="index-pg"><a href="#sec1" aria-label="Página de HUIDA HACIA LO IRRACIONAL"></a></td></tr>
+<tr class="index-row c2"><td class="index-icon"><span class="index-badge">2</span></td><td class="index-label"><a href="#sec2">POESÍA</a></td><td class="index-pg"><a href="#sec2" aria-label="Página de POESÍA"></a></td></tr>
+<tr class="index-row c3"><td class="index-icon"><span class="index-badge">3</span></td><td class="index-label"><a href="#sec3">PROSA</a></td><td class="index-pg"><a href="#sec3" aria-label="Página de PROSA"></a></td></tr>
+<tr class="index-row c4"><td class="index-icon"><span class="index-badge">4</span></td><td class="index-label"><a href="#sec4">TEATRO</a></td><td class="index-pg"><a href="#sec4" aria-label="Página de TEATRO"></a></td></tr>
+<tr class="index-row c5"><td class="index-icon"><span class="index-badge">5</span></td><td class="index-label"><a href="#sec5">ACTIVIDAD 1 · EXPLICACIÓN DE LA IMAGEN</a></td><td class="index-pg"><a href="#sec5" aria-label="Página de ACTIVIDAD 1 · EXPLICACIÓN DE LA IMAGEN"></a></td></tr>
+<tr class="index-row c6"><td class="index-icon"><span class="index-badge">6</span></td><td class="index-label"><a href="#sec6">ACTIVIDAD 2 · MAPA CONCEPTUAL INTERACTIVO</a></td><td class="index-pg"><a href="#sec6" aria-label="Página de ACTIVIDAD 2 · MAPA CONCEPTUAL INTERACTIVO"></a></td></tr>
+<tr class="index-row cm"><td class="index-icon"><span class="index-badge">V</span></td><td class="index-label"><a href="#verifica">VERIFICACIÓN DE COMPRENSIÓN</a></td><td class="index-pg"><a href="#verifica" aria-label="Página de la verificación"></a></td></tr>
+<tr class="index-row cm"><td class="index-icon"><span class="index-badge">M</span></td><td class="index-label"><a href="#mapa">MAPA CONCEPTUAL FINAL</a></td><td class="index-pg"><a href="#mapa" aria-label="Página del mapa conceptual final"></a></td></tr>
+<tr class="index-row cm"><td class="index-icon"><span class="index-badge">R</span></td><td class="index-label"><a href="#referencias">REFERENCIAS BIBLIOGRÁFICAS</a></td><td class="index-pg"><a href="#referencias" aria-label="Página de las referencias"></a></td></tr>
+</tbody></table></nav></section>
+<section class="section c1" id="sec1" data-editorial-unit="sec1">
+<div class="opening"><h2>1 · HUIDA HACIA LO IRRACIONAL</h2><img class="illustration" src="media/original_p01_xref80.png" alt="Escena nocturna romántica ante un castillo, con cementerio y una figura espectral."/></div>
+<div class="blk" data-semantic-box="" id="sec1-p01"><p>El movimiento romántico en España tiene dos tendencias: la <strong>conservadora</strong>, cuyos exponentes principales son <strong>José Zorrilla</strong> y el <strong>Duque de Rivas</strong>, que desea recuperar los valores patrióticos y religiosos de la <strong>Edad Media</strong>,</p></div>
+<div class="blk" data-semantic-box="" id="sec1-p02"><p>y la <strong>revolucionaria</strong>, que quiere romper con el orden establecido y las convenciones sociales, con los escritores <strong>Mariano José de Larra</strong> y <strong>José de Espronceda</strong>.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup><sup class="note-ref"><a href="#rif-2" aria-label="Referencia bibliográfica 2">[2]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec1-p03"><p>Los artistas románticos comparten la voluntad de dejarse guiar por su <strong>interioridad</strong>, un marcado <strong>individualismo</strong>, una visión del mundo <strong>pesimista</strong> y la obsesión por lo <strong>sobrenatural</strong> y la <strong>muerte</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec1-p04"><p>Se interesan por la <strong>Edad Media</strong>, que representa para ellos un mundo lejano y fascinante donde refugiarse.</p></div>
+<div class="blk" data-semantic-box="" id="sec1-p05"><p>El interés por las tradiciones da paso a un género peculiar de la literatura española: el <strong>costumbrismo</strong>, que consiste en una serie de retratos y descripciones de las costumbres, los tipos humanos y el lenguaje local.<sup class="note-ref"><a href="#rif-4" aria-label="Referencia bibliográfica 4">[4]</a></sup></p></div>
+<div class="summary" data-support-profile="summary" id="sec1-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr><th scope="row">DOS TENDENCIAS</th><td>la conservadora (recuperar los valores patrióticos y religiosos de la Edad Media) y la revolucionaria (romper con el orden establecido y las convenciones sociales)</td></tr>
+<tr><th scope="row">EXPONENTES</th><td>conservadora: Zorrilla y el Duque de Rivas · revolucionaria: Larra y Espronceda</td></tr>
+<tr><th scope="row">RASGOS COMUNES</th><td>interioridad, individualismo, pesimismo, obsesión por lo sobrenatural y la muerte, interés por la Edad Media</td></tr>
+<tr><th scope="row">COSTUMBRISMO</th><td>retratos y descripciones de costumbres, tipos humanos y lenguaje local</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c2" id="sec2" data-editorial-unit="sec2">
+<div class="opening"><h2>2 · POESÍA</h2><img class="illustration" src="media/original_p01_xref83.png" alt="Un escritor a la luz de una vela escribe poesía en un ambiente romántico."/></div>
+<div class="blk" data-semantic-box="" id="sec2-p01"><p>La lírica romántica nace con el <strong>Duque de Rivas</strong>, cuyos romances dan nueva vida a unas leyendas medievales (<strong>Romances históricos</strong>, <strong>1841</strong>).<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec2-p02"><p>El representante más maduro del Romanticismo es <strong>José de Espronceda</strong>, un romántico liberal que encarna el ideal del <strong>poeta bohemio</strong> que vive una vida atribulada y muere muy joven.</p></div>
+<div class="blk" data-semantic-box="" id="sec2-p03"><p>Los autores <strong>Gustavo Adolfo Bécquer</strong> (<strong>Rimas</strong>, desde <strong>1858</strong>) y <strong>Rosalía de Castro</strong> (<strong>En las orillas del Sar</strong>, <strong>1884</strong>) escriben en la segunda mitad del siglo, cuando el movimiento comienza a estancarse.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup><sup class="note-ref"><a href="#rif-2" aria-label="Referencia bibliográfica 2">[2]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec2-p04"><p>Sus composiciones son breves, fragmentarias y tienen un fuerte carácter <strong>intimista</strong>. Su lenguaje sencillo y emotivo inspirará a varios poetas posteriores, como <strong>Antonio Machado</strong> o <strong>Juan Ramón Jiménez</strong>.</p></div>
+<div class="summary" data-support-profile="summary" id="sec2-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr><th scope="row">NACE CON</th><td>el Duque de Rivas: romances que dan vida a leyendas medievales (Romances históricos, 1841)</td></tr>
+<tr><th scope="row">ESPRONCEDA</th><td>romántico liberal, poeta bohemio, vida atribulada y muerte prematura</td></tr>
+<tr><th scope="row">SEGUNDA MITAD DEL SIGLO</th><td>Bécquer (Rimas, desde 1858) y Rosalía de Castro (En las orillas del Sar, 1884)</td></tr>
+<tr><th scope="row">ESTILO</th><td>breve, fragmentario e intimista · lenguaje sencillo y emotivo · influencia en Machado y Juan Ramón Jiménez</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c3" id="sec3" data-editorial-unit="sec3">
+<div class="opening"><h2>3 · PROSA</h2><img class="illustration" src="media/original_p01_xref86.png" alt="Un libro abierto muestra una escena legendaria y sobrenatural."/></div>
+<div class="blk" data-semantic-box="" id="sec3-p01"><p>Con el Romanticismo, el género <strong>narrativo</strong>, casi abandonado en el siglo precedente, vuelve a cultivarse y se difunde con éxito.</p></div>
+<div class="blk" data-semantic-box="" id="sec3-p02"><p>Las razones de esta vuelta a la narrativa se encuentran en el desarrollo de la <strong>industria editorial</strong>, la difusión de los relatos <strong>por entrega en los periódicos</strong> y la vocación del Romanticismo por la <strong>evasión de la realidad</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec3-p03"><p><strong>Mariano José de Larra</strong> es uno de los autores más representativos de este periodo.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec3-p04"><p>Con su novela histórica <strong>El doncel de don Enrique el Doliente</strong> (<strong>1834</strong>) y su larga recopilación de <strong>artículos costumbristas</strong> irónicos (publicados bajo seudónimos) encarna las diferentes tendencias del Romanticismo español.</p></div>
+<div class="blk" data-semantic-box="" id="sec3-p05"><p>Las <strong>Leyendas</strong> (<strong>1858</strong>–<strong>1864</strong>) de <strong>Gustavo Adolfo Bécquer</strong> tal vez representen la cumbre de la narrativa romántica española.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup><sup class="note-ref"><a href="#rif-3" aria-label="Referencia bibliográfica 3">[3]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec3-p06"><p>En ellas, Bécquer recupera leyendas de varias zonas de España, caracterizadas por elementos <strong>sobrenaturales</strong> y la preponderancia de la <strong>muerte</strong>, y les otorga calidad literaria y profundidad psicológica a través de un lenguaje sencillo y altamente evocativo.</p></div>
+<div class="summary" data-support-profile="summary" id="sec3-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr><th scope="row">EL GÉNERO NARRATIVO</th><td>vuelve a cultivarse y se difunde con éxito (industria editorial, entregas en periódicos, evasión de la realidad)</td></tr>
+<tr><th scope="row">LARRA</th><td>El doncel de don Enrique el Doliente (1834) y artículos costumbristas irónicos bajo seudónimos</td></tr>
+<tr><th scope="row">CUMBRE NARRATIVA</th><td>las Leyendas (1858–1864) de Bécquer: sobrenatural, muerte, lenguaje sencillo y evocativo</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c4" id="sec4" data-editorial-unit="sec4">
+<div class="opening"><h2>4 · TEATRO</h2><img class="illustration" src="media/original_p01_xref89.png" alt="Una escena teatral romántica con actores, luces y figuras espectrales."/></div>
+<div class="blk" data-semantic-box="" id="sec4-p01"><p>El teatro romántico rechaza las <strong>tres unidades aristotélicas</strong> que la estética neoclásica había vuelto a poner en boga.<sup class="note-ref"><a href="#rif-2" aria-label="Referencia bibliográfica 2">[2]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec4-p02"><p>Las temáticas suelen centrarse <strong>entorno a un amor imposible</strong> entre un joven de vida complicada y una mujer inalcanzable:</p></div>
+<div class="blk" data-semantic-box="" id="sec4-p03"><p>el deseo de los enamorados de romper con las reglas sociales lleva inevitablemente a un <strong>final trágico</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec4-p04"><p>Por lo general, el protagonista posee una <strong>individualidad poderosa</strong> y encarna todas las contradicciones del hombre romántico.</p></div>
+<div class="blk" data-semantic-box="" id="sec4-p05"><p>Los escenarios (cementerios, ruinas, castillos medievales o bosques inquietantes, junto a elementos populares como tabernas) suelen ser impresionantes para los espectadores, así como los efectos de <strong>música y luces</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec4-p06"><p>Ejemplos de este tipo de dramas teatrales son <strong>Don Álvaro o la fuerza del sino</strong> (<strong>1835</strong>) del <strong>Duque de Rivas</strong>, una compleja historia de amor y muerte,<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup><sup class="note-ref"><a href="#rif-2" aria-label="Referencia bibliográfica 2">[2]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec4-p07"><p>y también <strong>Don Juan Tenorio</strong> (<strong>1844</strong>) de <strong>José Zorrilla</strong>, que recupera el mito del seductor por excelencia creado por <strong>Tirso de Molina</strong>, insertándolo en un contexto lúgubre y satánico.</p></div>
+<div class="summary" data-support-profile="summary" id="sec4-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr><th scope="row">REGLA ROTA</th><td>rechazo de las tres unidades aristotélicas de la estética neoclásica</td></tr>
+<tr><th scope="row">TEMA TÍPICO</th><td>amor imposible entre un joven complicado y una mujer inalcanzable → final trágico; protagonista con individualidad poderosa</td></tr>
+<tr><th scope="row">ESCENARIOS</th><td>cementerios, ruinas, castillos, bosques, tabernas · efectos de música y luces</td></tr>
+<tr><th scope="row">OBRAS</th><td>Don Álvaro o la fuerza del sino (1835, Duque de Rivas) · Don Juan Tenorio (1844, Zorrilla)</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c5" id="sec5" data-editorial-unit="sec5">
+<div class="opening"><h2>5 · ACTIVIDAD 1 · EXPLICACIÓN DE LA IMAGEN</h2><img class="illustration" src="media/original_p01_xref92.png" alt="Unas manos sostienen una tableta con círculos de colores sobre una imagen interactiva."/></div>
+<div class="blk" data-semantic-box="" id="sec5-p01"><p><strong>PASO 1</strong> Abre el enlace de la aplicación <strong>IMMAGINE INTERATTIVA</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p02"><p><strong>PASO 2</strong> En la pantalla de inicio, introduce el código de cuatro cifras y pulsa el botón <strong>ENTRA COL CODICE</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p03"><p><strong>PASO 3</strong> Espera a que el docente inicie la sesión.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p04"><p><strong>PASO 4</strong> Cuando empiece, aparecerá una imagen del Romanticismo español con <strong>círculos de colores</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p05"><p><strong>PASO 5</strong> Escucha el <strong>audio</strong> que gestiona el docente.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p06"><p><strong>PASO 6</strong> Cuando el audio se detenga, verás un mensaje con los <strong> puntos que debes seleccionar</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p07"><p><strong>PASO 7</strong> Toca todos los círculos indicados y, cuando los tengas todos, pulsa el botón <strong>ENVIAR RESPUESTAS</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p08"><p><strong>PASO 8</strong> Verás al instante si has acertado o no.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p09"><p><strong>PASO 9</strong> El docente pasará al siguiente segmento de audio.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p10"><p><strong>PASO 10</strong> Repite el proceso hasta completar los <strong>cinco</strong> segmentos.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p11"><p><strong>PASO 11</strong> Al final verás tu puntuación total sobre <strong>10</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p12"><p><strong>✔  </strong>Arriba a la derecha tienes un botón <strong>TESTO</strong> por si quieres leer la explicación completa en cualquier momento.</p></div>
+</section>
+<section class="section c6" id="sec6" data-editorial-unit="sec6">
+<div class="opening"><h2>6 · ACTIVIDAD 2 · MAPA CONCEPTUAL INTERACTIVO</h2><img class="illustration" src="media/original_p01_xref95.png" alt="Una tableta muestra una aplicación de mapa conceptual sobre el Romanticismo."/></div>
+<div class="blk" data-semantic-box="" id="sec6-p01"><p>Con esta actividad vamos a construir el <strong>mapa conceptual</strong> del texto de arriba.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p02"><p><strong>PASO 1</strong> Abre el enlace de la aplicación <strong>MAPPA CONCETTUALE INTERATTIVA</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p03"><p><strong>PASO 2</strong> En la pantalla de inicio, introduce el código de <strong>4</strong> cifras, tu nombre y apellido, y pulsa <strong>ENTRA</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p04"><p><strong>PASO 3</strong> Espera a que el docente inicie la sesión.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p05"><p><strong>PASO 4</strong> Cuando empiece, aparecerá una imagen del mapa conceptual del Romanticismo español con los <strong>cuatro</strong> bloques temáticos.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p06"><p><strong>PASO 5</strong> Escucha el <strong>audio</strong> que gestiona el docente.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p07"><p><strong>PASO 6</strong> Cuando el audio se detenga, verás las <strong>palabras clave</strong> que debes colocar en las casillas del párrafo correspondiente.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p08"><p><strong>PASO 7</strong> Arrastra cada palabra hasta su casilla correcta y, cuando las tengas todas, pulsa el botón <strong>IVIA</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p09"><p><strong>PASO 8</strong> Verás al instante si has acertado o no.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p10"><p><strong>PASO 9</strong> El docente pasará al siguiente segmento de audio.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p11"><p><strong>PASO 10</strong> Repite el proceso hasta completar los <strong>cuatro</strong> párrafos.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p12"><p><strong>PASO 11</strong> Al final verás tu puntuación total sobre <strong>10</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p13"><p><strong>✔  </strong>Finalmente, copia el <strong>mapa conceptual correcto</strong> en tu cuaderno.</p></div>
+</section>
+<section class="section quiz-section cm" id="verifica"><h2>VERIFICACIÓN DE COMPRENSIÓN</h2><p class="quiz-intro blk" data-semantic-box="">Elige una sola respuesta para cada pregunta.</p>
+<div class="quiz-card" data-question="1"><div class="quiz-question">1. ¿Qué quería recuperar la tendencia conservadora?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. La ciencia moderna.</td><td>B. Los valores de la Edad Media.</td></tr>
+<tr><td>C. Las leyes del futuro.</td><td>D. Los viajes espaciales.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="2"><div class="quiz-question">2. ¿Qué sentimiento aparece en el Romanticismo?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Pesimismo.</td><td>B. Alegría constante.</td></tr>
+<tr><td>C. Indiferencia.</td><td>D. Tranquilidad permanente.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="3"><div class="quiz-question">3. ¿Qué describe el costumbrismo?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Planetas lejanos.</td><td>B. Experimentos científicos.</td></tr>
+<tr><td>C. Costumbres y personas.</td><td>D. Edificios modernos.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="4"><div class="quiz-question">4. ¿Quién escribió las Rimas?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Mariano José de Larra.</td><td>B. José Zorrilla.</td></tr>
+<tr><td>C. El Duque de Rivas.</td><td>D. Gustavo Adolfo Bécquer.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="5"><div class="quiz-question">5. ¿Quién escribió En las orillas del Sar?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Rosalía de Castro.</td><td>B. José de Espronceda.</td></tr>
+<tr><td>C. José Zorrilla.</td><td>D. Mariano José de Larra.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="6"><div class="quiz-question">6. ¿Qué escribió Mariano José de Larra?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Las Rimas.</td><td>B. Artículos costumbristas.</td></tr>
+<tr><td>C. Don Juan Tenorio.</td><td>D. Las Leyendas de Bécquer.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="7"><div class="quiz-question">7. ¿Quién escribió las Leyendas?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Rosalía de Castro.</td><td>B. El Duque de Rivas.</td></tr>
+<tr><td>C. Gustavo Adolfo Bécquer.</td><td>D. José Zorrilla.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="8"><div class="quiz-question">8. ¿Qué tema aparece en el teatro romántico?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Un amor imposible.</td><td>B. Una receta de cocina.</td></tr>
+<tr><td>C. Una clase de matemáticas.</td><td>D. Un partido de fútbol.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="9"><div class="quiz-question">9. ¿Quién escribió Don Juan Tenorio?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Gustavo Adolfo Bécquer.</td><td>B. Rosalía de Castro.</td></tr>
+<tr><td>C. Mariano José de Larra.</td><td>D. José Zorrilla.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="10"><div class="quiz-question">10. ¿Quién escribió Don Álvaro o la fuerza del sino?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Mariano José de Larra.</td><td>B. El Duque de Rivas.</td></tr>
+<tr><td>C. Rosalía de Castro.</td><td>D. Gustavo Adolfo Bécquer.</td></tr>
+</tbody></table></div>
+</section>
+<section class="section map-section cm" data-support-profile="map" id="mapa"><h2>MAPA CONCEPTUAL FINAL</h2>
+<h3 class="map-main-subtitle">LA LITERATURA DEL ROMANTICISMO EN ESPAÑA</h3>
+<div class="map-group"><h3 class="map-group-title">HUIDA HACIA LO IRRACIONAL</h3>
+<div class="map-row">
+<div class="map-node" style="--node-color:#b23c47"><img src="media/storia_conservadora.png" alt="Una corona y un palacio representan la tradición."/><div class="node-title">DOS TENDENCIAS</div>
+<div class="node-word">CONSERVADORA: TRADICIÓN</div>
+<div class="node-word">REVOLUCIONARIA: CAMBIO</div>
+</div>
+<div class="map-node" style="--node-color:#b23c47"><img src="media/original_p01_xref80.png" alt="Una escena nocturna evoca el misterio romántico."/><div class="node-title">RASGOS Y COSTUMBRES</div>
+<div class="node-word">INDIVIDUALISMO</div>
+<div class="node-word">PESIMISMO · MUERTE</div>
+<div class="node-word">MISTERIO · COSTUMBRES</div>
+</div>
+</div>
+</div>
+<div class="map-group"><h3 class="map-group-title">POESÍA</h3>
+<div class="map-row">
+<div class="map-node" style="--node-color:#1a5fb4"><img src="media/original_p01_xref83.png" alt="Un poeta escribe junto a la luz de una vela."/><div class="node-title">POETAS ROMÁNTICOS</div>
+<div class="node-word">RIVAS · ROMANCES</div>
+<div class="node-word">ESPRONCEDA · LIBERAL</div>
+</div>
+<div class="map-node" style="--node-color:#1a5fb4"><img src="media/rosalia_p03.jpeg" alt="Libros de Rosalía de Castro junto a un río y unas colinas."/><div class="node-title">POESÍA INTIMISTA</div>
+<div class="node-word">BÉCQUER · RIMAS</div>
+<div class="node-word">ROSALÍA · EN LAS ORILLAS</div>
+<div class="node-word">DEL SAR</div>
+</div>
+</div>
+</div>
+<div class="map-group map-group-page"><h3 class="map-group-title">PROSA</h3>
+<div class="map-row">
+<div class="map-node" style="--node-color:#257041"><img src="media/mapa-cartas-literarias.png" alt="Una persona escribe junto a una carta."/><div class="node-title">LARRA</div>
+<div class="node-word">EL DONCEL DE DON</div>
+<div class="node-word">ENRIQUE EL DOLIENTE</div>
+<div class="node-word">ARTÍCULOS · IRONÍA</div>
+</div>
+<div class="map-node" style="--node-color:#257041"><img src="media/original_p01_xref86.png" alt="Un libro abierto representa una leyenda fantástica."/><div class="node-title">BÉCQUER</div>
+<div class="node-word">LEYENDAS · 1858–1864</div>
+<div class="node-word">SOBRENATURAL</div>
+<div class="node-word">MUERTE</div>
+</div>
+</div>
+</div>
+<div class="map-group"><h3 class="map-group-title">TEATRO</h3>
+<div class="map-row">
+<div class="map-node" style="--node-color:#9b4f12"><img src="media/original_p01_xref89.png" alt="Una escena teatral nocturna evoca un drama romántico."/><div class="node-title">DRAMA ROMÁNTICO</div>
+<div class="node-word">AMOR IMPOSIBLE</div>
+<div class="node-word">FINAL TRÁGICO</div>
+<div class="node-word">RIVAS · ZORRILLA</div>
+</div>
+<div class="map-node" style="--node-color:#9b4f12"><img src="media/mapa-cuatro-bloques.png" alt="Libros y símbolos evocan obras dramáticas."/><div class="node-title">OBRAS TEATRALES</div>
+<div class="node-word">DON ÁLVARO O LA</div>
+<div class="node-word">FUERZA DEL SINO</div>
+<div class="node-word">DON JUAN TENORIO</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section refs-section cm" id="referencias"><h2>REFERENCIAS BIBLIOGRÁFICAS</h2>
+<div class="ref-entry blk" data-bibliography-entry="" data-bibliography-box="" id="rif-1"><p>[1] Cadelli, E. – Salvaggio, M. – Bruni, P. – Caballero Sánchez, P. – Vargas Vergara, M.</p></div>
+<div class="ref-entry blk" data-bibliography-box=""><p><em>Horizontes. Paisajes literarios y raíces culturales del mundo hispano</em>, Milano: Europass, p. 210.</p></div>
+<div class="ref-entry blk" data-bibliography-entry="" data-bibliography-box="" id="rif-2"><p>[2] Encyclopaedia Britannica. «Spanish (Castilian) Romantic literature». <a href="https://www.britannica.com/art/Romantic-literature/Spanish-Castilian-Romantic-literature">Consultar el recurso</a>.</p></div>
+<div class="ref-entry blk" data-bibliography-entry="" data-bibliography-box="" id="rif-3"><p>[3] García Jiménez, Antonio. «Bécquer y los cimientos de la Biblioteca Nacional». Biblioteca Nacional de España, 2020. <a href="https://www.bne.es/es/blog/blog-bne/becquer-y-los-cimientos-de-la-biblioteca-nacional">Consultar el recurso</a>.</p></div>
+<div class="ref-entry blk" data-bibliography-entry="" data-bibliography-box="" id="rif-4"><p>[4] Encyclopaedia Britannica. «Serafín Estébanez Calderón». <a href="https://www.britannica.com/biography/Serafin-Estebanez-Calderon">Consultar el recurso</a>.</p></div>
+</section></body></html>

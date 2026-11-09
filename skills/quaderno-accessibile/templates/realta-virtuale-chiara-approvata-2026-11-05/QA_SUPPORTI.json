@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "pages": 17,
+  "units_checked": 5,
+  "summary_rows": 25,
+  "maps_checked": 1,
+  "map_boxes": 7,
+  "map_images": 7,
+  "summaries": [
+    {
+      "id": "sec1",
+      "rows": 5
+    },
+    {
+      "id": "sec2",
+      "rows": 5
+    },
+    {
+      "id": "sec3",
+      "rows": 5
+    },
+    {
+      "id": "sec4",
+      "rows": 4
+    },
+    {
+      "id": "sec5",
+      "rows": 6
+    }
+  ],
+  "maps": [
+    {
+      "id": "mappa",
+      "boxes": 7
+    }
+  ],
+  "measured_typography": [
+    [
+      17.33333,
+      1.85
+    ]
+  ],
+  "summary_font_weights": [
+    400
+  ],
+  "map_geometry": {
+    "mappa-box-vr": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 15
+    },
+    "mappa-box-ar": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 15
+    },
+    "mappa-box-mr": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 15
+    },
+    "mappa-box-xr": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 15
+    },
+    "mappa-box-esperienza": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 16
+    },
+    "mappa-box-apprendimento": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 16
+    },
+    "mappa-box-accessibilita": {
+      "width_mm": 77.99999999999999,
+      "height_mm": 77.99999999999999,
+      "page": 16
+    }
+  },
+  "map_image_geometry": {
+    "mappa-box-vr": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-box-ar": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-box-mr": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-box-xr": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-box-esperienza": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-box-apprendimento": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    },
+    "mappa-box-accessibilita": {
+      "width_mm": 52.0,
+      "height_mm": 29.373
+    }
+  },
+  "support_pages": {
+    "sec1-specchietto": [
+      3
+    ],
+    "sec2-specchietto": [
+      5
+    ],
+    "sec3-specchietto": [
+      7
+    ],
+    "sec4-specchietto": [
+      9
+    ],
+    "sec5-specchietto": [
+      12
+    ],
+    "mappa": [
+      15,
+      16
+    ]
+  },
+  "errors": [],
+  "limits": "Sintesi: tutte le righe necessarie, mai grassetto (anche titoli/celle). Mappe: 78x78mm e immagini52mm; numero di box/pagine libero, solo parole chiave. Non esiste un numero massimo fisso di parole chiave: verificare spazi e leggibilità. Il controllo strutturale non è una prova semantica: leggere ogni nodo per escludere frasi o contenuti estranei. Interlinea/dimensione confrontate col corpo; niente cinque righe ai supporti. Nessuna certificazione PDF/UA indipendente."
+}

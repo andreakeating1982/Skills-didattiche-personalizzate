@@ -1,0 +1,43 @@
+{
+  "instructions": "Esempio di struttura, NON verbale di un lavoro completato. Salvare separatamente pages_document, manifest_document e review_document nei tre JSON del progetto. Sostituire i segnaposto e aggiungere TUTTE le pagine/sezioni reali. Non impostare i controlli a true prima di averli svolti. Per una sezione multipagina usare source_units, ciascuna con page e text, oltre a source_text completo.",
+  "pages_document": {
+    "pdf_path": "/home/user/progetto/FONTE_ESATTA.pdf",
+    "pdf_sha256": "SOSTITUIRE_CON_SHA256_DEL_PDF_CORRENTE",
+    "canonical_pages": [
+      {"page": 1, "text": "Titolo.\nTesto del documento.", "visually_checked": false}
+    ],
+    "excluded_service_elements": [
+      {"page": 1, "text": "1", "reason": "Solo numero di pagina a pie di pagina, se effettivamente presente."}
+    ]
+  },
+  "manifest_document": {
+    "mode": "integral_from_current_pdf",
+    "pdf_sha256": "SOSTITUIRE_CON_SHA256_DEL_PDF_CORRENTE",
+    "sections": [
+      {"id": "T01", "pdf_pages": [1], "source_text": "Titolo.", "speech_text": "Titolo.", "action": "generate_from_current_pdf"},
+      {"id": "U01", "pdf_pages": [1], "source_text": "Testo del documento.", "speech_text": "Testo del documento.", "action": "reuse_verified", "reuse_evidence": {"checked_against_current_pdf": false, "source_text": "Testo del documento.", "speech_text": "Testo del documento.", "audio_path": "/home/user/progetto/pcm/U01.wav", "audio_sha256": "SOSTITUIRE_CON_SHA256_DELLO_STEM_VALIDO"}}
+    ]
+  },
+  "review_document": {
+    "pdf_sha256": "SOSTITUIRE_CON_SHA256_DEL_PDF_CORRENTE",
+    "manifest_sha256": "SOSTITUIRE_CON_SHA256_DEL_MANIFEST_JSON_EFFETTIVO",
+    "mp4_sha256": "SOSTITUIRE_CON_SHA256_DELL_MP4_EFFETTIVAMENTE_CONTROLLATO",
+    "sections": {
+      "T01": {"script_vs_pdf_checked": false, "aac_transcript_compared": false, "aac_listened": false, "unresolved_differences": []},
+      "U01": {"script_vs_pdf_checked": false, "aac_transcript_compared": false, "aac_listened": false, "unresolved_differences": []}
+    },
+    "checks": {
+      "joins_listened": false,
+      "cover_start_mid_end_checked": false,
+      "final_sentence_checked": false,
+      "no_music_checked": false,
+      "speed_and_voices_checked": false,
+      "full_decode_passed": false,
+      "aac_peaks_measured": false
+    },
+    "last_sentence_heard": "",
+    "unresolved_issues": ["ESEMPIO NON COMPILATO: svolgere la revisione reale."],
+    "technical_pass": false
+  }
+}
+

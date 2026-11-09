@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "identita_dom_contenuto_stile_e_ordine": {
+      "pass": true
+    },
+    "testo_completo_pdf_preservato": {
+      "pass": true,
+      "detail": {
+        "caratteri_prima": 20312,
+        "caratteri_dopo": 20312
+      }
+    },
+    "indice_15_voci_in_prima_pagina_corrette_cliccabili": {
+      "pass": true,
+      "detail": []
+    },
+    "stesse_destinazioni_link_esistenti": {
+      "pass": true,
+      "detail": {
+        "eliminati": [],
+        "nuovi": []
+      }
+    },
+    "QA_BOX": {
+      "pass": true,
+      "detail": []
+    },
+    "QA_FONTI": {
+      "pass": true,
+      "detail": []
+    },
+    "QA_SUPPORTI": {
+      "pass": true,
+      "detail": []
+    },
+    "QA_MAPPE": {
+      "pass": true,
+      "detail": []
+    },
+    "flusso_sequenziale_in_prima_pagina": {
+      "pass": true,
+      "detail": {
+        "blocchi_riportati_avanti": 9,
+        "salti_prematuri": []
+      }
+    },
+    "immagini_immutate": {
+      "pass": true,
+      "detail": {
+        "immagini_prima": 10,
+        "immagini_dopo": 10
+      }
+    },
+    "nessun_testo_fuori_pagina": {
+      "pass": true,
+      "detail": []
+    },
+    "pagina_due_completa": {
+      "pass": true
+    },
+    "tabelle_quiz_mappe_e_fonti_preservate": {
+      "pass": true
+    }
+  },
+  "pages": 37,
+  "sha256_prima": "5bf62376df7381101db819ef50d74b3891a926c4d69364ecd7c288d9950effbb",
+  "sha256_dopo": "883c9b2fa1d8dc1ecb9f9ccc40341e8aa8c4ef6fbf8a07543d970511be2ed79d"
+}

@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "errors": [],
+  "pages": 28,
+  "previous_pdf_sha256": "07ded9db012e57e3d0721cccf1340e6de5f216437aa09bbde626ab4a207fe01d",
+  "new_pdf_sha256": "0a342bac0f72f474ad1859e2ea22006d7d39e70c1eba4cbd8541b728e1ea6993",
+  "checks": {
+    "body_sec1_preserved": true,
+    "body_sec2_preserved": true,
+    "body_sec3_preserved": true,
+    "body_sec4_preserved": true,
+    "body_sec5_preserved": true,
+    "body_sec6_preserved": true,
+    "body_sec7_preserved": true,
+    "body_sec8_preserved": true,
+    "body_sec9_preserved": true,
+    "summary_sections": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "map_final_identical": true,
+    "original_activities": true,
+    "questions": 10,
+    "choices": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "new_question": "10. ¿En qué lengua está En las orillas del Sar? A) En inglés. B) En castellano. C) En alemán. D) En italiano.",
+    "ref_labels": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+    ],
+    "citation_count": 11,
+    "citation_targets": [
+      "#rif-1",
+      "#rif-3",
+      "#rif-1",
+      "#rif-4",
+      "#rif-1",
+      "#rif-4",
+      "#rif-1",
+      "#rif-4",
+      "#rif-1",
+      "#rif-4",
+      "#rif-2"
+    ],
+    "citation_link_status": [
+      {
+        "from_page": 2,
+        "target": "rif-1",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 2,
+        "target": "rif-3",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 4,
+        "target": "rif-1",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 4,
+        "target": "rif-4",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 7,
+        "target": "rif-1",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 7,
+        "target": "rif-4",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 9,
+        "target": "rif-1",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 9,
+        "target": "rif-4",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 11,
+        "target": "rif-1",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 11,
+        "target": "rif-4",
+        "target_page": 28,
+        "clickable_correct": true
+      },
+      {
+        "from_page": 16,
+        "target": "rif-2",
+        "target_page": 28,
+        "clickable_correct": true
+      }
+    ],
+    "index": [
+      {
+        "title": "EL AUTOR · LA VIDA DE ROSALÍA",
+        "page": 2,
+        "printed": 2,
+        "linked": true
+      },
+      {
+        "title": "LAS OBRAS PRINCIPALES",
+        "page": 4,
+        "printed": 4,
+        "linked": true
+      },
+      {
+        "title": "EN LAS ORILLAS DEL SAR",
+        "page": 7,
+        "printed": 7,
+        "linked": true
+      },
+      {
+        "title": "LIEDERS",
+        "page": 9,
+        "printed": 9,
+        "linked": true
+      },
+      {
+        "title": "LENGUAJE Y ESTILO",
+        "page": 11,
+        "printed": 11,
+        "linked": true
+      },
+      {
+        "title": "LOS TEXTOS · LEER Y ANALIZAR",
+        "page": 14,
+        "printed": 14,
+        "linked": true
+      },
+      {
+        "title": "ACTIVIDAD 1 · PALABRAS CLAVE",
+        "page": 18,
+        "printed": 18,
+        "linked": true
+      },
+      {
+        "title": "ACTIVIDAD 2 · LABORATORIO AUMENTADO",
+        "page": 21,
+        "printed": 21,
+        "linked": true
+      },
+      {
+        "title": "ACTIVIDAD 3 · ANÁLISIS TEXTUAL",
+        "page": 24,
+        "printed": 24,
+        "linked": true
+      },
+      {
+        "title": "VERIFICACIÓN DE COMPRENSIÓN",
+        "page": 25,
+        "printed": 25,
+        "linked": true
+      },
+      {
+        "title": "MAPA CONCEPTUAL FINAL",
+        "page": 27,
+        "printed": 27,
+        "linked": true
+      },
+      {
+        "title": "REFERENCIAS BIBLIOGRÁFICAS",
+        "page": 28,
+        "printed": 28,
+        "linked": true
+      }
+    ],
+    "missing_image_digests": [],
+    "bounds": [],
+    "external_links": [
+      "https://www.cervantesvirtual.com/portales/rosalia_de_castro/autora_biografia/",
+      "https://www.cervantesvirtual.com/portales/rosalia_de_castro/estudio_literario/",
+      "https://www.cervantesvirtual.com/portales/rosalia_de_castro/estudio_literario/"
+    ]
+  },
+  "scope": "Le variazioni rispetto alla versione precedente sono: eliminazione di 4 sintesi e 2 box di fonte, spostamento nota storica nella bibliografia, riferimenti numerati, decima domanda e nuova paginazione.",
+  "limitations": [
+    "Controlli geometrici e strutturali non certificano conformità PDF/UA.",
+    "Edizioni cartacee e pagine derivano dalla fonte originale, non da consultazione diretta."
+  ]
+}

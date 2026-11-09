@@ -1,0 +1,78 @@
+/* Guide lunghe del blog — standard BES/studio, aggiornato 31/10/2026.
+   Immagini uniformi (copertina inclusa), clay adulto; badge indice colorati.
+   Neretti semantici neri, gerarchia titolo/sottotitolo/banner, padding calibrato.
+   Indice arioso; prima pagina delle unità piena; fonti in ultima pagina. */
+@font-face { font-family:OpenDyslexic; src:url('fonts/OpenDyslexic-Regular.otf'); font-weight:400; }
+@font-face { font-family:OpenDyslexic; src:url('fonts/OpenDyslexic-Bold.otf'); font-weight:700; }
+:root { --illustration-width:112mm; --illustration-height:63.25mm; }
+@page {
+  size: A4; margin: 1.8cm 1.8cm 1.9cm;
+  background: #fff;
+  @bottom-center {
+    content: counter(page); font-family: OpenDyslexic, sans-serif;
+    font-size: 12pt; color: #26211b;
+  }
+}
+@page :first { background: #fff; @bottom-center { content: none; } }
+html, body { background: #fff; }
+body {
+  margin: 0; color: #161616; font-family: OpenDyslexic, sans-serif;
+  font-size: 13pt; line-height: 1.85; letter-spacing: .02em;
+}
+p { margin: 0; text-align: left; orphans: 2; widows: 2; }
+p + p { margin-top: 10px; }
+/* Enfasi del significato, non decorazione: preservare strong durante reflow/suddivisione. */
+strong, b { font-weight:700; color:#111; }
+.subtitle { font-size:12.5pt; line-height:1.5; text-align:center; margin:0 0 10px; }
+/* Scrivere anche nel DOM titoli, sottotitoli e voci indice in MAIUSCOLO reale.
+   Questa regola CSS e' solo una salvaguardia. Corpo e citazioni restano invariati. */
+h1, h2, h3, h4, h5, h6, .subtitle, .part-label, .s-head, .map-root, .map-ghead, .m-node .t,
+#indice .ind-label a, #indice .it a, #indice a.ind-title,
+[data-editorial-title] { text-transform:uppercase; }
+[data-preserve-case] { text-transform:none; }
+h1, h2, h3 { break-after: avoid; }
+h1, h2 { text-align: center; line-height: 1.45; font-weight:700; }
+h1 { background: #243c5a; color: #fff; border-radius: 12px; padding: 12px; font-size: 20pt; }
+h2 { background: var(--section-color, #1a5fb4); color: #fff; border-radius: 10px; padding: 8px; font-size: 15pt; }
+h3 { font-size: 12.5pt; line-height: 1.45; color: #3f382e; margin: 4px 0 9px; }
+.blk, .indwrap {
+  background: #fffaf0; border: 1.5px solid #e6d5ae; border-radius: 12px;
+  padding: 6.5px 14px; margin: 9px 0; break-inside: avoid; page-break-inside: avoid;
+}
+/* Uno stesso nucleo di significato puo contenere due brevi paragrafi.
+   Unire solo se il totale, incluso il sottotitolo, resta entro cinque LineBox. */
+.coherent-group > p + p { margin-top:4px; }
+/* Padding/margini delle schede sono calibrabili dopo misurazione.
+   Non diminuire font/interlinea/immagini/margini di pagina per inseguire un totale pagine. */
+/* Medesime dimensioni FISICHE per tutti gli asset, non percentuali di contenitori diversi.
+   Usare immagini clay adulte con rapporto d’aspetto coerente. Nessuna deroga per la cover. */
+.blk img.ilust, img.ilust, img.cover, img.editorial-image {
+  width:var(--illustration-width); height:var(--illustration-height);
+  object-fit:contain; display:block; margin:10px auto 14px;
+}
+.cover-section { page-break-after: always; }
+/* Inizio unità nuovo, ma flusso NATURALE al suo interno: non bilanciare le pagine. */
+.sec { break-before: page; page-break-before: always; break-inside: auto; }
+/* Non applicare page-start/nuova-pagina o break-before:page alle singole .blk.
+   Una seconda pagina più corta è corretta se il prossimo box non entra prima. */
+#fonti { break-before: page; page-break-before: always; }
+#fonti a { color: #174f8b; text-decoration: underline; }
+/* Indice arioso approvato. Tre colonne: il testo a capo non va sotto il numero.
+   Tenere le regole in #indice per non alterare capitoli, box o fonti. */
+#indice h2 { background:#243c5a; }
+#indice .indwrap { padding: 7px 10px 9px; }
+#indice .indice { width: 100%; border-collapse: separate; border-spacing: 0 8px; }
+#indice .indice td { padding: 10px 5px; vertical-align: middle; }
+#indice .indice a { color: #111; text-decoration: none; }
+#indice .ind-icon { width: 42px; }
+#indice .ind-label { font-size: 12.5pt; line-height: 1.4; }
+#indice .ind-num {
+  display: block; width: 32px; height: 32px; line-height: 32px;
+  border-radius: 50%; background: var(--index-color, #1a5fb4); color: #fff;
+  font-size: 12pt; font-weight: bold; text-align: center;
+}
+#indice .ind-pag { width: 39px; text-align: right; font-size: 12.5pt; }
+#indice .ind-pag a { color:var(--index-color, #1a5fb4); font-weight:bold; }
+#indice .ind-pag a::after { content: target-counter(attr(href), page); }
+/* Non mettere limiti di altezza, line-clamp, overflow nascosti o sfondo crema al body. */
+

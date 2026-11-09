@@ -1,0 +1,107 @@
+{
+  "html": "/home/user/romanticismo_mappa_senza_attivita_2026_11_06/MARCO_HISTORICO_ROMANTICISMO_MAPPA_CORRETTA.html",
+  "bibliography_id": "referencias",
+  "entry_selector": ".ref-entry, .scene-entry, [data-bibliography-entry]",
+  "card_selector": ".blk, [data-bibliography-box]",
+  "expected_color": "#fffaf0",
+  "max_lines_allowed": 5,
+  "entries": 5,
+  "cards": [
+    {
+      "id": "rif-1",
+      "pages": [
+        20
+      ],
+      "lines": 2,
+      "fragments": [
+        {
+          "page": 20,
+          "lines": 2,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 87.87
+        }
+      ]
+    },
+    {
+      "id": "rif-2",
+      "pages": [
+        20
+      ],
+      "lines": 2,
+      "fragments": [
+        {
+          "page": 20,
+          "lines": 2,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 87.87
+        }
+      ]
+    },
+    {
+      "id": "rif-3",
+      "pages": [
+        20
+      ],
+      "lines": 2,
+      "fragments": [
+        {
+          "page": 20,
+          "lines": 2,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 87.87
+        }
+      ]
+    },
+    {
+      "id": "rif-4",
+      "pages": [
+        20
+      ],
+      "lines": 2,
+      "fragments": [
+        {
+          "page": 20,
+          "lines": 2,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 87.87
+        }
+      ]
+    },
+    {
+      "id": "rif-5",
+      "pages": [
+        20
+      ],
+      "lines": 2,
+      "fragments": [
+        {
+          "page": 20,
+          "lines": 2,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 87.87
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "issue": "paragrafo_non_classificato",
+      "text": "Fuentes consultadas para completar este cuaderno."
+    }
+  ],
+  "passed": true,
+  "limits": "Sono controllate le sole voci identificate dal selettore. La verifica non valuta provenienza, correttezza scientifica, ordine, contenuti non classificati, link nel PDF o conformità PDF/UA. Ispezionare sempre il PDF e controllare separatamente i collegamenti.",
+  "pages": 20,
+  "max_lines_observed": 2
+}

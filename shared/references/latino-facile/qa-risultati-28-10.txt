@@ -1,0 +1,248 @@
+== batch ==
+batch 0-10: 13.3s source=ai color=ai frasi=11 (attese 11) parole=40
+batch 11-20: 15.1s source=ai color=ai frasi=10 (attese 10) parole=39
+batch 21-27: 8.6s source=ai color=ai frasi=7 (attese 7) parole=38
+batch 28-37: 15.0s source=ai color=ai frasi=10 (attese 10) parole=36
+batch 38-46: 13.8s source=ai color=ai frasi=9 (attese 9) parole=40
+batch 47-54: 6.7s source=ai color=ai frasi=8 (attese 8) parole=39
+batch 55-61: 9.4s source=ai color=ai frasi=7 (attese 7) parole=38
+batch 62-73: 19.1s source=ai color=ai frasi=12 (attese 12) parole=38
+batch 74-82: 15.3s source=ai color=ai frasi=9 (attese 9) parole=39
+batch 83-91: 12.8s source=ai color=ai frasi=9 (attese 9) parole=38
+batch 92-102: 12.3s source=ai color=ai frasi=11 (attese 11) parole=39
+batch 103-112: 27.3s source=ai color=ai frasi=10 (attese 10) parole=38
+
+PAROLE corrette: 460/462 = 99.6%
+FRASI interamente corrette: 111/113 = 98.2%
+
+== ERRORI colore/ruolo ==
+consules       atteso=N     app=ind    | Duo consules Romam regebant.
+hostes         atteso=A     app=N      | Scio hostes appropinquare.
+
+== TRADUZIONI ==
+Puella rosam amat.
+   -> La fanciulla ama la rosa.
+Dominus servum vocat.
+   -> Il padrone chiama il servo.
+Agricola in agro laborat.
+   -> Il contadino lavora nel campo.
+Nautae ad portum navigant.
+   -> I marinai navigano verso il porto.
+Pueri librum magistro dant.
+   -> I fanciulli danno il libro al maestro.
+Filia matris donum amico dat.
+   -> La figlia dà il dono della madre all'amico.
+Mater filio librum dat.
+   -> La madre dà un libro al figlio.
+Servi dominum timent.
+   -> I servi temono il padrone.
+Galli Romanos oppugnant.
+   -> I Galli attaccano i Romani.
+Romulus Romam condidit.
+   -> Romolo fondò Roma.
+Puellae pulchrae rosas amant.
+   -> Le belle ragazze amano le rose.
+Rosa pulchra est.
+   -> La rosa è bella.
+Bona femina liberos amat.
+   -> La buona donna ama i figli.
+Magnae naves in portu stant.
+   -> Grandi navi stanno nel porto.
+Vir bonus patriam amat.
+   -> L'uomo buono ama la patria.
+Amicus amicum adiuvat.
+   -> L'amico aiuta l'amico.
+Deus mundum creavit.
+   -> Dio creò il mondo.
+Sol lucet et luna splendet.
+   -> Il sole splende e la luna risplende.
+Aqua in fonte est.
+   -> L'acqua è nella fonte.
+Ancilla aquam ex fonte portat.
+   -> L'ancella porta l'acqua dalla fonte.
+Magister discipulos docet.
+   -> Il maestro istruisce gli allievi.
+Discipuli libros legunt et epistulas scribunt.
+   -> Gli scolari leggono i libri e scrivono le lettere.
+Agricolae in agris laborant et nautae in mari navigant.
+   -> I contadini lavorano nei campi e i marinai navigano in mare.
+Marcus et Iulia in horto ambulant.
+   -> Marco e Giulia passeggiano nel giardino.
+Marcusque Iuliaque rosas amant.
+   -> Marco e Giulia amano le rose.
+Liber magistri in mensa est.
+   -> Il libro del maestro è sulla tavola.
+Gloria Romanorum magna erat.
+   -> La gloria dei Romani era grande.
+Puer amicis auxilium dat.
+   -> Il fanciullo dà aiuto agli amici.
+Dona deorum accipimus.
+   -> Riceviamo i doni degli dèi.
+Templum Iovis magnum est.
+   -> Il tempio di Giove è grande.
+Rex populum regit.
+   -> Il re governa il popolo.
+Reges populos regunt.
+   -> I re governano i popoli.
+Mater filiae donum dat.
+   -> La madre dà un dono alla figlia.
+Nomen urbis Roma est.
+   -> Il nome della città è Roma.
+Cives legem servant.
+   -> I cittadini rispettano la legge.
+Tempus fugit.
+   -> Il tempo fugge.
+Miles fortis hostes vincit.
+   -> Il forte soldato vince i nemici.
+Consul milites laudat et pecuniam dat.
+   -> Il console loda i soldati e dà il denaro.
+Rex milites ad bellum mittit.
+   -> Il re manda i soldati alla guerra.
+Scipio exercitum in Africam duxit.
+   -> Scipione condusse l'esercito in Africa.
+Caesar cum legionibus in Galliam venit.
+   -> Cesare giunse in Gallia con le legioni.
+Cicero consul rem publicam servavit.
+   -> Il console Cicerone salvò la repubblica.
+Catilina ex urbe fugit.
+   -> Catilina fuggì dalla città.
+Hannibal Alpes superavit.
+   -> Annibale superò le Alpi.
+Romani Carthaginem delere voluerunt.
+   -> I Romani vollero distruggere Cartagine.
+Pax bello melior est.
+   -> La pace è migliore della guerra.
+Omnes homines mortales sunt.
+   -> Tutti gli uomini sono mortali.
+Tres pueri in horto sunt.
+   -> Tre fanciulli sono nel giardino.
+Duo consules Romam regebant.
+   -> Due consoli governavano Roma.
+Nauta pecuniae cupidus est.
+   -> Il marinaio è avido di denaro.
+Nunc discipuli in schola sedent.
+   -> Ora gli alunni siedono a scuola.
+Hodie puer non laborat.
+   -> Oggi il fanciullo non lavora.
+Saepe pueri in silva ludunt.
+   -> Spesso i fanciulli giocano nel bosco.
+Pueri non solum ludunt sed etiam laborant.
+   -> I fanciulli non solo giocano, ma anche lavorano.
+Aut pace aut bello vivemus.
+   -> O in pace o in guerra vivremo.
+Quamquam hostes fortes sunt, Romani vincunt.
+   -> Sebbene i nemici siano forti, i Romani vincono.
+Dum Romani dormiunt, hostes veniunt.
+   -> Mentre i Romani dormono, i nemici arrivano.
+Postquam Caesar Galliam vicit, Romam rediit.
+   -> Dopo che Cesare vinse la Gallia, tornò a Roma.
+Quod frater aegrotat, mater lacrimat.
+   -> Poiché il fratello è malato, la madre piange.
+Pater filium laudat quia bonus est.
+   -> Il padre loda il figlio perché è buono.
+Cum Caesar venit, hostes fugiunt.
+   -> Quando Cesare arriva, i nemici fuggono.
+Sine amicis vita misera est.
+   -> Senza amici la vita è misera.
+Per silvam ambulamus.
+   -> Camminiamo per il bosco.
+Ante portam stant.
+   -> Stanno davanti alla porta.
+Post bellum pax erat.
+   -> Dopo la guerra c'era la pace.
+De bello narrat.
+   -> Narra della guerra.
+Pro patria mori dulce est.
+   -> Morire per la patria è dolce.
+Primo die milites venerunt.
+   -> Il primo giorno arrivarono i soldati.
+Venite, amici!
+   -> Venite, amici!
+Audi, fili, patrem tuum!
+   -> Ascolta, o figlio, tuo padre!
+Marce, veni!
+   -> Marco, vieni!
+Gaudete, cives!
+   -> Gioite, cittadini!
+Amare est vivere.
+   -> Amare è vivere.
+Oportet pacem servare.
+   -> Bisogna conservare la pace.
+Veni, vidi, vici.
+   -> Venni, vidi, vinsi.
+Pater venit ut filium videat.
+   -> Il padre viene affinché veda il figlio.
+Rogo te ut venias.
+   -> Ti prego di venire.
+Timeo ne hostes veniant.
+   -> Temo che i nemici vengano.
+Cum Caesar Romam venisset, senatus gaudebat.
+   -> Quando Cesare era giunto a Roma, il senato gioiva.
+Si pecuniam habeo, libros emo.
+   -> Se ho denaro, compro libri.
+Si pecuniam haberem, libros emerem.
+   -> Se avessi denaro, comprerei libri.
+Dico te venire.
+   -> Dico che tu vieni.
+Puto Caesarem bonum esse.
+   -> Ritengo che Cesare sia buono.
+Scio hostes appropinquare.
+   -> So che i nemici si avvicinano.
+Puella a matre laudatur.
+   -> La fanciulla è lodata dalla madre.
+Urbs a Romulo condita est.
+   -> La città fu fondata da Romolo.
+Hostes a Caesare victi sunt.
+   -> I nemici furono sconfitti da Cesare.
+Liber a puero legitur.
+   -> Il libro viene letto dal fanciullo.
+Puer matrem sequitur.
+   -> Il fanciullo segue la madre.
+Milites ex urbe proficiscuntur.
+   -> I soldati partono dalla città.
+Carthago delenda est.
+   -> Cartagine deve essere distrutta.
+Gallia est omnis divisa in partes tres.
+   -> Tutta la Gallia è divisa in tre parti.
+Caesare duce, milites fortiter pugnant.
+   -> Sotto la guida di Cesare, i soldati combattono valorosamente.
+Urbe capta, hostes discesserunt.
+   -> Presa la città, i nemici si allontanarono.
+Sole oriente, nautae navigant.
+   -> Al sorgere del sole, i marinai navigano.
+Ego te amo.
+   -> Io ti amo.
+Tu me amas.
+   -> Tu mi ami.
+Nos vos amamus.
+   -> Noi vi amiamo.
+Hic puer librum legit.
+   -> Questo fanciullo legge il libro.
+Illa puella rosam habet.
+   -> Quella fanciulla ha una rosa.
+Is vir bonus est.
+   -> Quell'uomo è buono.
+Eum video.
+   -> Lo vedo.
+Ei librum dat.
+   -> Gli dà un libro.
+Mihi liber est.
+   -> Io ho un libro.
+Puer, qui in horto est, frater meus est.
+   -> Il fanciullo, che è nel giardino, è mio fratello.
+Liber quem lego bonus est.
+   -> Il libro che leggo è buono.
+Vir quem vides amicus meus est.
+   -> L'uomo che vedi è mio amico.
+Nemo me amat.
+   -> Nessuno mi ama.
+Quis venit?
+   -> Chi viene?
+Cur ploras?
+   -> Perché piangi?
+Quo vadis, Domine?
+   -> Dove vai, Signore?
+Ipse venit.
+   -> Egli stesso viene.
+Alii veniunt, alii abeunt.
+   -> Alcuni vengono, altri se ne vanno.

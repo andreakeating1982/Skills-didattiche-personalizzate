@@ -1,0 +1,273 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "dieci_domande_numerate": {
+      "pass": true
+    },
+    "tutte_domande_modificate": {
+      "pass": true
+    },
+    "domanda_1_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_2_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_3_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_4_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_5_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_6_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_7_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_8_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_9_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "domanda_10_testo_e_4_opzioni": {
+      "pass": true
+    },
+    "nessuna_domanda_su_attivita_esercizi": {
+      "pass": true
+    },
+    "ordine_biografia_opere_e_stile": {
+      "pass": true
+    },
+    "domanda_1_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 2,
+        "estratti": [
+          "contacto con el mundo gallego",
+          "base de su escritura"
+        ]
+      }
+    },
+    "domanda_2_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 2,
+        "estratti": [
+          "apoyó la difusión de su obra"
+        ]
+      }
+    },
+    "domanda_3_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 4,
+        "estratti": [
+          "La obra reivindica la lengua gallega"
+        ]
+      }
+    },
+    "domanda_4_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 4,
+        "estratti": [
+          "presenta un tono más grave e interior"
+        ]
+      }
+    },
+    "domanda_5_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 3,
+        "estratti": [
+          "1863",
+          "Cantares gallegos",
+          "1880",
+          "Follas novas",
+          "1884",
+          "En las orillas del Sar"
+        ]
+      }
+    },
+    "domanda_6_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 8,
+        "estratti": [
+          "el mundo interior, la vida que pasa"
+        ]
+      }
+    },
+    "domanda_7_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 8,
+        "estratti": [
+          "la niebla",
+          "la incertidumbre"
+        ]
+      }
+    },
+    "domanda_8_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 9,
+        "estratti": [
+          "denuncia la opresión",
+          "que sufren las mujeres"
+        ]
+      }
+    },
+    "domanda_9_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 12,
+        "estratti": [
+          "el lenguaje es más directo, firme y reivindicativo"
+        ]
+      }
+    },
+    "domanda_10_risposta_sostenuta_dal_testo": {
+      "pass": true,
+      "detail": {
+        "pagina": 12,
+        "estratti": [
+          "repetir una palabra al principio de versos o frases"
+        ]
+      }
+    },
+    "soluzioni_assenti_dal_pdf": {
+      "pass": true
+    },
+    "solo_domande_modificate_nel_sorgente": {
+      "pass": true
+    },
+    "indice_immutato": {
+      "pass": true
+    },
+    "mappa_finale_immutata": {
+      "pass": true
+    },
+    "mappa_finale_vita_opere_no_attivita": {
+      "pass": true
+    },
+    "bibliografia_immutata": {
+      "pass": true
+    },
+    "due_mappe_precedenti_insieme_pagina_20": {
+      "pass": true
+    },
+    "pagine_originali_28": {
+      "pass": true
+    },
+    "altre_26_pagine_identiche_a_72dpi": {
+      "pass": true,
+      "detail": []
+    },
+    "tutte_domande_e_opzioni_presenti_su_due_pagine": {
+      "pass": true
+    },
+    "collegamenti_interni_ed_esterni_invariati": {
+      "pass": true
+    },
+    "segnalibri_invariati": {
+      "pass": true
+    },
+    "indice_12_voci_link_corrette": {
+      "pass": true
+    },
+    "domande_5_per_pagina": {
+      "pass": true,
+      "detail": [
+        [
+          1,
+          25
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          4,
+          25
+        ],
+        [
+          5,
+          25
+        ],
+        [
+          6,
+          26
+        ],
+        [
+          7,
+          26
+        ],
+        [
+          8,
+          26
+        ],
+        [
+          9,
+          26
+        ],
+        [
+          10,
+          26
+        ]
+      ]
+    },
+    "box_e_opzioni_non_troncati_nel_renderer": {
+      "pass": true,
+      "detail": []
+    },
+    "dimensioni_font_quiz_come_baseline": {
+      "pass": true,
+      "detail": {
+        "1": [
+          14.0
+        ],
+        "2": [
+          14.0
+        ],
+        "3": [
+          14.0
+        ],
+        "4": [
+          14.0
+        ],
+        "5": [
+          14.0
+        ],
+        "6": [
+          14.0
+        ],
+        "7": [
+          14.0
+        ],
+        "8": [
+          14.0
+        ],
+        "9": [
+          14.0
+        ],
+        "10": [
+          14.0
+        ]
+      }
+    }
+  },
+  "baseline_sha256": "0088fa9c499c2d7ae8f04705e70f1e99ad00f4bd5e3f036b98624b98d5984d27",
+  "final_sha256": "9e9262ba9c7fd1f49cbebf4639414d7afa6420324afe57139ad99f04aedf7552",
+  "note": "Verifica strutturale, confronto visivo a 72 dpi e controllo delle risposte nel testo. Non costituisce certificazione PDF/UA."
+}

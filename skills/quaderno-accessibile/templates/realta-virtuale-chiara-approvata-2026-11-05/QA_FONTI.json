@@ -1,0 +1,90 @@
+{
+  "html": "/home/user/realta_virtuale_chiara_2026_11_05/sorgenti/REALTA_VIRTUALE_A_SCUOLA_ARTICOLO_CHIARO.html",
+  "bibliography_id": "bibliografia",
+  "entry_selector": ".ref-entry, .scene-entry, [data-bibliography-entry]",
+  "card_selector": ".blk, [data-bibliography-box]",
+  "expected_color": "#fffaf0",
+  "max_lines_allowed": 5,
+  "entries": 4,
+  "cards": [
+    {
+      "id": "rif-1",
+      "pages": [
+        17
+      ],
+      "lines": 3,
+      "fragments": [
+        {
+          "page": 17,
+          "lines": 3,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 117.92
+        }
+      ]
+    },
+    {
+      "id": "rif-2",
+      "pages": [
+        17
+      ],
+      "lines": 4,
+      "fragments": [
+        {
+          "page": 17,
+          "lines": 4,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 150.07
+        }
+      ]
+    },
+    {
+      "id": "rif-3",
+      "pages": [
+        17
+      ],
+      "lines": 5,
+      "fragments": [
+        {
+          "page": 17,
+          "lines": 5,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 177.12
+        }
+      ]
+    },
+    {
+      "id": "rif-4",
+      "pages": [
+        17
+      ],
+      "lines": 5,
+      "fragments": [
+        {
+          "page": 17,
+          "lines": 5,
+          "color": "color(srgb 1.0 0.9803921568627451 0.9411764705882353 / 1.0)",
+          "cream": true,
+          "width_px": 657.64,
+          "height_px": 177.12
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "issue": "paragrafo_non_classificato",
+      "text": "Articolo scritto da ANDREA CENTINARO ."
+    }
+  ],
+  "passed": true,
+  "limits": "Sono controllate le sole voci identificate dal selettore. La verifica non valuta provenienza, correttezza scientifica, ordine, contenuti non classificati, link nel PDF o conformità PDF/UA. Ispezionare sempre il PDF e controllare separatamente i collegamenti.",
+  "pages": 17,
+  "max_lines_observed": 5
+}

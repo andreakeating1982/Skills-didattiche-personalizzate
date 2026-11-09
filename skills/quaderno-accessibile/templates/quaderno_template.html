@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- LANG: imposta la lingua del documento (it, en, es, ...) -->
+<head>
+<meta charset="utf-8">
+<title>TITOLO DEL QUADERNO &middot; Quaderno accessibile</title>
+<meta name="author" content="Laboratorio didattico inclusivo">
+<meta name="description" content="Quaderno inclusivo ad alta leggibilit&agrave; (PDF/UA-1).">
+<style>
+
+@page {
+  size: A4;
+  margin: 1.8cm 1.8cm 1.9cm 1.8cm;
+  @bottom-center {
+    content: counter(page);
+    font-family: 'OpenDyslexic', 'DejaVu Sans', 'Liberation Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #26211b;
+  }
+}
+@page :first {
+  margin: 1.2cm 1.8cm 1.7cm 1.8cm;
+  @bottom-center {
+    content: none;   /* la copertina NON mostra il numero di pagina */
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'OpenDyslexic', 'DejaVu Sans', 'Liberation Sans', sans-serif;
+  font-size: 13pt;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+  color: #111111;
+  background: #ffffff;
+  margin: 0;
+  text-align: justify;
+}
+p { margin: 7px 0; orphans: 3; widows: 3; text-align: justify; }
+li { text-align: left; }
+td, th { text-align: left; }
+h1, h2, h3, h4 { margin: 0; page-break-after: avoid; text-align: center; }
+a { color: #1a5fb4; text-decoration: underline; }
+
+/* ---------- SEZIONE BANNER ---------- */
+.banner {
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 8px 0 16px;
+  text-align: center;
+  page-break-after: avoid;
+}
+.banner .num { opacity: .85; font-weight: 600; margin-right: 6px; }
+h1.banner { font-size: 15pt; }
+h2.banner { font-size: 13.5pt; }
+.red    { background: #b3261e; }
+.blue   { background: #1a5fb4; }
+.green  { background: #2e7d32; }
+.orange { background: #a35400; }
+.violet { background: #5e35b1; }
+.aqua   { background: #0e7c66; }
+.navy   { background: #1f3864; }
+
+h1.title-banner {
+  border-radius: 10px;
+  padding: 9px 14px;
+  color: #ffffff;
+  background: #5e35b1;
+  font-weight: 800;
+  font-size: 16.5pt;
+  line-height: 1.25;
+  text-align: center;
+  margin: 2px 0 10px;
+  page-break-after: avoid;
+}
+
+/* ---------- COLORI DEL TESTO (sempre con la parola, mai solo colore) ---------- */
+.k { color: #b3261e; font-weight: 700; }   /* date and numbers */
+.m { color: #1a5fb4; font-weight: 700; }   /* words to remember */
+.f { color: #0e7c66; font-weight: 700; }   /* actions and causes */
+.o { color: #a35400; font-weight: 700; }   /* examples */
+.v { color: #5e35b1; font-weight: 700; }   /* names, places, works */
+.p { font-weight: 700; }                   /* important words */
+
+/* ---------- SOTTOTITOLI INTERNI ---------- */
+h3.st {
+  text-align: left;
+  font-size: 12.5pt;
+  font-weight: 800;
+  color: #111111;
+  border-left: 7px solid #555555;
+  padding: 1px 0 1px 10px;
+  margin: 11px 0 4px;
+  page-break-after: avoid;
+  line-height: 1.4;
+}
+
+/* ---------- IMMAGINI ---------- */
+/* UNIFORMITA' OBBLIGATORIA (gold standard Shakespeare): tutte le immagini
+   dentro i box hanno la STESSA larghezza ~50%. Mai ridurre una sola
+   immagine (es. 33%) per far stare il layout: recupera spazio da margini
+   e padding. Vale anche per il box introduttivo in pagina 1. */
+img.ilust { width: 50%; display: block; margin: 12px auto 10px; border-radius: 10px; }
+img.ilust.cover { width: 68%; margin: 14px auto 12px; }
+#sec3 img.ilust { width: 52%; margin: 12px auto 10px; }
+.fig { page-break-inside: avoid; }
+
+/* ---------- ALTRO ---------- */
+.nota { font-size: 10.5pt; color: #333333; margin: 14px 0 8px; border-left: 3px solid #8a8a8a; padding-left: 12px; text-align: justify; }
+.sec { margin-top: 24px; }
+.sec[id^="sec"] { page-break-before: always; }
+
+/* ---------- CONTENTS (FIRST PAGE) ---------- */
+.indice-banner { margin: 6px 0 2px; }
+table.indice { width: 100%; border-collapse: separate; border-spacing: 0 7px; margin: 8px 0 6px; page-break-inside: avoid; }
+.indice th { padding: 3px 10px; text-align: left; font-size: 10pt; color: #444444; border-bottom: 2px solid #c8c8c8; letter-spacing: .3px; }
+.ind-th-pag { text-align: right !important; }
+.indice td { vertical-align: middle; padding: 1px 10px; }
+/* RIENTRO SOSPESO dell'indice (validato sul quaderno «10 metodologie»): il
+   numero è flottante e il titolo è un blocco che inizia dopo il cerchio, così
+   le righe che vanno a capo si allineano all'inizio del testo, MAI sotto il
+   numero. offsetX = diametro cerchio + margine (32+10=42px);
+   offsetY ≈ (cerchio − interlinea testo)/2 ≈ (32−15)/2 ≈ 8px. Per il modello
+   a copertina dedicata (indice arioso, cerchi 27px, font 13.5pt) vedi
+   references/guida_layout.md §8. */
+.ind-num { display: block; float: left; width: 32px; height: 32px; border-radius: 50%; color: #ffffff; font-weight: 800; font-size: 12pt; line-height: 32px; text-align: center; margin: 0 10px 0 0; }
+.ind-title { display: block; margin: 8px 0 0 42px; font-size: 11.5pt; font-weight: 700; line-height: 1.3; color: #111111; text-decoration: none; }
+.ind-pag { text-align: right; font-size: 12pt; font-weight: 800; color: #111111; white-space: nowrap; }
+.ind-pag a { text-decoration: none; color: #111111; }
+.ind-pag a::after { content: target-counter(attr(href), page); }
+.ind1  { background: #b3261e; }
+.ind2  { background: #1a5fb4; }
+.ind3  { background: #2e7d32; }
+.ind4  { background: #1f3864; font-size: 14pt; }
+
+/* ---------- SUMMARY BOX ---------- */
+.sintesi { border: 2px solid #555555; border-radius: 10px; margin: 9px 0 8px; page-break-inside: avoid; overflow: hidden; }
+.sintesi .s-head { color: #ffffff; font-weight: 800; font-size: 11.5pt; letter-spacing: .4px; text-align: center; padding: 5px 10px; }
+.sintesi table { width: 100%; border-collapse: collapse; font-size: 11pt; line-height: 1.6; }
+.sintesi td { padding: 4px 10px; vertical-align: top; border-top: 1px solid #e8e8e8; text-align: left; }
+.sintesi tr:first-child td { border-top: none; }
+.sintesi td.lb { width: 24%; font-weight: 800; white-space: normal; }
+.sintesi ol { margin: 3px 0 4px 18px; padding-left: 8px; }
+.sintesi ol li { line-height: 1.55; margin: 1px 0; font-size: 11pt; }
+
+/* ---------- QUIZ ---------- */
+.qcard { border: 1.5px solid #d0d0d0; border-radius: 10px; margin: 5px 0; page-break-inside: avoid; padding: 5px 10px 6px; background: #ffffff; text-align: left; }
+.qcard p.qq { margin: 1px 0 3px; font-weight: 700; font-size: 12pt; text-align: left; }
+.qn { display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #2e7d32; color: #ffffff; font-weight: 800; font-size: 10pt; line-height: 20px; text-align: center; margin-right: 7px; }
+.opts { display: table; width: 100%; table-layout: fixed; border-collapse: collapse; margin: 2px 0 1px; text-align: left; }
+.optrow { display: table-row; }
+.opt { display: table-cell; width: 50%; vertical-align: top; font-size: 10pt; line-height: 1.55; padding: 1px 0; text-align: left; }
+.opt + .opt { padding-left: 12px; }
+.ol { display: inline-block; width: 16px; height: 16px; border-radius: 50%; background: #37474a; color: #ffffff; font-weight: 800; font-size: 9pt; line-height: 16px; text-align: center; margin-right: 6px; vertical-align: middle; }
+
+/* ---------- FINAL REVISION MAP ---------- */
+#mappa { page-break-before: always; }
+.m-intro { text-align: center; font-size: 11pt; margin: 6px 0 4px; }
+.map-root { background: #1f3864; color: #ffffff; text-align: center; font-weight: 800; font-size: 12pt; padding: 5px 12px; border-radius: 10px; line-height: 1.25; margin-top: 4px; }
+.map-group { margin-top: 14px; page-break-inside: avoid; }
+.map-ghead { color: #ffffff; font-weight: 800; text-align: center; padding: 4px 10px; border-radius: 8px; font-size: 10.5pt; background: #37474a; letter-spacing: .3px; }
+.map-row { text-align: center; margin-top: 6px; }
+.m-node { display: inline-block; vertical-align: top; text-align: left; border: 1.5px solid #c9c9c9; border-top: 7px solid #555555; border-radius: 0 0 10px 10px; background: #ffffff; padding: 4px 8px 6px; page-break-inside: avoid; }
+.m-node.w3 { width: 31.6%; }
+.m-num { display: inline-block; width: 20px; height: 20px; border-radius: 50%; color: #ffffff; font-weight: 800; font-size: 9.5pt; line-height: 20px; text-align: center; margin-right: 4px; }
+.m-node .t { font-weight: 800; font-size: 10pt; }
+.m-idea { font-size: 9.5pt; line-height: 1.3; color: #222222; margin: 2px 0 0; text-align: left; }
+.map-legend { margin: 12px 0 0; font-size: 10pt; text-align: center; color: #333333; }
+</style>
+</head>
+<body>
+
+<!-- ================================================================
+  QUADERNO ACCESSIBILE · TEMPLATE (skill quaderno-accessibile)
+  ----------------------------------------------------------------
+  COME USARE QUESTO TEMPLATE:
+  1. Copia il file in una cartella di lavoro, es. /home/user/<slug>_build/,
+     accanto a una sottocartella media/ con le immagini (cover.png,
+     sez1.png, ...).
+  2. Imposta <html lang> alla LINGUA DEL DOCUMENTO (it, en, es, ...).
+  3. Sostituisci titolo, footer (@page), contenuto dell'indice e delle
+     sezioni seguendo i commenti. NON scrivere a mano i numeri di pagina
+     dell'indice: si compilano da soli con target-counter.
+  4. Per ogni sezione: duplica il blocco <div class="sec" id="secN">,
+     cambia id, numero, colore banner, immagine, sottotitoli h3.st
+     (il colore della barra si imposta con style="border-left-color:..."),
+     paragrafi e box di sintesi.
+  5. Le evidenziazioni usano span colorati SEMPRE con grassetto:
+       .v viola  nomi/opere/luoghi     .k rosso   date e numeri
+       .m blu    parole da ricordare    .f acquamarina  azioni/cause
+       .o arancione esempi              .p grassetto semplice
+  6. Quiz: mantieni la struttura a TABELLA .opts/.optrow (A+B sopra,
+     C+D sotto) e fai stare ogni opzione su UNA riga (font 10-10.5pt).
+  7. Mappa finale: duplica i gruppi e i nodi .m-node.w3.
+  8. Scegli il MODELLO DI PRIMA PAGINA (commenti sotto): (a) densa con
+     inizio sezione 1 sotto l'indice (default, pochi capitoli scorrevoli)
+     oppure (b) copertina dedicata con indice raffinato (ogni sezione
+     inizia su una nuova pagina). Per il modello (b) usa la struttura e il
+     CSS di references/guida_layout.md §8 (indice arioso senza riga di
+     intestazione, rientro sospeso, immagine cover ~70%).
+  Dettagli e calibrazioni: references/guida_layout.md della skill.
+=============================================================== -->
+<div class="sec" id="indice">
+  <!-- TITOLO DEL QUADERNO (h1 viola) -->
+  <h1 class="title-banner">TITOLO DEL QUADERNO</h1>
+
+  <!-- MODELLO (a) PAGINA 1 DENSA (gold standard Shakespeare): NIENTE immagine
+       cover grande — la pagina 1 ospita titolo + indice + inizio sezione 1.
+       MODELLO (b) COPERTINA DEDICATA (gold standard «10 metodologie didattiche
+       inclusive»): pagina 1 = SOLO titolo + immagine cover (~70%) + indice
+       arioso, e ogni sezione inizia su una nuova pagina (section.sec-flow).
+       Per il modello (b) segui references/guida_layout.md §8: usa il box crema
+       .indwrap, NIENTE riga di intestazione qui sotto e il CSS indice arioso
+       con rientro sospeso (cerchi 27px, font 13.5pt). -->
+
+  <!-- INDICE COLORATO (intestazione in navy) -->
+  <h2 class="banner navy indice-banner">CONTENTS</h2>
+  <table class="indice">
+    <!-- Riga di intestazione colonne: nel MODELLO (b) copertina dedicata
+         ELIMINALA (l'utente del quaderno «10 metodologie» l'ha rimossa:
+         niente didascalie sopra l'elenco). -->
+    <tr><th>Section</th><th class="ind-th-pag">Page</th></tr>
+    <!-- Esempio: aggiungi/duplica righe; colori disponibili ind1..ind6 e
+         stella ind4 (navy) per la mappa finale. Gli href devono
+         corrispondere agli id delle sezioni. -->
+    <tr>
+      <td><span class="ind-num ind1">1</span><a class="ind-title" href="#sec1">Titolo sezione 1</a></td>
+      <td class="ind-pag"><a href="#sec1"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind2">2</span><a class="ind-title" href="#sec2">Titolo sezione 2</a></td>
+      <td class="ind-pag"><a href="#sec2"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind3">3</span><a class="ind-title" href="#sec3">Titolo sezione 3</a></td>
+      <td class="ind-pag"><a href="#sec3"></a></td>
+    </tr>
+    <tr>
+      <td><span class="ind-num ind4">&#9733;</span><a class="ind-title" href="#mappa">Mappa di revisione</a></td>
+      <td class="ind-pag"><a href="#mappa"></a></td>
+    </tr>
+  </table>
+
+  <!-- PAGINA 1 DENSA (gold standard Shakespeare): sotto l'indice inizia subito
+       la sezione 1, invece di lasciare la copertina semi-vuota con una nota
+       isolata. Banner colorato + primo box introduttivo con immagine (che deve
+       avere la STESSA larghezza ~50% delle altre immagini). Se la pagina 1
+       resta comunque con spazio in eccesso, puoi aggiungere in fondo la nota
+       "Fai clic su ogni voce dell'indice..." (nella lingua del documento). -->
+  <h2 class="banner red"><span class="num">1</span> TITOLO DELLA SEZIONE 1</h2>
+  <div class="sintesi" style="border-color:#b3261e;">
+    <div class="s-head" style="background:#b3261e;">PRIMO BOX INTRODUTTIVO</div>
+    <table><tr><td>
+      <div class="fig">
+        <img class="ilust" src="media/sez1.png" alt="Descrizione dell'immagine nella lingua del documento.">
+      </div>
+      <p>Qui inizia il contenuto della sezione 1: paragrafi brevi con parole chiave evidenziate. Il resto della sezione prosegue nel blocco <code>#sec1</code> qui sotto.</p>
+    </td></tr></table>
+  </div>
+</div>
+
+<!-- NOTA: se hai già iniziato la sezione 1 in pagina 1 (consigliato), nel blocco
+     #sec1 NON ripetere il banner "1 · …" e l'immagine: parti direttamente dai
+     box di contenuto successivi. Se invece la pagina 1 resta dedicata a
+     copertina+indice, mantieni banner e immagine qui sotto. -->
+
+<!-- ============ ESEMPIO SEZIONE 1 (duplica per ogni sezione) ============
+     Colori banner in ordine: red, blue, green, orange, violet, aqua.
+     .sec[id^="sec"] forza l'inizio su una nuova pagina (CSS). -->
+<div class="sec" id="sec1">
+  <h2 class="banner red"><span class="num">1</span> TITOLO DELLA SEZIONE 1</h2>
+
+  <div class="fig">
+    <img class="ilust" src="media/sez1.png" alt="Descrizione dell'immagine nella lingua del documento.">
+  </div>
+
+  <!-- Sottotitolo interno: la barra colorata si allinea al colore della sezione -->
+  <h3 class="st" style="border-left-color:#b3261e;">Primo blocco tematico</h3>
+  <p>Scrivi qui il primo paragrafo breve. Evidenzia le parole chiave con gli span colorati, es. <span class="v">Nome proprio</span>, <span class="k">1564</span>, <span class="f">azione importante</span>, <span class="p">concetto da ricordare</span>.</p>
+
+  <h3 class="st" style="border-left-color:#b3261e;">Secondo blocco tematico</h3>
+  <p>Secondo paragrafo breve. Suddividi i lunghi paragrafi originali in pi&ugrave; blocchi tematici con <code>h3.st</code>: aiuta la lettura.</p>
+
+  <!-- Box di sintesi: bordo e intestazione del colore della sezione.
+       I blocchi .sintesi NON si spezzano tra le pagine. -->
+  <div class="sintesi" style="border-color:#b3261e;">
+    <div class="s-head" style="background:#b3261e;">IN SINTESI &middot; 1</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#b3261e;">Prima voce</td>
+        <td>Testo sintetico della prima voce.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#b3261e;">Seconda voce</td>
+        <td>Testo sintetico della seconda voce.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#b3261e;">Terza voce</td>
+        <td>Testo sintetico della terza voce.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ============ ESEMPIO SEZIONE 2 (blu) ============
+     Copia dello schema della sezione 1 con colore diverso. -->
+<div class="sec" id="sec2">
+  <h2 class="banner blue"><span class="num">2</span> TITOLO DELLA SEZIONE 2</h2>
+
+  <div class="fig">
+    <img class="ilust" src="media/sez2.png" alt="Descrizione dell'immagine nella lingua del documento.">
+  </div>
+
+  <h3 class="st" style="border-left-color:#1a5fb4;">Primo blocco tematico</h3>
+  <p>Testo della sezione 2: paragrafi brevi con <span class="v">nomi</span>, <span class="k">date</span> e <span class="p">parole chiave</span> evidenziati.</p>
+
+  <div class="sintesi" style="border-color:#1a5fb4;">
+    <div class="s-head" style="background:#1a5fb4;">IN SINTESI &middot; 2</div>
+    <table>
+      <tr>
+        <td class="lb" style="color:#1a5fb4;">Prima voce</td>
+        <td>Testo sintetico della prima voce.</td>
+      </tr>
+      <tr>
+        <td class="lb" style="color:#1a5fb4;">Seconda voce</td>
+        <td>Testo sintetico della seconda voce.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ============ ESEMPIO SEZIONE QUIZ (opzioni A-D in griglia 2x2) ============
+     Per sezioni con molto testo puoi restringere l'immagine, es.:
+     #sec3 img.ilust { width: 54%; margin: 14px auto 10px; }
+     (non scendere sotto ~50%: si rompe l'uniformità con le altre sezioni). -->
+<div class="sec" id="sec3">
+  <h2 class="banner green"><span class="num">3</span> TITOLO DELLA SEZIONE QUIZ</h2>
+
+  <div class="fig">
+    <img class="ilust" src="media/quiz.png" alt="Descrizione dell'immagine nella lingua del documento.">
+  </div>
+
+  <div class="sintesi" style="border-color:#2e7d32;">
+    <div class="s-head" style="background:#2e7d32;">HOW TO PLAY</div>
+    <table><tr><td>
+      <p style="margin:4px 0 6px;">Istruzioni introduttive del quiz.</p>
+      <ol>
+        <li>Primo passo delle istruzioni.</li>
+        <li>Secondo passo delle istruzioni.</li>
+        <li>Terzo passo delle istruzioni.</li>
+        <!-- Quiz guidato dall'insegnante/audio (formula validata, adatta la lingua):
+             EN: "Listen to the teacher reading each question and Tap the correct
+                  answer. You cannot change it afterwards."
+             IT: "Ascolta l'insegnante che legge ogni domanda e tocca la risposta
+                  giusta. Non puoi cambiarla in seguito." -->
+        <li>Quarto passo delle istruzioni.</li>
+      </ol>
+    </td></tr></table>
+  </div>
+
+  <h3 class="st" style="border-left-color:#2e7d32;">Questions 1&ndash;5</h3>
+
+  <!-- SCHEDA DOMANDA: mantieni la griglia .optrow (A+B sopra, C+D sotto).
+       Ogni opzione deve stare su una sola riga: se va a capo riduci il font
+       delle .opt a 9.5-10pt o alleggerisci margini/padding della scheda. -->
+  <div class="qcard">
+    <p class="qq"><span class="qn">1</span>Testo della domanda?</p>
+    <div class="opts">
+      <div class="optrow">
+        <div class="opt"><span class="ol">A</span>Opzione A</div>
+        <div class="opt"><span class="ol">B</span>Opzione B</div>
+      </div>
+      <div class="optrow">
+        <div class="opt"><span class="ol">C</span>Opzione C</div>
+        <div class="opt"><span class="ol">D</span>Opzione D</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="qcard">
+    <p class="qq"><span class="qn">2</span>Seconda domanda?</p>
+    <div class="opts">
+      <div class="optrow">
+        <div class="opt"><span class="ol">A</span>Opzione A</div>
+        <div class="opt"><span class="ol">B</span>Opzione B</div>
+      </div>
+      <div class="optrow">
+        <div class="opt"><span class="ol">C</span>Opzione C</div>
+        <div class="opt"><span class="ol">D</span>Opzione D</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUIZ COMPATTO (gold standard Shakespeare): duplica le schede .qcard per
+       tutte le domande e compattale (padding/margini ridotti, font opzioni
+       ~10pt) in modo che stiano PIU' DI 2 DOMANDE PER PAGINA. Le domande
+       scorrono liberamente: non forzare una domanda per pagina. -->
+
+  <!-- GLOSSARIO DI CHIUSURA (opzionale, es. "Difficult words in this notebook"):
+       se il quaderno ha un box di parole difficili da collocare in fondo, NON
+       metterlo da solo su una pagina quasi vuota dopo la mappa. Inseriscilo
+       QUI, in coda all'ultima pagina di contenuti che ha spazio residuo,
+       oppure subito prima della sezione #mappa: l'ultima pagina resta la mappa
+       di revisione piena. Usa la classe .sintesi con intestazione navy. -->
+</div>
+
+<!-- ============ MAPPA FINALE DI REVISIONE (navy) ============
+     Nodi disponibili: .m-node.w3 con bordo superiore e numero colorati.
+     I blocchi .map-group e .m-node NON si spezzano tra le pagine. -->
+<div class="sec" id="mappa">
+  <h2 class="banner navy indice-banner">REVISION MAP</h2>
+  <p class="m-intro">Frase introduttiva: cosa ripassare con questa mappa.</p>
+  <div class="map-root">TITOLO DELLA MAPPA DI REVISIONE</div>
+
+  <div class="map-group">
+    <div class="map-ghead">NOME DEL PRIMO GRUPPO</div>
+    <div class="map-row">
+      <div class="m-node w3" style="border-top-color:#b3261e;">
+        <span class="m-num" style="background:#b3261e;">1</span><span class="t">Etichetta nodo</span>
+        <p class="m-idea">Sintesi del primo nodo.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#1a5fb4;">
+        <span class="m-num" style="background:#1a5fb4;">2</span><span class="t">Etichetta nodo</span>
+        <p class="m-idea">Sintesi del secondo nodo.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#2e7d32;">
+        <span class="m-num" style="background:#2e7d32;">3</span><span class="t">Etichetta nodo</span>
+        <p class="m-idea">Sintesi del terzo nodo.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="map-group">
+    <div class="map-ghead">NOME DEL SECONDO GRUPPO</div>
+    <div class="map-row">
+      <div class="m-node w3" style="border-top-color:#a35400;">
+        <span class="m-num" style="background:#a35400;">4</span><span class="t">Etichetta nodo</span>
+        <p class="m-idea">Sintesi del quarto nodo.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#5e35b1;">
+        <span class="m-num" style="background:#5e35b1;">5</span><span class="t">Etichetta nodo</span>
+        <p class="m-idea">Sintesi del quinto nodo.</p>
+      </div>
+      <div class="m-node w3" style="border-top-color:#0e7c66;">
+        <span class="m-num" style="background:#0e7c66;">6</span><span class="t">Etichetta nodo</span>
+        <p class="m-idea">Sintesi del sesto nodo.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="map-legend">&#128161; <b>Suggerimento:</b> usa questa pagina per ripassare i punti chiave prima della verifica.</p>
+</div>
+
+</body>
+</html>

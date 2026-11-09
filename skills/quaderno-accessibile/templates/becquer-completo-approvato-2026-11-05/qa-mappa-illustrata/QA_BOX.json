@@ -1,0 +1,804 @@
+{
+  "html": "/home/user/becquer_mappa_fonti_2026_11_05/BECQUER_MAPPA_IMMAGINI.html",
+  "pages": 31,
+  "cards": 66,
+  "structured_units": 0,
+  "max_lines": 5,
+  "units": [
+    {
+      "id": "qa-semantic-0001",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "Gustavo Adolfo Domínguez Bastida, más conocido con el apellido Bécquer, nace en Sevilla en 1836 . [1] Hijo y hermano de importantes pintores costumbristas, se queda huérfano a los diez años y vive su infancia y su adolescencia en Sevilla, donde estudia humanidades y pintura.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0002",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "En 1854 se traslada a Madrid para hacer carrera literaria. [1] Sin embargo, no tiene éxito; su proyecto de escribir una Historia de los templos de España es un rotundo fracaso y para vivir se dedica al periodismo.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0003",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "En 1858 contrae una enfermedad, probablemente tuberculosis, y durante la convalecencia publica su primera leyenda, El caudillo de las manos rojas . En 1861 se casa con Casta Esteban, pero el matrimonio nunca es feliz.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0004",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        2
+      ],
+      "paragraphs": 1,
+      "text": "Entre 1861 y 1865 compone la mayor parte de sus Leyendas y redacta las Cartas literarias a una mujer , donde expone sus teorías sobre la poesía y el amor.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0005",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        3
+      ],
+      "paragraphs": 1,
+      "text": "La temporada que pasa en el monasterio de Veruela por razones de salud (en 1864 ) le inspira las delicadas Cartas desde mi celda , en las que destaca el tema de la naturaleza.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0006",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        3
+      ],
+      "paragraphs": 1,
+      "text": "En 1866 obtiene el empleo de censor oficial de novelas , lo que le da la seguridad económica para concentrarse en sus Leyendas y sus Rimas . Sin embargo, con la revolución de 1868 pierde todo su trabajo y su esposa lo abandona ese mismo año.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0007",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        3
+      ],
+      "paragraphs": 1,
+      "text": "Se traslada entonces a Toledo con su hermano Valeriano, y allí acaba de reconstruir el manuscrito de las Rimas . El fallecimiento de su hermano en septiembre de 1870 le produce una gran depresión, y muere tres meses después sin reconocimiento alguno de su obra.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0008",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        5
+      ],
+      "paragraphs": 1,
+      "text": "Gustavo Adolfo Bécquer es un romántico tardío , ya que empieza su trayectoria literaria cuando ya se consolida en Europa la corriente realista-naturalista.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0009",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        5
+      ],
+      "paragraphs": 1,
+      "text": "No obstante, está considerado el poeta romántico más importante del panorama español, capaz de influenciar a los autores que le sucedieron. Escribe artículos, cartas literarias y obras teatrales.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0010",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        5
+      ],
+      "paragraphs": 1,
+      "text": "Sin embargo, su producción más destacada está constituida por las Rimas y Leyendas . Las Rimas son unas composiciones poéticas muy breves y sencillas, de tono intimista. Sus temas son esencialmente la poesía y el amor en sus distintas vertientes.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0011",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        5
+      ],
+      "paragraphs": 1,
+      "text": "Las Leyendas constan de dieciocho relatos tradicionales españoles, todos ellos con un marcado carácter gótico y misterioso.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0012",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        6
+      ],
+      "paragraphs": 1,
+      "text": "En ellas destacan temas típicamente románticos como el interés por la Edad Media, los aspectos sobrenaturales e irracionales del ser humano, la importancia de los sentimientos y el gusto por lo lúgubre.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0013",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        7
+      ],
+      "paragraphs": 1,
+      "text": "En su breve vida Bécquer publica algunas de sus Rimas en diferentes revistas, hasta que en 1867 las recoge en un manuscrito que entrega a su protector, el ministro de la Gobernación González Bravo.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0014",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        7
+      ],
+      "paragraphs": 1,
+      "text": "Sin embargo, al estallar la revolución de septiembre de 1868 , el palacio del ministro es saqueado y el manuscrito se pierde. Bécquer trata de reproducirlo de memoria en el Libro de los gorriones , pero no llega a publicarlo en vida.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0015",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        7
+      ],
+      "paragraphs": 1,
+      "text": "Por eso, en 1871 , a los pocos meses de su muerte, sus amigos organizaron una suscripción pública para editar el texto, que en poco tiempo se convirtió en la obra lírica más relevante del Romanticismo español.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0016",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        9
+      ],
+      "paragraphs": 1,
+      "text": "El libro se compone de 79 poesías de las que se desconoce la fecha exacta de realización. Están divididas en cuatro bloques, según el orden establecido por los amigos del autor.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0017",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        10
+      ],
+      "paragraphs": 1,
+      "text": "Resumiendo, en las Rimas Bécquer explora su propio ánimo de poeta y se centra básicamente en el amor como fundamento de la vida, desde el presentimiento de la felicidad amorosa hasta el desengaño, que supone un fracaso vital.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0018",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        10
+      ],
+      "paragraphs": 1,
+      "text": "La conclusión final es que la plenitud pertenece al pasado y solo se puede alcanzar en los recuerdos y los sueños.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0019",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Bécquer utiliza metros variados, que toma tanto de la tradición culta (versos de 10, 11 o 12 sílabas) como de la popular (el octosílabo).",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0020",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Su metro preferido, sin embargo, es el que mezcla endecasílabos con heptasílabos, logrando así un verso quebrado , hasta trémulo (en las palabras del poeta Dámaso Alonso ), que expresa la fragilidad de los sentimientos. [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0021",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "Su estilo se inspira en la poesía alemana contemporánea, de la que toma el gusto por las sugerencias, la brevedad y la musicalidad.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0022",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        11
+      ],
+      "paragraphs": 1,
+      "text": "En la construcción destacan por un lado los paralelismos y, por otro, las antítesis o las fórmulas adversativas, que subrayan la contradicción característica de las Rimas : yo vs tú, inspiración vs razón, luz vs oscuridad, etc.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0023",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        12
+      ],
+      "paragraphs": 1,
+      "text": "Los finales de las composiciones están cargados de emoción. Pueden estar constituidos por una exclamación, una frase breve, una explicación de los conceptos expresados o una frase sentenciosa; siempre con el propósito de transmitir el sentimiento del poema.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0024",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        12
+      ],
+      "paragraphs": 1,
+      "text": "En las Rimas aparecen a menudo figuras de repetición sintáctica, como las anáforas y los hipérbatos, con frecuentes anticipaciones de adjetivos para alcanzar un efecto emocional.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0025",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        12
+      ],
+      "paragraphs": 1,
+      "text": "Es importante también la variedad de la entonación, con abundante uso de frases exclamativas e interrogativas.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0026",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        12
+      ],
+      "paragraphs": 1,
+      "text": "Un lugar destacado lo ocupa la representación de experiencias sensoriales (sonido, vista, tacto); en particular, sobresalen las imágenes relacionadas con la luz.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0027",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        12
+      ],
+      "paragraphs": 1,
+      "text": "Bécquer supera el estilo retórico de los primeros románticos, decantándose por un lenguaje sencillo y cercano a la sensibilidad del lector.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0028",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        12
+      ],
+      "paragraphs": 1,
+      "text": "Esta característica lo ha convertido en fuente de inspiración de grandes poetas del siglo XX, como Juan Ramón Jiménez o Antonio Machado . [2]",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0029",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        14
+      ],
+      "paragraphs": 1,
+      "text": "Vamos a hacer un quiz interactivo sobre Gustavo Adolfo Bécquer desde el móvil o el ordenador. Abrid la página de Bécquer en el blog del profesor. El docente os dará un código de 4 cifras para entrar: escribid vuestro nombre, el código y pulsad unirse a la clase.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0030",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        14
+      ],
+      "paragraphs": 1,
+      "text": "Durante el quiz aparecerán preguntas con 4 opciones cada una: elegid la respuesta correcta y haced clic, pero no podréis cambiarla después. Solo hay una respuesta correcta. Después de cada pregunta, el profesor os mostrará los resultados.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0031",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        18
+      ],
+      "paragraphs": 1,
+      "text": "Para trabajar con la Rima XXI de Bécquer, lee primero los textos de abajo y abre la aplicación del esquema interactivo con la tableta o el ordenador. El docente te dará un código de 4 cifras: escríbelo junto con tu nombre y apellidos y pincha unirse a la clase.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0032",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        18
+      ],
+      "paragraphs": 1,
+      "text": "Dentro de allí verás el esquema dividido en las fases del método de Fernando Lázaro Carreter: lectura y localización, tema, estructura, análisis de la forma, redacción y conclusión. En cada fase elige la palabra clave correcta del menú desplegable.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0033",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        18
+      ],
+      "paragraphs": 1,
+      "text": "Las doce palabras disponibles son: anáfora, apóstrofe, diálogo, endecasílabos, sencillez, rimas , poesía, romanticismo, relación, identificación, persona amada y heptasílabo. Al completar el esquema, solo pincha envía para mandarlo al docente.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0034",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        18
+      ],
+      "paragraphs": 1,
+      "text": "No podrás cambiarlo después. Por último, copia el esquema corregido en tu cuaderno.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0035",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        19
+      ],
+      "paragraphs": 1,
+      "text": "El poema que analizamos es la Rima XXI de Gustavo Adolfo Bécquer, poeta del Romanticismo español nacido en Sevilla en 1836 y fallecido en Madrid en 1870 .",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0036",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        19
+      ],
+      "paragraphs": 1,
+      "text": "Se trata de un texto completo que pertenece al género lírico y forma parte de las Rimas , una colección de 79 poemas publicada en 1871 . Este poema en concreto pertenece al primer grupo de rimas , que reflexionan sobre la naturaleza de la poesía y la inspiración poética.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0037",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        19
+      ],
+      "paragraphs": 1,
+      "text": "Bécquer escribe en la segunda mitad del siglo XIX, cuando el Romanticismo exagerado de la primera parte del siglo ya ha pasado, y su poesía es más íntima, más personal y más sencilla, pero también muy profunda.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0038",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        19
+      ],
+      "paragraphs": 1,
+      "text": "El tema central del poema es la identificación de la poesía con la persona amada: Bécquer afirma que la poesía no es un concepto abstracto, sino que es la mujer a la que él se dirige.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0039",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        20
+      ],
+      "paragraphs": 1,
+      "text": "El poema tiene tres versos endecasílabos y un último verso heptasílabo, con rima asonante. La estructura se divide en dos partes: los primeros tres versos plantean una pregunta y el último verso da la respuesta.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0040",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        20
+      ],
+      "paragraphs": 1,
+      "text": "Esta forma de diálogo hace que la conclusión sea más directa y emotiva. El lenguaje es muy sencillo: Bécquer usa palabras comunes como pupila y azul, sin cultismos, lo que da al poema un tono natural y cercano.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0041",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        20
+      ],
+      "paragraphs": 1,
+      "text": "La repetición de «¿Qué es poesía?» al inicio de los versos 1 y 3 crea insistencia, mientras que el último verso pone todo el énfasis en la palabra tú.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0042",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        20
+      ],
+      "paragraphs": 1,
+      "text": "Las figuras retóricas son la anáfora, la identificación de la poesía con la persona amada y el apóstrofe, que es cuando el poeta habla directamente a otra persona. Todas estas figuras ayudan a transmitir el tema de forma clara y emotiva.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0043",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        20
+      ],
+      "paragraphs": 1,
+      "text": "En conclusión, la forma y el contenido están perfectamente unidos: la sencillez del lenguaje refleja que la poesía es algo natural y cercano,",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0044",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        20
+      ],
+      "paragraphs": 1,
+      "text": "la estructura de diálogo muestra que la poesía nace de la relación entre dos personas, y el verso final más corto da fuerza a la afirmación principal de que la poesía es la persona amada.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0045",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        21
+      ],
+      "paragraphs": 1,
+      "text": "Cada elemento formal, desde las palabras hasta el ritmo, sirve para expresar el tema central.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0046",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        22
+      ],
+      "paragraphs": 1,
+      "text": "Esta actividad os permitirá explorar el arte poético de Gustavo Adolfo Bécquer a través de la realidad aumentada. Trabajaréis en grupos para crear una composición visual que exprese el sentido del poema en un espacio real.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0047",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        22
+      ],
+      "paragraphs": 1,
+      "text": "A continuación, encontraréis todos los pasos necesarios para completar la actividad.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0048",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        22
+      ],
+      "paragraphs": 1,
+      "text": "PASO 1 Usad tabletas u otros dispositivos móviles para escanear el código QR que tenéis aquí abajo. Se abrirá el poema de Bécquer en tres dimensiones.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0049",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        23
+      ],
+      "paragraphs": 1,
+      "text": "PASO 2 LEED EL POEMA CON ATENCIÓN. Antes de activar la realidad aumentada, leed la poesía en 3D que aparece en la pantalla inicial y que podéis ampliar para leerla mejor.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0050",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        23
+      ],
+      "paragraphs": 1,
+      "text": "Esto sirve para reflexionar sobre su sentido, las emociones que transmite y las imágenes que evoca. Esta lectura os ayudará a elegir el lugar más adecuado para colocar el poema.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0051",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        23
+      ],
+      "paragraphs": 1,
+      "text": "PASO 3 ACTIVAD LA REALIDAD AUMENTADA. Pulsad el botón «Tap here to place in your space».",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0052",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        23
+      ],
+      "paragraphs": 1,
+      "text": "Apuntad vuestro dispositivo móvil hacia el suelo y esperad unos segundos: el poema aparecerá flotando en el espacio a vuestro alrededor, como si estuviera escrito en el aire.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0053",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        23
+      ],
+      "paragraphs": 1,
+      "text": "PASO 4 ENCONTRAD UNA LOCALIZACIÓN. Buscad un lugar significativo dentro del aula o en el patio del instituto. El espacio debe ayudar a expresar las ideas y emociones del poema.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0054",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        23
+      ],
+      "paragraphs": 1,
+      "text": "Pensad: ¿qué rincón, qué pared dialoga mejor con los versos de Gustavo Adolfo Bécquer?",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0055",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        23
+      ],
+      "paragraphs": 1,
+      "text": "PASO 5 HACED UNA CAPTURA DE PANTALLA. Situad el poema en el lugar elegido y haced allí una captura de pantalla. Si queréis, podéis hacer hasta tres capturas eligiendo los encuadres que mejor representen vuestro trabajo.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0056",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        24
+      ],
+      "paragraphs": 1,
+      "text": "Cada imagen debe ayudar a comprender y sentir mejor la poesía. Subid las capturas a la aplicación en el apartado Elaborado visual.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0057",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        24
+      ],
+      "paragraphs": 1,
+      "text": "PASO 6 ESCRIBID LA EXPLICACIÓN. Redactad un texto en el que expliquéis: por qué elegisteis ese lugar concreto, qué relación existe entre el espacio y el poema y, finalmente, qué efecto queríais conseguir con vuestra captura de pantalla.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0058",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        24
+      ],
+      "paragraphs": 1,
+      "text": "Escribid esta explicación en el apartado Explicación de la imagen.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0059",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        24
+      ],
+      "paragraphs": 1,
+      "text": "PASO 7 GRABAD LA LECTURA EN ESPAÑOL. Grabad un archivo de audio con vuestra lectura del poema. Todos los integrantes debéis participar en la lectura expresiva. Repartíos las estrofas y cuidad la pronunciación y la entonación.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0060",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        24
+      ],
+      "paragraphs": 1,
+      "text": "Cuando terminéis, subid el archivo en el apartado Lectura en español.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0061",
+      "kind": "card",
+      "lines": 4,
+      "pages": [
+        24
+      ],
+      "paragraphs": 1,
+      "text": "PASO 8 GRABAD LA EXPLICACIÓN ORAL. Grabad un segundo archivo de audio en el que expliquéis oralmente vuestras capturas de pantalla. Todos los integrantes debéis leer al menos una frase de la explicación.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0062",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        24
+      ],
+      "paragraphs": 1,
+      "text": "Subid esta grabación en el apartado Explicación en audio de las razones de la foto.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0063",
+      "kind": "card",
+      "lines": 5,
+      "pages": [
+        25
+      ],
+      "paragraphs": 1,
+      "text": "Vuelve a leer el poema de Bécquer Volverán las oscuras golondrinas y, a continuación, escribe en tu cuaderno el análisis textual del poema según el método de Fernando Lázaro Carreter. El texto debe tener una extensión aproximada de 300 palabras.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0064",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        25
+      ],
+      "paragraphs": 1,
+      "text": "Antes de escribir tu texto, vuelve a leer el análisis textual de la actividad 2.",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0065",
+      "kind": "card",
+      "lines": 2,
+      "pages": [
+        31
+      ],
+      "paragraphs": 1,
+      "text": "[1] Biblioteca Virtual Miguel de Cervantes. Biografía de Gustavo Adolfo Bécquer .",
+      "editorial_reason": null,
+      "contains_image": false
+    },
+    {
+      "id": "qa-semantic-0066",
+      "kind": "card",
+      "lines": 3,
+      "pages": [
+        31
+      ],
+      "paragraphs": 1,
+      "text": "[2] Cadelli, E. – Salvaggio, M. – Bruni, P. – Caballero Sánchez, P. – Vargas Vergara, M. Horizontes. Paisajes literarios y raíces culturales del mundo hispano , Milano: Europass, p. 222-223.",
+      "editorial_reason": null,
+      "contains_image": false
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "limits": "Misura geometrica. La coerenza semantica e i confini richiedono lettura editoriale; il controllo non decide accorpamenti e non certifica PDF/UA."
+}

@@ -1,0 +1,320 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "lazaro_solo_modifiche_richieste_nel_sorgente": {
+      "passed": true
+    },
+    "lazaro_numero_pagine": {
+      "passed": true
+    },
+    "lazaro_pagine_2_29_identiche_al_pixel": {
+      "passed": true,
+      "detail": []
+    },
+    "lazaro_immagini_originali_mantenute": {
+      "passed": true
+    },
+    "lazaro_indice_13_link_aggiornati": {
+      "passed": true,
+      "detail": []
+    },
+    "lazaro_solo_sezioni_italiane_richieste_rimosse": {
+      "passed": true
+    },
+    "lazaro_mappa_spagnola_7_box_3_parole": {
+      "passed": true
+    },
+    "lazaro_note_fonti_cliccabili_e_link": {
+      "passed": true
+    },
+    "lazaro_mappa_misure_senza_testo_fuori_bordo": {
+      "passed": true,
+      "detail": {
+        "boxes": [
+          [
+            30,
+            78.0,
+            78.0
+          ],
+          [
+            30,
+            78.0,
+            78.0
+          ],
+          [
+            30,
+            78.0,
+            78.0
+          ],
+          [
+            30,
+            78.0,
+            78.0
+          ],
+          [
+            31,
+            78.0,
+            78.0
+          ],
+          [
+            31,
+            78.0,
+            78.0
+          ],
+          [
+            31,
+            78.0,
+            78.0
+          ]
+        ],
+        "images": [
+          [
+            30,
+            52.0,
+            29.37
+          ],
+          [
+            30,
+            52.0,
+            29.37
+          ],
+          [
+            30,
+            52.0,
+            29.37
+          ],
+          [
+            30,
+            52.0,
+            29.37
+          ],
+          [
+            31,
+            52.0,
+            29.37
+          ],
+          [
+            31,
+            52.0,
+            29.37
+          ],
+          [
+            31,
+            52.0,
+            29.37
+          ]
+        ],
+        "overflow": []
+      }
+    },
+    "becquer_solo_titoletti_cambiati_nel_sorgente": {
+      "passed": true,
+      "detail": [
+        [
+          "1 RIMAS",
+          "RIMAS"
+        ],
+        [
+          "4 BLOQUES",
+          "BLOQUES"
+        ],
+        [
+          "2 LEYENDAS",
+          "LEYENDAS"
+        ],
+        [
+          "TEMAS DE LEYENDAS",
+          "TEMAS DE LEYENDAS"
+        ],
+        [
+          "3 CARTAS Y ARTÍCULOS",
+          "CARTAS Y ARTÍCULOS"
+        ],
+        [
+          "OTRAS OBRAS",
+          "OTRAS OBRAS"
+        ],
+        [
+          "A MÉTRICA",
+          "MÉTRICA"
+        ],
+        [
+          "VERSO QUEBRADO",
+          "VERSO QUEBRADO"
+        ],
+        [
+          "B FIGURAS",
+          "FIGURAS"
+        ],
+        [
+          "OTROS RECURSOS",
+          "OTROS RECURSOS"
+        ],
+        [
+          "C LENGUAJE",
+          "LENGUAJE"
+        ],
+        [
+          "INFLUENCIA",
+          "INFLUENCIA"
+        ]
+      ]
+    },
+    "becquer_numero_pagine": {
+      "passed": true
+    },
+    "becquer_pagine_fuori_mappa_identiche_al_pixel": {
+      "passed": true,
+      "detail": []
+    },
+    "becquer_immagini_originali_mantenute": {
+      "passed": true
+    },
+    "becquer_tutte_le_destinazioni_conservate": {
+      "passed": true,
+      "detail": {
+        "destinazioni_originali": 14,
+        "destinazioni_nuove": 14
+      }
+    },
+    "becquer_sette_titoli_senza_prefissi": {
+      "passed": true
+    },
+    "becquer_concetti_e_dati_numerici_mantenuti": {
+      "passed": true
+    },
+    "becquer_mappa_misure_senza_testo_fuori_bordo": {
+      "passed": true,
+      "detail": {
+        "boxes": [
+          [
+            28,
+            78.0,
+            78.0
+          ],
+          [
+            28,
+            78.0,
+            78.0
+          ],
+          [
+            28,
+            78.0,
+            78.0
+          ],
+          [
+            28,
+            78.0,
+            78.0
+          ],
+          [
+            29,
+            78.0,
+            78.0
+          ],
+          [
+            29,
+            78.0,
+            78.0
+          ],
+          [
+            29,
+            78.0,
+            78.0
+          ],
+          [
+            29,
+            78.0,
+            78.0
+          ],
+          [
+            30,
+            78.0,
+            78.0
+          ],
+          [
+            30,
+            78.0,
+            78.0
+          ],
+          [
+            30,
+            78.0,
+            78.0
+          ],
+          [
+            30,
+            78.0,
+            78.0
+          ]
+        ],
+        "images": [
+          [
+            28,
+            52.0,
+            29.37
+          ],
+          [
+            28,
+            52.0,
+            29.37
+          ],
+          [
+            28,
+            52.0,
+            29.37
+          ],
+          [
+            28,
+            52.0,
+            29.37
+          ],
+          [
+            29,
+            52.0,
+            29.37
+          ],
+          [
+            29,
+            52.0,
+            29.37
+          ],
+          [
+            29,
+            52.0,
+            29.37
+          ],
+          [
+            29,
+            52.0,
+            29.37
+          ],
+          [
+            30,
+            52.0,
+            29.37
+          ],
+          [
+            30,
+            52.0,
+            29.37
+          ],
+          [
+            30,
+            52.0,
+            29.37
+          ],
+          [
+            30,
+            52.0,
+            29.37
+          ]
+        ],
+        "overflow": []
+      }
+    }
+  },
+  "lazaro_sha256": "1096e0b40b4048b1ed58252dc8060b23622e14bade0bc632b77717075d066432",
+  "becquer_sha256": "75598bca9b5226caf7d2804e2180c86aaba2ab7299f02c61e0eddd618971cb50"
+}

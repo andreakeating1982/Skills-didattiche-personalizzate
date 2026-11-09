@@ -1,0 +1,18 @@
+{
+  "sections": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4",
+    "sec5",
+    "sec6",
+    "sec7",
+    "sec8",
+    "sec9",
+    "sec10",
+    "mappa",
+    "fonti",
+    "appendice"
+  ],
+  "rule": "Ogni sezione elencata inizia su una nuova pagina, senza contenuti della sezione precedente."
+}

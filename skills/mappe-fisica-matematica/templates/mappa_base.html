@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Mappe concettuali — Fisica: le potenze del dieci</title>
+<style>
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('fonts/OpenDyslexic-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('fonts/OpenDyslexic-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@page {
+  size: A4 landscape;
+  margin: 20mm;
+  @bottom-center {
+    content: "Mappe concettuali — pagina " counter(page) " di " counter(pages);
+    font-family: 'OpenDyslexic', 'DejaVu Sans', sans-serif;
+    font-size: 7.0pt;
+    color: #888;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'OpenDyslexic', 'DejaVu Sans', sans-serif;
+  color: #222;
+  margin: 0;
+  font-size: 7.8pt;
+  line-height: 1.3;
+}
+
+.page { page-break-after: always; }
+.page:last-child { page-break-after: auto; }
+
+h1 {
+  text-align: center;
+  font-size: 12.3pt;
+  margin: 0 0 2mm 0;
+  color: #333;
+}
+
+/* ---------- NODO CENTRALE ---------- */
+.centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 2.5mm 0;
+}
+.nodo-centrale {
+  display: flex;
+  align-items: center;
+  gap: 3.3mm;
+  border-radius: 9.8mm;
+  padding: 1.6mm 6.6mm;
+  border: 1mm solid;
+}
+.palla {
+  width: 10.7mm; height: 10.7mm;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold; font-size: 8.2pt;
+  color: #fff;
+}
+.nodo-titolo { font-size: 10.7pt; font-weight: bold; }
+.nodo-sotto { font-size: 7.4pt; font-weight: normal; }
+
+/* ---------- RAMI ---------- */
+.rami {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5mm;
+  justify-content: center;
+  align-items: flex-start;
+}
+.ramo {
+  border-radius: 3.3mm;
+  padding: 2.0mm 2.5mm;
+  border: 0.6mm solid;
+  width: 109.1mm;
+}
+.ramo.largo { width: 164.0mm; }
+
+.testa-ramo {
+  display: flex;
+  align-items: center;
+  gap: 2.0mm;
+  margin-bottom: 1.2mm;
+}
+.icona {
+  min-width: 7.4mm; height: 7.4mm;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold; font-size: 7.4pt;
+  color: #fff;
+}
+.testa-ramo .nome { font-weight: bold; font-size: 9.4pt; }
+
+.ramo p { margin: 0 0 1mm 0; }
+.esempio {
+  background: #fff;
+  border-radius: 2.0mm;
+  padding: 0.7mm 2.0mm;
+  display: inline-block;
+  margin-top: 0.4mm;
+  margin-bottom: 0.8mm;
+  font-weight: bold;
+}
+
+/* ---------- REGOLETTE CON PASSI ---------- */
+.regoletta {
+  background: #fff;
+  border-radius: 2.0mm;
+  padding: 0.7mm 2.0mm;
+  margin-top: 0.7mm;
+  display: flex;
+  align-items: center;
+  gap: 1.6mm;
+}
+.pallino-regola {
+  min-width: 5.3mm; height: 5.3mm;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+  font-size: 8.2pt;
+  font-weight: bold;
+}
+.regoletta .testo { font-size: 7.2pt; }
+
+/* colori dei rami */
+.blu    { background: #E3F2FD; border-color: #1976D2; }
+.blu    .icona, .blu .palla { background: #1976D2; }
+.blu    .esempio { border: 0.4mm solid #1976D2; color: #0D47A1; }
+
+.verde  { background: #E8F5E9; border-color: #2E7D32; }
+.verde  .icona, .verde .palla { background: #2E7D32; }
+.verde  .esempio { border: 0.4mm solid #2E7D32; color: #1B5E20; }
+
+.arancio{ background: #FFF3E0; border-color: #EF6C00; }
+.arancio .icona, .arancio .palla { background: #EF6C00; }
+.arancio .esempio { border: 0.4mm solid #EF6C00; color: #BF360C; }
+
+.viola  { background: #F3E5F5; border-color: #7B1FA2; }
+.viola  .icona, .viola .palla { background: #7B1FA2; }
+.viola  .esempio { border: 0.4mm solid #7B1FA2; color: #4A148C; }
+
+.rosso  { background: #FDE7E9; border-color: #C62828; }
+.rosso  .icona, .rosso .palla { background: #C62828; }
+.rosso  .esempio { border: 0.4mm solid #C62828; color: #B71C1C; }
+
+.giallo { background: #FFFDE7; border-color: #F9A825; }
+.giallo .icona, .giallo .palla { background: #F9A825; }
+.giallo .esempio { border: 0.4mm solid #F9A825; color: #8D6E00; }
+
+/* ---------- IL SALTO DELLA VIRGOLA ---------- */
+.salto {
+  background: #fff;
+  border-radius: 2.0mm;
+  padding: 1.2mm 2.5mm;
+  margin-top: 0.8mm;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10.7pt;
+}
+.salto .grande { font-size: 12.3pt; color: #1565C0; }
+.salto .numerino { font-size: 12.3pt; color: #C62828; }
+.salto .freccia { color: #EF6C00; }
+sup { font-size: 70%; }
+
+/* ---------- PAGINA DENSA ---------- */
+.densa { font-size: 7.2pt; line-height: 1.22; }
+.densa .ramo { padding: 1.6mm 2.0mm; }
+.densa .ramo p { margin: 0 0 0.8mm 0; }
+.densa .testa-ramo { margin-bottom: 0.8mm; }
+.densa .esempio { padding: 0.4mm 1.6mm; margin-top: 0.2mm; margin-bottom: 0.7mm; }
+.densa .regoletta { padding: 0.5mm 1.6mm; margin-top: 0.5mm; }
+.densa .regoletta .testo { font-size: 6.7pt; }
+.densa .pallino-regola { min-width: 4.9mm; height: 4.9mm; font-size: 7.4pt; }
+.densa .icona { min-width: 6.6mm; height: 6.6mm; font-size: 6.6pt; }
+.densa .testa-ramo .nome { font-size: 8.6pt; }
+.densa .salto { padding: 0.8mm 1.6mm; font-size: 9.0pt; }
+.grafico { float: right; width: 19.5mm; height: 18.0mm; margin-left: 3.0mm; margin-top: 0.4mm; }
+.congraf.ramo > p, .congraf.ramo > .esempio { margin-right: 29.0mm; }
+.congraf.ramo > .testa-ramo { margin-right: 25.0mm; }
+.pulisci { clear: both; }
+.densa .salto .grande, .densa .salto .numerino { font-size: 10.7pt; }
+.densa .centro { margin: 0 0 2mm 0; }
+.frz { display: inline-block; vertical-align: middle; text-align: center; line-height: 1.1; margin: 0 0.4mm; }
+.frz .num { display: block; border-bottom: 1pt solid currentColor; padding: 0 1mm 0.1mm; }
+.frz .den { display: block; padding: 0 1mm; }
+</style>
+</head>
+
+<body>
+
+<div class="page densa">
+
+  <!-- RIGA ALTA: due box affiancati (blu = dati/consegna, arancio = passo 1) -->
+  <div class="rami">
+    <div class="ramo blu">
+      <div class="testa-ramo">
+        <div class="icona">&#9889;</div>
+        <div class="nome">1 &middot; TITOLO BOX 1</div>
+      </div>
+      <p>Testo semplice con parole note, frasi brevi, terminale in grassetto.</p>
+      <div class="regoletta">
+        <span class="pallino-regola" style="background:#1976D2;">1</span>
+        <span class="testo">Passo o dato con la parola chiave in <b>grassetto</b>.</span>
+      </div>
+      <!-- frazione IMPILATA (MAI a/b con la barra obliqua): -->
+      <p class="esempio">a = <span class="frz"><span class="num">numeratore</span><span class="den">denominatore</span></span></p>
+    </div>
+
+    <div class="ramo arancio">
+      <div class="testa-ramo">
+        <div class="icona">&#9662;</div>
+        <div class="nome">2 &middot; TITOLO BOX 2</div>
+      </div>
+      <!-- qui eventuali disegni SVG (es. strumento di misura) -->
+      <p class="esempio">formula o esempio numerico &#10004;</p>
+    </div>
+  </div>
+
+  <!-- NODO CENTRALE: titolo della mappa, sempre qui (non in alto) -->
+  <div class="centro">
+    <div class="nodo-centrale rosso">
+      <div class="palla">&#9889;</div>
+      <div>
+        <div class="nodo-titolo">TITOLO DELLA MAPPA</div>
+        <div class="nodo-sotto">sottotitolo breve e chiaro</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGA BASSA: viola (passo 2), verde (passo 3) e giallo largo (riepilogo) -->
+  <div class="rami">
+    <div class="ramo viola">
+      <div class="testa-ramo">
+        <div class="icona">&#9654;</div>
+        <div class="nome">3 &middot; TITOLO BOX 3</div>
+      </div>
+      <p class="esempio">Esempio: calcolo passo passo &#10004;</p>
+      <div class="regoletta">
+        <span class="pallino-regola" style="background:#1976D2;">1</span>
+        <span class="testo">Prima operazione del procedimento.</span>
+      </div>
+    </div>
+
+    <div class="ramo verde">
+      <div class="testa-ramo">
+        <div class="icona">&#9998;</div>
+        <div class="nome">4 &middot; TITOLO BOX 4</div>
+      </div>
+      <p class="esempio">Regola finale da ricopiare &#10004;</p>
+    </div>
+
+    <div class="ramo giallo largo">
+      <div class="testa-ramo">
+        <div class="icona">&#8596;</div>
+        <div class="nome">5 &middot; TITOLO BOX LARGO</div>
+      </div>
+      <p>Riepilogo o approfondimento (es. intervallo di indeterminazione).</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

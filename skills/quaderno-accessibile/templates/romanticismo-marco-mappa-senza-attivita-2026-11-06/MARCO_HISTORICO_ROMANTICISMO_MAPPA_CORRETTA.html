@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"/>
+<meta name="author" content="Laboratorio didattico inclusivo"/>
+<meta name="description" content="Cuaderno accesible sobre el marco histórico del Romanticismo en España."/>
+<title>MARCO HISTÓRICO DEL ROMANTICISMO EN ESPAÑA</title><style>
+@font-face{font-family:OpenDyslexic;src:url(media/OpenDyslexic-Regular.otf);font-weight:400}
+@font-face{font-family:OpenDyslexic;src:url(media/OpenDyslexic-Bold.otf);font-weight:700}
+@page{size:A4;margin:17mm 18mm 19mm;@bottom-center{content:counter(page);font:700 11pt OpenDyslexic;color:#233348}}
+@page:first{@bottom-center{content:none}}
+*{box-sizing:border-box}
+body{font-family:OpenDyslexic,sans-serif;font-size:14pt;line-height:1.85;color:#151515;margin:0}
+h1,h2,h3{font-weight:700;line-height:1.45;text-align:center}
+h1{background:#243c5a;color:#fff;font-size:20pt;margin:0 0 3mm;padding:3mm;border-radius:3mm}
+h2{font-size:15pt} h3{font-size:13pt}
+p{margin:0}strong{font-weight:700;color:#101010}
+.cover{break-after:page;page-break-after:always}
+.cover-image,.illustration{width:112mm;height:63.25mm;object-fit:contain;display:block;margin:3mm auto 4mm;break-inside:avoid}
+.cover-image{margin:3mm auto 3mm}
+.index-heading{font-size:15pt;background:#243c5a;color:white;border-radius:3mm;padding:2mm 3mm;margin:2mm 0}
+.index-box{background:#fffaf0;border:1.1pt solid #e6d5ae;border-radius:3mm;padding:3mm 4mm;line-height:1.35}
+.index-table{width:100%;border-collapse:collapse;table-layout:fixed}
+.index-row td{height:12mm;vertical-align:middle;padding:1mm 0;font-size:12pt;font-weight:700;line-height:1.35}
+.index-icon{width:11mm}.index-label{padding-left:1mm!important}.index-pg{width:11mm;text-align:right}
+.index-label a{color:#111;text-decoration:none}.index-pg a{color:var(--color);text-decoration:none}
+.index-pg a::after{content:target-counter(attr(href),page)}
+.index-badge{display:block;background:var(--color);color:white;border-radius:50%;width:7.6mm;height:7.6mm;line-height:7.6mm;text-align:center;font-size:11pt}
+.section{break-before:page;page-break-before:always}
+.opening{break-inside:avoid;page-break-inside:avoid}
+.section h2{background:var(--color);color:white;margin:0 0 3mm;padding:2.5mm 4mm;border-radius:3mm;break-after:avoid}
+.subheading{color:var(--color);margin:5mm 0 3mm;break-after:avoid}
+.blk{background:#fffaf0;border:1.1pt solid #e6d5ae;border-radius:3mm;padding:2.1mm 3.7mm;margin:0 0 2.5mm;break-inside:avoid;page-break-inside:avoid}
+.summary{margin:5mm 0;break-inside:avoid;page-break-inside:avoid}
+.summary-title{font-size:14pt;line-height:1.85;text-align:center;background:var(--color);color:white;border-radius:2mm 2mm 0 0;padding:1.5mm;font-weight:400;break-after:avoid}
+.summary-table{width:100%;border-collapse:collapse;background:#fffaf0;font-size:14pt;line-height:1.85;font-weight:400;table-layout:fixed}
+.summary-table th,.summary-table td{font-family:OpenDyslexic,sans-serif;font-weight:400;text-align:left;vertical-align:top;border:1px solid #ddd0c0;padding:2mm 2.5mm;overflow-wrap:normal}
+.summary-table th{width:36%;color:var(--color)}
+.summary-table tr{break-inside:avoid;page-break-inside:avoid}
+.timeline{margin:3mm 0 5mm;padding:1mm 3mm 2mm 4mm;background:#fffaf0;border:1pt solid #e6d5ae;border-radius:3mm;break-inside:avoid;page-break-inside:avoid}
+.year{position:relative;display:flex;align-items:center;gap:4mm;padding:2mm 0;break-inside:avoid;line-height:1.55}
+.year:not(:last-child)::before{content:'';position:absolute;left:10.3mm;top:7mm;height:100%;width:1.2mm;background:var(--color)}
+.date-badge{position:relative;background:var(--color);color:white;border-radius:7mm;font-size:12pt;font-weight:700;line-height:1.5;padding:1.5mm 3mm;min-width:21mm;text-align:center}
+.event{flex:1;color:#161616}
+.map-section h2{background:none;color:#243c5a;text-align:center;padding:0;margin:0 0 4mm;font-size:16pt;break-after:avoid}
+.map-main-subtitle{color:#243c5a;margin:0 0 3mm;break-after:avoid}
+.map-group-title{color:#243c5a;margin:4mm 0 3mm;text-align:center;break-after:avoid}
+.map-details{width:100%;border-collapse:collapse;table-layout:fixed;background:#fffaf0;line-height:1.85;margin:0 0 5mm}
+.map-details th,.map-details td{border:1px solid #ddd0c0;padding:2mm 2.5mm;text-align:left;vertical-align:top;font:400 14pt/1.85 OpenDyslexic,sans-serif}
+.map-details th{width:36%;color:#243c5a}.map-details tr{break-inside:avoid;page-break-inside:avoid}
+.map-row{display:flex;justify-content:center;gap:6mm;margin:0 0 6mm;break-inside:avoid;page-break-inside:avoid}
+.map-node{width:78mm;height:78mm;flex:none;border:1pt solid var(--node-color);border-radius:3mm;background:#fffaf0;text-align:center;overflow:visible;padding:3mm 3mm 2mm;break-inside:avoid;line-height:1.85}
+.map-node img{width:52mm;height:29.373mm;object-fit:contain;display:block;margin:0 auto 1mm}
+.node-title{font-weight:700;color:var(--node-color);font-size:14pt;line-height:1.85}
+.node-word{font-weight:400;color:#171717;font-size:14pt;line-height:1.85}
+sup.note-ref{font-size:10pt;line-height:normal;vertical-align:super;margin-left:.7mm;white-space:nowrap}
+sup.note-ref a{color:#174f8c;text-decoration:underline}
+.quiz-section,.refs-section{--color:#243c5a}
+.quiz-intro{margin:2mm 0 4mm}
+.quiz-card{background:#fffaf0;border:1.1pt solid #e6d5ae;border-radius:3mm;padding:3mm 4mm;margin:0 0 3mm;break-inside:avoid;page-break-inside:avoid;line-height:1.55}
+.quiz-question{font-weight:700;color:#182e48;margin:0 0 1mm}
+.quiz-options{width:100%;border-collapse:collapse;table-layout:fixed}
+.quiz-options td{width:50%;padding:1mm 2mm 1mm 0;vertical-align:top;line-height:1.5;overflow-wrap:normal}
+.map-group-page{break-before:page;page-break-before:always}
+.map-node .node-title,.map-node .node-word{overflow-wrap:normal}
+.ref-entry{margin:0 0 3mm;break-inside:avoid;page-break-inside:avoid}
+.ref-entry a{color:#174f8c;text-decoration:underline}
+.ref-entry p{overflow-wrap:anywhere}
+.c1{--color:#b23c47}.c2{--color:#1a5fb4}.c3{--color:#257041}.c4{--color:#9b4f12}.c5{--color:#744394}.c6{--color:#14696e}.cm{--color:#243c5a}
+</style></head><body>
+<section class="cover" id="indice"><h1>MARCO HISTÓRICO DEL ROMANTICISMO EN ESPAÑA</h1>
+<img class="cover-image" src="media/originale_p06_xref92.png" alt="Un monarca a caballo ante un paisaje de barcos y edificios evoca la España del siglo XIX."/>
+<h2 class="index-heading">ÍNDICE</h2><nav class="index-box" aria-label="Índice del cuaderno"><table class="index-table" role="presentation"><tbody>
+<tr class="index-row c1"><td class="index-icon"><span class="index-badge">1</span></td><td class="index-label"><a href="#sec1">1808 · LA INVASIÓN Y LA GUERRA</a></td><td class="index-pg"><a href="#sec1" aria-label="Página de 1808 · LA INVASIÓN Y LA GUERRA"></a></td></tr>
+<tr class="index-row c2"><td class="index-icon"><span class="index-badge">2</span></td><td class="index-label"><a href="#sec2">1812 · LA CONSTITUCIÓN DE CÁDIZ</a></td><td class="index-pg"><a href="#sec2" aria-label="Página de 1812 · LA CONSTITUCIÓN DE CÁDIZ"></a></td></tr>
+<tr class="index-row c3"><td class="index-icon"><span class="index-badge">3</span></td><td class="index-label"><a href="#sec3">1833 · ISABEL II Y LA I GUERRA CARLISTA</a></td><td class="index-pg"><a href="#sec3" aria-label="Página de 1833 · ISABEL II Y LA I GUERRA CARLISTA"></a></td></tr>
+<tr class="index-row c4"><td class="index-icon"><span class="index-badge">4</span></td><td class="index-label"><a href="#sec4">1868 · LA GLORIOSA Y EL SEXENIO DEMOCRÁTICO</a></td><td class="index-pg"><a href="#sec4" aria-label="Página de 1868 · LA GLORIOSA Y EL SEXENIO DEMOCRÁTICO"></a></td></tr>
+<tr class="index-row c5"><td class="index-icon"><span class="index-badge">5</span></td><td class="index-label"><a href="#sec5">1875 · LA RESTAURACIÓN Y EL DESASTRE DEL 98</a></td><td class="index-pg"><a href="#sec5" aria-label="Página de 1875 · LA RESTAURACIÓN Y EL DESASTRE DEL 98"></a></td></tr>
+<tr class="index-row c6"><td class="index-icon"><span class="index-badge">6</span></td><td class="index-label"><a href="#sec6">ACTIVIDAD 1 · LÍNEA DEL TIEMPO 3D</a></td><td class="index-pg"><a href="#sec6" aria-label="Página de ACTIVIDAD 1 · LÍNEA DEL TIEMPO 3D"></a></td></tr>
+<tr class="index-row cm"><td class="index-icon"><span class="index-badge">V</span></td><td class="index-label"><a href="#verifica">VERIFICACIÓN DE COMPRENSIÓN</a></td><td class="index-pg"><a href="#verifica" aria-label="Página de VERIFICACIÓN DE COMPRENSIÓN"></a></td></tr>
+<tr class="index-row cm"><td class="index-icon"><span class="index-badge">M</span></td><td class="index-label"><a href="#mapa">MAPA CONCEPTUAL FINAL</a></td><td class="index-pg"><a href="#mapa" aria-label="Página de MAPA CONCEPTUAL FINAL"></a></td></tr>
+<tr class="index-row cm"><td class="index-icon"><span class="index-badge">R</span></td><td class="index-label"><a href="#referencias">REFERENCIAS BIBLIOGRÁFICAS</a></td><td class="index-pg"><a href="#referencias" aria-label="Página de REFERENCIAS BIBLIOGRÁFICAS"></a></td></tr>
+</tbody></table></nav></section>
+<section class="section c1" id="sec1" data-editorial-unit="sec1">
+<div class="opening"><h2>1 · 1808 · LA INVASIÓN Y LA GUERRA</h2><img class="illustration" src="media/originale_p02_xref80.png" alt="Escena de resistencia en una calle española durante la guerra de 1808."/></div>
+<div class="blk" data-semantic-box="" id="sec1-p01" data-source-page="2"><p>El siglo XIX español empieza con una <strong>invasión</strong> y termina con un imperio que se hunde. En medio hay reyes que van y vuelven, una constitución nacida en guerra, una niña en el trono, una reina que se exilia, una república que no llega a envejecer y una corona que se restaura.</p></div>
+<div class="blk" data-semantic-box="" id="sec1-p02" data-source-page="2"><p>En <strong>1808</strong> el rey es <strong>Carlos IV</strong>, pero el poder ya no está en sus manos. Abdica en favor de su hijo, <strong>Fernando VII</strong>. <strong>Napoleón</strong> aprovecha esa debilidad y coloca en el trono a su propio hermano, <strong>José I</strong>.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec1-p03" data-source-page="2"><p>Para muchos españoles no es un cambio de dinastía: es una humillación. El <strong>2 de mayo</strong> Madrid se subleva. La chispa recorre el país.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec1-p04" data-source-page="2"><p>Campesinos, soldados y civiles se lanzan a una guerra larga contra el ejército francés. No es solo una guerra de batallas. Es una guerra de <strong>resistencia</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec1-p05" data-source-page="2"><p>En <strong>1814</strong> los franceses se van y <strong>Fernando VII</strong> recupera el trono. España ha expulsado al invasor, pero queda una pregunta más difícil: ¿el rey lo puede todo, o el pueblo también tiene voz?</p></div>
+<div class="summary" data-support-profile="summary" id="sec1-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr id="sec1-row1"><th scope="row">1808</th><td>Napoleón coloca en el trono a su hermano José I: humillación para los españoles</td></tr>
+<tr id="sec1-row2"><th scope="row">2 DE MAYO</th><td>Madrid se subleva y la chispa recorre el país</td></tr>
+<tr id="sec1-row3"><th scope="row">LA GUERRA</th><td>campesinos, soldados y civiles contra el ejército francés · guerra de resistencia</td></tr>
+<tr id="sec1-row4"><th scope="row">1814</th><td>los franceses se van · Fernando VII recupera el trono · ¿el rey lo puede todo, o el pueblo también tiene voz?</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c2" id="sec2" data-editorial-unit="sec2">
+<div class="opening"><h2>2 · 1812 · LA CONSTITUCIÓN DE CÁDIZ</h2><img class="illustration" src="media/originale_p03_xref83.png" alt="Representantes reunidos alrededor de un documento en las Cortes de Cádiz."/></div>
+<div class="blk" data-semantic-box="" id="sec2-p01" data-source-page="3"><p>Esa pregunta se responde, al menos sobre el papel, en <strong>1812</strong>. <strong>Fernando VII</strong> está preso en Francia. Mientras tanto, en Cádiz, las <strong>Cortes</strong> aprueban la primera <strong>constitución</strong> española.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec2-p02" data-source-page="3"><p>Es un texto nuevo y valiente. Limita el poder del rey y dice algo que cambia el lenguaje de la política: la <strong>soberanía</strong> no pertenece solo a la corona, pertenece a la <strong>nación</strong>.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec2-p03" data-source-page="3"><p>Los ciudadanos existen. Tienen derechos. Cuando <strong>Fernando VII</strong> vuelve, sin embargo, no quiere esa España. Deroga la Constitución y restaura el <strong>absolutismo</strong>.<sup class="note-ref"><a href="#rif-1" aria-label="Referencia bibliográfica 1">[1]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec2-p04" data-source-page="3"><p>La semilla <strong>liberal</strong> ya está plantada, pero el rey intenta enterrarla.</p></div>
+<div class="summary" data-support-profile="summary" id="sec2-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr id="sec2-row1"><th scope="row">1812</th><td>en Cádiz las Cortes aprueban la primera constitución española mientras Fernando VII está preso en Francia</td></tr>
+<tr id="sec2-row2"><th scope="row">NOVEDADES</th><td>limita el poder del rey · la soberanía pertenece a la nación · los ciudadanos tienen derechos</td></tr>
+<tr id="sec2-row3"><th scope="row">DESPUÉS</th><td>Fernando VII deroga la Constitución y restaura el absolutismo</td></tr>
+<tr id="sec2-row4"><th scope="row">SEMILLA LIBERAL</th><td>ya está plantada, aunque el rey intente enterrarla</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c3" id="sec3" data-editorial-unit="sec3">
+<div class="opening"><h2>3 · 1833 · ISABEL II Y LA I GUERRA CARLISTA</h2><img class="illustration" src="media/originale_p04_xref86.png" alt="Dos bandos enfrentados, una joven reina y una iglesia evocan la Primera Guerra Carlista."/></div>
+<div class="blk" data-semantic-box="" id="sec3-p01" data-source-page="4"><p>En <strong>1833</strong> esa tensión estalla otra vez, ahora dentro de la propia familia real. Muere <strong>Fernando VII</strong>. El trono pasa a su hija <strong>Isabel</strong> <strong>II</strong>, todavía niña. La madre, <strong>María Cristina</strong>, asume la <strong>regencia</strong>.<sup class="note-ref"><a href="#rif-2" aria-label="Referencia bibliográfica 2">[2]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec3-p02" data-source-page="4"><p>El hermano del rey muerto, <strong>Carlos María Isidro</strong>, no lo acepta. Para él, una mujer no puede reinar. Estalla la <strong>Primera Guerra</strong> <strong>Carlista</strong>: carlistas contra isabelinos.<sup class="note-ref"><a href="#rif-2" aria-label="Referencia bibliográfica 2">[2]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec3-p03" data-source-page="4"><p>No es solo una pelea entre tío y sobrina. Es un choque entre <strong>dos ideas de España</strong>. Una mira hacia atrás, hacia la tradición, el trono fuerte y la religión como eje. La otra, con <strong>Isabel II</strong>, se apoya en los <strong>liberales</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec3-p04" data-source-page="5"><p>El país se parte. La guerra dura años y deja una herida que volverá a abrirse. <strong>Isabel II</strong> crece en un trono inestable. El malestar no se apaga.</p></div>
+<h3 class="map-group-title">DOS IDEAS DE ESPAÑA EN LUCHA</h3><table class="map-details" aria-label="DOS IDEAS DE ESPAÑA EN LUCHA"><tbody><tr><th scope="row">TRADICIÓN</th><td>carlistas · trono fuerte · religión como eje · mirada hacia atrás</td></tr><tr><th scope="row">LIBERALES</th><td>isabelinos · soberanía de la nación · constitución · derechos de los ciudadanos</td></tr><tr><th scope="row">EL PÉNDULO</th><td>monarquía → república → restauración · ensayos de gobierno hasta 1898</td></tr></tbody></table>
+<div class="summary" data-support-profile="summary" id="sec3-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr id="sec3-row1"><th scope="row">1833</th><td>muere Fernando VII · el trono pasa a Isabel II (niña) con la regencia de María Cristina</td></tr>
+<tr id="sec3-row2"><th scope="row">EL CONFLICTO</th><td>Carlos María Isidro no acepta a una mujer → Primera Guerra Carlista: carlistas contra isabelinos</td></tr>
+<tr id="sec3-row3"><th scope="row">DOS IDEAS DE ESPAÑA</th><td>tradición, trono fuerte y religión frente a los liberales de Isabel II</td></tr>
+<tr id="sec3-row4"><th scope="row">CONSECUENCIA</th><td>el país se parte · una herida que volverá a abrirse</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c4" id="sec4" data-editorial-unit="sec4">
+<div class="opening"><h2>4 · 1868 · LA GLORIOSA Y EL SEXENIO DEMOCRÁTICO</h2><img class="illustration" src="media/originale_p05_xref89.png" alt="Barricadas y una corona caída evocan la revolución de 1868."/></div>
+<div class="blk" data-semantic-box="" id="sec4-p01" data-source-page="5"><p>En <strong>1868</strong> los militares se levantan. Es <strong>la Gloriosa</strong>. Derrocan a la reina. <strong>Isabel II</strong> se exilia en Francia. Por primera vez en mucho tiempo, España se queda sin Borbón en el palacio.<sup class="note-ref"><a href="#rif-3" aria-label="Referencia bibliográfica 3">[3]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec4-p02" data-source-page="5"><p>Empieza el <strong>Sexenio Democrático</strong>: seis años de ensayos, de esperanza y de caos. El país quiere otra forma de gobierno y no está seguro de cuál.</p></div>
+<div class="blk" data-semantic-box="" id="sec4-p03" data-source-page="5"><p>Durante ese Sexenio se busca una solución intermedia. Se elige a <strong>Amadeo Primero de Saboya</strong>, un rey extranjero, para intentar una <strong>monarquía democrática</strong>: corona sí, pero con límites.<sup class="note-ref"><a href="#rif-3" aria-label="Referencia bibliográfica 3">[3]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec4-p04" data-source-page="6"><p>La idea es elegante. La realidad no lo es. Amadeo no logra sostenerse. En <strong>1873</strong> abdica.</p></div>
+<div class="blk" data-semantic-box="" id="sec4-p05" data-source-page="6"><p>Entonces España da un paso que muchos soñaban y pocos consiguen controlar: se proclama la <strong>Primera República</strong>. Dura poco más de un año.<sup class="note-ref"><a href="#rif-3" aria-label="Referencia bibliográfica 3">[3]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec4-p06" data-source-page="6"><p>Hay divisiones, revueltas, gobiernos que se suceden demasiado rápido. La República nace frágil y muere pronto. El experimento se cierra antes de convertirse en costumbre.</p></div>
+<div class="summary" data-support-profile="summary" id="sec4-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr id="sec4-row1"><th scope="row">1868 · LA GLORIOSA</th><td>los militares derrocan a Isabel II, que se exilia en Francia</td></tr>
+<tr id="sec4-row2"><th scope="row">SEXENIO DEMOCRÁTICO</th><td>seis años de ensayos, esperanza y caos · Amadeo de Saboya intenta una monarquía democrática y abdica en 1873</td></tr>
+<tr id="sec4-row3"><th scope="row">PRIMERA REPÚBLICA</th><td>dura poco más de un año · divisiones, revueltas, gobiernos efímeros</td></tr>
+<tr id="sec4-row4"><th scope="row">ESPERANZA Y CAOS</th><td>el experimento se cierra antes de convertirse en costumbre</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c5" id="sec5" data-editorial-unit="sec5">
+<div class="opening"><h2>5 · 1875 · LA RESTAURACIÓN Y EL DESASTRE DEL 98</h2><img class="illustration" src="media/originale_p06_xref92.png" alt="Un rey a caballo y barcos en el mar evocan la Restauración y la crisis de 1898."/></div>
+<div class="blk" data-semantic-box="" id="sec5-p01" data-source-page="6"><p>En <strong>1875</strong> el péndulo vuelve atrás, pero no del todo. <strong>Alfonso XII</strong>, hijo de <strong>Isabel II</strong>, restaura la monarquía borbónica. Entra en España en enero. El país, agotado, acepta otra vez a un rey.<sup class="note-ref"><a href="#rif-4" aria-label="Referencia bibliográfica 4">[4]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec5-p02" data-source-page="7"><p>No es el absolutismo de <strong>Fernando VII</strong>. Es una <strong>Restauración</strong>: orden, corona, y la promesa de que el siglo deje de temblar. Durante un tiempo, esa promesa parece funcionar.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p03" data-source-page="7"><p>El final, sin embargo, no es una victoria. Es <strong>1898</strong>. <strong>Alfonso XII</strong> ya ha muerto. Gobierna su viuda, <strong>María Cristina de Habsburgo</strong>, como regente de <strong>Alfonso XIII</strong>, todavía niño.<sup class="note-ref"><a href="#rif-4" aria-label="Referencia bibliográfica 4">[4]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec5-p04" data-source-page="7"><p>España entra en guerra contra Estados Unidos y pierde. Con la derrota se van <strong>Cuba</strong>, <strong>Puerto Rico</strong>, <strong>Filipinas</strong> y <strong>Guam</strong>.<sup class="note-ref"><a href="#rif-5" aria-label="Referencia bibliográfica 5">[5]</a></sup></p></div>
+<div class="blk" data-semantic-box="" id="sec5-p05" data-source-page="7"><p>El imperio de ultramar, que durante siglos había sido parte de la identidad española, se deshace de golpe. Los periódicos lo llaman el <strong>Desastre del 98</strong>.</p></div>
+<div class="blk" data-semantic-box="" id="sec5-p06" data-source-page="7"><p>No es solo una pérdida de islas. Es la sensación de que el siglo se cierra con una pregunta amarga: después de tantas guerras, constituciones, reinas, republicanos y restauraciones, ¿qué país queda?</p></div>
+<h3 class="map-group-title">EL SIGLO XIX EN UNA LÍNEA</h3><div class="timeline" role="list" aria-label="Cronología de la historia española del siglo XIX" style="--color:#243c5a"><div class="year" role="listitem"><span class="date-badge">1808</span><span class="event">Guerra de la Independencia</span></div><div class="year" role="listitem"><span class="date-badge">1812</span><span class="event">Constitución de Cádiz</span></div><div class="year" role="listitem"><span class="date-badge">1833</span><span class="event">I Guerra Carlista</span></div><div class="year" role="listitem"><span class="date-badge">1868</span><span class="event">La Gloriosa</span></div><div class="year" role="listitem"><span class="date-badge">1873</span><span class="event">Primera República</span></div><div class="year" role="listitem"><span class="date-badge">1875</span><span class="event">Restauración borbónica</span></div><div class="year" role="listitem"><span class="date-badge">1898</span><span class="event">Desastre del 98</span></div></div>
+<h3 class="map-group-title">LOS PROTAGONISTAS DEL SIGLO</h3><table class="map-details" aria-label="LOS PROTAGONISTAS DEL SIGLO"><tbody><tr><th scope="row">FERNANDO VII</th><td>vuelve en 1814 · deroga la Constitución · restaura el absolutismo</td></tr><tr><th scope="row">ISABEL II</th><td>niña en el trono en 1833 · Primera Guerra Carlista · derrocada en 1868</td></tr><tr><th scope="row">ALFONSO XII</th><td>Restauración borbónica en 1875 · regencia de María Cristina en 1898</td></tr></tbody></table>
+<div class="summary" data-support-profile="summary" id="sec5-resumen"><div class="summary-title">EN RESUMEN</div><table class="summary-table"><tbody>
+<tr id="sec5-row1"><th scope="row">1875</th><td>Alfonso XII restaura la monarquía borbónica · Restauración: orden y corona</td></tr>
+<tr id="sec5-row2"><th scope="row">REGENCIA</th><td>María Cristina de Habsburgo gobierna por Alfonso XIII, todavía niño</td></tr>
+<tr id="sec5-row3"><th scope="row">1898</th><td>derrota contra Estados Unidos → se pierden Cuba, Puerto Rico, Filipinas y Guam</td></tr>
+<tr id="sec5-row4"><th scope="row">DESASTRE DEL 98</th><td>el imperio de ultramar se deshace · pregunta final: ¿qué país queda?</td></tr>
+</tbody></table></div>
+</section>
+<section class="section c6" id="sec6" data-editorial-unit="sec6">
+<div class="opening"><h2>6 · ACTIVIDAD 1 · LÍNEA DEL TIEMPO 3D</h2><img class="illustration" src="media/actividad_vr_aprobada.png" alt="Una docente y dos estudiantes utilizan un visor de realidad virtual, una tableta y un modelo arquitectónico en el aula."/></div>
+<div class="blk" data-semantic-box="" id="sec6-p01" data-source-page="8"><p><strong>1.1</strong> Ponte el visor de realidad virtual y abre la aplicación <strong>FIGMIN XR</strong>. Espera a que el docente active la escena de la línea del tiempo del Romanticismo español.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p02" data-source-page="8"><p>Delante de ti aparecerá una <strong>barra de madera violeta flotante</strong> con los hitos principales del siglo XIX: <strong>Guerra de la</strong> <strong>Independencia</strong>, <strong>Constitución de Cádiz</strong>, <strong>I Guerra Carlista</strong>, <strong>La</strong> <strong>Gloriosa</strong>, <strong>Primera República</strong>, <strong>Restauración borbónica</strong> y <strong>Desastre</strong> <strong>del 98</strong>, cada uno con su figurita de plastilina.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p03" data-source-page="8"><p>En el aire flotan varias <strong>banderas de España</strong>. Escucha el audio que narra un acontecimiento histórico.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p04" data-source-page="8"><p>Cuando se detenga el audio, piensa a qué hito corresponde y coge con la mano una bandera, llévala hasta la línea del tiempo y déjala en el punto de la fecha correcta.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p05" data-source-page="9"><p><strong>1.2</strong> Si no tienes el visor ni la aplicación Figmin XR, puedes realizar la actividad directamente desde el blog del docente.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p06" data-source-page="9"><p>Abre en el post <strong>MARCO HISTÓRICO DEL ROMANTICISMO EN</strong> <strong>ESPAÑA</strong> la aplicación y pulsa en cualquier parte para empezar. Cuando se detenga el audio, pulsa sobre el acontecimiento correcto de la línea del tiempo.</p></div>
+<div class="blk" data-semantic-box="" id="sec6-p07" data-source-page="9"><p><strong>1.3</strong> Mientras un alumno o una alumna realiza la actividad con el visor o en la pizarra digital, los demás compañeros deben permanecer en su sitio y <strong>copiar la línea del tiempo en el</strong> <strong>cuaderno</strong>.</p></div>
+</section>
+<section class="section quiz-section cm" id="verifica"><h2>VERIFICACIÓN DE COMPRENSIÓN</h2>
+<p class="quiz-intro">Lee cada pregunta y elige una respuesta.</p>
+<div class="quiz-card" data-question="1"><div class="quiz-question">1. ¿A quién colocó Napoleón en el trono español en 1808?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. A su hermano José I.</td><td>B. A Isabel II.</td></tr>
+<tr><td>C. A Alfonso XII.</td><td>D. A Amadeo I.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="2"><div class="quiz-question">2. ¿Qué ocurrió el 2 de mayo de 1808 en Madrid?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Se proclamó la República.</td><td>B. La población se sublevó.</td></tr>
+<tr><td>C. Se aprobó la Constitución.</td><td>D. Regresó Alfonso XII.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="3"><div class="quiz-question">3. Según la Constitución de Cádiz, ¿a quién pertenecía la soberanía?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Solo al rey.</td><td>B. A Napoleón.</td></tr>
+<tr><td>C. A la nación.</td><td>D. A Carlos María Isidro.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="4"><div class="quiz-question">4. ¿Qué hizo Fernando VII al regresar a España en 1814?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Proclamó la República.</td><td>B. Cedió el trono a Isabel II.</td></tr>
+<tr><td>C. Ratificó la Constitución.</td><td>D. Restauró el absolutismo.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="5"><div class="quiz-question">5. ¿Qué conflicto originó la Primera Guerra Carlista?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. La disputa por el trono.</td><td>B. La elección de Amadeo I.</td></tr>
+<tr><td>C. La invasión de 1808.</td><td>D. La guerra contra EE. UU.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="6"><div class="quiz-question">6. ¿Qué ideas se enfrentaron en esa guerra?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. República y Restauración.</td><td>B. Tradición y liberalismo.</td></tr>
+<tr><td>C. Francia y Estados Unidos.</td><td>D. Colonias y metrópoli.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="7"><div class="quiz-question">7. ¿Qué sucedió durante la Gloriosa de 1868?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. Isabel II llegó al trono.</td><td>B. Volvió Fernando VII.</td></tr>
+<tr><td>C. Isabel II fue derrocada.</td><td>D. Se aprobó la Pepa.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="8"><div class="quiz-question">8. ¿Qué se proclamó después de la abdicación de Amadeo I?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. La Constitución de Cádiz.</td><td>B. La guerra de Independencia.</td></tr>
+<tr><td>C. La regencia de 1833.</td><td>D. La Primera República.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="9"><div class="quiz-question">9. ¿Qué significó la Restauración de 1875?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. El regreso de los Borbones.</td><td>B. La llegada de José I.</td></tr>
+<tr><td>C. El inicio de la República.</td><td>D. El exilio de Fernando VII.</td></tr>
+</tbody></table></div>
+<div class="quiz-card" data-question="10"><div class="quiz-question">10. ¿Qué pasó en el Desastre de 1898?</div><table class="quiz-options" role="presentation"><tbody>
+<tr><td>A. España ganó a Francia.</td><td>B. España perdió Cuba.</td></tr>
+<tr><td>C. Isabel II recuperó el trono.</td><td>D. Se aprobó la Pepa.</td></tr>
+</tbody></table></div>
+</section>
+<section class="section map-section cm" data-support-profile="map" id="mapa"><h2>MAPA CONCEPTUAL FINAL</h2>
+<h3 class="map-main-subtitle">MARCO HISTÓRICO DEL ROMANTICISMO EN ESPAÑA · 1808–1898</h3>
+<div class="map-group">
+<h3 class="map-group-title">ETAPAS HISTÓRICAS · 1808–1868</h3>
+<div class="map-row">
+<div class="map-node" data-map-node="" data-chapter="sec1" id="map-node-1" style="--node-color:#b23c47"><img src="media/originale_p02_xref80.png" alt="Una escena de resistencia evoca la invasión de 1808."/><div class="node-title">1808 · GUERRA</div><div class="node-word">NAPOLEÓN · JOSÉ I</div><div class="node-word">LEVANTAMIENTO</div><div class="node-word">RESISTENCIA</div></div>
+<div class="map-node" data-map-node="" data-chapter="sec2" id="map-node-2" style="--node-color:#1a5fb4"><img src="media/originale_p03_xref83.png" alt="Una asamblea reunida en torno a la Constitución de Cádiz."/><div class="node-title">1812 · CÁDIZ</div><div class="node-word">LAS CORTES</div><div class="node-word">SOBERANÍA NACIONAL</div><div class="node-word">CONSTITUCIÓN</div></div>
+</div>
+<div class="map-row">
+<div class="map-node" data-map-node="" data-chapter="sec3" id="map-node-3" style="--node-color:#257041"><img src="media/originale_p04_xref86.png" alt="Una joven reina y dos bandos evocan la guerra carlista."/><div class="node-title">1833 · ISABEL II</div><div class="node-word">SUCESIÓN</div><div class="node-word">REGENCIA</div><div class="node-word">GUERRA CARLISTA</div></div>
+<div class="map-node" data-map-node="" data-chapter="sec4" id="map-node-4" style="--node-color:#9b4f12"><img src="media/originale_p05_xref89.png" alt="Una barricada evoca la Gloriosa y los cambios políticos."/><div class="node-title">1868 · LA GLORIOSA</div><div class="node-word">ISABEL II · EXILIO</div><div class="node-word">AMADEO I</div><div class="node-word">REPÚBLICA · 1873</div></div>
+</div>
+</div>
+<div class="map-group map-group-page">
+<h3 class="map-group-title">RESTAURACIÓN E IDEAS DE ESPAÑA</h3>
+<div class="map-row">
+<div class="map-node" data-map-node="" data-chapter="sec5" id="map-node-5" style="--node-color:#744394"><img src="media/originale_p06_xref92.png" alt="Un monarca y un paisaje marítimo evocan la Restauración y 1898."/><div class="node-title">1875 · 1898</div><div class="node-word">RESTAURACIÓN</div><div class="node-word">REGENCIA · 1898</div><div class="node-word">DESASTRE DEL 98</div></div>
+<div class="map-node" data-map-node="" id="map-node-6" style="--node-color:#b23c47"><img src="media/originale_p04_xref86.png" alt="Una iglesia y dos bandos opuestos evocan el tradicionalismo carlista."/><div class="node-title">TRADICIÓN</div><div class="node-word">CARLISTAS</div><div class="node-word">TRONO FUERTE</div><div class="node-word">RELIGIÓN</div></div>
+</div>
+<div class="map-row">
+<div class="map-node" data-map-node="" id="map-node-7" style="--node-color:#1a5fb4"><img src="media/originale_p03_xref83.png" alt="Una asamblea reunida en torno a una constitución evoca las ideas liberales."/><div class="node-title">LIBERALES</div><div class="node-word">ISABELINOS</div><div class="node-word">CONSTITUCIÓN</div><div class="node-word">NACIÓN · DERECHOS</div></div>
+<div class="map-node" data-map-node="" id="map-node-8" style="--node-color:#9b4f12"><img src="media/originale_p05_xref89.png" alt="Barricadas y una corona caída evocan los cambios de gobierno."/><div class="node-title">EL PÉNDULO</div><div class="node-word">MONARQUÍA</div><div class="node-word">REPÚBLICA</div><div class="node-word">RESTAURACIÓN</div></div>
+</div>
+</div>
+<div class="map-group map-group-page">
+<h3 class="map-group-title">LOS PROTAGONISTAS DEL SIGLO</h3>
+<div class="map-row">
+<div class="map-node" data-map-node="" id="map-node-9" style="--node-color:#744394"><img src="media/originale_p02_xref80.png" alt="Una escena de la guerra de independencia evoca la época de Fernando VII."/><div class="node-title">FERNANDO VII</div><div class="node-word">1814</div><div class="node-word">CONSTITUCIÓN</div><div class="node-word">ABSOLUTISMO</div></div>
+<div class="map-node" data-map-node="" id="map-node-10" style="--node-color:#744394"><img src="media/originale_p01_xref77.png" alt="Una figura joven con corona y un palacio evocan una reina en su infancia."/><div class="node-title">ISABEL II</div><div class="node-word">1833</div><div class="node-word">GUERRA CARLISTA</div><div class="node-word">DERROCADA · 1868</div></div>
+</div>
+<div class="map-row">
+<div class="map-node" data-map-node="" id="map-node-11" style="--node-color:#744394"><img src="media/originale_p06_xref92.png" alt="Un monarca a caballo y un paisaje marítimo evocan la Restauración."/><div class="node-title">ALFONSO XII</div><div class="node-word">1875</div><div class="node-word">RESTAURACIÓN</div><div class="node-word">HIJO DE ISABEL II</div></div>
+</div>
+</div>
+</section>
+<section class="section refs-section cm" id="referencias"><h2>REFERENCIAS BIBLIOGRÁFICAS</h2>
+<p class="quiz-intro">Fuentes consultadas para completar este cuaderno.</p>
+<div class="ref-entry blk" data-bibliography-box="" data-bibliography-entry="" id="rif-1"><p>[1] Congreso de los Diputados. <em>Constitución de 1812</em>. <a href="https://www.congreso.es/es/cem/const1812">Consultar el recurso</a>.</p></div>
+<div class="ref-entry blk" data-bibliography-box="" data-bibliography-entry="" id="rif-2"><p>[2] Congreso de los Diputados. <em>Las Regencias y el Reinado de Isabel II, 1833–1868</em>. <a href="https://www.congreso.es/es/cem/regen">Consultar el recurso</a>.</p></div>
+<div class="ref-entry blk" data-bibliography-box="" data-bibliography-entry="" id="rif-3"><p>[3] Congreso de los Diputados. <em>Sexenio Revolucionario, 1868–1874</em>. <a href="https://www.congreso.es/es/cem/sexrevol">Consultar el recurso</a>.</p></div>
+<div class="ref-entry blk" data-bibliography-box="" data-bibliography-entry="" id="rif-4"><p>[4] Congreso de los Diputados. <em>La Restauración, 1874–1923</em>. <a href="https://www.congreso.es/es/cem/restaur">Consultar el recurso</a>.</p></div>
+<div class="ref-entry blk" data-bibliography-box="" data-bibliography-entry="" id="rif-5"><p>[5] Office of the Historian, U.S. Department of State. <em>The Spanish-American War, 1898</em>. <a href="https://history.state.gov/milestones/1866-1898/spanish-american-war">Consultar el recurso</a>.</p></div>
+</section></body></html>

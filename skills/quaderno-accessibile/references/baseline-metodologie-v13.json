@@ -1,0 +1,323 @@
+{
+  "title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+  "current_version": "v13 IMMAGINE OGNI UNITÀ",
+  "date": "2026-11-01",
+  "pdf": {
+    "local_path": "/home/user/metodologie_immagine_ogni_unita_v13/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_IMMAGINE_OGNI_UNITA_v13.pdf",
+    "sha256": "5454c1aa4f29a8d4bb8abd3a5e5d4b4364d39c866175ea290ce072db6a595f7c",
+    "pages": 29,
+    "included_in_skill": false
+  },
+  "portable_sources": {
+    "directory": "templates/metodologie-v13",
+    "html": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_IMMAGINE_OGNI_UNITA_v13.html",
+    "render": "render_pdf.py",
+    "expectations": "aspettative-titoli.json",
+    "page_start_manifest": "aspettative-inizi-pagina.json",
+    "opening_image_manifest": "aspettative-aperture.json",
+    "files": [
+      {
+        "file": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_IMMAGINE_OGNI_UNITA_v13.html",
+        "sha256": "bbbf75350f91ee853af8033bd3daf619739739c1710150638470d87127d1ab9d",
+        "bytes": 54474
+      },
+      {
+        "file": "stile.css",
+        "sha256": "7864be3d30abedb5243f3e6219338520dd7a23e7bdd7d2292da816df3fd2f607",
+        "bytes": 6981
+      },
+      {
+        "file": "render_pdf.py",
+        "sha256": "e1585b30f2be3bbe04486d2126c09fb9baa88f574ed2f2a48f03a1dea6f1f6ab",
+        "bytes": 241
+      },
+      {
+        "file": "aspettative-titoli.json",
+        "sha256": "64dd8de629e7c441fbe92881001b21a73d438bcea362248388f44fff26e1b7f2",
+        "bytes": 22084
+      },
+      {
+        "file": "aspettative-inizi-pagina.json",
+        "sha256": "2b0cbfe3a45f359fd9c0118aaa35292d0afca51089d3950a89cc726bdb0a12d1",
+        "bytes": 291
+      },
+      {
+        "file": "aspettative-aperture.json",
+        "sha256": "9f37c15ac386f713ecf14cc15771199d44d97943983137b0a235eafb0c8c2af8",
+        "bytes": 320
+      },
+      {
+        "file": "fonts/OpenDyslexic-Bold.otf",
+        "sha256": "8cd3dc316f3567a28c732f71629cb40ab58b6c7351560960bf4af1ffa8450185",
+        "bytes": 48832
+      },
+      {
+        "file": "fonts/OpenDyslexic-Regular.otf",
+        "sha256": "c6f7095c9cf98480a8c84de8518109ec857e5e72f763cba53792fc083c30c764",
+        "bytes": 49652
+      },
+      {
+        "file": "media/immagine_01_137.jpeg",
+        "sha256": "08d771d3e0748c0522995140f7b14a37fbfd3fc87874cfbfdeedb4114d8582ea",
+        "bytes": 245991
+      },
+      {
+        "file": "media/immagine_02_138.jpeg",
+        "sha256": "3a2b836c9125e4297d7e7d117f673b2cb7e8687fa82857c8648fa49aac3024ac",
+        "bytes": 253716
+      },
+      {
+        "file": "media/immagine_04_140.jpeg",
+        "sha256": "e5c1a006930bcbc541d523a071e5060b204dcdb988d751981e086cd543fd19ca",
+        "bytes": 307574
+      },
+      {
+        "file": "media/immagine_06_142.jpeg",
+        "sha256": "3a1dab33c4d1eeb9dd76be256e7b7f8989f50a6c7e461dbc127180eaa3e0d7a1",
+        "bytes": 227726
+      },
+      {
+        "file": "media/immagine_08_144.jpeg",
+        "sha256": "95d4f2b786a0bdcb01a2dde37a866af869f5c04bcf8008fde29f1e710eff6786",
+        "bytes": 303282
+      },
+      {
+        "file": "media/immagine_10_146.jpeg",
+        "sha256": "977b018868596190cc4c4928346734b3f8046a79b59f2d285f224e050a717827",
+        "bytes": 316038
+      },
+      {
+        "file": "media/immagine_12_148.jpeg",
+        "sha256": "24b17e3a02ca3e3d7d2fc6d7a3e910ff0353cab0acfc5dd688caca725c1aefdc",
+        "bytes": 285082
+      },
+      {
+        "file": "media/immagine_14_150.jpeg",
+        "sha256": "d1e88a7157a0becf6ad3d6f292b40e1e5a940ca4e97596702058e68b1168a051",
+        "bytes": 205667
+      },
+      {
+        "file": "media/immagine_16_152.jpeg",
+        "sha256": "23377126d4da92bdf33fc54f48bdeb2f2b6f0892a20c5c4633c8ccce3fb2c41c",
+        "bytes": 317776
+      },
+      {
+        "file": "media/immagine_18_154.jpeg",
+        "sha256": "d3f41d79acda773cc2aeee273e22114446b77f305f514f14c70e58d401dd55a5",
+        "bytes": 252717
+      },
+      {
+        "file": "media/immagine_20_156.jpeg",
+        "sha256": "08f71110ce750855c0bda73f427edb0c9e0d6449287d912548a20780f4a7ded3",
+        "bytes": 268659
+      }
+    ],
+    "binary_pdf_hash_not_guaranteed_after_render": true
+  },
+  "history": [
+    {
+      "version": "v8 BASE CORRETTA",
+      "sha256": "9ba82ceae0ce84656943356c70c6be9c740d0e39b7fb55615d660a420268a906",
+      "pages": 35,
+      "images": 21,
+      "role": "Radice corretta dal corpo v5, non ultima edizione grafica."
+    },
+    {
+      "version": "v10 RIMPAGINATO",
+      "sha256": "27aa33e71c31db82fa8248ffc2e005f322a8514ce641ce902e9f25555c6fc167",
+      "pages": 23,
+      "images": 6,
+      "role": "Meno immagini e vuoti, etichette FONTI rimosse dalle citazioni, bibliografia preservata."
+    },
+    {
+      "version": "v11 TITOLI CENTRATI",
+      "sha256": "f01a64f3767f275c15c7b217f6ef018804095b2a5f45a7ba513a21db46aea441",
+      "pages": 23,
+      "images": 6,
+      "role": "Titoli/colori preservati nella v12, ma paginazione rifiutata dall’utente: flusso continuo fra unità non consentito."
+    },
+    {
+      "version": "v12 UNITÀ PAGINA NUOVA",
+      "sha256": "f36e9ff5b183e7bc71c2fc7e3870b6d11fc104d424af1ad501654c40e9d39a49",
+      "pages": 29,
+      "images": 6,
+      "role": "Inizi pagina corretti ma v12 rifiutata per copertura immagini: cinque unità prive di apertura e immagini dopo il testo. Non riusare questa selezione."
+    },
+    {
+      "version": "v13 IMMAGINE OGNI UNITÀ",
+      "sha256": "5454c1aa4f29a8d4bb8abd3a5e5d4b4364d39c866175ea290ce072db6a595f7c",
+      "pages": 29,
+      "images": 11,
+      "role": "Una sola immagine originale subito dopo OGNI banner delle10unità. Eliminare solo le seconde immagini; inizi su nuova pagina e contenuti della v12 preservati."
+    }
+  ],
+  "invariants": {
+    "content_and_emphasis_preserved": true,
+    "headings_centered": true,
+    "white_heading_on_banners_preserved": true,
+    "body_black_left_aligned": true,
+    "index_entries_preserved": true,
+    "cover_image_present": true,
+    "bibliography_preserved": true,
+    "repeated_source_labels_removed": true,
+    "semantic_box_max_lines": 5,
+    "no_pdfua_validation_claim": true,
+    "each_unit_and_final_section_starts_new_page": true,
+    "required_new_page_sections": [
+      "sec1",
+      "sec2",
+      "sec3",
+      "sec4",
+      "sec5",
+      "sec6",
+      "sec7",
+      "sec8",
+      "sec9",
+      "sec10",
+      "mappa",
+      "fonti",
+      "appendice"
+    ],
+    "compaction_scope": "Only within the same section. Never merge section boundaries to fill blank space.",
+    "previous_page_count_23_is_not_a_target": true,
+    "image_opening_on_all_10_units": true,
+    "exactly_one_image_per_unit": true,
+    "opening_image_immediately_after_banner_before_any_subheading_or_text": true,
+    "no_second_illustration_in_unit": true,
+    "cover_plus_10_images": 11,
+    "final_sections_without_new_decorative_images": true
+  },
+  "current_audio": {
+    "version": "v9 senza fonti, Peer tutoring approvato",
+    "local_path": "/home/user/metodologie_audio_senza_fonti_v9/consegna/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_AUDIO_PEER_TUTORING_CORRETTO_SENZA_FONTI_v9.mp3",
+    "sha256": "1cf8b49e96177c5d8089ec8f515f7bfc1780171ae416d2115cb0d0680948ece8",
+    "duration_seconds": 1230.106122,
+    "duration": "20:30",
+    "included_in_skill": false,
+    "compatible_with_current_pdf": "Sì: testo e ordine invariati, escluse le fonti su richiesta; nuove interruzioni di pagina non cambiano la registrazione."
+  },
+  "post_image": {
+    "file": "templates/post-blog/metodologie-inclusive.png",
+    "sha256": "0a415885acf8497c6fd85a27476be22a881ee8f9f520046e0e5aa1176cfd34ce",
+    "separate_from_pdf_cover": true
+  },
+  "section_start_pages": {
+    "sec1": 2,
+    "sec2": 4,
+    "sec3": 6,
+    "sec4": 8,
+    "sec5": 10,
+    "sec6": 12,
+    "sec7": 14,
+    "sec8": 16,
+    "sec9": 18,
+    "sec10": 20,
+    "mappa": 22,
+    "fonti": 24,
+    "appendice": 27
+  },
+  "checks": {
+    "titles": 111,
+    "title_lines": 127,
+    "max_box_lines": 5,
+    "required_new_page_sections": 13,
+    "index_printed_pages_and_links_verified": true,
+    "visual_review_complete": true,
+    "required_opening_images": 10,
+    "total_illustrations": 11,
+    "opening_image_position_in_pdf_verified": true,
+    "original_clay_assets_reused_without_regeneration": true
+  },
+  "unit_opening_assets": [
+    {
+      "id": "sec1",
+      "heading_id": "editorial-heading-3",
+      "image_id": "sec1-immagine-apertura",
+      "file": "media/immagine_02_138.jpeg",
+      "sha256": "3a2b836c9125e4297d7e7d117f673b2cb7e8687fa82857c8648fa49aac3024ac",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_02_138.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec2",
+      "heading_id": "editorial-heading-7",
+      "image_id": "sec2-immagine-apertura",
+      "file": "media/immagine_04_140.jpeg",
+      "sha256": "e5c1a006930bcbc541d523a071e5060b204dcdb988d751981e086cd543fd19ca",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_04_140.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec3",
+      "heading_id": "editorial-heading-11",
+      "image_id": "sec3-immagine-apertura",
+      "file": "media/immagine_06_142.jpeg",
+      "sha256": "3a1dab33c4d1eeb9dd76be256e7b7f8989f50a6c7e461dbc127180eaa3e0d7a1",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_06_142.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec4",
+      "heading_id": "editorial-heading-15",
+      "image_id": "sec4-immagine-apertura",
+      "file": "media/immagine_08_144.jpeg",
+      "sha256": "95d4f2b786a0bdcb01a2dde37a866af869f5c04bcf8008fde29f1e710eff6786",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_08_144.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec5",
+      "heading_id": "editorial-heading-19",
+      "image_id": "sec5-immagine-apertura",
+      "file": "media/immagine_10_146.jpeg",
+      "sha256": "977b018868596190cc4c4928346734b3f8046a79b59f2d285f224e050a717827",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_10_146.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec6",
+      "heading_id": "editorial-heading-23",
+      "image_id": "sec6-immagine-apertura",
+      "file": "media/immagine_12_148.jpeg",
+      "sha256": "24b17e3a02ca3e3d7d2fc6d7a3e910ff0353cab0acfc5dd688caca725c1aefdc",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_12_148.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec7",
+      "heading_id": "editorial-heading-27",
+      "image_id": "sec7-immagine-apertura",
+      "file": "media/immagine_14_150.jpeg",
+      "sha256": "d1e88a7157a0becf6ad3d6f292b40e1e5a940ca4e97596702058e68b1168a051",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_14_150.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec8",
+      "heading_id": "editorial-heading-31",
+      "image_id": "sec8-immagine-apertura",
+      "file": "media/immagine_16_152.jpeg",
+      "sha256": "23377126d4da92bdf33fc54f48bdeb2f2b6f0892a20c5c4633c8ccce3fb2c41c",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_16_152.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec9",
+      "heading_id": "editorial-heading-35",
+      "image_id": "sec9-immagine-apertura",
+      "file": "media/immagine_18_154.jpeg",
+      "sha256": "d3f41d79acda773cc2aeee273e22114446b77f305f514f14c70e58d401dd55a5",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_18_154.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    },
+    {
+      "id": "sec10",
+      "heading_id": "editorial-heading-39",
+      "image_id": "sec10-immagine-apertura",
+      "file": "media/immagine_20_156.jpeg",
+      "sha256": "08f71110ce750855c0bda73f427edb0c9e0d6449287d912548a20780f4a7ded3",
+      "source_original": "/home/user/metodologie_v8_BASE_CORRETTA/media/immagine_20_156.jpeg",
+      "role": "Unica immagine dell’unità, subito dopo il banner, prima di sottotitoli e testo."
+    }
+  ]
+}

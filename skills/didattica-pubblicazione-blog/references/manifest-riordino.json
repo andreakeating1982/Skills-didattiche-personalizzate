@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "version": "2026-10-29",
+  "skill": "didattica-pubblicazione-blog",
+  "profiles": 5,
+  "original_sources_complete": 2,
+  "reconstructed_partial": 3,
+  "rules": "No original deletion, no account changes, no production deployment",
+  "source_file_provenance": [
+    {
+      "source": "/home/user/skills/zip-esportabile-guide-ia/SKILL.md",
+      "source_sha256": "2fb01922e8c032a5022931b1a985a31093d7dc2ffa800b2ce1348048843e45e0",
+      "destination": "didattica-pubblicazione-blog/references/originali/zip-esportabile-guide-ia.md",
+      "destination_sha256": "c001b3cd8cbd0960617627ff9868c9105d6b6071e9c42ecaa6e82139106b420d",
+      "transformation": "frontmatter_removed_paths_relocated_history_scoped",
+      "bytes": 11456
+    },
+    {
+      "source": "/home/user/skills/zip-esportabile-guide-ia/references/modelli-guide.md",
+      "source_sha256": "0564f2c566e050bc1423a1283f0e15a044a144fd755960485fc8a4324e6351fa",
+      "destination": "didattica-pubblicazione-blog/references/zip-esportabile-guide-ia/modelli-guide.md",
+      "destination_sha256": "0564f2c566e050bc1423a1283f0e15a044a144fd755960485fc8a4324e6351fa",
+      "transformation": "byte_identical",
+      "bytes": 8409
+    },
+    {
+      "source": "/home/user/skills/zip-esportabile-guide-ia/references/ritaglio-mobile-iframe.md",
+      "source_sha256": "b6d880e4cdce973ba888ac78083ea08d081e8ca484f39e6e844d9410fe54d40a",
+      "destination": "didattica-pubblicazione-blog/references/zip-esportabile-guide-ia/ritaglio-mobile-iframe.md",
+      "destination_sha256": "b6d880e4cdce973ba888ac78083ea08d081e8ca484f39e6e844d9410fe54d40a",
+      "transformation": "byte_identical",
+      "bytes": 3006
+    },
+    {
+      "source": "/home/user/skills/zip-esportabile-guide-ia/scripts/export_zip.sh",
+      "source_sha256": "09ecba15a87a87ec4761ca7adea3dcc284cb35660e822fb855bab0c3c9908b3a",
+      "destination": "didattica-pubblicazione-blog/scripts/zip-esportabile-guide-ia/export_zip.sh",
+      "destination_sha256": "09ecba15a87a87ec4761ca7adea3dcc284cb35660e822fb855bab0c3c9908b3a",
+      "transformation": "byte_identical",
+      "bytes": 2271
+    },
+    {
+      "source": "/home/user/skills/cornice-universale/SKILL.md",
+      "source_sha256": "7fa549b79a30ad6fc6239d5384e8ea5e3fe4e3883858fe69ab1d1ceeb3058da8",
+      "destination": "didattica-pubblicazione-blog/references/originali/cornice-universale.md",
+      "destination_sha256": "88134ab4e0532a101b2bb16babfd59d0a18a9ef4150c6850a0cf23f28c9940c7",
+      "transformation": "frontmatter_removed_paths_relocated_history_scoped",
+      "bytes": 9154
+    }
+  ]
+}

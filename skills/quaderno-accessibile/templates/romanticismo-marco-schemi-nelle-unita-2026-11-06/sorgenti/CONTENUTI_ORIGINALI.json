@@ -1,0 +1,602 @@
+{
+  "source_pdf_sha256": "7ebb3eddbdf28d4bd718aa50dca3c0e2905f047aa5f0fd3cd1e88a3f98fb6293",
+  "source_pages": 10,
+  "title": "MARCO HISTÓRICO DEL ROMANTICISMO EN ESPAÑA",
+  "sections": [
+    {
+      "id": "sec1",
+      "number": 1,
+      "title": "1808 · LA INVASIÓN Y LA GUERRA",
+      "image": "originale_p02_xref80.png",
+      "alt": "Escena de resistencia en una calle española durante la guerra de 1808.",
+      "paragraphs": [
+        {
+          "plain": "El siglo XIX español empieza con una invasión y termina con un imperio que se hunde. En medio hay reyes que van y vuelven, una constitución nacida en guerra, una niña en el trono, una reina que se exilia, una república que no llega a envejecer y una corona que se restaura.",
+          "html": "El siglo XIX español empieza con una <strong>invasión</strong> y termina con un imperio que se hunde. En medio hay reyes que van y vuelven, una constitución nacida en guerra, una niña en el trono, una reina que se exilia, una república que no llega a envejecer y una corona que se restaura.",
+          "bold_text": "invasión",
+          "chars": 273,
+          "source_page": 2,
+          "source_y": 250.7
+        },
+        {
+          "plain": "En 1808 el rey es Carlos IV, pero el poder ya no está en sus manos. Abdica en favor de su hijo, Fernando VII. Napoleón aprovecha esa debilidad y coloca en el trono a su propio hermano, José I.",
+          "html": "En <strong>1808</strong> el rey es <strong>Carlos IV</strong>, pero el poder ya no está en sus manos. Abdica en favor de su hijo, <strong>Fernando VII</strong>. <strong>Napoleón</strong> aprovecha esa debilidad y coloca en el trono a su propio hermano, <strong>José I</strong>.",
+          "bold_text": "1808Carlos IVFernando VIINapoleónJosé I",
+          "chars": 192,
+          "source_page": 2,
+          "source_y": 373.7
+        },
+        {
+          "plain": "Para muchos españoles no es un cambio de dinastía: es una humillación. El 2 de mayo Madrid se subleva. La chispa recorre el país.",
+          "html": "Para muchos españoles no es un cambio de dinastía: es una humillación. El <strong>2 de mayo</strong> Madrid se subleva. La chispa recorre el país.",
+          "bold_text": "2 de mayo",
+          "chars": 129,
+          "source_page": 2,
+          "source_y": 475.7
+        },
+        {
+          "plain": "Campesinos, soldados y civiles se lanzan a una guerra larga contra el ejército francés. No es solo una guerra de batallas. Es una guerra de resistencia.",
+          "html": "Campesinos, soldados y civiles se lanzan a una guerra larga contra el ejército francés. No es solo una guerra de batallas. Es una guerra de <strong>resistencia</strong>.",
+          "bold_text": "resistencia",
+          "chars": 152,
+          "source_page": 2,
+          "source_y": 556.7
+        },
+        {
+          "plain": "En 1814 los franceses se van y Fernando VII recupera el trono. España ha expulsado al invasor, pero queda una pregunta más difícil: ¿el rey lo puede todo, o el pueblo también tiene voz?",
+          "html": "En <strong>1814</strong> los franceses se van y <strong>Fernando VII</strong> recupera el trono. España ha expulsado al invasor, pero queda una pregunta más difícil: ¿el rey lo puede todo, o el pueblo también tiene voz?",
+          "bold_text": "1814Fernando VII",
+          "chars": 185,
+          "source_page": 2,
+          "source_y": 637.7
+        }
+      ],
+      "summary_rows": [
+        {
+          "label": "1808",
+          "value": "Napoleón coloca en el trono a su hermano José I: humillación para los españoles",
+          "source_page": 3,
+          "source_y_interval": [
+            70,
+            110
+          ]
+        },
+        {
+          "label": "2 de mayo",
+          "value": "Madrid se subleva y la chispa recorre el país",
+          "source_page": 3,
+          "source_y_interval": [
+            110,
+            130
+          ]
+        },
+        {
+          "label": "La guerra",
+          "value": "campesinos, soldados y civiles contra el ejército francés · guerra de resistencia",
+          "source_page": 3,
+          "source_y_interval": [
+            130,
+            170
+          ]
+        },
+        {
+          "label": "1814",
+          "value": "los franceses se van · Fernando VII recupera el trono · ¿el rey lo puede todo, o el pueblo también tiene voz?",
+          "source_page": 3,
+          "source_y_interval": [
+            170,
+            240
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec2",
+      "number": 2,
+      "title": "1812 · LA CONSTITUCIÓN DE CÁDIZ",
+      "image": "originale_p03_xref83.png",
+      "alt": "Representantes reunidos alrededor de un documento en las Cortes de Cádiz.",
+      "paragraphs": [
+        {
+          "plain": "Esa pregunta se responde, al menos sobre el papel, en 1812. Fernando VII está preso en Francia. Mientras tanto, en Cádiz, las Cortes aprueban la primera constitución española.",
+          "html": "Esa pregunta se responde, al menos sobre el papel, en <strong>1812</strong>. <strong>Fernando VII</strong> está preso en Francia. Mientras tanto, en Cádiz, las <strong>Cortes</strong> aprueban la primera <strong>constitución</strong> española.",
+          "bold_text": "1812Fernando VIICortesconstitución",
+          "chars": 175,
+          "source_page": 3,
+          "source_y": 443.6
+        },
+        {
+          "plain": "Es un texto nuevo y valiente. Limita el poder del rey y dice algo que cambia el lenguaje de la política: la soberanía no pertenece solo a la corona, pertenece a la nación.",
+          "html": "Es un texto nuevo y valiente. Limita el poder del rey y dice algo que cambia el lenguaje de la política: la <strong>soberanía</strong> no pertenece solo a la corona, pertenece a la <strong>nación</strong>.",
+          "bold_text": "soberaníanación",
+          "chars": 171,
+          "source_page": 3,
+          "source_y": 524.6
+        },
+        {
+          "plain": "Los ciudadanos existen. Tienen derechos. Cuando Fernando VII vuelve, sin embargo, no quiere esa España. Deroga la Constitución y restaura el absolutismo.",
+          "html": "Los ciudadanos existen. Tienen derechos. Cuando <strong>Fernando VII</strong> vuelve, sin embargo, no quiere esa España. Deroga la Constitución y restaura el <strong>absolutismo</strong>.",
+          "bold_text": "Fernando VIIabsolutismo",
+          "chars": 153,
+          "source_page": 3,
+          "source_y": 605.6
+        },
+        {
+          "plain": "La semilla liberal ya está plantada, pero el rey intenta enterrarla.",
+          "html": "La semilla <strong>liberal</strong> ya está plantada, pero el rey intenta enterrarla.",
+          "bold_text": "liberal",
+          "chars": 68,
+          "source_page": 3,
+          "source_y": 686.6
+        }
+      ],
+      "summary_rows": [
+        {
+          "label": "1812",
+          "value": "en Cádiz las Cortes aprueban la primera constitución española mientras Fernando VII está preso en Francia",
+          "source_page": 4,
+          "source_y_interval": [
+            70,
+            128
+          ]
+        },
+        {
+          "label": "Novedades",
+          "value": "limita el poder del rey · la soberanía pertenece a la nación · los ciudadanos tienen derechos",
+          "source_page": 4,
+          "source_y_interval": [
+            128,
+            170
+          ]
+        },
+        {
+          "label": "Después",
+          "value": "Fernando VII deroga la Constitución y restaura el absolutismo",
+          "source_page": 4,
+          "source_y_interval": [
+            170,
+            210
+          ]
+        },
+        {
+          "label": "Semilla liberal",
+          "value": "ya está plantada, aunque el rey intente enterrarla",
+          "source_page": 4,
+          "source_y_interval": [
+            210,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec3",
+      "number": 3,
+      "title": "1833 · ISABEL II Y LA I GUERRA CARLISTA",
+      "image": "originale_p04_xref86.png",
+      "alt": "Dos bandos enfrentados, una joven reina y una iglesia evocan la Primera Guerra Carlista.",
+      "paragraphs": [
+        {
+          "plain": "En 1833 esa tensión estalla otra vez, ahora dentro de la propia familia real. Muere Fernando VII. El trono pasa a su hija Isabel II, todavía niña. La madre, María Cristina, asume la regencia.",
+          "html": "En <strong>1833</strong> esa tensión estalla otra vez, ahora dentro de la propia familia real. Muere <strong>Fernando VII</strong>. El trono pasa a su hija <strong>Isabel</strong> <strong>II</strong>, todavía niña. La madre, <strong>María Cristina</strong>, asume la <strong>regencia</strong>.",
+          "bold_text": "1833Fernando VIIIsabelIIMaría Cristinaregencia",
+          "chars": 191,
+          "source_page": 4,
+          "source_y": 461.1
+        },
+        {
+          "plain": "El hermano del rey muerto, Carlos María Isidro, no lo acepta. Para él, una mujer no puede reinar. Estalla la Primera Guerra Carlista: carlistas contra isabelinos.",
+          "html": "El hermano del rey muerto, <strong>Carlos María Isidro</strong>, no lo acepta. Para él, una mujer no puede reinar. Estalla la <strong>Primera Guerra</strong> <strong>Carlista</strong>: carlistas contra isabelinos.",
+          "bold_text": "Carlos María IsidroPrimera GuerraCarlista",
+          "chars": 162,
+          "source_page": 4,
+          "source_y": 542.1
+        },
+        {
+          "plain": "No es solo una pelea entre tío y sobrina. Es un choque entre dos ideas de España. Una mira hacia atrás, hacia la tradición, el trono fuerte y la religión como eje. La otra, con Isabel II, se apoya en los liberales.",
+          "html": "No es solo una pelea entre tío y sobrina. Es un choque entre <strong>dos ideas de España</strong>. Una mira hacia atrás, hacia la tradición, el trono fuerte y la religión como eje. La otra, con <strong>Isabel II</strong>, se apoya en los <strong>liberales</strong>.",
+          "bold_text": "dos ideas de EspañaIsabel IIliberales",
+          "chars": 214,
+          "source_page": 4,
+          "source_y": 623.1
+        },
+        {
+          "plain": "El país se parte. La guerra dura años y deja una herida que volverá a abrirse. Isabel II crece en un trono inestable. El malestar no se apaga.",
+          "html": "El país se parte. La guerra dura años y deja una herida que volverá a abrirse. <strong>Isabel II</strong> crece en un trono inestable. El malestar no se apaga.",
+          "bold_text": "Isabel II",
+          "chars": 142,
+          "source_page": 5,
+          "source_y": 53.6
+        }
+      ],
+      "summary_rows": [
+        {
+          "label": "1833",
+          "value": "muere Fernando VII · el trono pasa a Isabel II (niña) con la regencia de María Cristina",
+          "source_page": 5,
+          "source_y_interval": [
+            150,
+            190
+          ]
+        },
+        {
+          "label": "El conflicto",
+          "value": "Carlos María Isidro no acepta a una mujer → Primera Guerra Carlista: carlistas contra isabelinos",
+          "source_page": 5,
+          "source_y_interval": [
+            190,
+            250
+          ]
+        },
+        {
+          "label": "Dos ideas de España",
+          "value": "tradición, trono fuerte y religión frente a los liberales de Isabel II",
+          "source_page": 5,
+          "source_y_interval": [
+            250,
+            290
+          ]
+        },
+        {
+          "label": "Consecuencia",
+          "value": "el país se parte · una herida que volverá a abrirse",
+          "source_page": 5,
+          "source_y_interval": [
+            290,
+            335
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec4",
+      "number": 4,
+      "title": "1868 · LA GLORIOSA Y EL SEXENIO DEMOCRÁTICO",
+      "image": "originale_p05_xref89.png",
+      "alt": "Barricadas y una corona caída evocan la revolución de 1868.",
+      "paragraphs": [
+        {
+          "plain": "En 1868 los militares se levantan. Es la Gloriosa. Derrocan a la reina. Isabel II se exilia en Francia. Por primera vez en mucho tiempo, España se queda sin Borbón en el palacio.",
+          "html": "En <strong>1868</strong> los militares se levantan. Es <strong>la Gloriosa</strong>. Derrocan a la reina. <strong>Isabel II</strong> se exilia en Francia. Por primera vez en mucho tiempo, España se queda sin Borbón en el palacio.",
+          "bold_text": "1868la GloriosaIsabel II",
+          "chars": 178,
+          "source_page": 5,
+          "source_y": 542.1
+        },
+        {
+          "plain": "Empieza el Sexenio Democrático: seis años de ensayos, de esperanza y de caos. El país quiere otra forma de gobierno y no está seguro de cuál.",
+          "html": "Empieza el <strong>Sexenio Democrático</strong>: seis años de ensayos, de esperanza y de caos. El país quiere otra forma de gobierno y no está seguro de cuál.",
+          "bold_text": "Sexenio Democrático",
+          "chars": 141,
+          "source_page": 5,
+          "source_y": 623.1
+        },
+        {
+          "plain": "Durante ese Sexenio se busca una solución intermedia. Se elige a Amadeo Primero de Saboya, un rey extranjero, para intentar una monarquía democrática: corona sí, pero con límites.",
+          "html": "Durante ese Sexenio se busca una solución intermedia. Se elige a <strong>Amadeo Primero de Saboya</strong>, un rey extranjero, para intentar una <strong>monarquía democrática</strong>: corona sí, pero con límites.",
+          "bold_text": "Amadeo Primero de Saboyamonarquía democrática",
+          "chars": 179,
+          "source_page": 5,
+          "source_y": 704.1
+        },
+        {
+          "plain": "La idea es elegante. La realidad no lo es. Amadeo no logra sostenerse. En 1873 abdica.",
+          "html": "La idea es elegante. La realidad no lo es. Amadeo no logra sostenerse. En <strong>1873</strong> abdica.",
+          "bold_text": "1873",
+          "chars": 86,
+          "source_page": 6,
+          "source_y": 53.6
+        },
+        {
+          "plain": "Entonces España da un paso que muchos soñaban y pocos consiguen controlar: se proclama la Primera República. Dura poco más de un año.",
+          "html": "Entonces España da un paso que muchos soñaban y pocos consiguen controlar: se proclama la <strong>Primera República</strong>. Dura poco más de un año.",
+          "bold_text": "Primera República",
+          "chars": 133,
+          "source_page": 6,
+          "source_y": 113.6
+        },
+        {
+          "plain": "Hay divisiones, revueltas, gobiernos que se suceden demasiado rápido. La República nace frágil y muere pronto. El experimento se cierra antes de convertirse en costumbre.",
+          "html": "Hay divisiones, revueltas, gobiernos que se suceden demasiado rápido. La República nace frágil y muere pronto. El experimento se cierra antes de convertirse en costumbre.",
+          "bold_text": "",
+          "chars": 170,
+          "source_page": 6,
+          "source_y": 194.6
+        }
+      ],
+      "summary_rows": [
+        {
+          "label": "1868 · La Gloriosa",
+          "value": "los militares derrocan a Isabel II, que se exilia en Francia",
+          "source_page": 6,
+          "source_y_interval": [
+            290,
+            333
+          ]
+        },
+        {
+          "label": "Sexenio Democrático",
+          "value": "seis años de ensayos, esperanza y caos · Amadeo de Saboya intenta una monarquía democrática y abdica en 1873",
+          "source_page": 6,
+          "source_y_interval": [
+            333,
+            390
+          ]
+        },
+        {
+          "label": "Primera República",
+          "value": "dura poco más de un año · divisiones, revueltas, gobiernos efímeros",
+          "source_page": 6,
+          "source_y_interval": [
+            390,
+            430
+          ]
+        },
+        {
+          "label": "Esperanza y caos",
+          "value": "el experimento se cierra antes de convertirse en costumbre",
+          "source_page": 6,
+          "source_y_interval": [
+            430,
+            477
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec5",
+      "number": 5,
+      "title": "1875 · LA RESTAURACIÓN Y EL DESASTRE DEL 98",
+      "image": "originale_p06_xref92.png",
+      "alt": "Un rey a caballo y barcos en el mar evocan la Restauración y la crisis de 1898.",
+      "paragraphs": [
+        {
+          "plain": "En 1875 el péndulo vuelve atrás, pero no del todo. Alfonso XII, hijo de Isabel II, restaura la monarquía borbónica. Entra en España en enero. El país, agotado, acepta otra vez a un rey.",
+          "html": "En <strong>1875</strong> el péndulo vuelve atrás, pero no del todo. <strong>Alfonso XII</strong>, hijo de <strong>Isabel II</strong>, restaura la monarquía borbónica. Entra en España en enero. El país, agotado, acepta otra vez a un rey.",
+          "bold_text": "1875Alfonso XIIIsabel II",
+          "chars": 185,
+          "source_page": 6,
+          "source_y": 683.1
+        },
+        {
+          "plain": "No es el absolutismo de Fernando VII. Es una Restauración: orden, corona, y la promesa de que el siglo deje de temblar. Durante un tiempo, esa promesa parece funcionar.",
+          "html": "No es el absolutismo de <strong>Fernando VII</strong>. Es una <strong>Restauración</strong>: orden, corona, y la promesa de que el siglo deje de temblar. Durante un tiempo, esa promesa parece funcionar.",
+          "bold_text": "Fernando VIIRestauración",
+          "chars": 168,
+          "source_page": 7,
+          "source_y": 53.6
+        },
+        {
+          "plain": "El final, sin embargo, no es una victoria. Es 1898. Alfonso XII ya ha muerto. Gobierna su viuda, María Cristina de Habsburgo, como regente de Alfonso XIII, todavía niño.",
+          "html": "El final, sin embargo, no es una victoria. Es <strong>1898</strong>. <strong>Alfonso XII</strong> ya ha muerto. Gobierna su viuda, <strong>María Cristina de Habsburgo</strong>, como regente de <strong>Alfonso XIII</strong>, todavía niño.",
+          "bold_text": "1898Alfonso XIIMaría Cristina de HabsburgoAlfonso XIII",
+          "chars": 169,
+          "source_page": 7,
+          "source_y": 134.6
+        },
+        {
+          "plain": "España entra en guerra contra Estados Unidos y pierde. Con la derrota se van Cuba, Puerto Rico, Filipinas y Guam.",
+          "html": "España entra en guerra contra Estados Unidos y pierde. Con la derrota se van <strong>Cuba</strong>, <strong>Puerto Rico</strong>, <strong>Filipinas</strong> y <strong>Guam</strong>.",
+          "bold_text": "CubaPuerto RicoFilipinasGuam",
+          "chars": 113,
+          "source_page": 7,
+          "source_y": 215.6
+        },
+        {
+          "plain": "El imperio de ultramar, que durante siglos había sido parte de la identidad española, se deshace de golpe. Los periódicos lo llaman el Desastre del 98.",
+          "html": "El imperio de ultramar, que durante siglos había sido parte de la identidad española, se deshace de golpe. Los periódicos lo llaman el <strong>Desastre del 98</strong>.",
+          "bold_text": "Desastre del 98",
+          "chars": 151,
+          "source_page": 7,
+          "source_y": 275.6
+        },
+        {
+          "plain": "No es solo una pérdida de islas. Es la sensación de que el siglo se cierra con una pregunta amarga: después de tantas guerras, constituciones, reinas, republicanos y restauraciones, ¿qué país queda?",
+          "html": "No es solo una pérdida de islas. Es la sensación de que el siglo se cierra con una pregunta amarga: después de tantas guerras, constituciones, reinas, republicanos y restauraciones, ¿qué país queda?",
+          "bold_text": "",
+          "chars": 198,
+          "source_page": 7,
+          "source_y": 356.6
+        }
+      ],
+      "summary_rows": [
+        {
+          "label": "1875",
+          "value": "Alfonso XII restaura la monarquía borbónica · Restauración: orden y corona",
+          "source_page": 7,
+          "source_y_interval": [
+            475,
+            515
+          ]
+        },
+        {
+          "label": "Regencia",
+          "value": "María Cristina de Habsburgo gobierna por Alfonso XIII, todavía niño",
+          "source_page": 7,
+          "source_y_interval": [
+            515,
+            555
+          ]
+        },
+        {
+          "label": "1898",
+          "value": "derrota contra Estados Unidos → se pierden Cuba, Puerto Rico, Filipinas y Guam",
+          "source_page": 7,
+          "source_y_interval": [
+            555,
+            595
+          ]
+        },
+        {
+          "label": "Desastre del 98",
+          "value": "el imperio de ultramar se deshace · pregunta final: ¿qué país queda?",
+          "source_page": 7,
+          "source_y_interval": [
+            595,
+            645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec6",
+      "number": 6,
+      "title": "ACTIVIDAD 1 · LÍNEA DEL TIEMPO 3D",
+      "image": "actividad_vr_aprobada.png",
+      "alt": "Una docente y dos estudiantes utilizan un visor de realidad virtual, una tableta y un modelo arquitectónico en el aula.",
+      "paragraphs": [
+        {
+          "plain": "1.1 Ponte el visor de realidad virtual y abre la aplicación FIGMIN XR. Espera a que el docente active la escena de la línea del tiempo del Romanticismo español.",
+          "html": "<strong>1.1</strong> Ponte el visor de realidad virtual y abre la aplicación <strong>FIGMIN XR</strong>. Espera a que el docente active la escena de la línea del tiempo del Romanticismo español.",
+          "bold_text": "1.1FIGMIN XR",
+          "chars": 160,
+          "source_page": 8,
+          "source_y": 250.7
+        },
+        {
+          "plain": "Delante de ti aparecerá una barra de madera violeta flotante con los hitos principales del siglo XIX: Guerra de la Independencia, Constitución de Cádiz, I Guerra Carlista, La Gloriosa, Primera República, Restauración borbónica y Desastre del 98, cada uno con su figurita de plastilina.",
+          "html": "Delante de ti aparecerá una <strong>barra de madera violeta flotante</strong> con los hitos principales del siglo XIX: <strong>Guerra de la</strong> <strong>Independencia</strong>, <strong>Constitución de Cádiz</strong>, <strong>I Guerra Carlista</strong>, <strong>La</strong> <strong>Gloriosa</strong>, <strong>Primera República</strong>, <strong>Restauración borbónica</strong> y <strong>Desastre</strong> <strong>del 98</strong>, cada uno con su figurita de plastilina.",
+          "bold_text": "barra de madera violeta flotanteGuerra de laIndependenciaConstitución de CádizI Guerra CarlistaLaGloriosaPrimera RepúblicaRestauración borbónicaDesastredel 98",
+          "chars": 285,
+          "source_page": 8,
+          "source_y": 331.7
+        },
+        {
+          "plain": "En el aire flotan varias banderas de España. Escucha el audio que narra un acontecimiento histórico.",
+          "html": "En el aire flotan varias <strong>banderas de España</strong>. Escucha el audio que narra un acontecimiento histórico.",
+          "bold_text": "banderas de España",
+          "chars": 100,
+          "source_page": 8,
+          "source_y": 454.7
+        },
+        {
+          "plain": "Cuando se detenga el audio, piensa a qué hito corresponde y coge con la mano una bandera, llévala hasta la línea del tiempo y déjala en el punto de la fecha correcta.",
+          "html": "Cuando se detenga el audio, piensa a qué hito corresponde y coge con la mano una bandera, llévala hasta la línea del tiempo y déjala en el punto de la fecha correcta.",
+          "bold_text": "",
+          "chars": 166,
+          "source_page": 8,
+          "source_y": 514.7
+        },
+        {
+          "plain": "1.2 Si no tienes el visor ni la aplicación Figmin XR, puedes realizar la actividad directamente desde el blog del docente.",
+          "html": "<strong>1.2</strong> Si no tienes el visor ni la aplicación Figmin XR, puedes realizar la actividad directamente desde el blog del docente.",
+          "bold_text": "1.2",
+          "chars": 122,
+          "source_page": 9,
+          "source_y": 53.6
+        },
+        {
+          "plain": "Abre en el post MARCO HISTÓRICO DEL ROMANTICISMO EN ESPAÑA la aplicación y pulsa en cualquier parte para empezar. Cuando se detenga el audio, pulsa sobre el acontecimiento correcto de la línea del tiempo.",
+          "html": "Abre en el post <strong>MARCO HISTÓRICO DEL ROMANTICISMO EN</strong> <strong>ESPAÑA</strong> la aplicación y pulsa en cualquier parte para empezar. Cuando se detenga el audio, pulsa sobre el acontecimiento correcto de la línea del tiempo.",
+          "bold_text": "MARCO HISTÓRICO DEL ROMANTICISMO ENESPAÑA",
+          "chars": 204,
+          "source_page": 9,
+          "source_y": 113.6
+        },
+        {
+          "plain": "1.3 Mientras un alumno o una alumna realiza la actividad con el visor o en la pizarra digital, los demás compañeros deben permanecer en su sitio y copiar la línea del tiempo en el cuaderno.",
+          "html": "<strong>1.3</strong> Mientras un alumno o una alumna realiza la actividad con el visor o en la pizarra digital, los demás compañeros deben permanecer en su sitio y <strong>copiar la línea del tiempo en el</strong> <strong>cuaderno</strong>.",
+          "bold_text": "1.3copiar la línea del tiempo en elcuaderno",
+          "chars": 189,
+          "source_page": 9,
+          "source_y": 215.6
+        }
+      ],
+      "summary_rows": []
+    }
+  ],
+  "map": {
+    "original_title": "EL SIGLO XIX EN UNA LÍNEA · SÍNTESIS FINAL",
+    "subtitle": "MARCO HISTÓRICO DEL ROMANTICISMO EN ESPAÑA · 1808–1898",
+    "timeline": [
+      [
+        "1808",
+        "Guerra de la Independencia"
+      ],
+      [
+        "1812",
+        "Constitución de Cádiz"
+      ],
+      [
+        "1833",
+        "I Guerra Carlista"
+      ],
+      [
+        "1868",
+        "La Gloriosa"
+      ],
+      [
+        "1873",
+        "Primera República"
+      ],
+      [
+        "1875",
+        "Restauración borbónica"
+      ],
+      [
+        "1898",
+        "Desastre del 98"
+      ]
+    ],
+    "groups": [
+      {
+        "title": "DOS IDEAS DE ESPAÑA EN LUCHA",
+        "nodes": [
+          {
+            "title": "TRADICIÓN",
+            "words": "carlistas · trono fuerte · religión como eje · mirada hacia atrás",
+            "image": "originale_p04_xref86.png",
+            "alt": "Una iglesia y dos bandos opuestos evocan el tradicionalismo carlista."
+          },
+          {
+            "title": "LIBERALES",
+            "words": "isabelinos · soberanía de la nación · constitución · derechos de los ciudadanos",
+            "image": "originale_p03_xref83.png",
+            "alt": "Una asamblea reunida en torno a una constitución evoca las ideas liberales."
+          },
+          {
+            "title": "EL PÉNDULO",
+            "words": "monarquía → república → restauración · ensayos de gobierno hasta 1898",
+            "image": "originale_p05_xref89.png",
+            "alt": "Barricadas y una corona caída evocan los cambios de gobierno."
+          }
+        ]
+      },
+      {
+        "title": "LOS PROTAGONISTAS DEL SIGLO",
+        "nodes": [
+          {
+            "title": "FERNANDO VII",
+            "words": "vuelve en 1814 · deroga la Constitución · restaura el absolutismo",
+            "image": "originale_p02_xref80.png",
+            "alt": "Una escena de la guerra de independencia evoca la época de Fernando VII."
+          },
+          {
+            "title": "ISABEL II",
+            "words": "niña en el trono en 1833 · Primera Guerra Carlista · derrocada en 1868",
+            "image": "originale_p01_xref77.png",
+            "alt": "Una figura joven con corona y un palacio evocan una reina en su infancia."
+          },
+          {
+            "title": "ALFONSO XII",
+            "words": "Restauración borbónica en 1875 · regencia de María Cristina en 1898",
+            "image": "originale_p06_xref92.png",
+            "alt": "Un monarca a caballo y un paisaje marítimo evocan la Restauración."
+          }
+        ]
+      }
+    ]
+  },
+  "original_supports": {
+    "summary_tables": 5,
+    "activity_steps": [
+      "1.1",
+      "1.2",
+      "1.3"
+    ],
+    "map_nodes": 6,
+    "timeline_events": 7,
+    "bibliography": false,
+    "quiz": false
+  }
+}

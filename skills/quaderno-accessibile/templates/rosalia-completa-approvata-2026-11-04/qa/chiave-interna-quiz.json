@@ -1,0 +1,163 @@
+{
+  "descrizione": "Chiave interna della verifica di livello intermedio approvata: non pubblicare nel PDF. Contiene riscontri nel testo del quaderno; il controllo editoriale umano rimane necessario.",
+  "lingua": "es",
+  "numero_domande": 10,
+  "risposte_corrette": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "A",
+    "B",
+    "C",
+    "D",
+    "A",
+    "B"
+  ],
+  "domande_e_riscontri": [
+    {
+      "q": "¿Qué influyó en la escritura de Rosalía?",
+      "a": [
+        "La vida y lengua de Galicia.",
+        "La cultura de Portugal.",
+        "Los viajes por América.",
+        "La historia de Italia."
+      ],
+      "correct": "A",
+      "source_pages": [
+        2
+      ],
+      "evidence": "Ese contacto con el mundo gallego marcó su sensibilidad y se convirtió en la base de su escritura."
+    },
+    {
+      "q": "¿Qué papel tuvo Manuel Murguía?",
+      "a": [
+        "Publicó Lieders en 1858.",
+        "Apoyó la obra de Rosalía.",
+        "Escribió Follas novas.",
+        "Prohibió sus novelas."
+      ],
+      "correct": "B",
+      "source_pages": [
+        2
+      ],
+      "evidence": "Manuel Murguía, importante intelectual gallego que siempre apoyó la difusión de su obra."
+    },
+    {
+      "q": "¿Qué obra reivindica la lengua gallega?",
+      "a": [
+        "Lieders.",
+        "La hija del mar.",
+        "Cantares gallegos.",
+        "En las orillas del Sar."
+      ],
+      "correct": "C",
+      "source_pages": [
+        4
+      ],
+      "evidence": "Cantares gallegos ... La obra reivindica la lengua gallega y dignifica una identidad cultural frecuentemente marginada."
+    },
+    {
+      "q": "¿Qué distingue a Follas novas de Cantares gallegos?",
+      "a": [
+        "Su escritura en castellano.",
+        "Su forma de novela.",
+        "Su tono alegre y festivo.",
+        "Un tono más grave."
+      ],
+      "correct": "D",
+      "source_pages": [
+        4,
+        5
+      ],
+      "evidence": "Follas novas, publicado en 1880, presenta un tono más grave e interior."
+    },
+    {
+      "q": "¿Qué poemario se publicó primero?",
+      "a": [
+        "Cantares gallegos.",
+        "Follas novas.",
+        "En las orillas del Sar.",
+        "La hija del mar."
+      ],
+      "correct": "A",
+      "source_pages": [
+        3,
+        4,
+        5
+      ],
+      "evidence": "Cantares gallegos 1863; Follas novas 1880; En las orillas del Sar 1884; La hija del mar es novela."
+    },
+    {
+      "q": "¿Qué simboliza el río Sar en el poemario?",
+      "a": [
+        "Una fiesta tradicional.",
+        "El mundo interior y la vida.",
+        "La historia militar.",
+        "La libertad de las mujeres."
+      ],
+      "correct": "B",
+      "source_pages": [
+        7,
+        8
+      ],
+      "evidence": "El río Sar está unido a la vida y al mundo interior de la poeta; simboliza también la vida que pasa."
+    },
+    {
+      "q": "Según el texto, ¿qué símbolo indica incertidumbre?",
+      "a": [
+        "El río.",
+        "La tarde.",
+        "La niebla.",
+        "Las sombras."
+      ],
+      "correct": "C",
+      "source_pages": [
+        8
+      ],
+      "evidence": "Símbolos y sentimientos: la niebla — la incertidumbre."
+    },
+    {
+      "q": "¿Qué critica Rosalía en Lieders?",
+      "a": [
+        "La naturaleza gallega.",
+        "La defensa de la libertad.",
+        "El uso del castellano.",
+        "La opresión de las mujeres."
+      ],
+      "correct": "D",
+      "source_pages": [
+        9
+      ],
+      "evidence": "En Lieders rechaza normas impuestas y denuncia la opresión que sufren las mujeres."
+    },
+    {
+      "q": "¿Cómo es el lenguaje de Lieders?",
+      "a": [
+        "Directo y reivindicativo.",
+        "Íntimo y meditativo.",
+        "Técnico y científico.",
+        "Cómico y festivo."
+      ],
+      "correct": "A",
+      "source_pages": [
+        12
+      ],
+      "evidence": "En Lieders, en cambio, el lenguaje es más directo, firme y reivindicativo."
+    },
+    {
+      "q": "¿Qué recurso repite una palabra al iniciar frases?",
+      "a": [
+        "La pregunta retórica.",
+        "La anáfora.",
+        "El paralelismo.",
+        "La comparación."
+      ],
+      "correct": "B",
+      "source_pages": [
+        12
+      ],
+      "evidence": "Anáfora: repetir una palabra al principio de versos o frases; paralelismo: repetir la misma estructura sintáctica."
+    }
+  ]
+}

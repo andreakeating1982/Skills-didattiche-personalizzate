@@ -1,0 +1,350 @@
+{
+  "snapshot": "2026-11-01_sintesi-mappe",
+  "new_summaries": 63,
+  "new_maps": 5,
+  "total_units": 91,
+  "updated_pdfs": 5,
+  "unchanged_pdfs": 3,
+  "records": [
+    {
+      "name": "01_Guida_BES",
+      "title": "ADATTARE GLI ESERCIZI",
+      "pdf": "ADATTARE_GLI_ESERCIZI_BES_E_DSA_SINTESI_E_MAPPA_v22.pdf",
+      "sha256": "5b41b798ab7817efcfff1cc67f9b2b5261265dbb641a9396cd21b2b9be902def",
+      "source_pdf": "ADATTARE_GLI_ESERCIZI_BES_E_DSA_IMPAGINAZIONE_APPROVATA_v21.pdf",
+      "source_sha256": "139652cae1e8c10c132e3ba5c6097c43f71292b32dba648378b8ffb164824aa6",
+      "pages": 26,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6",
+        "sec7"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "new_summary_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6",
+        "sec7"
+      ],
+      "new_map_ids": [
+        "mappa"
+      ],
+      "original_text_preserved": true,
+      "original_pdf_identical": false,
+      "max_box_lines": 5,
+      "all_qa_passed": true
+    },
+    {
+      "name": "02_Come_studiare_meglio",
+      "title": "COME STUDIARE MEGLIO",
+      "pdf": "COME_STUDIARE_MEGLIO_SINTESI_E_MAPPA_v8.pdf",
+      "sha256": "205ccc1521df2cd8d00e1f385737cf1718f88fff5657cc95a7e580d3dc9abc09",
+      "source_pdf": "COME_STUDIARE_MEGLIO_IMPAGINAZIONE_APPROVATA_v7.pdf",
+      "source_sha256": "14bd8a679cca214f981e111fcf1f3e6704a4471d5fa70244310bb9b6b8a70651",
+      "pages": 25,
+      "changed": true,
+      "unit_ids": [
+        "introduzione",
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6",
+        "sec7",
+        "attivita"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "new_summary_ids": [
+        "introduzione",
+        "attivita"
+      ],
+      "new_map_ids": [],
+      "original_text_preserved": true,
+      "original_pdf_identical": false,
+      "max_box_lines": 5,
+      "all_qa_passed": true
+    },
+    {
+      "name": "03_Metodologie",
+      "title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+      "pdf": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_IMMAGINE_OGNI_UNITA_v13.pdf",
+      "sha256": "5454c1aa4f29a8d4bb8abd3a5e5d4b4364d39c866175ea290ce072db6a595f7c",
+      "source_pdf": "10_METODOLOGIE_DIDATTICHE_INCLUSIVE_IMMAGINE_OGNI_UNITA_v13.pdf",
+      "source_sha256": "5454c1aa4f29a8d4bb8abd3a5e5d4b4364d39c866175ea290ce072db6a595f7c",
+      "pages": 29,
+      "changed": false,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6",
+        "sec7",
+        "sec8",
+        "sec9",
+        "sec10"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "new_summary_ids": [],
+      "new_map_ids": [],
+      "original_text_preserved": true,
+      "original_pdf_identical": true,
+      "max_box_lines": 5,
+      "all_qa_passed": true
+    },
+    {
+      "name": "04_Una_classe_serena",
+      "title": "UNA CLASSE SERENA SI COSTRUISCE INSIEME",
+      "pdf": "UNA_CLASSE_SERENA_SINTESI_E_MAPPA_v7.pdf",
+      "sha256": "89b017dab34366b62a7fdbd84664b108b1d472d7c08d026f0578c8af66d045e1",
+      "source_pdf": "UNA_CLASSE_SERENA_IMPAGINAZIONE_APPROVATA_v6.pdf",
+      "source_sha256": "6821f73e30e1c0767199e63fd5843989b56e73dc26ba7ae68066bac10e0de6c9",
+      "pages": 17,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "new_summary_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6"
+      ],
+      "new_map_ids": [
+        "mappa"
+      ],
+      "original_text_preserved": true,
+      "original_pdf_identical": false,
+      "max_box_lines": 5,
+      "all_qa_passed": true
+    },
+    {
+      "name": "06_Regole_di_classe",
+      "title": "REGOLE DI CLASSE",
+      "pdf": "REGOLE_DI_CLASSE_SINTESI_E_MAPPA_v4.pdf",
+      "sha256": "9fac273f3a959c6b65c2645893a0a5bc349a5ff4819ef3c8fa48d5fc9bc101f5",
+      "source_pdf": "REGOLE_DI_CLASSE_IMPAGINAZIONE_APPROVATA_v3.pdf",
+      "source_sha256": "0d11ac43028051280e03e672c08751d04abaf13e84edbd4c7c79ec2943dfed76",
+      "pages": 8,
+      "changed": true,
+      "unit_ids": [
+        "sec1",
+        "sec2"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "new_summary_ids": [
+        "sec1",
+        "sec2"
+      ],
+      "new_map_ids": [
+        "mappa"
+      ],
+      "original_text_preserved": true,
+      "original_pdf_identical": false,
+      "max_box_lines": 5,
+      "all_qa_passed": true
+    },
+    {
+      "name": "07_Gestione_classe_bilingue",
+      "title": "COME GESTIRE UNA CLASSE CHE DISTURBA",
+      "pdf": "COME_GESTIRE_UNA_CLASSE_CHE_DISTURBA_ORIGINALE_E_TRADUZIONE_SINTESI_E_MAPPA_v4.pdf",
+      "sha256": "37be49454d0974fea7b43ce14a07b2416e56837b0c6a07d66240705b4260770d",
+      "source_pdf": "COME_GESTIRE_UNA_CLASSE_CHE_DISTURBA_ORIGINALE_E_TRADUZIONE_IMPAGINAZIONE_APPROVATA_v3.pdf",
+      "source_sha256": "e41d098085679ddd07755722b470a7b84efe057678ac76b3083c754b12ab64e8",
+      "pages": 65,
+      "changed": true,
+      "unit_ids": [
+        "originale",
+        "unita-en-h8",
+        "unita-en-h12",
+        "unita-en-h16",
+        "unita-en-h24",
+        "unita-en-h28",
+        "unita-en-h43",
+        "unita-en-h48",
+        "unita-en-h51",
+        "unita-en-h55",
+        "unita-en-h59",
+        "unita-en-h64",
+        "unita-en-h68",
+        "unita-en-h71",
+        "unita-en-h76",
+        "unita-en-h81",
+        "unita-en-h85",
+        "unita-en-h89",
+        "unita-en-h93",
+        "unita-en-h97",
+        "unita-en-h101",
+        "unita-en-h105",
+        "unita-en-h109",
+        "traduzione",
+        "unita-it-h4",
+        "unita-it-h6",
+        "unita-it-h8",
+        "unita-it-h13",
+        "unita-it-h15",
+        "unita-it-h27",
+        "unita-it-h30",
+        "unita-it-h32",
+        "unita-it-h36",
+        "unita-it-h39",
+        "unita-it-h43",
+        "unita-it-h46",
+        "unita-it-h49",
+        "unita-it-h53",
+        "unita-it-h59",
+        "unita-it-h63",
+        "unita-it-h65",
+        "unita-it-h67",
+        "unita-it-h69",
+        "unita-it-h71",
+        "unita-it-h73",
+        "unita-it-h76"
+      ],
+      "map_ids": [
+        "mappa-en",
+        "mappa-it"
+      ],
+      "new_summary_ids": [
+        "originale",
+        "traduzione",
+        "unita-en-h8",
+        "unita-it-h4",
+        "unita-en-h12",
+        "unita-it-h6",
+        "unita-en-h16",
+        "unita-it-h8",
+        "unita-en-h24",
+        "unita-it-h13",
+        "unita-en-h28",
+        "unita-it-h15",
+        "unita-en-h43",
+        "unita-it-h27",
+        "unita-en-h48",
+        "unita-it-h30",
+        "unita-en-h51",
+        "unita-it-h32",
+        "unita-en-h55",
+        "unita-it-h36",
+        "unita-en-h59",
+        "unita-it-h39",
+        "unita-en-h64",
+        "unita-it-h43",
+        "unita-en-h68",
+        "unita-it-h46",
+        "unita-en-h71",
+        "unita-it-h49",
+        "unita-en-h76",
+        "unita-it-h53",
+        "unita-en-h81",
+        "unita-it-h59",
+        "unita-en-h85",
+        "unita-it-h63",
+        "unita-en-h89",
+        "unita-it-h65",
+        "unita-en-h93",
+        "unita-it-h67",
+        "unita-en-h97",
+        "unita-it-h69",
+        "unita-en-h101",
+        "unita-it-h71",
+        "unita-en-h105",
+        "unita-it-h73",
+        "unita-en-h109",
+        "unita-it-h76"
+      ],
+      "new_map_ids": [
+        "mappa-en",
+        "mappa-it"
+      ],
+      "original_text_preserved": true,
+      "original_pdf_identical": false,
+      "max_box_lines": 5,
+      "all_qa_passed": true
+    },
+    {
+      "name": "08_Realta_virtuale",
+      "title": "REALTÀ VIRTUALE A SCUOLA: 10 APP IMMERSIVE PER IL VISORE META QUEST",
+      "pdf": "REALTA_VIRTUALE_A_SCUOLA_IMPAGINAZIONE_APPROVATA_v4.pdf",
+      "sha256": "d4e15305407a4aab106d0db185c52f7008afb59d66bbcd12439fbe5bc047e666",
+      "source_pdf": "REALTA_VIRTUALE_A_SCUOLA_IMPAGINAZIONE_APPROVATA_v4.pdf",
+      "source_sha256": "d4e15305407a4aab106d0db185c52f7008afb59d66bbcd12439fbe5bc047e666",
+      "pages": 9,
+      "changed": false,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "new_summary_ids": [],
+      "new_map_ids": [],
+      "original_text_preserved": true,
+      "original_pdf_identical": true,
+      "max_box_lines": 5,
+      "all_qa_passed": true
+    },
+    {
+      "name": "09_Mappa_in_6_passi",
+      "title": "COME COSTRUIRE UNA MAPPA CONCETTUALE IN 6 PASSI",
+      "pdf": "COME_COSTRUIRE_UNA_MAPPA_CONCETTUALE_IN_6_PASSI_IMPAGINAZIONE_APPROVATA_v4.pdf",
+      "sha256": "81148a8fb174a81203f98ff25273c582d2bd0f39bd15a4c9682b5ce89b0b6eb4",
+      "source_pdf": "COME_COSTRUIRE_UNA_MAPPA_CONCETTUALE_IN_6_PASSI_IMPAGINAZIONE_APPROVATA_v4.pdf",
+      "source_sha256": "81148a8fb174a81203f98ff25273c582d2bd0f39bd15a4c9682b5ce89b0b6eb4",
+      "pages": 10,
+      "changed": false,
+      "unit_ids": [
+        "sec1",
+        "sec2",
+        "sec3",
+        "sec4",
+        "sec5",
+        "sec6"
+      ],
+      "map_ids": [
+        "mappa"
+      ],
+      "new_summary_ids": [],
+      "new_map_ids": [],
+      "original_text_preserved": true,
+      "original_pdf_identical": true,
+      "max_box_lines": 4,
+      "all_qa_passed": true
+    }
+  ],
+  "scope": "Selezionare questi file dopo la richiesta di aggiungere i riepiloghi mancanti. Nessun audio rigenerato. Tre PDF già completi conservati byte-per-byte, inclusa metodologie v13. Il registro non distribuisce automaticamente tutti i PDF e i loro sorgenti.",
+  "withdrawal_policy": "documento-ritirato-2026-11-02.md",
+  "historical_projection_filtered_after_withdrawal": true
+}

@@ -1,0 +1,131 @@
+{
+  "title": "REALTÀ VIRTUALE A SCUOLA",
+  "subtitle": "PRINCIPI, EVIDENZE E USO DIDATTICO DI VR, AR, MR E XR",
+  "author": "ANDREA CENTINARO",
+  "sections": [
+    {
+      "id": "sec1", "number": 1, "title": "LA REALTÀ VIRTUALE (VR)", "color": "#b23c47", "image": "media/vr.png",
+      "blocks": [
+        "La <strong>realtà virtuale</strong> (VR) è un ambiente creato dal computer. Può riprodurre un luogo reale oppure immaginario, come un museo o una città del futuro. [2] [3]",
+        "Con un <strong>visore</strong> vediamo l’ambiente digitale al posto della stanza. Se muoviamo la testa, il programma aggiorna l’immagine e ci mostra un’altra parte dell’ambiente. [3]",
+        "Il visore può mostrare un’immagine leggermente diversa a ciascun occhio. In questo modo gli oggetti possono sembrare profondi e non piatti. [3]",
+        "Con i <strong>controller</strong>, cioè i comandi tenuti in mano, possiamo esplorare un luogo o spostare oggetti virtuali. Alcuni sistemi riconoscono anche i movimenti delle mani senza guanti: è il <strong>tracciamento delle mani</strong>. [2]",
+        "Se vediamo una mano virtuale afferrare un oggetto, non significa che ne sentiamo davvero il peso. Per avere una sensazione tattile servono dispositivi appositi.",
+        "L’<strong>immersione</strong> riguarda quanto la tecnologia ci circonda con immagini e suoni. La <strong>presenza</strong> è invece la sensazione personale di trovarsi in quel luogo. [3]",
+        "Sentirsi presenti può rendere l’esperienza coinvolgente. Da sola, però, questa sensazione non dimostra che abbiamo imparato. [3]"
+      ],
+      "summary": [
+        ["AMBIENTE", "La VR mostra un luogo creato dal computer."],
+        ["VISORE", "L’immagine cambia quando muoviamo la testa."],
+        ["COMANDI", "Controller o mani permettono di agire nella scena."],
+        ["IMMERSIONE", "Dipende da come la tecnologia ci circonda."],
+        ["PRESENZA", "È la sensazione di essere nel luogo virtuale."]
+      ]
+    },
+    {
+      "id": "sec2", "number": 2, "title": "LA REALTÀ AUMENTATA (AR)", "color": "#1a5fb4", "image": "media/ar.png",
+      "blocks": [
+        "La <strong>realtà aumentata</strong> (AR) aggiunge contenuti digitali all’ambiente reale. Il mondo intorno a noi resta visibile, anche attraverso una fotocamera. [1] [2]",
+        "Per esempio, possiamo inquadrare un tavolo con un tablet e vedere sullo schermo un modello digitale che sembra appoggiato sul tavolo.",
+        "Il programma mantiene il modello nella posizione giusta rispetto al tavolo. Questo collegamento con lo spazio reale si chiama <strong>allineamento</strong>. Non basta mostrare un’immagine qualsiasi sullo schermo. [1]",
+        "Per mantenere l’allineamento, il sistema usa la fotocamera e altri sensori. La realtà aumentata può funzionare su tablet, smartphone o dispositivi indossabili. [1] [2]",
+        "Alcune applicazioni usano anche l’<strong>intelligenza artificiale</strong>, ma non è indispensabile per la realtà aumentata. Per una lezione conta che il contenuto sia corretto, chiaro e utile. [1] [2]"
+      ],
+      "summary": [
+        ["AMBIENTE", "Il mondo reale rimane visibile."],
+        ["CONTENUTI", "Al mondo reale si aggiungono oggetti digitali."],
+        ["ALLINEAMENTO", "Il modello resta legato allo spazio reale."],
+        ["DISPOSITIVI", "Si possono usare tablet, telefoni o visori."],
+        ["UTILITÀ", "Il contenuto deve aiutare la lezione."]
+      ]
+    },
+    {
+      "id": "sec3", "number": 3, "title": "LA REALTÀ MISTA (MR)", "color": "#257041", "image": "media/mr.png",
+      "blocks": [
+        "La <strong>realtà mista</strong> (MR) unisce ambiente reale e contenuti digitali. Qui il termine indica esperienze che riconoscono lo spazio e permettono di agire con gli oggetti virtuali. [2]",
+        "Un modello digitale può sembrare appoggiato a un tavolo e restare nello stesso punto anche quando ci spostiamo. Questa funzione si chiama <strong>ancoraggio</strong>. [2]",
+        "Se un libro reale si trova davanti al modello, il programma può nasconderne la parte che dovrebbe stare dietro al libro. Questo effetto si chiama <strong>occlusione</strong>. [2]",
+        "Il modello digitale, però, non pesa e non spinge davvero il libro. Per sentire contatto o resistenza servono dispositivi fisici appositi.",
+        "Il significato di «realtà mista» può cambiare secondo il contesto. La MR non è automaticamente migliore della AR o della VR: conta l’attività che vogliamo svolgere. [2] [3]"
+      ],
+      "summary": [
+        ["REALTÀ MISTA", "Combina l’ambiente reale e oggetti digitali."],
+        ["ANCORAGGIO", "Un oggetto digitale resta in un punto dello spazio."],
+        ["OCCLUSIONE", "Un oggetto reale può nascondere una parte digitale."],
+        ["CONTATTO", "Un’immagine da sola non dà peso o resistenza."],
+        ["SCELTA", "La MR non è sempre la soluzione migliore."]
+      ]
+    },
+    {
+      "id": "sec4", "number": 4, "title": "LA REALTÀ ESTESA (XR)", "color": "#9b4f12", "image": "media/xr.png",
+      "blocks": [
+        "<strong>Realtà estesa</strong>, in inglese <em>extended reality</em>, si abbrevia con XR. È un nome generale che comprende realtà virtuale, aumentata e mista. [2]",
+        "Queste esperienze sono diverse: può cambiare quanto vediamo del mondo reale e come possiamo agire. Non formano una classifica dal peggiore al migliore. [2] [3]",
+        "Per confrontare un oggetto vero con un modello digitale può essere utile la realtà aumentata. Per esplorare un ambiente ricostruito può essere utile la realtà virtuale. [3]",
+        "Prima scegliamo <strong>che cosa imparare</strong>, poi lo strumento adatto. Un’esperienza più immersiva non fa imparare di più in modo automatico. [3]"
+      ],
+      "summary": [
+        ["XR", "È il nome generale delle tecnologie di realtà estesa."],
+        ["COMPRENDE", "VR, AR e MR sono forme di realtà estesa."],
+        ["DIFFERENZE", "Cambiano ambiente visibile e modi di agire."],
+        ["SCELTA", "Lo strumento dipende dall’obiettivo della lezione."]
+      ]
+    },
+    {
+      "id": "sec5", "number": 5, "title": "LE XR A SCUOLA", "color": "#744394", "image": "media/copertina.png",
+      "blocks": [
+        "A scuola le tecnologie XR possono aiutare a esplorare luoghi o simulare situazioni difficili da ricreare in aula. Per esempio, si può osservare un edificio antico ricostruito. [3] [4]",
+        "Le XR, però, non fanno imparare automaticamente. Una revisione degli studi universitari ha rilevato che spesso si valutava la facilità d’uso più di ciò che gli studenti avevano imparato. [4]",
+        "Quelle ricerche riguardavano l’università. I loro risultati non si possono trasferire automaticamente a ogni classe della scuola secondaria. [4]",
+        "Il modello <strong>CAMIL</strong> aiuta a studiare l’apprendimento nella VR immersiva. Considera, tra le altre cose, la motivazione e la possibilità di agire nell’ambiente. [3]",
+        "Il <strong>carico cognitivo</strong> è l’impegno mentale richiesto da un compito. Troppi dettagli o comandi possono distrarre e rendere più difficile concentrarsi. [3]",
+        "Una lezione può seguire tre momenti. <strong>Prima</strong> si spiegano obiettivo e comandi; <strong>durante</strong> si esplora con una guida; <strong>dopo</strong> si discute e si usa ciò che si è imparato. [3]",
+        "Per favorire l’<strong>accessibilità</strong> si preparano alternative: comandi diversi, sottotitoli e attività su schermo o materiali senza visore, quando necessari. [2]",
+        "Il tracciamento delle mani può essere utile, ma non è adatto a tutte le persone. Non deve essere l’unico modo per partecipare. [2]",
+        "Lo spazio deve essere sicuro. Occorrono pause e la possibilità di fermarsi subito. Se una persona prova nausea, vertigini o affaticamento, l’attività si interrompe. [2]",
+        "Durata e attività si adattano alla persona e alle indicazioni del dispositivo. Non c’è un tempo unico da imporre a tutti.",
+        "Per capire se la classe ha imparato, non basta chiedere se l’esperienza è piaciuta. Si possono proporre domande, spiegazioni o un nuovo compito legato all’obiettivo. [3] [4]"
+      ],
+      "summary": [
+        ["POSSIBILITÀ", "Le XR aiutano a esplorare e simulare."],
+        ["OBIETTIVO", "L’attività serve a imparare qualcosa di preciso."],
+        ["TRE MOMENTI", "Si prepara, si esplora e poi si riflette."],
+        ["ACCESSIBILITÀ", "Si offrono modi diversi per partecipare."],
+        ["SICUREZZA", "Si fanno pause e ci si ferma se si sta male."],
+        ["VERIFICA", "Si controlla che cosa è stato imparato."]
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "verifica", "title": "VERIFICA DI COMPRENSIONE", "difficulty": "media",
+    "instructions": "Leggi ogni domanda e scegli una sola risposta.",
+    "questions": [
+      {"id":"q1","section_ids":["sec1"],"stem":"Che cosa vede chi usa un visore per la realtà virtuale?","options":["Un ambiente digitale","Solo il tavolo reale","Un libro di carta","Solo la classe reale"],"correct":"A","rationale":"Nella VR immersiva il visore mostra un ambiente generato dal computer."},
+      {"id":"q2","section_ids":["sec1"],"stem":"Che cosa significa sentirsi presenti in un ambiente virtuale?","options":["Aver imparato tutto","Sentirsi dentro quel luogo","Toccare oggetti reali","Indossare sempre guanti"],"correct":"B","rationale":"La presenza è la sensazione personale di trovarsi nell’ambiente rappresentato."},
+      {"id":"q3","section_ids":["sec2"],"stem":"Che cosa fa la realtà aumentata?","options":["Spegne la fotocamera","Nasconde il mondo reale","Aggiunge oggetti digitali","Mostra solo un mondo virtuale"],"correct":"C","rationale":"La AR aggiunge contenuti digitali all’ambiente reale, che rimane visibile."},
+      {"id":"q4","section_ids":["sec3"],"stem":"Un modello resta nello stesso punto del tavolo. Come si chiama questa funzione?","options":["Sottotitolo","Valutazione","Immersione","Ancoraggio"],"correct":"D","rationale":"L’ancoraggio mantiene un modello digitale in una posizione dello spazio reale."},
+      {"id":"q5","section_ids":["sec4"],"stem":"Che cosa comprende la realtà estesa, indicata con XR?","options":["VR, AR e MR","Solo la realtà virtuale","Solo il mondo reale","Solo i libri digitali"],"correct":"A","rationale":"XR è un termine generale che include VR, AR e MR."},
+      {"id":"q6","section_ids":["sec4","sec5"],"stem":"Da che cosa conviene partire per scegliere la tecnologia per una lezione?","options":["Dal visore più costoso","Dall’obiettivo della lezione","Dalla moda del momento","Dalla scena più rumorosa"],"correct":"B","rationale":"Lo strumento va scelto in base a ciò che gli studenti devono imparare."},
+      {"id":"q7","section_ids":["sec5"],"stem":"Un’esperienza virtuale fa imparare sempre, da sola?","options":["Sì, se dura a lungo","Sì, con un visore nuovo","No, servono attività e guida","No, se mostra immagini"],"correct":"C","rationale":"L’apprendimento non è automatico: servono progettazione, guida e rielaborazione."},
+      {"id":"q8","section_ids":["sec5"],"stem":"Quale scelta aiuta più persone a partecipare?","options":["Usare un solo comando","Eliminare le pause","Usare solo il visore","Offrire modi diversi"],"correct":"D","rationale":"L’accessibilità richiede alternative e modalità di partecipazione diverse."},
+      {"id":"q9","section_ids":["sec5"],"stem":"Se uno studente prova nausea, che cosa si fa?","options":["Si interrompe l’attività","Si continua fino alla fine","Si aumenta il volume","Si tolgono le pause"],"correct":"A","rationale":"In caso di nausea o altro malessere l’esperienza si interrompe."},
+      {"id":"q10","section_ids":["sec5"],"stem":"Come si può verificare che cosa è stato imparato?","options":["Chiedendo solo se è piaciuto","Con un compito sul tema","Contando i visori","Allungando l’attività"],"correct":"B","rationale":"Un compito collegato all’obiettivo verifica la comprensione più del solo gradimento."}
+    ]
+  },
+  "references": [
+    {"number":1,"authors":"Azuma, R. T.","year":"1997","title":"A Survey of Augmented Reality","publication":"Presence: Teleoperators and Virtual Environments, 6(4), 355–385.","url":"https://doi.org/10.1162/pres.1997.6.4.355","note":""},
+    {"number":2,"authors":"W3C, Accessible Platform Architectures Working Group","year":"2021","title":"XR Accessibility User Requirements","publication":"Working Group Note, 25 agosto 2021.","url":"https://www.w3.org/TR/xaur/","note":"Nota del gruppo W3C: non è una norma di conformità."},
+    {"number":3,"authors":"Makransky, G.; Petersen, G. B.","year":"2021","title":"The Cognitive Affective Model of Immersive Learning (CAMIL): a Theoretical Research-Based Model of Learning in Immersive Virtual Reality","publication":"Educational Psychology Review, 33, 937–958.","url":"https://doi.org/10.1007/s10648-020-09586-2","note":""},
+    {"number":4,"authors":"Radianti, J.; Majchrzak, T. A.; Fromm, J.; Wohlgenannt, I.","year":"2020","title":"A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda","publication":"Computers & Education, 147, 103778.","url":"https://doi.org/10.1016/j.compedu.2019.103778","note":""}
+  ],
+  "map_updates": {
+    "mappa-box-vr": {"keywords":["MONDO DIGITALE","VISORE · PRESENZA"]},
+    "mappa-box-ar": {"keywords":["MONDO REALE","MODELLO · FOTOCAMERA"]},
+    "mappa-box-mr": {"keywords":["REALE E DIGITALE","ANCORAGGIO · OCCLUSIONE"]},
+    "mappa-box-xr": {"keywords":["VR · AR · MR","REALTÀ ESTESA"]},
+    "mappa-box-esperienza": {"keywords":["ESPLORAZIONE","SIMULAZIONE · GUIDA"]},
+    "mappa-box-apprendimento": {"keywords":["OBIETTIVO · ATTENZIONE","VERIFICA"]},
+    "mappa-box-accessibilita": {"keywords":["ALTERNATIVE · PAUSE","COMANDI DIVERSI"]}
+  }
+}
+

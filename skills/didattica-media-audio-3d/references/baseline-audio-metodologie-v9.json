@@ -1,0 +1,138 @@
+{
+  "title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+  "version": "v9 AUDIO SENZA FONTI — PEER TUTORING CORRETTO",
+  "date": "2026-11-01",
+  "audio": {
+    "local_path": "/home/user/metodologie_audio_senza_fonti_v9/consegna/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_AUDIO_PEER_TUTORING_CORRETTO_SENZA_FONTI_v9.mp3",
+    "sha256": "1cf8b49e96177c5d8089ec8f515f7bfc1780171ae416d2115cb0d0680948ece8",
+    "duration_seconds": 1230.106122,
+    "duration": "20:30",
+    "included_in_skill": false
+  },
+  "approved_peer_clip": {
+    "local_path": "/home/user/peer_tutoring_rifatto_v2/consegna/10_METODOLOGIE_METODOLOGIA_7_PEER_TUTORING_NUOVA_LETTURA_v2.mp3",
+    "sha256": "291d5244e7468e1200d68cb824e5bfa5ce9895c39fee8354f147230b0c0d6561",
+    "user_approved": true,
+    "included_in_skill": false
+  },
+  "generation_speed": 1.12,
+  "new_generations_during_montage": false,
+  "additional_loudness_filters": false,
+  "speed_changed": false,
+  "excluded_sections": [
+    "FONTI E RIFERIMENTI",
+    "FONTI DELL'APPENDICE"
+  ],
+  "pdf_bibliography_preserved": true,
+  "pdf_current": {
+    "local_path": "/home/user/metodologie_immagine_ogni_unita_v13/10_METODOLOGIE_DIDATTICHE_INCLUSIVE_IMMAGINE_OGNI_UNITA_v13.pdf",
+    "sha256": "5454c1aa4f29a8d4bb8abd3a5e5d4b4364d39c866175ea290ce072db6a595f7c",
+    "pages": 29,
+    "included_in_skill": false
+  },
+  "text_and_index": {
+    "file": "templates/metodologie-senza-fonti/10_METODOLOGIE_AUDIO_SENZA_FONTI_TESTO_E_INDICE_TEMPORALE_v9.md",
+    "sha256": "7c98eb3cc75cb97e105124a9293f44e20c9dec994938a038c0eb680187d0a8fd"
+  },
+  "parts": [
+    {
+      "title": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+      "section_id": "indice",
+      "start_seconds": 0.0,
+      "duration_seconds": 46.393469387755104,
+      "gender": "female"
+    },
+    {
+      "title": "1 · FONDAMENTI DI DIDATTICA SPECIALE: L'ADATTAMENTO E LA VISUALIZZAZIONE",
+      "section_id": "sec1",
+      "start_seconds": 46.6934693877551,
+      "duration_seconds": 102.95727891156463,
+      "gender": "male"
+    },
+    {
+      "title": "2 · PROGETTAZIONE UNIVERSALE PER L'APPRENDIMENTO (UDL)",
+      "section_id": "sec2",
+      "start_seconds": 149.95074829931974,
+      "duration_seconds": 110.38766439909297,
+      "gender": "female"
+    },
+    {
+      "title": "3 · IL METODO AUTOBIOGRAFICO",
+      "section_id": "sec3",
+      "start_seconds": 260.6384126984127,
+      "duration_seconds": 76.25433106575964,
+      "gender": "male"
+    },
+    {
+      "title": "4 · APPRENDIMENTO BASATO SUI FENOMENI",
+      "section_id": "sec4",
+      "start_seconds": 337.19274376417235,
+      "duration_seconds": 80.80544217687074,
+      "gender": "female"
+    },
+    {
+      "title": "5 · TASK-BASED LEARNING",
+      "section_id": "sec5",
+      "start_seconds": 418.2981859410431,
+      "duration_seconds": 78.5298866213152,
+      "gender": "male"
+    },
+    {
+      "title": "6 · IL COOPERATIVE LEARNING",
+      "section_id": "sec6",
+      "start_seconds": 497.1280725623583,
+      "duration_seconds": 84.70639455782313,
+      "gender": "female"
+    },
+    {
+      "title": "7 · IL TUTORAGGIO TRA PARI (PEER TUTORING)",
+      "section_id": "sec7",
+      "start_seconds": 582.1344671201814,
+      "duration_seconds": 90.27918367346939,
+      "gender": "male"
+    },
+    {
+      "title": "8 · IL METODO HARKNESS",
+      "section_id": "sec8",
+      "start_seconds": 672.7136507936508,
+      "duration_seconds": 79.45868480725623,
+      "gender": "female"
+    },
+    {
+      "title": "9 · LA FLIPPED CLASSROOM",
+      "section_id": "sec9",
+      "start_seconds": 752.4723356009071,
+      "duration_seconds": 79.87664399092971,
+      "gender": "male"
+    },
+    {
+      "title": "10 · I MAKERSPACE",
+      "section_id": "sec10",
+      "start_seconds": 832.6489795918367,
+      "duration_seconds": 116.4712925170068,
+      "gender": "female"
+    },
+    {
+      "title": "MAPPA CONCETTUALE DI SINTESI",
+      "section_id": "mappa",
+      "start_seconds": 949.4202721088435,
+      "duration_seconds": 95.29469387755103,
+      "gender": "male"
+    },
+    {
+      "title": "APPENDICE · EQUIPOLLENZA, OBIETTIVI MINIMI E PEI DIFFERENZIATO",
+      "section_id": "appendice",
+      "start_seconds": 1045.0149659863946,
+      "duration_seconds": 185.04,
+      "gender": "male"
+    }
+  ],
+  "historical_source_warning": "Modifica del file audio storico verificato, non nuova lettura dal PDF; hash storico PDF non certificato.",
+  "old_audio_superseded": {
+    "duration": "26:24",
+    "reason": "Vecchio Peer tutoring e lettura delle fonti."
+  },
+  "qa_limits": "Controlli tecnici, identità PCM delle porzioni scelte e analisi mirata dei raccordi/conclusione; non nuova audizione integrale di tutti i capitoli.",
+  "recovery": "Se il file audio non esiste nell’ambiente corrente, recuperarlo dagli allegati o richiederlo; nessuna generazione automatica.",
+  "pdf_compatibility_note": "PDF v13: UNA immagine dopo ogni banner, nessuna seconda immagine, nuove pagine preservate. Testo/ordine invariati: MP3 v9 senza fonti invariato."
+}

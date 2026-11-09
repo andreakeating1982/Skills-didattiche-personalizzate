@@ -1,0 +1,28 @@
+{
+  "snapshot": "2026-11-05_realta_virtuale_chiara_podcast_approvato",
+  "passed": true,
+  "scope": "Validazione offline della struttura e dei modelli e controlli antiregressione; nessun deploy, generazione di PDF o certificazione PDF/UA.",
+  "skills_expected": 55,
+  "quick_validate_skills_passed": 55,
+  "repository_tests_passed": 28,
+  "latest_lazaro_becquer_regression_tests_passed": 8,
+  "retired_document_tests_passed": 5,
+  "flow_regression_tests_passed": 3,
+  "rosalia_baseline_tests_passed": 12,
+  "becquer_previous_baseline_tests_passed": 8,
+  "lazaro_latest_pdf_sha256": "bc2e603157991cc978b86a28b60c4eaee8ffb1acce2d47b933e47b8416a776ec",
+  "becquer_latest_pdf_sha256": "75598bca9b5226caf7d2804e2180c86aaba2ab7299f02c61e0eddd618971cb50",
+  "rosalia_approved_pdf_sha256": "9e9262ba9c7fd1f49cbebf4639414d7afa6420324afe57139ad99f04aedf7552",
+  "integrity": "Gli SHA-256 nel MANIFEST registrano il contenuto incluso, non firme autenticate; usare python3 tools/gestisci_skill.py verifica dopo l'estrazione.",
+  "caveats": [
+    "Le ultime revisioni Lázaro e Bécquer sono state consegnate senza attestazione di una successiva approvazione esplicita.",
+    "Le applicazioni e gli altri progetti esterni citati non sono automaticamente inclusi.",
+    "Tre skill mantengono le versioni per l'esportazione precedentemente bonificate/riparate, come specificato in catalogo/modifiche-export.json.",
+    "La verifica statica non è una garanzia assoluta di assenza di dati sensibili e non certifica l'esattezza scientifica o la conformità PDF/UA.",
+    "Il podcast VR approvato ha controlli d’ascolto a campione: non attestare ascolto integrale."
+  ],
+  "podcast_original_tests_passed": 25,
+  "podcast_approved_model_tests_passed": 7,
+  "approved_virtual_reality_pdf_sha256": "5dcc0e4b22acb02941ae3fae3a9cb6f7ad1e672fb829907a5c04d435e2720e76",
+  "approved_virtual_reality_podcast_sha256": "9287cc59bd0e6dab9bf49fcf627d2f1a1408ac7a6753ea61efcea4d7357ea5e7"
+}

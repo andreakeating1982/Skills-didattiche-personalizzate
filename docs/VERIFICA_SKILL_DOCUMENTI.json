@@ -1,0 +1,235 @@
+{
+  "skills": [
+    {
+      "name": "quaderno-accessibile",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "didattica-documenti-accessibili",
+      "passed": true,
+      "message": "Skill is valid!"
+    }
+  ],
+  "integration_tests_passed": true,
+  "integration_tests_log": "test_base_preservata (test_integrazioni.SupportTests.test_base_preservata) ... ok\ntest_copertura_e_negativi (test_integrazioni.SupportTests.test_copertura_e_negativi) ... ok\ntest_idempotente (test_integrazioni.SupportTests.test_idempotente) ... ok\ntest_manifest_senza_mappa_non_passa (test_integrazioni.SupportTests.test_manifest_senza_mappa_non_passa) ... ok\ntest_prefisso_sintesi_e_no_falsi_positivi (test_integrazioni.SupportTests.test_prefisso_sintesi_e_no_falsi_positivi) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.023s\n\nOK\n",
+  "template_coverage": {
+    "passed": true,
+    "units_checked": 2,
+    "maps_checked": 1,
+    "units": [
+      {
+        "id": "sec1",
+        "summaries": 1
+      },
+      {
+        "id": "sec2",
+        "summaries": 1
+      }
+    ],
+    "maps": [
+      {
+        "id": "mappa",
+        "text_chars": 375
+      }
+    ],
+    "errors": [],
+    "limits": "Copertura strutturale; verificare separatamente contenuti, lingua, relazioni della mappa, righe reali e resa PDF."
+  },
+  "template_boxes": {
+    "html": "/home/user/skills/quaderno-accessibile/templates/documento-lungo-blog.html",
+    "pages": 5,
+    "cards": 13,
+    "structured_units": 0,
+    "max_lines": 3,
+    "units": [
+      {
+        "id": "qa-semantic-0001",
+        "kind": "card",
+        "lines": 2,
+        "pages": [
+          2
+        ],
+        "paragraphs": 1,
+        "text": "Prima di cominciare, chiarisci che cosa devi capire e prepara i materiali necessari.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "qa-semantic-0002",
+        "kind": "card",
+        "lines": 2,
+        "pages": [
+          2
+        ],
+        "paragraphs": 1,
+        "text": "Dividi il lavoro in parti brevi e scegli una prima attività. Tieni vicino soltanto ciò che serve.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "sec1-sintesi-aggiunta",
+        "kind": "card",
+        "lines": 3,
+        "pages": [
+          2
+        ],
+        "paragraphs": 1,
+        "text": "IN SINTESI Chiarisci l’obiettivo, prepara i materiali e scegli il primo passo. Un piano breve aiuta a cominciare.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "qa-semantic-0004",
+        "kind": "card",
+        "lines": 2,
+        "pages": [
+          3
+        ],
+        "paragraphs": 1,
+        "text": "Prova a spiegare con parole tue e controlla che cosa ricordi , senza leggere subito gli appunti.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "qa-semantic-0005",
+        "kind": "card",
+        "lines": 2,
+        "pages": [
+          3
+        ],
+        "paragraphs": 1,
+        "text": "Se un passaggio non è chiaro, torna al punto preciso e chiedi aiuto. Osserva quale strategia ti sostiene.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "sec2-sintesi-aggiunta",
+        "kind": "card",
+        "lines": 3,
+        "pages": [
+          3
+        ],
+        "paragraphs": 1,
+        "text": "IN SINTESI Richiama le idee con parole tue, controlla ciò che manca e scegli come ripartire.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "mappa-centro",
+        "kind": "card",
+        "lines": 1,
+        "pages": [
+          4
+        ],
+        "paragraphs": 0,
+        "text": "STUDIARE CON UN METODO",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "mappa-nodo-1",
+        "kind": "card",
+        "lines": 3,
+        "pages": [
+          4
+        ],
+        "paragraphs": 1,
+        "text": "OBIETTIVO Chiarire ciò che vuoi capire.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "mappa-nodo-2",
+        "kind": "card",
+        "lines": 3,
+        "pages": [
+          4
+        ],
+        "paragraphs": 1,
+        "text": "MATERIALI E PIANO Scegliere risorse e primo passo.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "mappa-nodo-3",
+        "kind": "card",
+        "lines": 3,
+        "pages": [
+          4
+        ],
+        "paragraphs": 1,
+        "text": "RICHIAMO Spiegare con parole proprie.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "mappa-nodo-4",
+        "kind": "card",
+        "lines": 3,
+        "pages": [
+          4
+        ],
+        "paragraphs": 1,
+        "text": "CONTROLLO Rivedere il passaggio non chiaro.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "mappa-nota",
+        "kind": "card",
+        "lines": 2,
+        "pages": [
+          4
+        ],
+        "paragraphs": 0,
+        "text": "Ogni passaggio è collegato al successivo: preparare, provare, controllare e ripartire.",
+        "editorial_reason": null,
+        "contains_image": false
+      },
+      {
+        "id": "qa-semantic-0013",
+        "kind": "card",
+        "lines": 3,
+        "pages": [
+          5
+        ],
+        "paragraphs": 1,
+        "text": "Testo dimostrativo redatto per il modello. In un documento reale conservare le fonti verificate del contenuto, senza inventare attribuzioni.",
+        "editorial_reason": null,
+        "contains_image": false
+      }
+    ],
+    "errors": [],
+    "passed": true,
+    "limits": "Misura geometrica. La coerenza semantica e i confini richiedono lettura editoriale; il controllo non decide accorpamenti e non certifica PDF/UA."
+  },
+  "integration_cli_new_output_passed": true,
+  "cli_refuses_overwrite": true,
+  "cli_coverage": {
+    "passed": true,
+    "units_checked": 2,
+    "maps_checked": 1,
+    "units": [
+      {
+        "id": "sec1",
+        "summaries": 1
+      },
+      {
+        "id": "sec2",
+        "summaries": 1
+      }
+    ],
+    "maps": [
+      {
+        "id": "mappa",
+        "text_chars": 375
+      }
+    ],
+    "errors": [],
+    "limits": "Copertura strutturale; verificare separatamente contenuti, lingua, relazioni della mappa, righe reali e resa PDF."
+  },
+  "template_pdf_pages": 5,
+  "template_pdf_text_ok": true,
+  "passed": true
+}

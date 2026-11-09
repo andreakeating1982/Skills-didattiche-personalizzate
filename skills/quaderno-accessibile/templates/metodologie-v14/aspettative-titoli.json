@@ -1,0 +1,748 @@
+{
+  "palette": {
+    "sec1": "#c43642",
+    "sec2": "#1a5fb4",
+    "sec3": "#2e7d32",
+    "sec4": "#b1611a",
+    "sec5": "#7b1fa2",
+    "sec6": "#008577",
+    "sec7": "#c43642",
+    "sec8": "#1a5fb4",
+    "sec9": "#2e7d32",
+    "sec10": "#b1611a",
+    "mappa": "#183b59",
+    "appendice": "#5e35b1",
+    "indice": "#183b59",
+    "fonti": "#183b59"
+  },
+  "titles": [
+    {
+      "id": "editorial-heading-1",
+      "text": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+      "unit": "indice",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "editorial-heading-2",
+      "text": "INDICE",
+      "unit": "indice",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "editorial-heading-3",
+      "text": "1 · FONDAMENTI DI DIDATTICA SPECIALE: L'ADATTAMENTO E LA VISUALIZZAZIONE",
+      "unit": "sec1",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-1",
+      "text": "CHE COS'È L'ADATTAMENTO",
+      "unit": "sec1",
+      "kind": "heading",
+      "expected_color": "#c43642",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-6",
+      "text": "VISUALIZZARE: OGGETTI, FIGURE, SCRITTE",
+      "unit": "sec1",
+      "kind": "heading",
+      "expected_color": "#c43642",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-7",
+      "text": "2 · PROGETTAZIONE UNIVERSALE PER L'APPRENDIMENTO (UDL)",
+      "unit": "sec2",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-15",
+      "text": "CHE COS'È L'UDL",
+      "unit": "sec2",
+      "kind": "heading",
+      "expected_color": "#1a5fb4",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-19",
+      "text": "LE TRE RETI NEURALI E I TRE PRINCIPI",
+      "unit": "sec2",
+      "kind": "heading",
+      "expected_color": "#1a5fb4",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-11",
+      "text": "3 · IL METODO AUTOBIOGRAFICO",
+      "unit": "sec3",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-29",
+      "text": "CHE COS'È",
+      "unit": "sec3",
+      "kind": "heading",
+      "expected_color": "#2e7d32",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-33",
+      "text": "COME SI APPLICA",
+      "unit": "sec3",
+      "kind": "heading",
+      "expected_color": "#2e7d32",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-15",
+      "text": "4 · APPRENDIMENTO BASATO SUI FENOMENI",
+      "unit": "sec4",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-42",
+      "text": "CHE COS'È",
+      "unit": "sec4",
+      "kind": "heading",
+      "expected_color": "#b1611a",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-46",
+      "text": "COME FUNZIONA",
+      "unit": "sec4",
+      "kind": "heading",
+      "expected_color": "#b1611a",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-19",
+      "text": "5 · TASK-BASED LEARNING",
+      "unit": "sec5",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-55",
+      "text": "CHE COS'È",
+      "unit": "sec5",
+      "kind": "heading",
+      "expected_color": "#7b1fa2",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-58",
+      "text": "LE TRE FASI",
+      "unit": "sec5",
+      "kind": "heading",
+      "expected_color": "#7b1fa2",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-23",
+      "text": "6 · IL COOPERATIVE LEARNING",
+      "unit": "sec6",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-67",
+      "text": "CHE COS'È",
+      "unit": "sec6",
+      "kind": "heading",
+      "expected_color": "#008577",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-72",
+      "text": "LA TECNICA JIGSAW",
+      "unit": "sec6",
+      "kind": "heading",
+      "expected_color": "#008577",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-27",
+      "text": "7 · IL TUTORAGGIO TRA PARI (PEER TUTORING)",
+      "unit": "sec7",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-81",
+      "text": "CHE COS'È",
+      "unit": "sec7",
+      "kind": "heading",
+      "expected_color": "#c43642",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-86",
+      "text": "LE TRE FORME",
+      "unit": "sec7",
+      "kind": "heading",
+      "expected_color": "#c43642",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-31",
+      "text": "8 · IL METODO HARKNESS",
+      "unit": "sec8",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-95",
+      "text": "CHE COS'È",
+      "unit": "sec8",
+      "kind": "heading",
+      "expected_color": "#1a5fb4",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-99",
+      "text": "COME FUNZIONA",
+      "unit": "sec8",
+      "kind": "heading",
+      "expected_color": "#1a5fb4",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-35",
+      "text": "9 · LA FLIPPED CLASSROOM",
+      "unit": "sec9",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-108",
+      "text": "CHE COS'È",
+      "unit": "sec9",
+      "kind": "heading",
+      "expected_color": "#2e7d32",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-112",
+      "text": "COME FUNZIONA",
+      "unit": "sec9",
+      "kind": "heading",
+      "expected_color": "#2e7d32",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-39",
+      "text": "10 · I MAKERSPACE",
+      "unit": "sec10",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-121",
+      "text": "CHE COSA SONO",
+      "unit": "sec10",
+      "kind": "heading",
+      "expected_color": "#b1611a",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-126",
+      "text": "IL PROCESSO IN DIECI FASI",
+      "unit": "sec10",
+      "kind": "heading",
+      "expected_color": "#b1611a",
+      "white_on_banner": false
+    },
+    {
+      "id": "editorial-heading-58",
+      "text": "FONTI E RIFERIMENTI",
+      "unit": "fonti",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-159",
+      "text": "1 · FONDAMENTI DI DIDATTICA SPECIALE: L'ADATTAMENTO E LA VISUALIZZAZIONE",
+      "unit": "sec1",
+      "kind": "heading",
+      "expected_color": "#c43642",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-162",
+      "text": "2 · PROGETTAZIONE UNIVERSALE PER L'APPRENDIMENTO (UDL)",
+      "unit": "sec2",
+      "kind": "heading",
+      "expected_color": "#1a5fb4",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-166",
+      "text": "3 · IL METODO AUTOBIOGRAFICO",
+      "unit": "sec3",
+      "kind": "heading",
+      "expected_color": "#2e7d32",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-168",
+      "text": "4 · APPRENDIMENTO BASATO SUI FENOMENI",
+      "unit": "sec4",
+      "kind": "heading",
+      "expected_color": "#b1611a",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-171",
+      "text": "5 · TASK-BASED LEARNING",
+      "unit": "sec5",
+      "kind": "heading",
+      "expected_color": "#7b1fa2",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-173",
+      "text": "6 · IL COOPERATIVE LEARNING",
+      "unit": "sec6",
+      "kind": "heading",
+      "expected_color": "#008577",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-175",
+      "text": "7 · IL TUTORAGGIO TRA PARI (PEER TUTORING)",
+      "unit": "sec7",
+      "kind": "heading",
+      "expected_color": "#c43642",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-179",
+      "text": "8 · IL METODO HARKNESS",
+      "unit": "sec8",
+      "kind": "heading",
+      "expected_color": "#1a5fb4",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-181",
+      "text": "9 · LA FLIPPED CLASSROOM",
+      "unit": "sec9",
+      "kind": "heading",
+      "expected_color": "#2e7d32",
+      "white_on_banner": false
+    },
+    {
+      "id": "heading-183",
+      "text": "10 · I MAKERSPACE",
+      "unit": "sec10",
+      "kind": "heading",
+      "expected_color": "#b1611a",
+      "white_on_banner": false
+    },
+    {
+      "id": "appendice-titolo",
+      "text": "APPENDICE · EQUIPOLLENZA, OBIETTIVI MINIMI E PEI DIFFERENZIATO",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "app-0-titolo",
+      "text": "PERCHÉ QUESTA APPENDICE",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "app-1-titolo",
+      "text": "PARI VALORE, NON STESSA PROVA",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "app-2-titolo",
+      "text": "CHE COSA PUÒ INVECE CAMBIARE",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "app-6-titolo",
+      "text": "OBIETTIVI MINIMI: SI ARRIVA AL DIPLOMA",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "app-7-titolo",
+      "text": "CURRICOLO DIFFERENZIATO: UN PROGRAMMA SU MISURA",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "app-3-titolo",
+      "text": "GLI OBIETTIVI DIPENDONO DAL PROFILO",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "qa-titolo-106",
+      "text": "OBIETTIVI DELLA CLASSE (DVA)",
+      "unit": "appendice",
+      "kind": "table_label",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "qa-titolo-107",
+      "text": "OBIETTIVI MINIMI (DVA)",
+      "unit": "appendice",
+      "kind": "table_label",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "qa-titolo-108",
+      "text": "CURRICOLO DIFFERENZIATO (DVA)",
+      "unit": "appendice",
+      "kind": "table_label",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "qa-titolo-109",
+      "text": "BES/DSA CON PDP",
+      "unit": "appendice",
+      "kind": "table_label",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "app-4-titolo",
+      "text": "IN SINTESI",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#ffffff",
+      "white_on_banner": true
+    },
+    {
+      "id": "heading-app-fonti",
+      "text": "FONTI DELL'APPENDICE",
+      "unit": "appendice",
+      "kind": "heading",
+      "expected_color": "#5e35b1",
+      "white_on_banner": false
+    },
+    {
+      "id": "sec1-sintesi-titolo",
+      "text": "IN SINTESI · 1",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec1-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#c43642"
+    },
+    {
+      "id": "sec1-sintesi-chiave-2",
+      "text": "STRATEGIE",
+      "expected_color": "#c43642"
+    },
+    {
+      "id": "sec1-sintesi-chiave-3",
+      "text": "VISUALIZZAZIONE",
+      "expected_color": "#c43642"
+    },
+    {
+      "id": "sec2-sintesi-titolo",
+      "text": "IN SINTESI · 2",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec2-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#1a5fb4"
+    },
+    {
+      "id": "sec2-sintesi-chiave-2",
+      "text": "I TRE PRINCIPI",
+      "expected_color": "#1a5fb4"
+    },
+    {
+      "id": "sec2-sintesi-chiave-3",
+      "text": "IN PRATICA",
+      "expected_color": "#1a5fb4"
+    },
+    {
+      "id": "sec3-sintesi-titolo",
+      "text": "IN SINTESI · 3",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec3-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#2e7d32"
+    },
+    {
+      "id": "sec3-sintesi-chiave-2",
+      "text": "COME FUNZIONA",
+      "expected_color": "#2e7d32"
+    },
+    {
+      "id": "sec3-sintesi-chiave-3",
+      "text": "A COSA SERVE",
+      "expected_color": "#2e7d32"
+    },
+    {
+      "id": "sec4-sintesi-titolo",
+      "text": "IN SINTESI · 4",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec4-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#b1611a"
+    },
+    {
+      "id": "sec4-sintesi-chiave-2",
+      "text": "COME FUNZIONA",
+      "expected_color": "#b1611a"
+    },
+    {
+      "id": "sec4-sintesi-chiave-3",
+      "text": "A COSA SERVE",
+      "expected_color": "#b1611a"
+    },
+    {
+      "id": "sec5-sintesi-titolo",
+      "text": "IN SINTESI · 5",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec5-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#7b1fa2"
+    },
+    {
+      "id": "sec5-sintesi-chiave-2",
+      "text": "LE TRE FASI",
+      "expected_color": "#7b1fa2"
+    },
+    {
+      "id": "sec5-sintesi-chiave-3",
+      "text": "VANTAGGI",
+      "expected_color": "#7b1fa2"
+    },
+    {
+      "id": "sec6-sintesi-titolo",
+      "text": "IN SINTESI · 6",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec6-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#008577"
+    },
+    {
+      "id": "sec6-sintesi-chiave-2",
+      "text": "LA TECNICA JIGSAW",
+      "expected_color": "#008577"
+    },
+    {
+      "id": "sec6-sintesi-chiave-3",
+      "text": "A COSA SERVE",
+      "expected_color": "#008577"
+    },
+    {
+      "id": "sec7-sintesi-titolo",
+      "text": "IN SINTESI · 7",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec7-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#c43642"
+    },
+    {
+      "id": "sec7-sintesi-chiave-2",
+      "text": "LE FORME",
+      "expected_color": "#c43642"
+    },
+    {
+      "id": "sec7-sintesi-chiave-3",
+      "text": "A COSA SERVE",
+      "expected_color": "#c43642"
+    },
+    {
+      "id": "sec8-sintesi-titolo",
+      "text": "IN SINTESI · 8",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec8-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#1a5fb4"
+    },
+    {
+      "id": "sec8-sintesi-chiave-2",
+      "text": "COME FUNZIONA",
+      "expected_color": "#1a5fb4"
+    },
+    {
+      "id": "sec8-sintesi-chiave-3",
+      "text": "A COSA SERVE",
+      "expected_color": "#1a5fb4"
+    },
+    {
+      "id": "sec9-sintesi-titolo",
+      "text": "IN SINTESI · 9",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec9-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#2e7d32"
+    },
+    {
+      "id": "sec9-sintesi-chiave-2",
+      "text": "COME FUNZIONA",
+      "expected_color": "#2e7d32"
+    },
+    {
+      "id": "sec9-sintesi-chiave-3",
+      "text": "A COSA SERVE",
+      "expected_color": "#2e7d32"
+    },
+    {
+      "id": "sec10-sintesi-titolo",
+      "text": "IN SINTESI · 10",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "sec10-sintesi-chiave-1",
+      "text": "CHE COS'È",
+      "expected_color": "#b1611a"
+    },
+    {
+      "id": "sec10-sintesi-chiave-2",
+      "text": "IL PROCESSO",
+      "expected_color": "#b1611a"
+    },
+    {
+      "id": "sec10-sintesi-chiave-3",
+      "text": "A COSA SERVE",
+      "expected_color": "#b1611a"
+    },
+    {
+      "id": "mappa-titolo",
+      "text": "MAPPA CONCETTUALE FINALE",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "mappa-radice",
+      "text": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "mappa-gruppo-1-titolo",
+      "text": "COME RENDERE I CONTENUTI ACCESSIBILI?",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "mappa-gruppo-1-box-1-titolo",
+      "text": "1 ADATTAMENTO E VISUALIZZAZIONE",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-1-box-2-titolo",
+      "text": "2 PROGETTAZIONE UNIVERSALE (UDL)",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-2-titolo",
+      "text": "COME METTERE AL CENTRO LA PERSONA?",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "mappa-gruppo-2-box-1-titolo",
+      "text": "3 METODO AUTOBIOGRAFICO",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-2-box-2-titolo",
+      "text": "9 FLIPPED CLASSROOM",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-3-titolo",
+      "text": "COME IMPARARE FACENDO?",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "mappa-gruppo-3-box-1-titolo",
+      "text": "4 APPRENDIMENTO BASATO SUI FENOMENI",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-3-box-2-titolo",
+      "text": "5 TASK-BASED LEARNING",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-3-box-3-titolo",
+      "text": "10 MAKERSPACE",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-4-titolo",
+      "text": "COME IMPARARE INSIEME AGLI ALTRI?",
+      "expected_color": "#ffffff"
+    },
+    {
+      "id": "mappa-gruppo-4-box-1-titolo",
+      "text": "6 COOPERATIVE LEARNING",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-4-box-2-titolo",
+      "text": "7 TUTORAGGIO TRA PARI",
+      "expected_color": "#243c5a"
+    },
+    {
+      "id": "mappa-gruppo-4-box-3-titolo",
+      "text": "8 METODO HARKNESS",
+      "expected_color": "#243c5a"
+    }
+  ]
+}

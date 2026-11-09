@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "nodi_presenti_e_ordine": {
+      "pass": true
+    },
+    "nodo_attivita_eliminato": {
+      "pass": true
+    },
+    "parole_complete_corrette": {
+      "pass": true
+    },
+    "cinque_immagini_originali_immutate": {
+      "pass": true
+    },
+    "nodi_rimanenti_colori_immutati": {
+      "pass": true
+    },
+    "indice_immutato": {
+      "pass": true
+    },
+    "quiz_immutato": {
+      "pass": true
+    },
+    "bibliografia_immutata": {
+      "pass": true
+    },
+    "css_immutato": {
+      "pass": true
+    },
+    "tutto_il_sorgente_esterno_alla_mappa_immutato": {
+      "pass": true
+    },
+    "pagine_immutate": {
+      "pass": true
+    },
+    "altre_27_pagine_identiche_pixel_72dpi": {
+      "pass": true,
+      "details": []
+    },
+    "due_mappe_attivita_pagina_20": {
+      "pass": true
+    },
+    "due_immagini_originali_pagina_20_immutate": {
+      "pass": true
+    },
+    "mappa_nel_pdf_tutti_testi_completi": {
+      "pass": true
+    },
+    "testo_attivita_non_nella_mappa": {
+      "pass": true
+    },
+    "tutti_i_link_del_pdf_immutati": {
+      "pass": true
+    },
+    "segnalibri_immutati": {
+      "pass": true
+    },
+    "link_indice_12_destinazioni": {
+      "pass": true
+    },
+    "cinque_riquadri_78x78_mm": {
+      "pass": true
+    },
+    "testi_non_tagliati_e_quattro_righe_per_box": {
+      "pass": true
+    },
+    "font_14pt_interlinea_185": {
+      "pass": true
+    },
+    "immagini_52mm_misura_preservata": {
+      "pass": true
+    },
+    "ultimo_box_centrato": {
+      "pass": true,
+      "details": [
+        [
+          90.71,
+          114.08,
+          385.51,
+          408.89
+        ],
+        [
+          408.19,
+          114.08,
+          702.99,
+          408.89
+        ],
+        [
+          90.71,
+          431.56,
+          385.51,
+          726.37
+        ],
+        [
+          408.19,
+          431.56,
+          702.99,
+          726.37
+        ],
+        [
+          249.45,
+          749.04,
+          544.25,
+          1043.85
+        ]
+      ]
+    }
+  },
+  "baseline_sha256": "bb6ae1cd2fcd9c786f60a25ebccb7c1402681f2b7c997f0aae3ac0dfad1781ff",
+  "final_sha256": "fec1c5a0f6a8bae507fe3889413f4a71d4b2cdc1f822c92663ffef966aa38630",
+  "scope": "Confronto e verifica strutturale; non certifica PDF/UA né una nuova consultazione delle fonti."
+}

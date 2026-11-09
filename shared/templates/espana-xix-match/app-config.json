@@ -1,0 +1,22 @@
+{
+  "title": "Marco histórico del Romanticismo en España",
+  "theme_color": "#3B1849",
+  "image": "timeline.png",
+  "map_w": 1376,
+  "map_h": 821,
+  "events": [
+    { "id": "e1808", "year": "1808", "title": "Guerra de Independencia", "audio": "/audio/e1808.mp3?v=12", "x": 10.7, "y": 20.1 },
+    { "id": "e1812", "year": "1812", "title": "Constitución de Cádiz", "audio": "/audio/e1812.mp3?v=12", "x": 24.1, "y": 20.1 },
+    { "id": "e1833", "year": "1833", "title": "I Guerra Carlista", "audio": "/audio/e1833.mp3?v=12", "x": 37.0, "y": 20.1 },
+    { "id": "e1868", "year": "1868", "title": "La Gloriosa", "audio": "/audio/e1868.mp3?v=12", "x": 50.2, "y": 20.1 },
+    { "id": "e1873", "year": "1873", "title": "Primera República", "audio": "/audio/e1873.mp3?v=12", "x": 63.2, "y": 20.1 },
+    { "id": "e1875", "year": "1875", "title": "Restauración borbónica", "audio": "/audio/e1875.mp3?v=12", "x": 76.3, "y": 20.1 },
+    { "id": "e1898", "year": "1898", "title": "Desastre del 98", "audio": "/audio/e1898.mp3?v=12", "x": 89.4, "y": 20.1 }
+  ],
+  "sfx": {
+    "intro": "/audio/intro.mp3?v=10",
+    "ok": "/audio/ok.mp3?v=10",
+    "ko": "/audio/ko.mp3?v=10",
+    "fin": "/audio/fin.mp3?v=10"
+  }
+}

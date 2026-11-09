@@ -1,0 +1,361 @@
+{
+  "name": "03_Metodologie",
+  "body_font_size_px": 18.666666666666664,
+  "body_line_height": 1.85,
+  "unit_ids": [
+    "sec1",
+    "sec2",
+    "sec3",
+    "sec4",
+    "sec5",
+    "sec6",
+    "sec7",
+    "sec8",
+    "sec9",
+    "sec10"
+  ],
+  "final_map_ids": [
+    "mappa"
+  ],
+  "summaries": [
+    {
+      "id": "sec1",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Adattare i materiali didattici alle esigenze degli alunni con BES, per raggiungere obiettivi personalizzati e vivere il successo formativo.</p>"
+        ],
+        [
+          "STRATEGIE",
+          "<p>Sostituire, facilitare, semplificare e scomporre i contenuti; favorire la partecipazione alla cultura del compito.</p>"
+        ],
+        [
+          "VISUALIZZAZIONE",
+          "<p>Trasformare parole e idee astratte in qualcosa di visibile: oggetti, figure, scritte; l'appaiamento insegna l'associazione tra attività e immagine.</p>"
+        ]
+      ],
+      "color": "#c43642",
+      "lang": "it",
+      "label": "IN SINTESI · 1"
+    },
+    {
+      "id": "sec2",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Framework del CAST di Boston, ispirato all'Universal Design di Ron Mace: curricoli flessibili e accessibili a tutti fin dall'inizio.</p>"
+        ],
+        [
+          "I TRE PRINCIPI",
+          "<p>Molteplici mezzi di coinvolgimento (il «perché»), di rappresentazione (il «che cosa»), di azione ed espressione (il «come»).</p>"
+        ],
+        [
+          "IN PRATICA",
+          "<p>9 linee guida e 36 punti di controllo (versione 3.0, 2024); dalle barriere all'accessibilità proattiva, con la «speciale normalità».</p>"
+        ]
+      ],
+      "color": "#1a5fb4",
+      "lang": "it",
+      "label": "IN SINTESI · 2"
+    },
+    {
+      "id": "sec3",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Raccontare la propria vita, in forma scritta o orale, per comprendere sé stessi; teorizzato da Rogers negli anni '70.</p>"
+        ],
+        [
+          "COME FUNZIONA",
+          "<p>Il docente accoglie e incoraggia senza sostituirsi all'alunno; il racconto diventa uno specchio per esplorare stati emotivi, relazionali e cognitivi.</p>"
+        ],
+        [
+          "A COSA SERVE",
+          "<p>Offre un supporto socio-emotivo, favorisce la presa di coscienza, l'autodeterminazione e l'inclusione.</p>"
+        ]
+      ],
+      "color": "#2e7d32",
+      "lang": "it",
+      "label": "IN SINTESI · 3"
+    },
+    {
+      "id": "sec4",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Metodologia che parte dall'osservazione di un fenomeno reale per coinvolgere attivamente gli alunni nell'apprendimento.</p>"
+        ],
+        [
+          "COME FUNZIONA",
+          "<p>Video, immagini, esperimenti o quiz suscitano domande spontanee; poi ricerca guidata, dati, discussioni e problem-solving condiviso.</p>"
+        ],
+        [
+          "A COSA SERVE",
+          "<p>Sviluppa collaborazione, creatività, autonomia e collegamenti tra le discipline (esempio: la luce e i sistemi ottici).</p>"
+        ]
+      ],
+      "color": "#b1611a",
+      "lang": "it",
+      "label": "IN SINTESI · 4"
+    },
+    {
+      "id": "sec5",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Metodologia glottodidattica: si apprende la lingua svolgendo compiti significativi e autentici che simulano situazioni reali.</p>"
+        ],
+        [
+          "LE TRE FASI",
+          "<p>1. Pre-task (preparazione) · 2. Task cycle (il compito in gruppo o a coppie) · 3. Language focus (riflessione sulla lingua usata).</p>"
+        ],
+        [
+          "VANTAGGI",
+          "<p>Autonomia e responsabilità, motivazione, ambiente collaborativo, competenze generalizzabili alle situazioni reali.</p>"
+        ]
+      ],
+      "color": "#7b1fa2",
+      "lang": "it",
+      "label": "IN SINTESI · 5"
+    },
+    {
+      "id": "sec6",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Apprendimento in gruppo per obiettivi comuni, fondato sull'interdipendenza positiva e sulla responsabilità individuale.</p>"
+        ],
+        [
+          "LA TECNICA JIGSAW",
+          "<p>Gruppi casa → gruppi di esperti (approfondimento) → ritorno nel gruppo casa per condividere → compito finale comune.</p>"
+        ],
+        [
+          "A COSA SERVE",
+          "<p>Sviluppa competenze cognitive e abilità sociali (ascolto, fiducia, sostegno); valorizza le differenze ed è efficace nel CLIL.</p>"
+        ]
+      ],
+      "color": "#008577",
+      "lang": "it",
+      "label": "IN SINTESI · 6"
+    },
+    {
+      "id": "sec7",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Tutoraggio strutturato tra pari (tutor e tutee), supervisionato dal docente; sistematizzato da Topping.</p>"
+        ],
+        [
+          "LE FORME",
+          "<p>Same-age tutoring · cross-age tutoring · Class-Wide Peer Tutoring (CWPT).</p>"
+        ],
+        [
+          "A COSA SERVE",
+          "<p>Consolida le conoscenze del tutor, personalizza l'aiuto al tutee, sviluppa empatia, «rumore produttivo» e inclusione.</p>"
+        ]
+      ],
+      "color": "#c43642",
+      "lang": "it",
+      "label": "IN SINTESI · 7"
+    },
+    {
+      "id": "sec8",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Discussione guidata attorno a un tavolo ovale (Edward Harkness, anni '30): gli studenti protagonisti, il docente facilitatore.</p>"
+        ],
+        [
+          "COME FUNZIONA",
+          "<p>Si esplorano testi e materiali, si pongono domande aperte, si ascolta, si collegano idee e si rispettano i turni di parola.</p>"
+        ],
+        [
+          "A COSA SERVE",
+          "<p>Stimola il pensiero critico e la partecipazione attiva di tutti; simile al circle time, ma centrato sui testi.</p>"
+        ]
+      ],
+      "color": "#1a5fb4",
+      "lang": "it",
+      "label": "IN SINTESI · 8"
+    },
+    {
+      "id": "sec9",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Metodologia di Bergmann e Sams (anni 2000) che capovolge luoghi e tempi della lezione: non è «far lezione agli studenti».</p>"
+        ],
+        [
+          "COME FUNZIONA",
+          "<p>A casa si guardano i video didattici del docente; in classe si svolgono attività pratiche, cooperative e di laboratorio.</p>"
+        ],
+        [
+          "A COSA SERVE",
+          "<p>Libera tempo per una didattica attiva e personalizzata; rispetta i ritmi di ciascuno e favorisce l'inclusione degli studenti con BES.</p>"
+        ]
+      ],
+      "color": "#2e7d32",
+      "lang": "it",
+      "label": "IN SINTESI · 9"
+    },
+    {
+      "id": "sec10",
+      "rows": [
+        [
+          "CHE COS'È",
+          "<p>Spazi educativi in cui si impara facendo e creando: strumenti tecnologici (stampanti 3D, robot) e semplici (cartone, mattoncini).</p>"
+        ],
+        [
+          "IL PROCESSO",
+          "<p>1. problema · 2. ricerca · 3. requisiti · 4. idee · 5. prototipo · 6. test · 7. valutazione · 8. modifica · 9. presentazione · 10. riflessione.</p>"
+        ],
+        [
+          "A COSA SERVE",
+          "<p>Sviluppa mentalità progettuale e creativa, problem-solving e competenze STEM; è l'evoluzione del learning by doing.</p>"
+        ]
+      ],
+      "color": "#b1611a",
+      "lang": "it",
+      "label": "IN SINTESI · 10"
+    }
+  ],
+  "maps": [
+    {
+      "root": "10 METODOLOGIE DIDATTICHE INCLUSIVE",
+      "groups": [
+        {
+          "title": "COME RENDERE I CONTENUTI ACCESSIBILI?",
+          "nodes": [
+            [
+              "1 ADATTAMENTO E VISUALIZZAZIONE",
+              "Materiali comprensibili: sostituire, facilitare, semplificare, scomporre e visualizzare."
+            ],
+            [
+              "2 PROGETTAZIONE UNIVERSALE (UDL)",
+              "Curricoli flessibili fin dall'inizio: coinvolgimento, rappresentazione, azione ed espressione."
+            ]
+          ],
+          "images": [
+            {
+              "src": "media/mappe/clay-14.jpeg",
+              "alt": "Illustrazione originale: fondamenti di didattica speciale: l'adattamento e la visualizzazione; che cos'è l'adattamento.",
+              "concept": "1 ADATTAMENTO E VISUALIZZAZIONE",
+              "sha256": "3a2b836c9125e4297d7e7d117f673b2cb7e8687fa82857c8648fa49aac3024ac"
+            },
+            {
+              "src": "media/mappe/clay-15.jpeg",
+              "alt": "Illustrazione originale: progettazione universale per l'apprendimento (udl); che cos'è l'udl.",
+              "concept": "2 PROGETTAZIONE UNIVERSALE (UDL)",
+              "sha256": "e5c1a006930bcbc541d523a071e5060b204dcdb988d751981e086cd543fd19ca"
+            }
+          ]
+        },
+        {
+          "title": "COME METTERE AL CENTRO LA PERSONA?",
+          "nodes": [
+            [
+              "3 METODO AUTOBIOGRAFICO",
+              "Raccontarsi per conoscersi: crescita, autodeterminazione e inclusione."
+            ],
+            [
+              "9 FLIPPED CLASSROOM",
+              "Video a casa, attività in classe: tempi personalizzati e docente facilitatore."
+            ]
+          ],
+          "images": [
+            {
+              "src": "media/mappe/clay-16.jpeg",
+              "alt": "Illustrazione originale: il metodo autobiografico; che cos'è.",
+              "concept": "3 METODO AUTOBIOGRAFICO",
+              "sha256": "3a1dab33c4d1eeb9dd76be256e7b7f8989f50a6c7e461dbc127180eaa3e0d7a1"
+            },
+            {
+              "src": "media/mappe/clay-22.jpeg",
+              "alt": "Illustrazione originale: la flipped classroom; che cos'è.",
+              "concept": "9 FLIPPED CLASSROOM",
+              "sha256": "d3f41d79acda773cc2aeee273e22114446b77f305f514f14c70e58d401dd55a5"
+            }
+          ]
+        },
+        {
+          "title": "COME IMPARARE FACENDO?",
+          "nodes": [
+            [
+              "4 APPRENDIMENTO BASATO SUI FENOMENI",
+              "Osservare un fenomeno reale, farsi domande e scoprire con ricerca e discussione."
+            ],
+            [
+              "5 TASK-BASED LEARNING",
+              "Imparare la lingua con compiti autentici in tre fasi: pre-task, task cycle, language focus."
+            ],
+            [
+              "10 MAKERSPACE",
+              "Progettare e creare: dal problema al prototipo, mentalità del fare (STEM)."
+            ]
+          ],
+          "images": [
+            {
+              "src": "media/mappe/clay-17.jpeg",
+              "alt": "Illustrazione originale: apprendimento basato sui fenomeni; che cos'è.",
+              "concept": "4 APPRENDIMENTO BASATO SUI FENOMENI",
+              "sha256": "95d4f2b786a0bdcb01a2dde37a866af869f5c04bcf8008fde29f1e710eff6786"
+            },
+            {
+              "src": "media/mappe/clay-18.jpeg",
+              "alt": "Illustrazione originale: task-based learning; che cos'è.",
+              "concept": "5 TASK-BASED LEARNING",
+              "sha256": "977b018868596190cc4c4928346734b3f8046a79b59f2d285f224e050a717827"
+            },
+            {
+              "src": "media/mappe/clay-23.jpeg",
+              "alt": "Illustrazione originale: i makerspace; che cosa sono.",
+              "concept": "10 MAKERSPACE",
+              "sha256": "08f71110ce750855c0bda73f427edb0c9e0d6449287d912548a20780f4a7ded3"
+            }
+          ]
+        },
+        {
+          "title": "COME IMPARARE INSIEME AGLI ALTRI?",
+          "nodes": [
+            [
+              "6 COOPERATIVE LEARNING",
+              "Gruppi per obiettivi comuni: interdipendenza positiva e tecnica Jigsaw."
+            ],
+            [
+              "7 TUTORAGGIO TRA PARI",
+              "Imparare da un compagno e insegnare a lui: same-age, cross-age, Class-Wide."
+            ],
+            [
+              "8 METODO HARKNESS",
+              "Discutere al tavolo ovale per sviluppare il pensiero critico di tutti."
+            ]
+          ],
+          "images": [
+            {
+              "src": "media/mappe/clay-19.jpeg",
+              "alt": "Illustrazione originale: il cooperative learning; che cos'è.",
+              "concept": "6 COOPERATIVE LEARNING",
+              "sha256": "24b17e3a02ca3e3d7d2fc6d7a3e910ff0353cab0acfc5dd688caca725c1aefdc"
+            },
+            {
+              "src": "media/mappe/clay-20.jpeg",
+              "alt": "Illustrazione originale: il tutoraggio tra pari (peer tutoring); che cos'è.",
+              "concept": "7 TUTORAGGIO TRA PARI",
+              "sha256": "d1e88a7157a0becf6ad3d6f292b40e1e5a940ca4e97596702058e68b1168a051"
+            },
+            {
+              "src": "media/mappe/clay-21.jpeg",
+              "alt": "Illustrazione originale: il metodo harkness; che cos'è.",
+              "concept": "8 METODO HARKNESS",
+              "sha256": "23377126d4da92bdf33fc54f48bdeb2f2b6f0892a20c5c4633c8ccce3fb2c41c"
+            }
+          ]
+        }
+      ],
+      "intro": [],
+      "notes": [],
+      "id": "mappa",
+      "lang": "it"
+    }
+  ]
+}

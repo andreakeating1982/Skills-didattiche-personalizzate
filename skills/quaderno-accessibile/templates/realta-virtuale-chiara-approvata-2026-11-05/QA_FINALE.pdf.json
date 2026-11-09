@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "pages": 17,
+  "questions": 10,
+  "options_verified": 40,
+  "map_boxes": 7,
+  "references_with_links": 4,
+  "internal_index_links": 24,
+  "paragraphs_and_summaries_verified": true,
+  "checks": {
+    "QA_ARTICOLO": true,
+    "QA_SUPPORTI": true,
+    "QA_BOX": true,
+    "QA_FONTI": true,
+    "QA_FLUSSO": true
+  },
+  "sha256": "5dcc0e4b22acb02941ae3fae3a9cb6f7ad1e672fb829907a5c04d435e2720e76",
+  "limits": "Controlli strutturali e testo: non equivalgono a una certificazione PDF/UA indipendente."
+}

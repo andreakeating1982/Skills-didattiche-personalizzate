@@ -1,0 +1,19 @@
+{
+  "name": "Sei illustrazioni clay per la mappa Shakespeare e Romeo and Juliet",
+  "date": "2026-11-03",
+  "role": "Illustrazioni concettuali, non fonti o ricostruzioni storiche documentali.",
+  "configuration": "mappa.json",
+  "usage": "Usare solo se semanticamente pertinenti; copiare gli asset necessari nella cartella del nuovo progetto e mantenere i percorsi relativi. Non generare di nuovo una scena già adatta. In documenti diversi scegliere scene appropriate ai nuovi concetti.",
+  "rights_note": "Cinque immagini sono state generate per l'utente con riferimento allo stile dell'allegato. La sesta è stata estratta senza modifiche dall'allegato dell'utente: verificare i diritti prima di una pubblicazione esterna. Il manifest non assegna licenze di terzi.",
+  "assets": [
+    {"file":"media/vita_stratford.png","concept":"Stratford, famiglia e studi","provenance":"generata per la revisione 3 novembre 2026","sha256":"7c57a28119aa97c18f80323d16ce4fbbca212eaeb7dbd274d3066886070b41de"},
+    {"file":"media/teatro_globe.png","concept":"teatro elisabettiano Globe","provenance":"generata per la revisione 3 novembre 2026","sha256":"3fdc853d1e71107aa58bb2538b35f7a695292ba9dfe0e3e71cb3c94965d38d35"},
+    {"file":"media/originale-83.png","concept":"Shakespeare scrittore ed eredità","provenance":"estratta integra dal PDF allegato dall'utente","sha256":"73ebf6506dfd1350026353e03e65246a3489921ccf13ac12ed7b4e818e4fcbd1"},
+    {"file":"media/famiglie_verona.png","concept":"famiglie rivali a Verona","provenance":"generata per la revisione 3 novembre 2026","sha256":"c0650a70c046a3d79b7f72c1cd0eb52b955aeb5141516a31621aef5690263120"},
+    {"file":"media/matrimonio_segreto.png","concept":"matrimonio segreto","provenance":"generata per la revisione 3 novembre 2026","sha256":"0c199af7e282c4ee281cee935f848dbe69252e5cbf1bb32ab4e3cd3a431d9ec8"},
+    {"file":"media/pozione_lettera_pace.png","concept":"pozione, lettera e riconciliazione","provenance":"generata per la revisione 3 novembre 2026","sha256":"29fd906f17817e22acaff2c193128a225293cf884a5e3d4de37db8fb384536c9"}
+  ],
+  "measurements_mm": {"map_box": [78,78], "image_area": [52,29.373]},
+  "limitations": "Le immagini non dimostrano da sole l'accuratezza dei contenuti. L'originale PDF e gli altri sorgenti del quaderno non sono inclusi nel solo template."
+}
+

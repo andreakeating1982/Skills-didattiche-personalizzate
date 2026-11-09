@@ -1,0 +1,135 @@
+{
+  "html": "/home/user/realta_virtuale_chiara_2026_11_05/sorgenti/REALTA_VIRTUALE_A_SCUOLA_ARTICOLO_CHIARO.html",
+  "pdf": "/home/user/realta_virtuale_chiara_2026_11_05/REALTA_VIRTUALE_A_SCUOLA_ARTICOLO_CHIARO.pdf",
+  "pages": 17,
+  "pdf_pages": 17,
+  "units": [
+    {
+      "unit": "sec1",
+      "start_page": 2,
+      "boxes_by_page": {
+        "2": 5,
+        "3": 3
+      },
+      "transitions": [
+        {
+          "from_page": 2,
+          "to_page": 3,
+          "next_card": "sec1-testo-6",
+          "free_px": 43.56,
+          "required_px": 121.2,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 121.2,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec2",
+      "start_page": 4,
+      "boxes_by_page": {
+        "4": 5,
+        "5": 1
+      },
+      "transitions": [
+        {
+          "from_page": 4,
+          "to_page": 5,
+          "next_card": "sec2-specchietto",
+          "free_px": 43.56,
+          "required_px": 331.67,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 331.67,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec3",
+      "start_page": 6,
+      "boxes_by_page": {
+        "6": 5,
+        "7": 1
+      },
+      "transitions": [
+        {
+          "from_page": 6,
+          "to_page": 7,
+          "next_card": "sec3-specchietto",
+          "free_px": 75.62,
+          "required_px": 395.8,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 395.8,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec4",
+      "start_page": 8,
+      "boxes_by_page": {
+        "8": 4,
+        "9": 1
+      },
+      "transitions": [
+        {
+          "from_page": 8,
+          "to_page": 9,
+          "next_card": "sec4-specchietto",
+          "free_px": 196.82,
+          "required_px": 314.67,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 314.67,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "sec5",
+      "start_page": 10,
+      "boxes_by_page": {
+        "10": 5,
+        "11": 6,
+        "12": 1
+      },
+      "transitions": [
+        {
+          "from_page": 10,
+          "to_page": 11,
+          "next_card": "sec5-testo-6",
+          "free_px": 75.62,
+          "required_px": 121.2,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 121.2,
+          "restored_internal_margin_px": 0.0
+        },
+        {
+          "from_page": 11,
+          "to_page": 12,
+          "next_card": "sec5-specchietto",
+          "free_px": 296.54,
+          "required_px": 380.73,
+          "could_fit_before": false,
+          "kept_headings": [],
+          "required_px_before_margin_restoration": 380.73,
+          "restored_internal_margin_px": 0.0
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "id": "bibliografia",
+    "pages": [
+      17
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "limits": "Controllo geometrico per blocchi normali nel flusso; non valida bibliografia, font, colori o accessibilita PDF/UA. Per float, griglie e regole keep complesse verificare il renderer. Con --pdf controlla numero pagine, non identita completa HTML/PDF."
+}

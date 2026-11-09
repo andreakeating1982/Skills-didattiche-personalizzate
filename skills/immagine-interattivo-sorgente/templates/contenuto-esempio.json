@@ -1,0 +1,195 @@
+{
+  "titolo": "IMMAGINE INTERATTIVA",
+  "hotspots": [
+    {
+      "id": "libro-central",
+      "section": "centro",
+      "x": 50,
+      "y": 49,
+      "size": "lg",
+      "label": "1. El Romanticismo",
+      "info": "El Romanticismo español estalla en el siglo XIX como rechazo a la razón ilustrada. Dos tendencias: conservadora (Zorrilla, Duque de Rivas) y revolucionaria (Larra, Espronceda)."
+    },
+    {
+      "id": "poeta-espejo",
+      "section": "huida",
+      "x": 20,
+      "y": 16,
+      "size": "md",
+      "label": "2. Individualismo",
+      "info": "El poeta contempla su reflejo: símbolo del individualismo romántico. Huida hacia lo irracional, lo sobrenatural y la fascinación por la muerte."
+    },
+    {
+      "id": "costumbrismo",
+      "section": "huida",
+      "x": 37,
+      "y": 27,
+      "size": "md",
+      "label": "3. Costumbrismo",
+      "info": "Figuras con abanicos y guitarras: el costumbrismo, género español que retrata tipos populares y escenas cotidianas."
+    },
+    {
+      "id": "duque-rivas",
+      "section": "poesia",
+      "x": 72,
+      "y": 20,
+      "size": "md",
+      "label": "4. Duque de Rivas",
+      "info": "Inaugura la lírica romántica con sus Romances históricos, que rescatan leyendas medievales."
+    },
+    {
+      "id": "espronceda",
+      "section": "poesia",
+      "x": 82,
+      "y": 28,
+      "size": "md",
+      "label": "5. Espronceda",
+      "info": "José de Espronceda, el poeta maldito, liberal apasionado, muerto a los treinta y cuatro años."
+    },
+    {
+      "id": "becquer-rosalia",
+      "section": "poesia",
+      "x": 80,
+      "y": 48,
+      "size": "md",
+      "label": "6. Bécquer y Rosalía",
+      "info": "Poesía íntima, versos breves y emoción contenida. Influirán en Machado y Juan Ramón Jiménez."
+    },
+    {
+      "id": "larra",
+      "section": "prosa",
+      "x": 22,
+      "y": 72,
+      "size": "md",
+      "label": "7. Larra",
+      "info": "Mariano José de Larra —«Fígaro»— afila su ironía contra la España de su tiempo. Suicidio a los 27 años."
+    },
+    {
+      "id": "leyendas-becquer",
+      "section": "prosa",
+      "x": 35,
+      "y": 78,
+      "size": "sm",
+      "label": "8. Leyendas",
+      "info": "Una mano espectral surge de la tumba: Las leyendas de Bécquer, monjes malditos, espectros y amores imposibles."
+    },
+    {
+      "id": "don-alvaro",
+      "section": "teatro",
+      "x": 72,
+      "y": 72,
+      "size": "md",
+      "label": "9. Don Álvaro",
+      "info": "Don Álvaro o la fuerza del sino rompe las reglas clásicas: destino catastrófico, amor imposible."
+    },
+    {
+      "id": "don-juan-tenorio",
+      "section": "teatro",
+      "x": 88,
+      "y": 78,
+      "size": "md",
+      "label": "10. Don Juan Tenorio",
+      "info": "Zorrilla revive al eterno seductor en un cementerio iluminado por la luna. Doña Inés le ofrece la redención por amor."
+    }
+  ],
+  "audioSegments": [
+    {
+      "id": 0,
+      "startTime": 0,
+      "endTime": 31.5,
+      "label": "El Romanticismo español",
+      "subtitle": "Mirad esta imagen. En el centro, un libro nos presenta el Romanticismo español, el movimiento que estalla en el siglo XIX como rechazo a la fría razón ilustrada. Dos tendencias lo recorren: la conservadora (con los escritores Zorrilla y el Duque de Rivas) que abraza la Edad Media y los valores tradicionales, y la revolucionaria (con los escritores Larra y Espronceda) que desafía todas las normas establecidas de aquella época.",
+      "hotspotIds": [
+        "libro-central"
+      ],
+      "prompt": "Tocad el punto 1"
+    },
+    {
+      "id": 1,
+      "startTime": 31.5,
+      "endTime": 57.9,
+      "label": "Individualismo y costumbrismo",
+      "subtitle": "Ahora mirad arriba a la izquierda: un poeta contempla su reflejo en el espejo. Es el símbolo del individualismo romántico, de la huida hacia lo irracional y sobrenatural, y de la fascinación por la muerte. También hay cementerios, ruinas y castillos encantados. Justo debajo, esas figuras con abanicos y guitarras encarnan el costumbrismo, un género muy español que retrata con cariño tipos populares y escenas cotidianas.",
+      "hotspotIds": [
+        "poeta-espejo",
+        "costumbrismo"
+      ],
+      "prompt": "Tocad los puntos 2 y 3"
+    },
+    {
+      "id": 2,
+      "startTime": 57.9,
+      "endTime": 87.7,
+      "label": "La poesía romántica",
+      "subtitle": "Subid la mirada a la derecha: empieza la poesía. El Duque de Rivas inaugura la lírica romántica con sus Romances históricos, que rescatan leyendas medievales. A su lado está otro poeta muy importante, José de Espronceda, el poeta maldito, muerto a los treinta y cuatro años. Y más abajo, Bécquer y Rosalía de Castro, ya en la segunda mitad del siglo, nos regalan una poesía íntima, de versos breves y emoción contenida, que inspirará a Machado y a Juan Ramón Jiménez.",
+      "hotspotIds": [
+        "duque-rivas",
+        "espronceda",
+        "becquer-rosalia"
+      ],
+      "prompt": "Tocad los puntos 4, 5 y 6"
+    },
+    {
+      "id": 3,
+      "startTime": 87.7,
+      "endTime": 110.4,
+      "label": "La prosa romántica",
+      "subtitle": "Bajamos ahora a la prosa. A la izquierda, entre periódicos y café, Mariano José de Larra afila su ironía contra la España de su tiempo; su pesimismo lo consumirá hasta el suicidio con solo veintisiete años. Cerca, una mano espectral surge de la tumba: son Las leyendas de Bécquer, que pueblan la geografía española de monjes malditos, espectros y amores imposibles.",
+      "hotspotIds": [
+        "larra",
+        "leyendas-becquer"
+      ],
+      "prompt": "Tocad los puntos 7 y 8"
+    },
+    {
+      "id": 4,
+      "startTime": 110.4,
+      "endTime": 134,
+      "label": "El teatro romántico",
+      "subtitle": "Y terminamos en el teatro. Don Álvaro o la fuerza del sino, del Duque de Rivas, rompe todas las reglas clásicas y arrastra a sus protagonistas hacia un destino catastrófico. Por último, Don Juan Tenorio, de Zorrilla, revive al eterno seductor en un cementerio iluminado por la luna, donde la mano de Doña Inés le ofrece la última redención por amor.",
+      "hotspotIds": [
+        "don-alvaro",
+        "don-juan-tenorio"
+      ],
+      "prompt": "Tocad los puntos 9 y 10"
+    }
+  ],
+  "sections": {
+    "centro": {
+      "name": "Centro",
+      "ring": "ring-amber-500/60",
+      "dot": "bg-amber-500",
+      "glow": "shadow-amber-500/30",
+      "badge": "bg-amber-950/50 text-amber-300 border border-amber-500/30"
+    },
+    "huida": {
+      "name": "Huida",
+      "ring": "ring-blue-400/60",
+      "dot": "bg-blue-400",
+      "glow": "shadow-blue-400/30",
+      "badge": "bg-blue-950/50 text-blue-300 border border-blue-400/30"
+    },
+    "poesia": {
+      "name": "Poesía",
+      "ring": "ring-emerald-400/60",
+      "dot": "bg-emerald-400",
+      "glow": "shadow-emerald-400/30",
+      "badge": "bg-emerald-950/50 text-emerald-300 border border-emerald-400/30"
+    },
+    "prosa": {
+      "name": "Prosa",
+      "ring": "ring-purple-400/60",
+      "dot": "bg-purple-400",
+      "glow": "shadow-purple-400/30",
+      "badge": "bg-purple-950/50 text-purple-300 border border-purple-400/30"
+    },
+    "teatro": {
+      "name": "Teatro",
+      "ring": "ring-rose-400/60",
+      "dot": "bg-rose-400",
+      "glow": "shadow-rose-400/30",
+      "badge": "bg-rose-950/50 text-rose-300 border border-rose-400/30"
+    }
+  },
+  "textoExplicativo": "Mirad esta imagen. En el centro, un libro nos presenta el Romanticismo español, el movimiento que estalla en el siglo XIX como rechazo a la fría razón ilustrada. Dos tendencias lo recorren: la conservadora (con los escritores Zorrilla y el Duque de Rivas) que abraza la Edad Media y los valores tradicionales, y la revolucionaria (con los escritores Larra y Espronceda) que desafía todas las normas establecidas de aquella época.\n\nAhora mirad arriba a la izquierda: un poeta contempla su reflejo en el espejo. Es el símbolo del individualismo romántico, de la huida hacia lo irracional y sobrenatural, y de la fascinación por la muerte. También hay cementerios, ruinas y castillos encantados. Justo debajo, esas figuras con abanicos y guitarras encarnan el costumbrismo, un género muy español que retrata con cariño tipos populares y escenas cotidianas.\n\nSubid la mirada a la derecha: empieza la poesía. El Duque de Rivas inaugura la lírica romántica con sus Romances históricos, que rescatan leyendas medievales. A su lado está otro poeta muy importante, José de Espronceda, el poeta maldito, muerto a los treinta y cuatro años. Y más abajo, Bécquer y Rosalía de Castro, ya en la segunda mitad del siglo, nos regalan una poesía íntima, de versos breves y emoción contenida, que inspirará a Machado y a Juan Ramón Jiménez.\n\nBajamos ahora a la prosa. A la izquierda, entre periódicos y café, Mariano José de Larra afila su ironía contra la España de su tiempo; su pesimismo lo consumirá hasta el suicidio con solo veintisiete años. Cerca, una mano espectral surge de la tumba: son Las leyendas de Bécquer, que pueblan la geografía española de monjes malditos, espectros y amores imposibles.\n\nY terminamos en el teatro. Don Álvaro o la fuerza del sino, del Duque de Rivas, rompe todas las reglas clásicas y arrastra a sus protagonistas hacia un destino catastrófico. Por último, Don Juan Tenorio, de Zorrilla, revive al eterno seductor en un cementerio iluminado por la luna, donde la mano de Doña Inés le ofrece la última redención por amor."
+}

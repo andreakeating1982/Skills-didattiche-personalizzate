@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "version": "2026-10-29",
+  "skill": "didattica-media-audio-3d",
+  "profiles": 3,
+  "original_sources_complete": 2,
+  "reconstructed_partial": 1,
+  "rules": "No original deletion, no account changes, no production deployment",
+  "source_file_provenance": [
+    {
+      "source": "/home/user/skills/video-claymation-didattico/SKILL.md",
+      "source_sha256": "f2c4265638ac458a539fe4cdd0ef9d562e90028ddca9526edac0502617fe98be",
+      "destination": "didattica-media-audio-3d/references/originali/video-claymation-didattico.md",
+      "destination_sha256": "7e2dddf2da392765d40f1593a33904627bec816f188cdaec5e264329854b09a0",
+      "transformation": "frontmatter_removed_paths_relocated_history_scoped",
+      "bytes": 8842
+    },
+    {
+      "source": "/home/user/skills/video-claymation-didattico/references/workflow-report.md",
+      "source_sha256": "f1535ec87415d1a53363a86d6e426fc50692b4a69652060f16d888a38591c47b",
+      "destination": "didattica-media-audio-3d/references/video-claymation-didattico/workflow-report.md",
+      "destination_sha256": "f1535ec87415d1a53363a86d6e426fc50692b4a69652060f16d888a38591c47b",
+      "transformation": "byte_identical",
+      "bytes": 11762
+    },
+    {
+      "source": "/home/user/skills/video-claymation-didattico/scripts/assemble_claymation.py",
+      "source_sha256": "877e541e9db2ea66d60d36ac4476fa619dbc63d5acbc071dc929fd3e28b4d769",
+      "destination": "didattica-media-audio-3d/scripts/video-claymation-didattico/assemble_claymation.py",
+      "destination_sha256": "877e541e9db2ea66d60d36ac4476fa619dbc63d5acbc071dc929fd3e28b4d769",
+      "transformation": "byte_identical",
+      "bytes": 4224
+    },
+    {
+      "source": "/home/user/skills/video-claymation-didattico/scripts/plan_scene.py",
+      "source_sha256": "616263a5fff3ff55ce6b90f4d20a2b0fd899e412daef4b5a5a4116f7c2ff0e0d",
+      "destination": "didattica-media-audio-3d/scripts/video-claymation-didattico/plan_scene.py",
+      "destination_sha256": "616263a5fff3ff55ce6b90f4d20a2b0fd899e412daef4b5a5a4116f7c2ff0e0d",
+      "transformation": "byte_identical",
+      "bytes": 4875
+    },
+    {
+      "source": "/home/user/skills/video-claymation-didattico/scripts/qa_frames.py",
+      "source_sha256": "3b6af2ecffa4b96da67fdc79c24f4745cb2bb195fed2a05d6a73693aa77a8f98",
+      "destination": "didattica-media-audio-3d/scripts/video-claymation-didattico/qa_frames.py",
+      "destination_sha256": "3b6af2ecffa4b96da67fdc79c24f4745cb2bb195fed2a05d6a73693aa77a8f98",
+      "transformation": "byte_identical",
+      "bytes": 2461
+    },
+    {
+      "source": "/home/user/skills/video-claymation-didattico/templates/clay-style.txt",
+      "source_sha256": "a863fcbf2e1a8e001423441bf107774bf5aededd74c493eaf213bebf64683649",
+      "destination": "didattica-media-audio-3d/templates/video-claymation-didattico/clay-style.txt",
+      "destination_sha256": "a863fcbf2e1a8e001423441bf107774bf5aededd74c493eaf213bebf64683649",
+      "transformation": "byte_identical",
+      "bytes": 191
+    },
+    {
+      "source": "/home/user/skills/video-claymation-didattico/templates/prompt-scena.md",
+      "source_sha256": "c79c0b02b2baa898f53a107eb9bddbe92eaa0a8d6142cbd62f41799940853adf",
+      "destination": "didattica-media-audio-3d/templates/video-claymation-didattico/prompt-scena.md",
+      "destination_sha256": "c79c0b02b2baa898f53a107eb9bddbe92eaa0a8d6142cbd62f41799940853adf",
+      "transformation": "byte_identical",
+      "bytes": 2603
+    },
+    {
+      "source": "/home/user/skills/video-claymation-didattico/templates/scena.json",
+      "source_sha256": "0f4a649584a78e7c1a27a1fcc1945d3386216336defb7619cacdb9902949d1e7",
+      "destination": "didattica-media-audio-3d/templates/video-claymation-didattico/scena.json",
+      "destination_sha256": "0f4a649584a78e7c1a27a1fcc1945d3386216336defb7619cacdb9902949d1e7",
+      "transformation": "byte_identical",
+      "bytes": 347
+    },
+    {
+      "source": "/home/user/skills/modello-3d-didattico/SKILL.md",
+      "source_sha256": "a137bbb9a033d9db845f637028d64df5ba7a2a501c5a3460a904ce80d2d776f5",
+      "destination": "didattica-media-audio-3d/references/originali/modello-3d-didattico.md",
+      "destination_sha256": "7e15e49844d9fc1c8fa6336ecf278b4c137d3b734e90252749966fa0b7aa69b0",
+      "transformation": "frontmatter_removed_paths_relocated_history_scoped",
+      "bytes": 7835
+    },
+    {
+      "source": "/home/user/skills/modello-3d-didattico/references/report-3d.md",
+      "source_sha256": "dbc97c52f1c58cbf6cb457a1f29ff619d18d7a531c6b74c59d6e1573adc20b85",
+      "destination": "didattica-media-audio-3d/references/modello-3d-didattico/report-3d.md",
+      "destination_sha256": "dbc97c52f1c58cbf6cb457a1f29ff619d18d7a531c6b74c59d6e1573adc20b85",
+      "transformation": "byte_identical",
+      "bytes": 5097
+    },
+    {
+      "source": "/home/user/skills/modello-3d-didattico/scripts/costruisci_modello.py",
+      "source_sha256": "1c735063d33d9cd4217f8a179df80250c3088b6a60db14eb76bcef0117522b41",
+      "destination": "didattica-media-audio-3d/scripts/modello-3d-didattico/costruisci_modello.py",
+      "destination_sha256": "1c735063d33d9cd4217f8a179df80250c3088b6a60db14eb76bcef0117522b41",
+      "transformation": "byte_identical",
+      "bytes": 11400
+    },
+    {
+      "source": "/home/user/skills/modello-3d-didattico/scripts/ritaglia_figure.py",
+      "source_sha256": "0e33aa6ab483d31839cb5386b326b0577eb0449d07d280c6916d08a1388b0e59",
+      "destination": "didattica-media-audio-3d/scripts/modello-3d-didattico/ritaglia_figure.py",
+      "destination_sha256": "0e33aa6ab483d31839cb5386b326b0577eb0449d07d280c6916d08a1388b0e59",
+      "transformation": "byte_identical",
+      "bytes": 10704
+    },
+    {
+      "source": "/home/user/skills/modello-3d-didattico/scripts/valida_glb.js",
+      "source_sha256": "fbcf26ebd971f913f434f396d67a652008a6e7e4f1e315ad6257989fd611a838",
+      "destination": "didattica-media-audio-3d/scripts/modello-3d-didattico/valida_glb.js",
+      "destination_sha256": "fbcf26ebd971f913f434f396d67a652008a6e7e4f1e315ad6257989fd611a838",
+      "transformation": "byte_identical",
+      "bytes": 1202
+    },
+    {
+      "source": "/home/user/skills/modello-3d-didattico/templates/meta.json",
+      "source_sha256": "d0cea4541126dbe24a69527764cb70acced78063beee336414572d80d18759f2",
+      "destination": "didattica-media-audio-3d/templates/modello-3d-didattico/meta.json",
+      "destination_sha256": "d0cea4541126dbe24a69527764cb70acced78063beee336414572d80d18759f2",
+      "transformation": "byte_identical",
+      "bytes": 313
+    },
+    {
+      "source": "/home/user/skills/modello-3d-didattico/templates/palette.json",
+      "source_sha256": "b1f20f3365ce14ca2b0669b6d3812783d4edab427b7c03a274d316f84f071c8c",
+      "destination": "didattica-media-audio-3d/templates/modello-3d-didattico/palette.json",
+      "destination_sha256": "b1f20f3365ce14ca2b0669b6d3812783d4edab427b7c03a274d316f84f071c8c",
+      "transformation": "byte_identical",
+      "bytes": 650
+    }
+  ]
+}
